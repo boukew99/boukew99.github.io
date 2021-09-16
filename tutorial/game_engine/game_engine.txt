@@ -1,17 +1,2 @@
-<!DOCTYPE html>
-<head>
-<title>RGB tutorial</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="boukew99">  
-<meta name="description" content="Game Engine choosing">
-<meta name="keywords" content="Godot, Game Engine">
-</head>
-
-<html lang="en">
-<body>
-<h1>Choosing a Game Engine</h1>
-<a href="https://godotengine.org">Godot Engine!</a>
-
-</body>
-</html>
+Choosing a Game Engine
+Try Godot Engine!
