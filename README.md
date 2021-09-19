@@ -1,6 +1,10 @@
 # boukew99.github.io 
 
 website: https://boukew99.github.io/  by @boukew99
+
+# Table of Contents
+1. [Tools](#Tools)
+
 ## Games
 * space cake :rocket: ![favicon](favicon.png)
 ## Sound
