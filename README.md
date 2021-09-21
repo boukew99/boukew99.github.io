@@ -1,9 +1,10 @@
 # boukew99.github.io 
-website: https://boukew99.github.io/  by @boukew99
-it's just HTML..
+HTML website: https://boukew99.github.io/  by @boukew99🧘‍♂️.
+
 
 # Contents
 1. [Tools](#tools)
+2. [ToDoing](#todoing)
 
 ## Tools
 * https://html2pdf.com
@@ -11,17 +12,18 @@ it's just HTML..
 * https://www.w3schools.com/
 * https://github.com/
 
+## ToDoing
+- [x] first push :rocket:
+- [ ] `<detail>`
+- [ ] playlist
+- [ ] bookmark
+  
 ### Markdown playground
 > Ik zeg maar *zo* ik zeg maar **niks**
 
-- [x] first push
-- [ ] second push
 
 Col1 | Col2 | Col3
 -----|------|------
 One | Two | Three
 Three | Two | ~~One~~
 
-```print("Hello World")```
-
-:rocket:
