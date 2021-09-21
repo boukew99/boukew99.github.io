@@ -2,7 +2,7 @@
 website: https://boukew99.github.io/  by @boukew99
 it's just HTML..
 
-# Table of Contents
+# Contents
 1. [Tools](#tools)
 
 ## Tools
