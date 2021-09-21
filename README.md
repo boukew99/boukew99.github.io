@@ -14,8 +14,8 @@ it's just HTML..
 ### Markdown playground
 > Ik zeg maar *zo* ik zeg maar **niks**
 
-[x] first push
-[ ] second push
+- [x] first push
+- [ ] second push
 
 Col1 | Col2 | Col3
 -----|------|------
