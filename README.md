@@ -1,15 +1,10 @@
 # boukew99.github.io 
-
 website: https://boukew99.github.io/  by @boukew99
+it's just HTML..
 
 # Table of Contents
 1. [Tools](#tools)
 
-## Games
-* space cake :rocket: ![favicon](favicon.png)
-## Sound
-* boukie :sparkles:
-* beat76 :metal:
 ## Tools
 * https://html2pdf.com
 * https://godotengine.org/
@@ -29,3 +24,4 @@ Three | Two | ~~One~~
 
 ```print("Hello World")```
 
+:rocket:
