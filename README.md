@@ -1,5 +1,6 @@
 # boukew99.github.io 
 HTML website: https://boukew99.github.io/  by @boukew99🧘‍♂️.
+> Keep it real. Reify.
 
 
 # Contents
@@ -18,10 +19,7 @@ HTML website: https://boukew99.github.io/  by @boukew99🧘‍♂️.
 - [ ] playlist
 - [ ] bookmark
   
-### Markdown playground
-> Ik zeg maar *zo* ik zeg maar **niks**
-
-
+##Table
 Col1 | Col2 | Col3
 -----|------|------
 One | Two | Three
