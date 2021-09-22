@@ -19,7 +19,7 @@ HTML website: https://boukew99.github.io/  by @boukew99🧘‍♂️.
 - [ ] playlist
 - [ ] bookmark
   
-##Table
+## Table
 Col1 | Col2 | Col3
 -----|------|------
 One | Two | Three
