@@ -1,2 +1,4 @@
 Choosing a Game Engine
-Try Godot Engine!
+So when you need help with this, it is most likely that you still have much to learn about the techical details of making a game.
+So learning that is your first priority, because then you can use the tool you use well.
+For the learning process, transparency, accesibility and simplicity is really supportive and the best engine out there for thesee qualities is the Godot Engine!
