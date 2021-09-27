@@ -15,7 +15,7 @@ HTML website: https://boukew99.github.io/  by @boukew99🧘‍♂️.
 
 ## ToDoing
 - [x] first push :rocket:
-- [ ] `<detail>`
+- [x] `<detail>`
 - [ ] playlist
 - [ ] bookmark
   
