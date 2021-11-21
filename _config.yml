@@ -2,3 +2,8 @@ theme: jekyll-theme-tactile
 title: Test
 subtitle: Test2
 author: boukew99
+description:
+email:
+
+twitter_user: test
+twitter_tweet_button: true
