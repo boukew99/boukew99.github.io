@@ -1,10 +1,14 @@
 theme: jekyll-theme-tactile
+version: 1.0.0
+name: Jekyll • Simple, blog-aware, static sites
+description: Transform your plain text into static websites and blogs
+url: https://jekyllrb.com
+repository: https://github.com/jekyll/jekyll
+timezone: America/Los_Angele
 title: Test
+twitter:
+  username: jekyllrb
+logo: "/img/logo-2x.png"
 
 languageCode: "en"
-params:
-  description:          "The most popular HTML, CSS, and JS library in the world."
-  authors:              "Mark Otto, Jacob Thornton, and Bootstrap contributors"
-  social_image_path:    /docs/5.1/assets/brand/bootstrap-social.png
-  social_logo_path:     /docs/5.1/assets/brand/bootstrap-social-logo.png
 
