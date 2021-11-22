@@ -1,5 +1,5 @@
 ![alien profile picture](alien.webp)
-# [Bouke Projects](README.html)
+# [Bouke Projects](https://boukew99.github.io/)
 Hey! I make multimodal software with inclusivity and accessibility in mind.
 
 ## [Portfolio](portfolio/index.html)
