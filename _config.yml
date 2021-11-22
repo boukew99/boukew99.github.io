@@ -1,29 +1,10 @@
 theme: jekyll-theme-tactile
 title: Test
-subtitle: Test2
-author: boukew99
-description:
-email:
 
-twitter_user: test
-twitter_tweet_button: true
+languageCode: "en"
+params:
+  description:          "The most popular HTML, CSS, and JS library in the world."
+  authors:              "Mark Otto, Jacob Thornton, and Bootstrap contributors"
+  social_image_path:    /docs/5.1/assets/brand/bootstrap-social.png
+  social_logo_path:     /docs/5.1/assets/brand/bootstrap-social-logo.png
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
-
-avatar: "/assets/img/avatar-icon.png"
-
-social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
-
-post_search: true
