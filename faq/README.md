@@ -1,75 +1,61 @@
-<!DOCTYPE html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="boukew99">
-<link rel="stylesheet" href="../style.css">
-</head>
-
-<html lang="en">
-<body>
-
-<h2><a href=../index.html>FAQ</a></h2>
+## [FAQ](../)
 
 <details><summary>What is FAQ?</summary>
-<p>Frequently Asked Questions
+Frequently Asked Questions
 </details>
 
 <details><summary>Who am I?</summary>
-<p>I don't know who you are. Should I?
+I don't know who you are. Should I?
 </details>
 
 <details><summary>Have you seen Perry?</summary>
-<p>no
+no
 </details>
 
 <details><summary>What to do with life?</summary>
-<p>live!
+live!
 </details>
 
 <details><summary>Why is everything is so confusing and hard?</summary>
-<p>All natural things make sense, the rest is made up.
+All natural things make sense, the rest is made up.
 </details>
 
 <details><summary>How to make money fast?</summary>
-<p>why?
+why?
 </details>
 
 <details><summary>How to pass a test without studying?</summary>
-<p>It is a test for a reason, so just proof you already know it then.
+It is a test for a reason, so just proof you already know it then.
 </details>
 
 <details><summary>Favourite Animal?</summary>
-<p>Sometimes dog, sometimes cat, sometimes bird, it depends which is in my proximity.
+Sometimes dog, sometimes cat, sometimes bird, it depends which is in my proximity.
 </details>
 
 <details><summary>Why is your software so nice to use?</summary>
-<p>Well that is how I am made and made it.
+Well that is how I am made and made it.
 </details>
 
 <details><summary>The best advice?</summary>
-<p>Seek inward advice.
+Seek inward advice.
 </details>
 
 <details><summary>Why doesn't your software work?</summary>
-<p>It is hard, computers need a lot of explaning...
+It is hard, computers need a lot of explaning...
 </details>
 
 <details><summary>How to learn to make software like that?</summary>
-<p>Everything is completely open and I try to make the code self-explantory.
+Everything is completely open and I try to make the code self-explantory.
 </details>
 
 <details><summary>Do you know the Mossel Man?</summary>
-<p>Yes I know the Mossel Man. He lives in Schevening.
+Yes I know the Mossel Man. He lives in Schevening.
 </details>
 
 <details><summary>3 * 3 = 6</summary>
-<p>Nice socks.
+Nice socks.
 </details>
 
 <details><summary>Want to see more FAQ's added?</summary>
-<p><a href=mailto:more_faqs_please@fake.com>mail 1 more question</a> 
+<a href=mailto:more_faqs_please@fake.com>mail 1 more question</a> 
 </details>
-
-</body>
-</html>

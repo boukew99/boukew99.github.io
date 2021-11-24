@@ -1,16 +1,19 @@
-![alien profile picture](alien.webp)
+
 # [Bouke Projects](https://boukew99.github.io/)
 Hey! I make multimodal software with inclusivity and accessibility in mind.
 
-## [Portfolio](portfolio/index.html)
+![alien profile picture](alien.webp)
+
+
+## [Portfolio](portfolio/)
 These include software, games and a mix of those two.
 
-## [Webcomics](comic/comic.html)
+## [Webcomics](comic/)
 Quick fun stories in comic format.
-## [FAQ](faq/index.html)
+## [FAQ](faq/)
 
-## [Resources](resource/index.html)
-## [Music](music/music.html)
+## [Resources](resource/)
+## [Music](music/)
 
 ## [Bookmarks](bookmark/index.html)
 [twitter](https://twitter.com/home)
@@ -25,4 +28,4 @@ Quick fun stories in comic format.
 [youtube](https://www.youtube.com/)
 <a href="">twitter</a>
 
-kindly and freely hosted <a href="https://github.com/boukew99/boukew99.github.io">@github</a>
+kindly and freely hosted [@github](https://github.com/boukew99/boukew99.github.io)

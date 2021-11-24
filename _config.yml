@@ -1,2 +1,25 @@
-theme: minima
+theme: minima:
+  skin: dark
 
+header_pages:
+  #- about.md
+  #- portfolio.md
+  
+author:
+  name: John Smith
+  email: "john.smith@foobar.com"
+  
+minima:
+  social_links:
+    twitter: jekyllrb
+    github: jekyll
+    stackoverflow: "11111"
+    dribbble: jekyll
+    facebook: jekyll
+    flickr: jekyll
+    instagram: jekyll
+    linkedin: jekyll
+  
+    youtube: jekyll
+    youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    youtube_channel_name: CloudCannon
