@@ -2,7 +2,7 @@
 # [Bouke Projects](https://boukew99.github.io/)
 Hey! I make multimodal software with inclusivity and accessibility in mind.
 
-## [Portfolio](portfolio/index.html)
+## [Portfolio](portfolio/)
 These include software, games and a mix of those two.
 
 ## [Webcomics](comic/comic.html)
