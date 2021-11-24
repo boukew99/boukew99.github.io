@@ -5,12 +5,12 @@ Hey! I make multimodal software with inclusivity and accessibility in mind.
 ## [Portfolio](portfolio/)
 These include software, games and a mix of those two.
 
-## [Webcomics](comic/comic.html)
+## [Webcomics](comic/)
 Quick fun stories in comic format.
-## [FAQ](faq/index.html)
+## [FAQ](faq/)
 
-## [Resources](resource/index.html)
-## [Music](music/music.html)
+## [Resources](resource/)
+## [Music](music/)
 
 ## [Bookmarks](bookmark/index.html)
 [twitter](https://twitter.com/home)
