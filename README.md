@@ -1,3 +1,9 @@
+body {
+  background-color: lightblue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(orange, lightblue);
+  background-repeat: no-repeat
+}
+
 ![alien profile picture](alien.webp)
 # [Bouke Projects](https://boukew99.github.io/)
 Hey! I make multimodal software with inclusivity and accessibility in mind.
