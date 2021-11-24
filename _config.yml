@@ -1,4 +1,4 @@
-theme: minima:
+theme: minima
   skin: dark
 
 header_pages:
