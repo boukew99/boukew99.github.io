@@ -1,5 +1,5 @@
 ![space_cake](space_cake.webp)
-## [Portfolio](../)
+## [Portfolio](..)
 
 ### [Space Cake](space_cake/)
 A colloboration with artist and composer to polish a badly but accurately named game.
