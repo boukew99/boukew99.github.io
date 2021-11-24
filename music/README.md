@@ -5,7 +5,7 @@ made for a game jam
 
 ### beat76
 made for a game jam
-<audio controls loop> <source src="beat76.ogg" type="audio/ogg"></audio>
+<audio controls loop src=beat76.ogg type=audio/ogg></audio>
 
 ### mysong5
 GarageBand
