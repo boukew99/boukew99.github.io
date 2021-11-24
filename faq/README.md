@@ -58,5 +58,4 @@ Nice socks.
 
 <details><summary>Want to see more FAQ's added?</summary>
 <a href=mailto:more_faqs_please@fake.com>mail 1 more question</a> 
-[mail 1 more question](mailto:more_faqs_please@fake.com)
 </details>
