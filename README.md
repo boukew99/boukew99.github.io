@@ -1,7 +1,9 @@
 
 # [Bouke Projects](https://boukew99.github.io/)
-![alien profile picture](alien.webp)
 Hey! I make multimodal software with inclusivity and accessibility in mind.
+
+![alien profile picture](alien.webp)
+
 
 ## [Portfolio](portfolio/)
 These include software, games and a mix of those two.
