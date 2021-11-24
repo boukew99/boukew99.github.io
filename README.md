@@ -1,8 +1,10 @@
+<head>
 body {
   background-color: lightblue; /* For browsers that do not support gradients */
   background-image: linear-gradient(orange, lightblue);
   background-repeat: no-repeat
 }
+</head>
 
 ![alien profile picture](alien.webp)
 # [Bouke Projects](https://boukew99.github.io/)
