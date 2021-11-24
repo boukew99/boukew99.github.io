@@ -1,7 +1,7 @@
 ## [FAQ](../)
 
 <details><summary>What is FAQ?</summary>
-<p>Frequently Asked Questions
+Frequently Asked Questions
 </details>
 
 <details><summary>Who am I?</summary>
