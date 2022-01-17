@@ -1,5 +1,0 @@
-![atlas](atlas.png)
-## [Resources](../)
-[icons 16x16](icon.zip)
-[Bookxel2](Bookxel2.ttf)
-### [Effects](effects/)

@@ -1,0 +1,6 @@
+rpg_statistics_procedure
+
+-inventory (list)
+-equipment (grid) + stats (list)
+-event (image)
+-action (text)
