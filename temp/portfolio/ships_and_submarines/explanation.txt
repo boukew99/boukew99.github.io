@@ -1,9 +1,0 @@
-Ships And Submarines
-
-Zeeslag, maar dan liggen de shepen en onderzeeboten onder elkaar, waardoor je soms ook jezelf moet raken om de tegenstander te kunnen raken.
-
-1 Both take a piece of paper
-2 Both draw a grid (ex. 10 x 10)
-3 Both place ships (ex. 2 of length 2, 2 of length 3, 2 of length 4)
-4 In turns, one hits a cell and both check if anything is hit.
-5 Destroy the enemy!
