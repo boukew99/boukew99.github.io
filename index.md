@@ -7,7 +7,7 @@
 1. [Scratch Animator](https://howyoudoing.itch.io/scratch-animator)
 2. [Mondriaan Maker (3 by 3)](https://howyoudoing.itch.io/mondriaan-maker)
 
-### [Github (mainly Godot Engine projects)](https://github.com/boukew99)
+### [Github](https://github.com/boukew99)
 1. [joypad lab](https://github.com/boukew99/joypad_lab)
 2. [scratch canvas](https://github.com/boukew99/scratch_canvas)
 3. [calculator GUI](https://github.com/boukew99/gui_calculator)
