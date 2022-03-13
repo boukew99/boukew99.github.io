@@ -21,6 +21,8 @@
 * [Bookmark](bookmark.md)
 * [Definitions](definitions.md)
 
+### [Icons](icon_pack/)
+![icon pack](icon_pack/pack.png)
 
 ## Footer
 Markdown website hosted at [Github](https://github.com/boukew99/boukew99.github.io)
