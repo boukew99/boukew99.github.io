@@ -19,6 +19,7 @@
 
 ## Pages
 * [Bookmark](bookmark.md)
+* [Definitions](definitions.md)
 
 
 ## Footer
