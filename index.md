@@ -24,5 +24,8 @@
 ### [Icons](icon_pack/)
 ![icon pack](icon_pack/pack.png)
 
+### [Sound](sound_pack/)
+<audio controls src="sound_pack/pack.ogg" type="audio/ogg">
+
 ## Footer
 Markdown website hosted at [Github](https://github.com/boukew99/boukew99.github.io)
