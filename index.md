@@ -27,5 +27,7 @@
 ### [Sound](sound_pack/)
 [pack](sound_pack/pack.ogg)
 
+### [Font](bookxel.ttf)
+
 ## Footer
 Markdown website hosted at [Github](https://github.com/boukew99/boukew99.github.io)
