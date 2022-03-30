@@ -1,6 +1,9 @@
 # Index
 ![icon](icon.png)
 
+## Walkthroughs
+1. [scratch_animator](walkthrough/scratch_animator.md)
+
 ## Projects
 
 ### [Itch.io](https://howyoudoing.itch.io/)
