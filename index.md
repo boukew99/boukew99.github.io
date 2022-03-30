@@ -25,7 +25,7 @@
 * [Definitions](definitions.md)
 
 ### [Icons](icon_pack/)
-![icon pack](icon_pack/pack.png)
+[![icon pack](icon_pack/pack.png)](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/icon_pack/pack.png)
 
 ### [Sound](sound_pack/)
 [pack](sound_pack/pack.ogg)
