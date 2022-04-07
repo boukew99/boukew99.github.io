@@ -1,8 +1,8 @@
 # Index
 ![icon](icon.png)
 
-## Walkthroughs
-1. [scratch_animator](walkthrough/scratch_animator.md)
+## Tutorial
+1. [scratch_animator](tutorial/scratch_animator.md)
 
 ## Projects
 
