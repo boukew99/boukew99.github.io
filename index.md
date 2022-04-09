@@ -1,7 +1,7 @@
 # Index
 ![icon](icon.png)
 
-## Tutorial
+## Guides
 1. [scratch_animator](tutorial/scratch_animator.md)
 
 ## Projects
