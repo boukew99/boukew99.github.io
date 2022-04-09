@@ -2,7 +2,7 @@
 ![icon](icon.png)
 
 ## Guides
-1. [scratch_animator](tutorial/scratch_animator.md)
+1. [scratch_animator](guide/scratch_animator.md)
 
 ## Projects
 
