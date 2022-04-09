@@ -1,4 +1,8 @@
-Noteworthy:
-Tabs -> Files, including name
+# Scratch Animator guide (WIP)
+
+* Each time you add an frame, it will add an tab.
+* Each tab will be screen captured on export and named the same as the tab.
+* To indicate a coherent sequence you can give rename a tab with a (short) descriptive name or mnemonic.
+* 
 
 [![vid](https://raw.githubusercontent.com/boukew99/scratch_animater/main/screenshot/Screenshot%202022-03-07%20164921.png)](https://www.youtube.com/watch?v=iik25wqIuFo)]
