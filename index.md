@@ -1,5 +1,5 @@
-# Index
-![icon](icon.png)
+# Index ![icon](icon.png)
+index of main projects. 
 
 ## Guides
 1. [scratch_animator](guide/scratch_animator.md)
