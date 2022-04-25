@@ -1,4 +1,4 @@
-# Index ![icon](icon.png)
+# Index (WIP) ![icon](icon.png)
 index of main projects. 
 
 ## Guides
