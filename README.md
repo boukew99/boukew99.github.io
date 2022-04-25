@@ -31,3 +31,14 @@ index of main projects.
 ## Guides
 1. [scratch_animator](guide/scratch_animator.md)
 
+## Quotes
+> Brevity is the soul of wit - Shakespeare
+
+> Comparison is the death of joy - Mark Twain
+
+## Poems
+
+```
+As the fields sows
+so reaps the mows
+```
