@@ -27,7 +27,7 @@ index of main projects.
 ### [Icons](icon_pack/)
 ![icon pack](icon_pack/pack.png)
 
-### [Sound](sound_pack/)
+### [Sound](sound_pack/sound.zip)
 [pack](sound_pack/pack.ogg)
 
 ### [Font](bookxel.ttf)
