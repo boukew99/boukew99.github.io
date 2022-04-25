@@ -31,7 +31,3 @@ index of main projects.
 ## Guides
 1. [scratch_animator](guide/scratch_animator.md)
 
-
-
-## Footer
-Markdown website hosted at [Github](https://github.com/boukew99/boukew99.github.io)
