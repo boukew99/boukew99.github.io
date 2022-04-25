@@ -1,9 +1,6 @@
 # boukew99 Index (WIP) ![icon](icon.png)
 index of main projects. 
 
-## Guides
-1. [scratch_animator](guide/scratch_animator.md)
-
 ## Projects
 
 ### [Itch.io](https://howyoudoing.itch.io/)
@@ -20,17 +17,21 @@ index of main projects.
 7. [shader window](https://github.com/boukew99/shader_window)
 8. [audio station](https://github.com/boukew99/audio_station)
 
+## Assets
+1. [sfx's pack](sound_pack/sound.zip) [(preview)](sound_pack/pack.ogg)
+2. [Bookxel font](bookxel.ttf)
+3. [icon pack](icon_pack/icon.zip)
+
+![icon pack](icon_pack/pack.png)
+
 ## Pages
 * [Bookmark](bookmark.md)
 * [Definitions](definitions.md)
 
-### [Icons](icon_pack/icon.zip)
-![icon pack](icon_pack/pack.png)
+## Guides
+1. [scratch_animator](guide/scratch_animator.md)
 
-### [Sound](sound_pack/sound.zip)
-[pack](sound_pack/pack.ogg)
 
-### [Font](bookxel.ttf)
 
 ## Footer
 Markdown website hosted at [Github](https://github.com/boukew99/boukew99.github.io)
