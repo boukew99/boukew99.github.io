@@ -24,7 +24,7 @@ index of main projects.
 * [Bookmark](bookmark.md)
 * [Definitions](definitions.md)
 
-### [Icons](icon_pack/)
+### [Icons](icon_pack/icon.zip)
 ![icon pack](icon_pack/pack.png)
 
 ### [Sound](sound_pack/sound.zip)
