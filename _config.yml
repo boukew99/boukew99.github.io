@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
-icon: icon.png
-twitter: @HowYouD09409170
+title: Index
+description: Landing Page
+show_downloads: true
+google_analytics:
