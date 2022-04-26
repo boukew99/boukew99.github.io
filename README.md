@@ -3,6 +3,7 @@ index of main projects.
 
 ## Projects
 
+[My Godot Library Asset](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99)
 ### [Itch.io](https://howyoudoing.itch.io/)
 1. [Scratch Animator](https://howyoudoing.itch.io/scratch-animator)
 2. [Mondriaan Maker (3 by 3)](https://howyoudoing.itch.io/mondriaan-maker)
@@ -47,3 +48,4 @@ so reaps the mows
 As un yields
 The soul feels
 ```
+<iframe height="167" frameborder="0" src="https://itch.io/embed/1483259" width="552"><a href="https://howyoudoing.itch.io/looper">Looper by HowYouDoing</a></iframe>
