@@ -1,6 +1,6 @@
 # ![icon](icon.png) Index (WIP) 
 Landing page to various other places. I am on [Github](https://github.com/boukew99) with some MIT Projects. Some Godot Engine repos are made available on the
-[Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). [Itch.io](https://howyoudoing.itch.io/) contains my Game Jam games, demos and experiments. Also here are the following general purpose assets I use, [sfx's pack](sound_pack/sound.zip) [(preview)](sound_pack/pack.ogg), [Bookxel font](bookxel.ttf), [icon pack](icon_pack/icon.zip) [(preview)](icon_pack/pack.png). You can view some random interesting [bookmarks](bookmark.md) or some crazy [definitions](definitions.md) I found. Also have guide for [scratch_animator](guide/scratch_animator.md)?
+[Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). [Itch.io](https://howyoudoing.itch.io/) contains my Game Jam games, demos and experiments. Also here are the following general purpose assets I use, [sfx's pack](sound_pack/sound.zip) [(preview)](sound_pack/pack.ogg), [Bookxel font](bookxel.ttf), [icon pack](icon_pack/icon.zip) [(preview)](icon_pack/pack.png). You can view some random interesting [bookmarks](bookmark.md) or some crazy [definitions](definitions.md) I found. Also have guide for [scratch_animator](guide/scratch_animator.md)? [Twitter](https://twitter.com/HowYouD09409170)
 
 ## Projects
 [![mondriaan maker](https://raw.githubusercontent.com/boukew99/mondriaan_maker/main/icon.png)](https://github.com/boukew99/mondriaan_maker)
@@ -13,6 +13,7 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 [![scratch animator](https://raw.githubusercontent.com/boukew99/scratch_animater/main/icon.png)](https://github.com/boukew99/scratch_animater)
 [![joypad lab](https://raw.githubusercontent.com/boukew99/joypad_lab/main/icon.png)](https://github.com/boukew99/joypad_lab)
 [![shader window](https://raw.githubusercontent.com/boukew99/shader_window/main/addons/shader_window/shader_window.png)](https://github.com/boukew99/shader_window)
+[![website](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/icon.png)](https://github.com/boukew99/boukew99.github.io) 
 
 <iframe height="167" frameborder="0" src="https://itch.io/embed/1483259" width="552"><a href="https://howyoudoing.itch.io/looper">Looper by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/1425583" width="552" height="167"><a href="https://howyoudoing.itch.io/mondriaan-maker">Mondriaan Maker (3 by 3) by HowYouDoing</a></iframe>
