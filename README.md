@@ -22,5 +22,4 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 ## News
 * Updated GUI Calculator
 * Looper Game for Black & White Jam Finished
-* 
 
