@@ -18,3 +18,7 @@ Which is not very malleable
 Unlike thought
 Limiting its freedom
 ```
+
+```
+ 🐣 🐥 🐤 🐔 🥚 🐣 - 🐮 🥛 - 🌻 + 🌞 = ?
+ ```
