@@ -31,7 +31,7 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 Languages: Dutch (Mother tongue), English (Daily use), German (Survivable), French (Un petit peu)
 
 Programming languages (from best to worse): GDScript, Python, Java, C
-Tools: Godot Engine, Audacity, Piksel
+Tools: Godot Engine (2 years), Audacity, Piksel
 Honestly though, I do mostly only use the abstract knowledge that all programming tools have
 
 ## Playlist 🎵
