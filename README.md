@@ -25,6 +25,13 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 <iframe frameborder="0" src="https://itch.io/embed/1425583" width="552" height="167"><a href="https://howyoudoing.itch.io/mondriaan-maker">Mondriaan Maker (3 by 3) by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/1096323" width="552" height="167"><a href="https://howyoudoing.itch.io/space-cake-the-game">Space Cake by HowYouDoing, ~ POMPY Productions ~, Travsul</a></iframe>
 
+## ToDoing
+## Abilities
+Languages: Dutch (Mother tongue), English (Daily use), German (Survivable), French (Un petit peu)
+
+Programming languages (from best to worse): GDScript, Python, Java, C
+Tools: Godot Engine, Audacity, Piksel
+Honestly though, I do mostly only use the abstract knowledge that all programming tools have
 
 ## Playlist 🎵
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5KGMXvW7Tg3emnWz5S2grT?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
