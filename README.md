@@ -27,6 +27,7 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 
 ## ToDoing
 - [ ]  website landing page
+- [ ]  Linux on USB
 
 ## Abilities
 - Languages: Dutch (Mother tongue), English (Daily use), German (Survivable), French (Un petit peu).
