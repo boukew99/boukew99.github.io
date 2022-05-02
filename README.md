@@ -26,8 +26,8 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 <iframe frameborder="0" src="https://itch.io/embed/1096323" width="552" height="167"><a href="https://howyoudoing.itch.io/space-cake-the-game">Space Cake by HowYouDoing, ~ POMPY Productions ~, Travsul</a></iframe>
 
 ## ToDoing
-- [ ]  website landing page
-- [ ]  Linux on USB
+[ ]  website landing page
+[ ]  Linux on USB
 
 ## Abilities 
 - Languages: Dutch (Mother tongue), English (Daily use), German (Survivable), French (Un petit peu).
