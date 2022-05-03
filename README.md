@@ -25,7 +25,7 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 <iframe frameborder="0" src="https://itch.io/embed/1096323" width="552" height="167"><a href="https://howyoudoing.itch.io/space-cake-the-game">Space Cake by HowYouDoing, ~ POMPY Productions ~, Travsul</a></iframe>
 <iframe width="420" height="315" src=https://www.youtube.com/watch?v=GEHqWFOfSjY></iframe>
 <iframe width="420" height="315"
-src="https://youtu.be/GEHqWFOfSjY">
+src="https://www.youtube.com/watch?v=GEHqWFOfSjY">
 </iframe>
 ## Abilities ⭐
 - Languages: Dutch (Mother tongue), English (Daily use), German (Survivable), French (Un petit peu).
