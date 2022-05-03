@@ -42,47 +42,6 @@ Python        | ⭐⭐⭐ | English | ⭐⭐⭐⭐⭐
 Java          | ⭐ | German | ⭐⭐
 C             | ⭐ | French | ⭐
 
-```gdscript
-extends PanelContainer
-
-var ans = 0.0
-var expression = Expression.new()
-
-onready var line_edit = $VBoxContainer/LineEdit
-
-func _ready():
-	$VBoxContainer/GridContainer.get_child(0).group.connect("pressed", self, "_on_CharButton_pressed")
-	
-func _on_CharButton_pressed(button):
-	line_edit.text += button.text
-	
-func _on_LineEdit_text_entered(new_text):  
-	var error = expression.parse(new_text, ["ANS"])
-	if error != OK:
-		line_edit.text = expression.get_error_text()
-		return
-		
-	var result = expression.execute([ans])
-	if not expression.has_execute_failed():
-		ans = result
-		line_edit.text = str(result)
-
-func _on_Evaluate_pressed():
-	_on_LineEdit_text_entered(line_edit.text)
-
-```
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### We can hide anything, even code!
-
-    ```ruby
-      puts "Hello World"
-    ```
-
-</p>
-</details>
 
 ## Playlist 🎵
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5KGMXvW7Tg3emnWz5S2grT?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
