@@ -21,12 +21,12 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 [![shader window](https://raw.githubusercontent.com/boukew99/shader_window/main/addons/shader_window/shader_window.png)](https://github.com/boukew99/shader_window)
 [![website](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/icon.png)](https://github.com/boukew99/boukew99.github.io) 
 
-[![space cake](https://raw.githubusercontent.com/boukew99/space_cake/main/project/title_screen/background_splash.png)](https://howyoudoing.itch.io/space-cake-the-game)
+<iframe frameborder="0" src="https://itch.io/embed/1425583" width="208" height="167"><a href="https://howyoudoing.itch.io/mondriaan-maker">Mondriaan Maker (3 by 3) by HowYouDoing</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/781233" width="208" height="167"><a href="https://howyoudoing.itch.io/space-evader">Space Evader by HowYouDoing</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1434582" width="208" height="167"><a href="https://howyoudoing.itch.io/scratch-animator">Scratch Animator by HowYouDoing</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/802720" width="208" height="167"><a href="https://howyoudoing.itch.io/switched">Switched by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/1096323" width="552" height="167"><a href="https://howyoudoing.itch.io/space-cake-the-game">Space Cake by HowYouDoing, ~ POMPY Productions ~, Travsul</a></iframe>
-<iframe width="420" height="315" src=https://www.youtube.com/watch?v=GEHqWFOfSjY></iframe>
-<iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=GEHqWFOfSjY">
-</iframe>
+
 ## Abilities ⭐
 - Languages: Dutch (Mother tongue), English (Daily use), German (Survivable), French (Un petit peu).
 - Programming languages (from best to worse): GDScript, Python, Java, C.
