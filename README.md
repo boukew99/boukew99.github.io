@@ -29,8 +29,7 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 <iframe frameborder="0" src="https://itch.io/embed/781233" width="208" height="167"><a href="https://howyoudoing.itch.io/space-evader">Space Evader by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/802720?link_color=f8eaa5" width="552" height="167"><a href="https://howyoudoing.itch.io/switched">Switched by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/1096323?link_color=b7455a" width="552" height="167"><a href="https://howyoudoing.itch.io/space-cake-the-game">Space Cake by HowYouDoing, ~ POMPY Productions ~, Travsul</a></iframe>
-<iframe frameborder="0" src="https://itch.io/embed/1483259" width="208" height="167"><a href="https://howyoudoing.itch.io/looper">Looper by HowYouDoing</a></iframe>
-<iframe frameborder="0" src="https://itch.io/embed/1483259" width="208" height="167"><a href="https://howyoudoing.itch.io/looper">Looper by HowYouDoing</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1483259" width="208" height="167"><a href="https://howyoudoing.itch.io/looper">Looper by HowYouDoing</a></iframe><iframe frameborder="0" src="https://itch.io/embed/1065071" width="208" height="167"><a href="https://howyoudoing.itch.io/drag-expand">Drag Expand by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/667075" width="552" height="167"><a href="https://howyoudoing.itch.io/chicken-farm">Mcdonald's Farm by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/682919" width="552" height="167"><a href="https://howyoudoing.itch.io/two">Seperate but not by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/767633" width="208" height="167"><a href="https://howyoudoing.itch.io/slightly-unconventional-platformer">Slightly Unconventional Platformer by HowYouDoing</a></iframe>
