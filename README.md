@@ -8,7 +8,7 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 * Updated [Scratch Animater](https://github.com/boukew99/scratch_animater)
 
 
-## Projects 💻
+## Software Projects 💻
 [![mondriaan maker](https://raw.githubusercontent.com/boukew99/mondriaan_maker/main/icon.png)](https://github.com/boukew99/mondriaan_maker)
 [![text chess](https://raw.githubusercontent.com/boukew99/text_chess/main/icon.png)](https://github.com/boukew99/text_chess)
 [![screen capturerer](https://raw.githubusercontent.com/boukew99/screen_capture/main/addons/screen_capture/screen_capture.png)](https://github.com/boukew99/screen_capture)
@@ -24,24 +24,22 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 <iframe frameborder="0" src="https://itch.io/embed/1425583" width="208" height="167"><a href="https://howyoudoing.itch.io/mondriaan-maker">Mondriaan Maker (3 by 3) by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/1434582" width="208" height="167"><a href="https://howyoudoing.itch.io/scratch-animator">Scratch Animator by HowYouDoing</a></iframe>
 
+## Video Games 🎮
 
 <iframe frameborder="0" src="https://itch.io/embed/781233" width="208" height="167"><a href="https://howyoudoing.itch.io/space-evader">Space Evader by HowYouDoing</a></iframe>
-<iframe frameborder="0" src="https://itch.io/embed/802720" width="208" height="167"><a href="https://howyoudoing.itch.io/switched">Switched by HowYouDoing</a></iframe>
-<iframe frameborder="0" src="https://itch.io/embed/1096323?link_color=b7455a" width="208" height="167"><a href="https://howyoudoing.itch.io/space-cake-the-game">Space Cake by HowYouDoing, ~ POMPY Productions ~, Travsul</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/802720?link_color=f8eaa5" width="552" height="167"><a href="https://howyoudoing.itch.io/switched">Switched by HowYouDoing</a></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/1096323?link_color=b7455a" width="552" height="167"><a href="https://howyoudoing.itch.io/space-cake-the-game">Space Cake by HowYouDoing, ~ POMPY Productions ~, Travsul</a></iframe>
 
-## Abilities ⭐
-- Languages: Dutch (Mother tongue), English (Daily use), German (Survivable), French (Un petit peu).
-- Programming languages (from best to worse): GDScript, Python, Java, C.
-- Tools: Godot Engine (2 years), Audacity, Piksel.
-- Honestly though, I do mostly only use the abstract knowledge that all programming tools have.
+## Skills ⭐
 
-Tool | Familiarity | Language | Familiarity
---- | --- | --- | ---
-Godot Engine  | ⭐⭐⭐⭐⭐ | Dutch | ⭐⭐⭐⭐⭐
-Python        | ⭐⭐⭐ | English | ⭐⭐⭐⭐⭐
-Java          | ⭐ | German | ⭐⭐
-C             | ⭐ | French | ⭐
+Programming Language | Skill | Language | Skill | Tools | Skill
+--- | --- | --- | --- | --- | ---|
+GdScript  | ⭐⭐⭐⭐⭐ | Dutch (Mother tongue) | ⭐⭐⭐⭐⭐ | Godot Engine (2 years) | ⭐⭐⭐⭐
+Python        | ⭐⭐⭐ | English (Daily use)| ⭐⭐⭐⭐⭐ | Audacity | ⭐⭐
+Java          | ⭐ | German (Survivable)| ⭐⭐ | Piksel  | ⭐⭐⭐
+C             | ⭐ | French (Un petit peu)| ⭐ |
 
+Though, I do mostly only use the abstract fundamentals that all programming tools use.
 
 ## Playlist 🎵
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5KGMXvW7Tg3emnWz5S2grT?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
