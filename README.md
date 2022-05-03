@@ -9,6 +9,9 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 
 
 ## Projects 💻
+- website landing page
+- Linux on USB
+
 [![mondriaan maker](https://raw.githubusercontent.com/boukew99/mondriaan_maker/main/icon.png)](https://github.com/boukew99/mondriaan_maker)
 [![text chess](https://raw.githubusercontent.com/boukew99/text_chess/main/icon.png)](https://github.com/boukew99/text_chess)
 [![screen capturerer](https://raw.githubusercontent.com/boukew99/screen_capture/main/addons/screen_capture/screen_capture.png)](https://github.com/boukew99/screen_capture)
@@ -24,8 +27,6 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 <iframe frameborder="0" src="https://itch.io/embed/1425583" width="552" height="167"><a href="https://howyoudoing.itch.io/mondriaan-maker">Mondriaan Maker (3 by 3) by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/1096323" width="552" height="167"><a href="https://howyoudoing.itch.io/space-cake-the-game">Space Cake by HowYouDoing, ~ POMPY Productions ~, Travsul</a></iframe>
 
-- website landing page
-- Linux on USB
 
 ## Abilities ⭐
 - Languages: Dutch (Mother tongue), English (Daily use), German (Survivable), French (Un petit peu).
