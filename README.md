@@ -9,9 +9,6 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 
 
 ## Projects 💻
-- website landing page
-- Linux on USB
-
 [![mondriaan maker](https://raw.githubusercontent.com/boukew99/mondriaan_maker/main/icon.png)](https://github.com/boukew99/mondriaan_maker)
 [![text chess](https://raw.githubusercontent.com/boukew99/text_chess/main/icon.png)](https://github.com/boukew99/text_chess)
 [![screen capturerer](https://raw.githubusercontent.com/boukew99/screen_capture/main/addons/screen_capture/screen_capture.png)](https://github.com/boukew99/screen_capture)
