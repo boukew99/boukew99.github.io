@@ -1,3 +1,19 @@
+## Navigate Graph
+```mermaid
+graph TD;
+    Index-->Projects-->Itch/Github/Newgrounds;
+    Index-->Articles/Poems/Quotes/Bookmarks/Assets;
+    Index-->Twitter
+```
+## Markdown Components
+Templates usable throughout the website. Just copy and paste them.
+
+### Navigation bar
+```
+[link1]() | [link2]() | [link3]()
+```
+Typically on the top or bottom to act as a recognizable escape point.
+
 # Index (Under Construction) 
 Landing page to various other places. I am on [Github](https://github.com/boukew99) with some MIT Projects. Some Godot Engine repos are made available on the
 [Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). [Itch.io](https://howyoudoing.itch.io/) contains my Game Jam games, demos and experiments. Also here are the following general purpose assets I use, [sfx's pack](sound_pack/sound.zip) [(preview)](sound_pack/pack.ogg), [Bookxel font](bookxel.ttf), [icon pack](icon_pack/icon.zip) [(preview)](icon_pack/pack.png). You can view some random interesting [bookmarks](bookmark.md) or some crazy [definitions](definitions.md) I found. Also have guide for [scratch_animator](guide/scratch_animator.md)? Visit [Twitter](https://twitter.com/HowYouD09409170). Also trying [Newgrounds](https://howyourdoing.newgrounds.com/).
