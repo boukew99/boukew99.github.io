@@ -1,4 +1,4 @@
-## Navigate Graph
+## Navigation Flowchart
 ```mermaid
 graph TD;
     Index-->Projects-->Itch/Github/Newgrounds;
