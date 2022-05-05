@@ -11,4 +11,4 @@ Kind regards
 PS:
 - I Discovered you can take screenshots or record your screen with `fn + s`.
 - Mouse speed with trackpad was too low for me, so I adjusted it up in the settings
-- I enabled `Auto-hide the Dock`. This works well with my workflow where I maximize windows for extra focus, which then hides the Dock. But when multi-tasking with multiple windows open it is there, to open new windows. This option works better if `panel mode` is turned off and the `position on screen` is `Bottom`. Then it becomes kinda like a toaster
+- I enabled `Auto-hide the Dock`. This works well with my workflow where I maximize windows for extra focus, which then hides the Dock. But when multi-tasking with multiple windows open it is there, to open new windows. This option works better if `panel mode` is turned off and the `position on screen` is `Bottom`. Then it acts kinda like a toaster
