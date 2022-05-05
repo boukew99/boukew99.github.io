@@ -1,4 +1,4 @@
-![linux_on_usb](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/IMG_20220505_193314.jpg)
+
 ![linux_on_usb](linux_on_usb.svg)
 
 
