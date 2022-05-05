@@ -1,4 +1,6 @@
 # Website
+Website using Markdown and Github Pages.
+
 ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) 
 
 ## Navigation Flowchart
@@ -15,7 +17,7 @@ graph TD;
     Index-->Twitter
 ```
 ## Markdown Components
-Templates usable throughout the website. Just copy and paste them.
+Templates usable throughout the website. Just copy, paste and edit them.
 
 ### Navigation bar
 ```
