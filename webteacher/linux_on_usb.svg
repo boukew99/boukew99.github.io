@@ -7,8 +7,8 @@
    viewBox="0 0 85 55"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
    sodipodi:docname="drawing.svg"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,29 +23,23 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.1266375"
-     inkscape:cx="123.43429"
-     inkscape:cy="127.66633"
-     inkscape:window-width="1920"
-     inkscape:window-height="1016"
+     inkscape:zoom="1.0633188"
+     inkscape:cx="194.67351"
+     inkscape:cy="60.659138"
+     inkscape:window-width="1551"
+     inkscape:window-height="752"
      inkscape:window-x="0"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
+     inkscape:window-y="114"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <rect
-       x="20.777618"
-       y="98.856625"
-       width="98.992649"
-       height="54.769527"
-       id="rect13017" />
-    <rect
-       x="21.071495"
-       y="104.51384"
-       width="74.522579"
-       height="49.628949"
-       id="rect9447" />
+       x="12.031342"
+       y="99.390436"
+       width="107.73893"
+       height="54.235715"
+       id="rect43950" />
     <rect
        x="136.65966"
        y="60.875165"
@@ -85,7 +79,7 @@
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect2261);fill:#000000;fill-opacity:1;stroke:none"><tspan
          x="136.66016"
          y="96.265625"
-         id="tspan19378">Linux</tspan></text>
+         id="tspan45474">Linux</tspan></text>
     <rect
        style="fill:#5aa02c;stroke-width:0.264583"
        id="rect7195"
@@ -96,20 +90,10 @@
     <text
        xml:space="preserve"
        transform="scale(0.26458333)"
-       id="text9445"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect9447);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="21.072266"
-         y="189.5332"
-         id="tspan19382"><tspan
-           dx="0 29.277344 25.390625"
-           id="tspan19380">USV</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="scale(0.26458333)"
-       id="text13015"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect13017);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="20.777344"
-         y="134.24805"
-         id="tspan19384">USB</tspan></text>
+       id="text43948"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect43950);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="12.03125"
+         y="134.78125"
+         id="tspan45476">USB</tspan></text>
   </g>
 </svg>
