@@ -1,3 +1,6 @@
+# Website
+![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) 
+
 ## Navigation Flowchart
 ```mermaid
 graph TD;
