@@ -13,7 +13,7 @@ graph TD;
     Index-->Blog;
         Blog-->Software;
         Blog-->Design-->UX;
-        
+        Blog-->Twitter;
     Index-->About; About-->Twitter;
 
 ```
