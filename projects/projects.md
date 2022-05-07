@@ -36,6 +36,5 @@ Also here are the following general purpose assets I use:
  
 ![(icon preview)](icon_pack/pack.png)
 
-[about](about.md) | [poems](poems.md) | [quotes](quotes.md) | [definitions](definitions.md) | [bookmarks](bookmark.md) | [projects](projects/projects.md)
 
 
