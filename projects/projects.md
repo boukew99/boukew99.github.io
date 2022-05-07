@@ -35,3 +35,7 @@ Also here are the following general purpose assets I use:
 - 16x16 1-bit [icons](icon_pack/icon.zip) representing common functions.
  
 ![(icon preview)](icon_pack/pack.png)
+
+[about](about.md) | [poems](poems.md) | [quotes](quotes.md) | [definitions](definitions.md) | [bookmarks](bookmark.md) | [projects](projects/projects.md)
+
+
