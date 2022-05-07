@@ -14,7 +14,8 @@ graph TD;
         Blog-->Software;
         Blog-->Design-->UX;
         
-    Index-->Twitter
+    Index-->About; About-->Twitter;
+
 ```
 ## Markdown Components
 Templates usable throughout the website. Just copy, paste and edit them.
