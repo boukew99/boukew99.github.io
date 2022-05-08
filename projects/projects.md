@@ -32,10 +32,7 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 Also here are the following general purpose assets I use:
 - [sfx's pack](sound_pack/sound.zip) for some general sounds signaling a action. [(preview)](sound_pack/pack.ogg)
 - [Bookxel](bookxel.ttf), a very readable pixel font. 
-- 16x16 1-bit [icons](icon_pack/icon.zip) representing common functions.
-
- <audio controls><source src="src=sound_pack/pack.ogg" type="audio/ogg"> </audio>
-![(icon preview)](icon_pack/pack.png)
+- 16x16 1-bit [icons](icon_pack/icon.zip) representing common functions. [(preview)](icon_pack/pack.png)
 
 
 
