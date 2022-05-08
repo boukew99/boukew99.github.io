@@ -34,7 +34,7 @@ Also here are the following general purpose assets I use:
 - [Bookxel](bookxel.ttf), a very readable pixel font. 
 - 16x16 1-bit [icons](icon_pack/icon.zip) representing common functions.
 
- <audio src=sound_pack/pack.ogg> </audio>
+ <audio controls><source src="src=sound_pack/pack.ogg" type="audio/ogg"> </audio>
 ![(icon preview)](icon_pack/pack.png)
 
 
