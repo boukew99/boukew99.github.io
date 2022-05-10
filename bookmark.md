@@ -6,4 +6,4 @@
 
 [online gltf viewer](https://gltf-viewer.donmccurdy.com/)
 
-https://www.redblobgames.com/ is great for learning place till  you realize that the visuals are not images, but interactive, which makes it even better!
+https://www.redblobgames.com/ is great a learning site till you realize that the visuals are not images, but interactive, which makes it even better!
