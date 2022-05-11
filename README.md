@@ -12,4 +12,8 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 * [Looper](https://howyoudoing.itch.io/looper) Game for Black & White Jam Finished 
 * Updated [Scratch Animater](https://github.com/boukew99/scratch_animater)
 
+## About
+Website writtin in Markdown.
+
 ![loc](https://img.shields.io/tokei/lines/github/boukew99/boukew99.github.io) ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) 
+
