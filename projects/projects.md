@@ -2,7 +2,7 @@
 Landing page to various other places. I am on [Github](https://github.com/boukew99) with some MIT Projects. Some Godot Engine repos are made available on the
 [Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). [Itch.io](https://howyoudoing.itch.io/) contains my Game Jam games, demos and experiments. Also here are the following general purpose assets I use, [sfx's pack](sound_pack/sound.zip) [(preview)](sound_pack/pack.ogg), [Bookxel font](bookxel.ttf), [icon pack](icon_pack/icon.zip) [(preview)](icon_pack/pack.png). You can view some random interesting [bookmarks](bookmark.md) or some crazy [definitions](definitions.md) I found. Also have guide for [scratch_animator](guide/scratch_animator.md)? Visit [Twitter](https://twitter.com/HowYouD09409170). Also trying [Newgrounds](https://howyourdoing.newgrounds.com/).
 
-## Software Projects 💻
+## Software 💻
 [![mondriaan maker](https://raw.githubusercontent.com/boukew99/mondriaan_maker/main/icon.png)](https://github.com/boukew99/mondriaan_maker)
 [![text chess](https://raw.githubusercontent.com/boukew99/text_chess/main/icon.png)](https://github.com/boukew99/text_chess)
 [![screen capturerer](https://raw.githubusercontent.com/boukew99/screen_capture/main/addons/screen_capture/screen_capture.png)](https://github.com/boukew99/screen_capture)
@@ -27,5 +27,12 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 <iframe frameborder="0" src="https://itch.io/embed/667075" width="552" height="167"><a href="https://howyoudoing.itch.io/chicken-farm">Mcdonald's Farm by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/682919" width="552" height="167"><a href="https://howyoudoing.itch.io/two">Seperate but not by HowYouDoing</a></iframe>
 <iframe frameborder="0" src="https://itch.io/embed/767633" width="208" height="167"><a href="https://howyoudoing.itch.io/slightly-unconventional-platformer">Slightly Unconventional Platformer by HowYouDoing</a></iframe>
+
+## Resources 📦
+Also here are the following general purpose assets I use:
+- [sfx's pack](sound_pack/sound.zip) for some general sounds signaling a action. [(preview)](sound_pack/pack.ogg)
+- [Bookxel](bookxel.ttf), a very readable pixel font. 
+- 16x16 1-bit [icons](icon_pack/icon.zip) representing common functions. [(preview)](icon_pack/pack.png)
+
 
 
