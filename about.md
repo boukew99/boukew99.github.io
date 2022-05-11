@@ -1,6 +1,8 @@
 # About
 I wite software, music, drawings, papers..
 
+[Twitter](https://twitter.com/HowYouD09409170)
+
 ## Skills ⭐
 
 Programming Tools | Skill | Language | Skill | Tools | Skill 

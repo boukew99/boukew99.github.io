@@ -1,8 +1,7 @@
-# Index (Under Construction) 🥦
-Landing page to various other places. I am on [Github](https://github.com/boukew99) with some MIT Projects. Some Godot Engine repos are made available on the
-[Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). [Itch.io](https://howyoudoing.itch.io/) contains my Game Jam games, demos and experiments. Also here are the following general purpose assets I use, [sfx's pack](sound_pack/sound.zip) [(preview)](sound_pack/pack.ogg), [Bookxel font](bookxel.ttf), [icon pack](icon_pack/icon.zip) [(preview)](icon_pack/pack.png). You can view some random interesting [bookmarks](bookmark.md) or some crazy [definitions](definitions.md) I found. Also have guide for [scratch_animator](guide/scratch_animator.md)? Visit [Twitter](https://twitter.com/HowYouD09409170). Also trying [Newgrounds](https://howyourdoing.newgrounds.com/). This is the page you bookmark for quick access!
+# Index (Work in Progress) 🥦
+Landing page to various other places. I make software, which is hosted on [Github](https://github.com/boukew99) including some MIT Projects. My software has a focus on User Experience, which I can also use when making videogames. These videogames are hosted on [Itch.io](https://howyoudoing.itch.io/) and [Newgrounds](https://howyourdoing.newgrounds.com/), which includes Game Jam games, demos and experiments. Generally I use the [Godot Engine](https://godotengine.org) for development and also have made some repos available on the [Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). In the [blog](blog) you can stay up to date with what I am up to. In [project](projects) I have a collection of most of my project on one page. In [tutorials](tutorials) you can learn what I have learned. I also keep a log of useful or intersting sites on [bookmarks](bookmarks). Or if your adventurous play this [text game](text_adventure) on this site.
 
-[projects](projects) | [about](about.md) | [tutorials](tutorials)| [bookmarks](bookmarks.md) | [blog](blog) | [text adventure](text_adventure)
+[blog](blog) | [projects](projects) | [tutorials](tutorials)| [about](about.md) 
 
 
 ## News 📰 
@@ -12,3 +11,4 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 * [Looper](https://howyoudoing.itch.io/looper) Game for Black & White Jam Finished 
 * Updated [Scratch Animater](https://github.com/boukew99/scratch_animater)
 
+This is the page you bookmark for quick access!

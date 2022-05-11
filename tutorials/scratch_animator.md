@@ -4,4 +4,5 @@
 * To indicate a coherent sequence you can give rename a tab with a (short) descriptive name or mnemonic.
 
 
-[![vid](https://raw.githubusercontent.com/boukew99/scratch_animater/main/screenshot/Screenshot%202022-03-07%20164921.png)](https://www.youtube.com/watch?v=iik25wqIuFo)]
+This video guide should explain it faster.
+[![video guide](https://raw.githubusercontent.com/boukew99/scratch_animater/main/screenshot/Screenshot%202022-03-07%20164921.png)](https://www.youtube.com/watch?v=iik25wqIuFo)]

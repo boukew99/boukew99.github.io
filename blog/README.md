@@ -1,2 +1,10 @@
-- [Linux on USB](linux_on_usb.md)
-- [GDScript tutorial](gdscript_tutorial.md)
+# Blog
+
+- [Linux on USB](linux_on_usb)
+- [Teardown Screenshots](teardown)
+- [definitions](definitions.md)
+- [Make a Markdown site like this](make_md_site.md)
+- [physics](physics.md)
+- [poems](poems.md)
+- [quotes](quotes.md)
+- [tips](tips.md)
