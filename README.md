@@ -4,6 +4,8 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 
 [projects](projects/) | [about](about.md) | [tutorial](blog/gdscript_tutorial.md) | [poems](poems.md) | [quotes](quotes.md) | [definitions](blog/definitions.md) | [bookmarks](bookmark.md) | [text adventure](text_adventure.md)
 
+![loc](https://img.shields.io/tokei/lines/github/boukew99/boukew99.github.io) ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) 
+
 
 ## News 📰 
 * Added first blog article about [putting linux on USB](blog/linux_on_usb.md) 🆕
@@ -11,9 +13,4 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 * Updated [GUI Calculator](https://github.com/boukew99/gui_calculator/commit/893f9abad4cd5fd17109b55dc9275cdcc5436551) 
 * [Looper](https://howyoudoing.itch.io/looper) Game for Black & White Jam Finished 
 * Updated [Scratch Animater](https://github.com/boukew99/scratch_animater)
-
-## About
-Website writtin in Markdown.
-
-![loc](https://img.shields.io/tokei/lines/github/boukew99/boukew99.github.io) ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) 
 
