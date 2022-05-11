@@ -13,18 +13,3 @@ Landing page to various other places. I am on [Github](https://github.com/boukew
 * Updated [Scratch Animater](https://github.com/boukew99/scratch_animater)
 
 ![loc](https://img.shields.io/tokei/lines/github/boukew99/boukew99.github.io) ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) 
-
-## Navigation Flowchart
-```mermaid
-graph TD;
-    Index-->Projects-->Itch/Github/Newgrounds; 
-        Projects-->TextAdventure
-  
-    Index-->Poems/Quotes/Bookmarks/Assets;    
-    Index-->Blog;
-        Blog-->Software;
-        Blog-->Design-->UX;
-        Blog-->Twitter;
-    Index-->About; About-->Twitter;
-
-```
