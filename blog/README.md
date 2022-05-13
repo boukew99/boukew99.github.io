@@ -8,3 +8,4 @@
 - [poems](poems.md)
 - [quotes](quotes.md)
 - [tips](tips.md)
+- [No Mans Sky](no_mans_sky)
