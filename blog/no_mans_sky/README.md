@@ -1,6 +1,6 @@
 # No Mans Sky
 
-So I got intersted in the procedural art of No Mans Sky and decided to give it a try. I did not try the crafting gameplay for long and switched to creative mode and got in the ship to explore this generated universe. 
+So I got intersted in the procedural art of No Mans Sky after watching [No Man's Sky: How I Learned to Love Procedural Art](https://youtu.be/vcEA41eBOGs) and decided to give it a try. I did not try the crafting gameplay for long and switched to creative mode and got in the ship to explore this generated universe. 
 
 ![ringed planet view](Screenshot 2022-05-13 222604.png)
 I landed on this artic planet with a nice view of a ringed planet in the sky and then came across some procedural *plant slime animal*. Turns out you can ride it and so I went hopping around on that thing. I also came across the upper part of snake that was walking upright, but without feet.
@@ -15,3 +15,5 @@ On the way I also used the camera mode to take some screenshots from the ship an
 
 ![spaceship](May-13@22.40.12.png)
 ![eclipse](May-13@22.41.23.png)
+
+And later watched some more talks about No Man's Sky including [Building Worlds in No Man's Sky Using Math(s)](9https://youtu.be/C9RyEiEzMiU), 
