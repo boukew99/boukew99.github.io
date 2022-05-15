@@ -8,10 +8,12 @@ Icon | Name | Description
 ![text chess](https://raw.githubusercontent.com/boukew99/text_chess/main/icon.png) | [Text Chess](https://github.com/boukew99/text_chess) | Chess represented by text 
 ![screen capture](https://raw.githubusercontent.com/boukew99/screen_capture/main/addons/screen_capture/screen_capture.png) | [Screen Capture](https://github.com/boukew99/screen_capture) |take and save screenshots easily 
 
-![mic recorder](https://raw.githubusercontent.com/boukew99/mic_recorder/main/addons/mic_recorder/mic_recorder.png) [Mic Recorder](https://github.com/boukew99/mic_recorder) easy setup for recording with microphone
+![mic recorder](https://raw.githubusercontent.com/boukew99/mic_recorder/main/addons/mic_recorder/mic_recorder.png) [Mic Recorder](https://github.com/boukew99/mic_recorder) easy setup for recording with microphone.
 
-[![gui calculator](https://raw.githubusercontent.com/boukew99/gui_calculator/main/addons/calculator/icon.png)](https://github.com/boukew99/gui_calculator)
-[![scratch canvas](https://raw.githubusercontent.com/boukew99/scratch_canvas/main/addons/canvas/icon.png)](https://github.com/boukew99/scratch_canvas)
+![gui calculator](https://raw.githubusercontent.com/boukew99/gui_calculator/main/addons/calculator/icon.png) [GUI calculator](https://github.com/boukew99/gui_calculator) ready to use calculator easliy integratable.
+
+![scratch canvas](https://raw.githubusercontent.com/boukew99/scratch_canvas/main/addons/canvas/icon.png) [Scratch Canvas](https://github.com/boukew99/scratch_canvas) integratable canvas with examples of more advanced use.
+
 [![scratch animator](https://raw.githubusercontent.com/boukew99/scratch_animater/main/icon.png)](https://github.com/boukew99/scratch_animater)
 [![joypad lab](https://raw.githubusercontent.com/boukew99/joypad_lab/main/icon.png)](https://github.com/boukew99/joypad_lab)
 [![shader window](https://raw.githubusercontent.com/boukew99/shader_window/main/addons/shader_window/shader_window.png)](https://github.com/boukew99/shader_window)
