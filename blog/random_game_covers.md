@@ -1,5 +1,4 @@
 # Random Game Covers
-How many do you recognize?
 
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=8B7BCDC2)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=500B67FB)
@@ -16,8 +15,6 @@ How many do you recognize?
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A25)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A26)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A27)
-![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A28)
-![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A29)
-![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A20)
 
-Images from https://lorem.space/
+---
+Covers coming from [LOREM.SPACE](https://lorem.space/)
