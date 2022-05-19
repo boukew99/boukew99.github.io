@@ -1,5 +1,4 @@
 # Random Game Covers
-
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=8B7BCDC2)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=500B67FB)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=A89D0DE6)
@@ -15,6 +14,8 @@
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A25)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A26)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A27)
+
+Refresh for new ones.
 
 ---
 Covers coming from [LOREM.SPACE](https://lorem.space/)
