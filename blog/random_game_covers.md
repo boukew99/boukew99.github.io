@@ -9,11 +9,6 @@
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=4F32C4CF)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=B0E33EF4)
 ![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A22)
-![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A23)
-![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A24)
-![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A25)
-![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A26)
-![random game cover](https://api.lorem.space/image/game?w=150&h=220&hash=2D297A27)
 
 Refresh for new ones.
 
