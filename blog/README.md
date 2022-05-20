@@ -10,3 +10,4 @@
 - [tips](tips.md)
 - [No Mans Sky](no_mans_sky)
 - [Random Game Covers](random_game_covers.md)
+- [Aesthetic QR codes](aestethic_qr)
