@@ -14,7 +14,7 @@ Icon | Name | Description | Try
 ![scratch animator](https://raw.githubusercontent.com/boukew99/scratch_animater/main/icon.png) | [Scratch Animator](https://github.com/boukew99/scratch_animater) | Demo of an nice and easy animation programm | [itch.io](https://howyoudoing.itch.io/scratch-animator)
 ![joypad lab](https://raw.githubusercontent.com/boukew99/joypad_lab/main/icon.png) | [Joypad Lab](https://github.com/boukew99/joypad_lab) | Test vibration and joypad axes deadzones and curves.
 ![shader window](https://raw.githubusercontent.com/boukew99/shader_window/main/addons/shader_window/shader_window.png)| [Shader Window](https://github.com/boukew99/shader_window) | A dragable window for testing screen shaders easily
-![website](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/icon.png) | [Website](https://github.com/boukew99/boukew99.github.io) | source for this website | [here?](https://boukew99.github.io/)
+![website](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/favicon.ico) | [Website](https://github.com/boukew99/boukew99.github.io) | source for this website | [here?](https://boukew99.github.io/)
 
 ## Video Games 🎮
 For an overview with cover image visit [itch.io](https://howyoudoing.itch.io/).
@@ -29,12 +29,6 @@ Mcdonald's Farm | Work on a chicken farm
 Drag Expand | Puzzle box
 Seperate but not | Find your other half
 Slightly Unconventional Platformer | Almost a normal platformer
-
-## Resources 📦
-Also here are the following general purpose assets I use:
-- [sfx's pack](sound_pack/sound.zip) for some general sounds signaling a action. [(preview)](sound_pack/pack.ogg)
-- [Bookxel](bookxel.ttf), a very readable pixel font. 
-- 16x16 1-bit [icons](icon_pack/icon.zip) representing common functions. [(preview)](icon_pack/pack.png)
 
 
 
