@@ -10,4 +10,4 @@ Landing page to various other places. I make software, which is hosted on [Githu
 * [Looper](https://howyoudoing.itch.io/looper) Game for Black & White Jam Finished 
 * Updated [Scratch Animater](https://github.com/boukew99/scratch_animater)
 
-This is the page you bookmark for quick access!
+This is the page you **bookmark** for quick access!

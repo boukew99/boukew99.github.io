@@ -29,6 +29,11 @@ https://visibleearth.nasa.gov/collection/1484/blue-marble A catalog of NASA imag
 [raylib textures code](https://github.com/raysan5/raylib/blob/master/src/rtextures.c)
 kinda intersting to see how it communicates so simply to get functionality.
 
+https://areyoutheasshole.com/
+https://anvaka.github.io/peak-map/#7.68/47.722/-122.237
+https://weatherspark.com/
+https://marctenbosch.com/quaternions/
+
 ## Sheet Music (Piano)
 - [herbacell](http://herbalcell.com/free-sheet-music), with a lot of Koji Kondo's compositions.
 - [One Summer's Day (Spirited Away)](https://musescore.com/torbybrand/scores/1463381)
