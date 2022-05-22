@@ -3,7 +3,6 @@ Landing page to various other places. I make software, which is hosted on [Githu
 
 [projects](projects.md) | [blog](blog) | [tutorials](tutorials) | [web apps](web_apps) | [resources](resources.md) | [about](about.md) 
 
-
 ## News 📰 
 * Added first blog article about [putting linux on USB](blog/linux_on_usb.md) 🆕
 * Updated usability of [Scratch Animator GUI](https://github.com/boukew99/scratch_animater/commit/529d77f303c51e972a268d4bce11f75f81636c1a) 🆕
