@@ -3,6 +3,8 @@
 
 ![loc](https://img.shields.io/tokei/lines/github/boukew99/boukew99.github.io) ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) 
 
+https://www.markdownguide.org/cheat-sheet/ -> https://emojipedia.org/
+
 ## Navigation Flowchart
 ```mermaid
 graph TD;

@@ -4,4 +4,7 @@
 2. experience = functionality * presentation
 3. presentation = the function is independent of a medium. Thus the presentation can be through any of the senses.
 4. function = defining a pattern (Creation, Maintenance, Destruction / Input, Calculations, result) 
-5. Iterative guessing - Scientific method
+
+Scientific method
+Iterative guessing;
+Assumative freedom;
