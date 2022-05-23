@@ -16,6 +16,7 @@
 
 [Inigo Quilez](https://iquilezles.org/), much about computer graphics.
 
+[Colors Tutorial](https://www.w3schools.com/colors/default.asp)
 
 [raylib.h code](https://github.com/raysan5/raylib/blob/master/src/raylib.h)
 [raylib shapes code](https://github.com/raysan5/raylib/blob/master/src/rshapes.c)
