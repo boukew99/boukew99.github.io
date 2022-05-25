@@ -17,6 +17,7 @@
 [Inigo Quilez](https://iquilezles.org/), much about computer graphics.
 
 [Colors Tutorial](https://www.w3schools.com/colors/default.asp)
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5KGMXvW7Tg3emnWz5S2grT?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 [raylib.h code](https://github.com/raysan5/raylib/blob/master/src/raylib.h)
 [raylib shapes code](https://github.com/raysan5/raylib/blob/master/src/rshapes.c)
