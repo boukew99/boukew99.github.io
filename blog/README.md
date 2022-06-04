@@ -8,6 +8,6 @@
 - [poems](poems.md)
 - [quotes](quotes.md)
 - [tips](tips.md)
-- [No Mans Sky](no_mans_sky)
-- [Random Game Covers](random_game_covers.md)
-- [Aesthetic QR codes](aesthetic_qr)
+- [No Mans Sky](no_mans_sky) :new
+- [Random Game Covers](random_game_covers.md) :new
+- [Aesthetic QR codes](aesthetic_qr) :new
