@@ -1,7 +1,8 @@
-# Root 🥦 ![favicon](favicon.ico)
-Landing page to various other places. 
+# boukew99 root 🥦 ![favicon](favicon.ico)
+Landing page of my personal site on the web for all my projects, blog and collection of links to other sites. More [about](about.md).
 
-[projects](projects.md) | [articles](articles)| [web apps](web_apps) | [assets](assets) | [about](about.md) 
+navigate to:
+[projects](projects.md) | [articles](articles)| [web apps](web_apps) | [assets](assets) 
 
 ## Web Log 📰 
 * Added first blog article about [putting linux on USB](blog/linux_on_usb.md) 🆕
@@ -14,4 +15,4 @@ Landing page to various other places.
 
 This is the page you **bookmark** for quick access!
 
-I make software, which is hosted on [Github](https://github.com/boukew99) including some MIT Projects. My software has a focus on User Experience, which I can also use when making videogames. These videogames are hosted on [Itch.io](https://howyoudoing.itch.io/) and [Newgrounds](https://howyourdoing.newgrounds.com/), which includes Game Jam games, demos and experiments. Generally I use the [Godot Engine](https://godotengine.org) for development and also have made some repos available on the [Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). In the [blog](blog) you can stay up to date with what I am up to. In [project](projects) I have a collection of most of my project on one page. I also keep a log of useful or intersting sites on [bookmarks](bookmarks). Or if your adventurous play this [text game](web_apps/text_adventure) on this site. I have [Twitter](https://twitter.com/HowYouD09409170), which I never use. Also a [Spotify playlist](https://open.spotify.com/playlist/5KGMXvW7Tg3emnWz5S2grT?si=328485d8732046a6)🎵.
+
