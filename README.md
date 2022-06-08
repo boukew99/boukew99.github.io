@@ -1,13 +1,8 @@
 # boukew99 root 🥦 ![favicon](favicon.ico)
-To | [portfolio](portfolio.md) | [assets](assets) | [mondriaan maker](mondriaan_maker) | [scratch animater](scratch_animater)
+
+To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles) 🧻 | [assets](assets) 📦| [mondriaan maker](mondriaan_maker) 🎨| [scratch animater](scratch_animater) 🎥
+
 Landing page of my personal site on the web for all my projects, blog and collection of links to other sites.
-
-
-## Lastest Articles (Learn)
-- Putting [linux on USB](articles/linux_on_usb). Apparently it is very easy to try Linux, all you need is an USB with 8 GB of storage. I tried Ubuntu and thus used this [installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
-- [No Mans Sky](articles/no_mans_sky). Playthrough screenshots.
-
-[more articles](articles)
 
 ## Web Log 📰 
 * Added first blog article about [putting linux on USB](blog/linux_on_usb.md) 🆕
