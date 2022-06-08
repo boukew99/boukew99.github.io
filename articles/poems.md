@@ -22,3 +22,11 @@ Limiting its freedom
 ```
  🐣 🐥 🐤 🐔 🥚 🐣 - 🐮 🥛 - 🌻 + 🌞 = ?
  ```
+ 
+ ```
+ oh friction
+ why are you in my way
+ am I unoiled
+ for joy is the way
+ ```
+ 
