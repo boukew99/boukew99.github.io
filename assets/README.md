@@ -1,4 +1,4 @@
-## Resources 📦
+## Assets 📦
 
 - [sfx's pack](sound.zip) for some general sounds signaling a action. [(preview)](pack.ogg)
 - [Bookxel](bookxel.ttf), a very readable pixel font. 

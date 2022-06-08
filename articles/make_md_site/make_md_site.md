@@ -40,3 +40,15 @@ description
 ```
 
 https://www.favicon.cc/
+
+
+### Elements
+[![video guide](https://raw.githubusercontent.com/boukew99/scratch_animater/main/screenshot/Screenshot%202022-03-07%20164921.png)](https://www.youtube.com/watch?v=iik25wqIuFo)]
+```gdscript
+
+var lol = "nice"
+
+func _ready:
+	pass
+```
+
