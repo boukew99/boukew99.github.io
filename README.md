@@ -1,13 +1,11 @@
 # boukew99 root 🥦 ![favicon](favicon.ico)
 Landing page of my personal site on the web for all my projects, blog and collection of links to other sites.
 
-To:
+To | [portfolio](portfolio.md) | [web apps](web_apps) | [assets](assets) 
 
-[portfolio](portfolio.md) | [assets](assets) | [playlist](playlist.md)
-
-## Lastest Article
-Putting [linux on USB](blog/linux_on_usb.md).
-Apparently it is very easy to try Linux, all you need is an USB with 8 GB of storage. I tried Ubuntu and thus used this [installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
+## Lastest Articles (Learn)
+- Putting [linux on USB](articles/linux_on_usb.md). Apparently it is very easy to try Linux, all you need is an USB with 8 GB of storage. I tried Ubuntu and thus used this [installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
+- [No Mans Sky](no_mans_sky). Playthrough screenshots.
 
 [more articles](articles)
 
@@ -21,7 +19,3 @@ Apparently it is very easy to try Linux, all you need is an USB with 8 GB of sto
 [older...](web_log.md)
 
 
-## [Web Apps](web_apps)
-- [text adventure](web_apps/text_adventure)
-- [scratch flipbook](web_apps/scratch_animator)
-- [Mondriaan Maker](web_apps/mondriaan_maker)
