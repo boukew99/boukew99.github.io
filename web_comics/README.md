@@ -1,6 +1,7 @@
 # Webcomics
 
 ![initiation](initiation.svg)
+---
 
 
 other web comics
