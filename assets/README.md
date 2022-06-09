@@ -1,8 +1,8 @@
 ## Assets 📦
 
-- [sfx's pack](sound.zip) for some general sounds signaling a action. [(preview)](pack.ogg)
+- [sfx's pack](sound.zip) for some general sounds signaling a action. [(preview)](sounds.ogg)
 - [Bookxel](bookxel.ttf), a very readable pixel font. 
-- [icons](icon.zip) (16x16 1-bit) representing common functions. [(preview)](pack.png)
+- [icons](icon.zip) (16x16 1-bit) representing common functions. [(preview)](icons.png)
 
 ### External
 

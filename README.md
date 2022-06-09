@@ -1,16 +1,26 @@
+---
+layout: post
+title: testtt
+published: flase
+food: pizza
+date: 2022-06-09 18:21
+category: landing
+tags: landing boukew99
+---
+
 # boukew99 root 🥦 ![favicon](favicon.ico)
 
-To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles) 🧻 | [assets](assets) 📦| [mondriaan maker](mondriaan_maker) 🎨| [scratch animater](scratch_animater) 🎥
+To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles) 🧻 | [assets](assets) 📦| [web comics](web_comics)| [mondriaan maker](mondriaan_maker) 🎨| [scratch animater](scratch_animater) 🎥
 
 Landing page of my personal site on the web for all my projects, blog and collection of links to other sites.
 
-## Web Log 📰 
-* Added first blog article about [putting linux on USB](blog/linux_on_usb.md) 🆕
-* Updated usability of [Scratch Animator GUI](https://github.com/boukew99/scratch_animater/commit/529d77f303c51e972a268d4bce11f75f81636c1a) **new**
-* Updated [GUI Calculator](https://github.com/boukew99/gui_calculator/commit/893f9abad4cd5fd17109b55dc9275cdcc5436551) 
-* [Looper](https://howyoudoing.itch.io/looper) Game for Black & White Jam Finished 
-* Updated [Scratch Animater](https://github.com/boukew99/scratch_animater)
+## Web Log 📰 📅
+- Article: Added first blog article about [putting linux on USB](blog/linux_on_usb.md) 🆕
+- Updated usability of [Scratch Animator GUI](https://github.com/boukew99/scratch_animater/commit/529d77f303c51e972a268d4bce11f75f81636c1a) **new**
+- Updated [GUI Calculator](https://github.com/boukew99/gui_calculator/commit/893f9abad4cd5fd17109b55dc9275cdcc5436551) 
+- [Looper](https://howyoudoing.itch.io/looper) Game for Black & White Jam Finished 
+- Updated [Scratch Animater](https://github.com/boukew99/scratch_animater)
 
 [older...](web_log.md)
 
-
+{{ page.food }}
