@@ -1,9 +1,5 @@
 ---
 title: testtt
-food: pizza
-date: 2022-06-09 18:21
-category: landing
-tags: landing boukew99
 ---
 
 # boukew99 root 🥦 ![favicon](favicon.ico)
