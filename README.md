@@ -1,4 +1,4 @@
-# boukew99 root 🥦 ![favicon](favicon.ico)
+# boukew99 root 🥦 ![favicon](favicon.ico) 🔖 🔗
 
 To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles) 🧻 | [assets](assets) 📦| [web comics](web_comics)| [mondriaan maker](mondriaan_maker) 🎨| [scratch animater](scratch_animater) 🎥
 
@@ -15,6 +15,5 @@ Landing page of my personal site on the web for all my projects, blog and collec
 
 ---
 
-author boukew99
-keywords blog portfolio
+author: boukew99. keywords: blog, portfolio
 

@@ -30,3 +30,11 @@ Limiting its freedom
  for joy is the way
  ```
  
+ ```
+ from pure idea
+ to messy implementation
+ test for true feedback
+ and start again
+ ```
+ 
+ > the pure idea, the messy implementation, the true feedback
