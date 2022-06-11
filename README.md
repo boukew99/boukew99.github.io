@@ -15,5 +15,5 @@ Landing page of my personal site on the web for all my projects, blog and collec
 
 ---
 
-author: boukew99. keywords: blog, portfolio
+keywords: blog, portfolio
 
