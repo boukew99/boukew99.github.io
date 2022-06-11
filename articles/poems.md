@@ -38,3 +38,13 @@ Limiting its freedom
  ```
  
  > the pure idea, the messy implementation, the true feedback
+ 
+ ```
+ pen & paper
+ pan & fire
+ game & rules
+ boat & water
+ chair & butt
+ human & earth
+ ```
+ 

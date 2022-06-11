@@ -11,8 +11,8 @@ Spinbox | number set
 Slider | range
 Line Edit | String
 Tab Container | Task switch
-Scroll Container | View
-Control | Node1D
+Scroll Container ![icon](https://raw.githubusercontent.com/godotengine/godot/master/editor/icons/ScrollContainer.svg) | View
+Control ![icon](https://raw.githubusercontent.com/godotengine/godot/master/editor/icons/Control.svg) | Node1D
 H/vBoxConatainer | Switch
 PanelContainer | Level
 Panel | Background

@@ -10,7 +10,7 @@
 ### Palletes
 ![spirited away](spirited_away.png)
 ![rainbow dark light](rainbow_dark_light.png)
-![pallete orderning)(h_pallete_v_light_condition.png)
+![pallete orderning](h_pallete_v_light_condition.png)
 <https://lospec.com/palette-list/pico-8>
 <https://ewenme.github.io/ghibli/>
 <http://designmadeinjapan.com/magazine/graphic-design/the-rich-colors-of-studio-ghibli/>

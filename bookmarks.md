@@ -11,7 +11,6 @@
 
 [blue marble NASA images](https://visibleearth.nasa.gov/collection/1484/blue-marble) A catalog of NASA images and animations of our home planet.
 
-[Fullmetal Alchemist Manga Online](https://alchemist-fullmetal.com/) the manga online, which explores science, the law of equivalent exchange and more in a fictional world.
 
 [Inigo Quilez](https://iquilezles.org/), much about computer graphics.
 
@@ -35,3 +34,6 @@ https://www.playerresearch.com/learn/
 - [One Summer's Day (Spirited Away)](https://musescore.com/torbybrand/scores/1463381)
 - [ThePandaTooth](http://www.pandatooth.com/sheet-music/), [Princess Mononoke](http://www.pandatooth.com/portfolio-items/princess-mononoke/) 
 - [NinSheetMusic](https://www.ninsheetmusic.org/)
+
+
+Covers coming from [LOREM.SPACE](https://lorem.space/)

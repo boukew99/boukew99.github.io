@@ -9,5 +9,4 @@
 - [poems](poems.md). Database of written poems.
 - [quotes](quotes.md). Database of resonant quotes.
 - [tips](tips.md). "General" purpose.
-- [Random Game Covers](random_game_covers.md). Random. 
 - [Aesthetic QR codes](aesthetic_qr). Experiment.
