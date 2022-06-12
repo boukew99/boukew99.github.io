@@ -16,7 +16,7 @@ Icon | Name | Description | Try
 ![screen capture](https://raw.githubusercontent.com/boukew99/screen_capture/main/addons/screen_capture/screen_capture.png) | [Screen Capture](https://github.com/boukew99/screen_capture) |take and save screenshots easily 
 ![mic recorder](https://raw.githubusercontent.com/boukew99/mic_recorder/main/addons/mic_recorder/mic_recorder.png) | [Mic Recorder](https://github.com/boukew99/mic_recorder) | easy setup for recording with microphone.
 ![gui calculator](https://raw.githubusercontent.com/boukew99/gui_calculator/main/addons/calculator/icon.png) | [GUI calculator](https://github.com/boukew99/gui_calculator) | ready to use calculator easliy integratable.
-![scratch canvas](https://raw.githubusercontent.com/boukew99/scratch_canvas/main/addons/canvas/icon.png) | [Scratch Canvas](https://github.com/boukew99/scratch_canvas) | integratable canvas with examples of more advanced use.
+![scratch canvas](https://raw.githubusercontent.com/boukew99/scratch_canvas/main/canvas/scratch_canvas.png) | [Scratch Canvas](https://github.com/boukew99/scratch_canvas) | integratable canvas with examples of more advanced use.
 ![scratch animator](https://raw.githubusercontent.com/boukew99/scratch_animater/main/scratch_animater.png) | [Scratch Animator](https://github.com/boukew99/scratch_animater) | Demo of an nice and easy animation programm | [itch.io](https://howyoudoing.itch.io/scratch-animator)
 ![joypad lab](https://raw.githubusercontent.com/boukew99/joypad_lab/main/icon.png) | [Joypad Lab](https://github.com/boukew99/joypad_lab) | Test vibration and joypad axes deadzones and curves.
 ![shader window](https://raw.githubusercontent.com/boukew99/shader_window/main/addons/shader_window/shader_window.png)| [Shader Window](https://github.com/boukew99/shader_window) | A dragable window for testing screen shaders easily
@@ -52,6 +52,15 @@ OOP           | ⭐⭐⭐⭐
 Markdown      | ⭐⭐⭐⭐
 HTML          | ⭐⭐⭐⭐
 W3.CSS        | ⭐⭐⭐
+JSON
+R
+C
+Matlab
+Stata
+Git
+JavaScript
+CSS
+SQL
 
 📫
 

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<!--
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+-->
+<link rel="stylesheet" href="boukew99.css">
+
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="boukew99">
+  
+</head>
+
+
+<body>
+
+<audio src="ambience.ogg" autoplay loop></audio>
+
+<h1>TURN BASED WEB BATTLE</h1>
+
+<div class="card">
+<p>Human 1</p> 
+<img src="portait.png" alt="portait">
+<hr>
+<label for="health1">Health</label>
+<progress id="health1" value=100 max=100 optimum=50>100%</progress>
+
+<label for="excitement1">Excitement</label>
+<meter id="excitement1" value=50 min=0 low=20 high=80 max=100 optimum=50>100%</meter>
+
+<p>Heyy I just ate some cake. MMMMMMM. let's battle!
+</div>
+
+<div class="card">
+<p>Human 2 &#127947;</p> 
+<hr>
+<label for="health2">Health</label>
+<progress id="health2" value=100 max=100 optimum=50>100%</progress>
+
+<label for="excitement2">Excitement</label>
+<meter id="excitement2" value=50 min=0 low=20 high=80 max=100 optimum=50>100%</meter>
+
+<p>Heyy I just ate some cake. MMMMMMM. let's battle!
+</div>
+
+
+<p>Which Human do you choose</p>
+<input id="option1" type="radio" onclick="option_selected(0)" name="choice">
+<label for="option1">Human1</label>
+
+<input id="option2" type="radio" onclick="option_selected(1)" name="choice">
+<label for="option2">Human2</label>
+
+<input id="option3" type="radio" onclick="option_selected(2)" name="choice">
+<label for="option3">Human3? &#128007;</label>
+
+<hr>
+<input type=submit>
+
+<script>
+function option_selected(index) {
+  document.getElementById("output").innerHTML = index
+}
+</script>
+
+<p id="output">-1</p>
+</body>
+</html> 
