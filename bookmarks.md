@@ -33,6 +33,7 @@ https://marctenbosch.com/quaternions/
 
 https://www.playerresearch.com/learn/
 
+[https://github.com/dolphin-emu/dolphin/tree/master/Data/Sys/Shaders] shaders used in dolpin
 ### Sheet Music (Piano)
 - [herbacell](http://herbalcell.com/free-sheet-music), with a lot of Koji Kondo's compositions.
 - [One Summer's Day (Spirited Away)](https://musescore.com/torbybrand/scores/1463381)
