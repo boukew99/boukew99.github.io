@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
+<title>WEB BATTLE</title>
 <!--
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 -->
@@ -31,7 +31,7 @@
 <label for="excitement1">Excitement</label>
 <meter id="excitement1" value=50 min=0 low=20 high=80 max=100 optimum=50>100%</meter>
 
-<p>Heyy I just ate some cake. MMMMMMM. let's battle!
+<p>Heyy I just ate some cake. MMMMMMM. let's battle!</p>
 </div>
 
 <div class="card">
@@ -43,9 +43,23 @@
 <label for="excitement2">Excitement</label>
 <meter id="excitement2" value=50 min=0 low=20 high=80 max=100 optimum=50>100%</meter>
 
-<p>Heyy I just ate some cake. MMMMMMM. let's battle!
+<p>Heyy I just ate some cake. MMMMMMM. let's battle!</p>
 </div>
 
+<hr><hr>
+
+<div class="card">
+<p>You &#127948;</p> 
+<hr>
+<label for="health2">Health</label>
+<progress id="health2" value=100 max=100 optimum=50>100%</progress>
+
+<label for="excitement2">Excitement</label>
+<meter id="excitement2" value=50 min=0 low=20 high=80 max=100 optimum=50>100%</meter>
+
+<p>I golf and solve!</p>
+
+<hr>
 
 <p>Which Human do you choose</p>
 <input id="option1" type="radio" onclick="option_selected(0)" name="choice">
@@ -55,10 +69,12 @@
 <label for="option2">Human2</label>
 
 <input id="option3" type="radio" onclick="option_selected(2)" name="choice">
-<label for="option3">Human3? &#128007;</label>
+<label for="option3">You &#128007;</label>
 
 <hr>
 <input type=submit>
+
+</div>
 
 <script>
 function option_selected(index) {

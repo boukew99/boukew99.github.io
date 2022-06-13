@@ -8,12 +8,12 @@
 ![power squares](power_squares.png)
 
 ### Palletes
-![spirited away](spirited_away.png)
-![rainbow dark light](rainbow_dark_light.png)
-![pallete orderning](h_pallete_v_light_condition.png)
-<https://lospec.com/palette-list/pico-8>
-<https://ewenme.github.io/ghibli/>
-<http://designmadeinjapan.com/magazine/graphic-design/the-rich-colors-of-studio-ghibli/>
+- <img src="spirited_away.png" width=63 height=27 alt="spirited away">
+- <img alt="rainbow dark light" src="rainbow_dark_light.png" width=72 height=99>
+- <img alt="pallete orderning" src="h_pallete_v_light_condition.png" width=72 heigh = 27>
+- <https://lospec.com/palette-list/pico-8>
+- <https://ewenme.github.io/ghibli/>
+- <http://designmadeinjapan.com/magazine/graphic-design/the-rich-colors-of-studio-ghibli/>
 
 ### External
 

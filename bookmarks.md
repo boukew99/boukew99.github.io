@@ -1,7 +1,11 @@
 ## Bookmark
 
-### Godot Engine
+### Tools
 [Godot Engine News](https://godotengine.org/news), [Godot Engine Docs](https://docs.godotengine.org/en/stable/)
+
+[Piksel](https://www.piskelapp.com/p/create/sprite) polished browser pixel editor
+
+[git book](https://git-scm.com/book/en/v2)
 
 [online gltf viewer](https://gltf-viewer.donmccurdy.com/)
 
