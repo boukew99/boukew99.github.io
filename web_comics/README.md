@@ -2,17 +2,21 @@
 
 ![initiation](initiation.svg)
 ---
+
 ![a4](a4.svg)
 ![a42](a42.svg)
 ---
-![0](mobile.svg)
-![1](mobile.svg)
+
+![0](webtoon1.svg)
+![1](webtoon2.svg)
 ---
-![](flex1.svg)
-![](flex2.svg)
-![](flex3.svg)
-![](flex4.svg)
+
+![f1](flex1.svg)
+![f2](flex2.svg)
+![f3](flex3.svg)
+![f4](flex4.svg)
 ---
+
 other web comics
 <https://xkcd.com/2310/>
 tips
