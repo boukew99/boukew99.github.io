@@ -1,4 +1,4 @@
-# Learn
+# Articles
 
 - [Linux on USB](linux_on_usb). Trying out the linux operating system besides Windows and how to do it.
 - [Teardown Screenshots](teardown). Playthrough screenshots.

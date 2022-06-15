@@ -17,3 +17,7 @@ Landing page of my personal site on the web for all my projects, blog and collec
 
 keywords: blog, portfolio
 
+<video width="320" height="240" controls>
+  <source src="mondriaan_maker.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video> 
