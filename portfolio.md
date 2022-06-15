@@ -52,15 +52,15 @@ OOP           | ⭐⭐⭐⭐
 Markdown      | ⭐⭐⭐⭐
 HTML          | ⭐⭐⭐⭐
 W3.CSS        | ⭐⭐⭐
-JSON
-R
-C
-Matlab
-Stata
-Git
-JavaScript
-CSS
-SQL
+JSON |
+R |
+C |
+Matlab |
+Stata |
+Git |
+JavaScript |
+CSS | 
+SQL |
 
 📫
 
