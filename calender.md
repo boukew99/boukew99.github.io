@@ -4,7 +4,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## Januari
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -12,14 +12,14 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## Februari
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
 
 ## Maart
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -27,7 +27,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## April
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -35,7 +35,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## Mei
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -43,7 +43,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## Juni
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -51,7 +51,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## Juli
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -59,7 +59,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## Augustus
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -67,7 +67,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## September
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -75,7 +75,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## November
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
@@ -83,7 +83,7 @@ Plant plan windows | plant indoor(blue) | plant outdoor (green) | yield & sell (
 
 ## December
 
-0 | 1 | 2 | 3 | 4 | 5 | 6 | 7
+1 | 2 | 3 | 4 | 5 | 6 | 7
 8 | 9 | 10 | 11 | 12 | 13 | 14
 15 | 16 | 17 | 18 | 19 | 20 | 21
 22 | 23 | 24 | 25 | 26 | 27 | 28
