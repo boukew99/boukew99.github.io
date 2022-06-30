@@ -1,4 +1,3 @@
-![banner](banner.svg)
 # boukew99 root 🥦 ![favicon](favicon.ico) 🔖 🔗
 
 To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles.md) 🧻 | [assets](assets) 📦| [web comics](web_comics)
