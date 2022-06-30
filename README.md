@@ -1,7 +1,3 @@
----
-title: home
----
-
 <!--# boukew99 root 🥦 ![favicon](favicon.ico) 🔖 🔗-->
 Landing page of my personal site on the web for all my projects, news and collection of links to other sites.
 
