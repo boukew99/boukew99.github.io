@@ -1,8 +1,14 @@
 ---
-layout: page
+layout: post
 title: Portfolio
+food: Pizza
+date:2022-06-29
+category: portfolio nolog
+tags: port fol io
 ---
 
+
+<h1>{{ page.food }}</h1>
 <!--## Portfolio-->
 To| [Projects](#projects) | [Skill Table](#skill-table) | [category3]() | [category4]()
 

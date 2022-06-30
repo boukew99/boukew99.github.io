@@ -1,8 +1,21 @@
 title: boukew99
 
+show_excerpts: true
+
 header_pages:
  - portfolio.md
  - articles.md
  - assets.md
 
+minima:
+  social_links:
+    # twitter: jekyllrb
+    github:  boukew99
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+
+    
 theme: minima
+
+
