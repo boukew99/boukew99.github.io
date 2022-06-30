@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Portfolio
-date:2022-06-29
-category: portfolio nolog
-tags: port fol io
 ---
 
 
