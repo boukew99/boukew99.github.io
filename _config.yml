@@ -5,3 +5,4 @@ header_pages:
  - articles.md
  - assets.md
 
+theme: minima
