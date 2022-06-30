@@ -1,10 +1,4 @@
----
-layout: post
-title: Portfolio
----
-
-
-<!--## Portfolio-->
+## Portfolio
 To| [Projects](#projects) | [Skill Table](#skill-table) | [category3]() | [category4]()
 
 I write software, music, drawings, papers...
