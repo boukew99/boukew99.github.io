@@ -1,3 +1,8 @@
+---
+layout: page
+title: Portfolio
+---
+
 <!--## Portfolio-->
 To| [Projects](#projects) | [Skill Table](#skill-table) | [category3]() | [category4]()
 
