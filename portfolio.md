@@ -1,5 +1,5 @@
 ## Portfolio
-To| [Projects](#projects) | [Skill Table](#skill-table) | [category3]() | [category4]()
+To | [Open Source Software](#open-source-software) | [Video Games](#video-games) | [Skill Table](#skill-table-⭐) 
 
 I write software, music, drawings, papers...
 
