@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home
 ---
 
 <!--# boukew99 root 🥦 ![favicon](favicon.ico) 🔖 🔗-->
