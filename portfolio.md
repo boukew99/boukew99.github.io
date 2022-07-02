@@ -1,5 +1,5 @@
 ## Portfolio
-To | [Open Source Software](#open-source-software) | [Video Games](#video-games) | [Skill Table](#skill-table-⭐) 
+To | [Projects]() | [Open Source Software](#OSS) | [Video Games 🎮]() | [Skill Table](#skill-table-⭐) 
 
 I write software, music, drawings, papers...
 
@@ -7,7 +7,7 @@ My software is hosted on [Github](https://github.com/boukew99), which includes s
 
 ### Projects
 
-#### Open Source Software 💻
+#### <a name="OSS"></a> Open Source Software 💻
 All hosted on [Github](https://github.com/boukew99).
 
 Icon | Name | Description 

@@ -1,3 +1,11 @@
+
+Go|To|a|Page
+---|---|---|---
+To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles.md) 🧻 | [assets](assets) 📦
+[web comics](web_comics)📝 | [FAQ](faq) | [text adventure](text_adventure) | [404](404)
+[calender](calender.md) | [making this](make_md_site.md)
+
+
 ## News 📰 📅 🆕
 - Mondriaan Maker [version 2](https://itch.io/embed-upload/6017377?color=fac901) with infinite rectangles
 <video width="320" height="240" controls>
@@ -12,6 +20,4 @@ Landing page of my personal site on the web for all my projects, news and collec
 
 keywords: blog, portfolio
 
-
-To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles.md) 🧻 | [assets](assets) 📦| [web comics](web_comics)📝
 
