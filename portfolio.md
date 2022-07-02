@@ -1,5 +1,5 @@
 ## Portfolio
-To | [Projects]() | [Open Source Software](#OSS) | [Video Games 🎮]() | [Skill Table](#skill-table-⭐) 
+To | [Projects](#projects) | [Open Source Software](#OSS) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
 
 I write software, music, drawings, papers...
 
@@ -7,7 +7,7 @@ My software is hosted on [Github](https://github.com/boukew99), which includes s
 
 ### Projects
 
-#### <a name="OSS"></a> Open Source Software 💻
+#### 💻 <a name="OSS"></a> Open Source Software 
 All hosted on [Github](https://github.com/boukew99).
 
 Icon | Name | Description 
@@ -23,7 +23,7 @@ Icon | Name | Description
 ![shader window](https://raw.githubusercontent.com/boukew99/shader_window/main/addons/shader_window/shader_window.png)| [Shader Window](https://github.com/boukew99/shader_window) | A dragable window for testing screen shaders easily
 ![website](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/favicon.ico) | [Website](https://github.com/boukew99/boukew99.github.io) | source for this website
 
-#### Video Games 🎮
+#### 🎮 Video Games 
 For an full overview with cover images visit [itch.io](https://howyoudoing.itch.io/).
 
 Name | Description
@@ -39,18 +39,17 @@ Slightly Unconventional Platformer | Almost a normal platformer
 
 
 
-### Skill Table ⭐
+### Skill Table
 These are mainly hard skills with a rating from 1 to 5 roughly indicating how much I still feel like I could learn and have learned.
 
 
-Skill | Native | Language | Web | Misc | Design | Academic 🎓 | Music 
+Skill ⭐ | Native | Language | Web | Misc | Design | Academic 🎓 | Music 
 ---   | ---    | ---      | --- | ---  | ---    | ---         | --- 
-⭐      | | French | | | 
-⭐⭐     | C, C++, Raylib, Java, Unity Engine | | | SQL, Matlab, R | | | GarageBand, Harmonica, 
-⭐⭐⭐    | Python, Gamemaker Studio 2 |  German| Javascript | Git, Stata, JSON | Icons, UX, Piksel | Statistics | Guitar, Audacity
-⭐⭐⭐⭐   | GDScript | CSS, W3.CSS | Markdown, OOP, Abstraction[^1], Fundamentals | UI, GUI, Leaness | Reading, Writing | Piano, Keyboard
 ⭐⭐⭐⭐⭐  | Godot Engine, | Dutch, English | HTML | 
-
+⭐⭐⭐⭐   | GDScript | | CSS, W3.CSS | Markdown, OOP, Abstraction[^1], Fundamentals | UI, GUI, Leaness | Reading, Writing | Piano, Keyboard
+⭐⭐⭐    | Python, Gamemaker Studio 2 |  German| Javascript | Git, Stata, JSON | Icons, UX, Piksel | Statistics | Guitar, Audacity
+⭐⭐     | C, C++, Raylib, Java, Unity Engine | | | SQL, Matlab, R | | | GarageBand, Harmonica, 
+⭐      | | French | | | 
 
 [^1]:(https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming))
 

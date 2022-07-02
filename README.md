@@ -1,9 +1,5 @@
 
-Go|To|a|Page
----|---|---|---
-To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles.md) 🧻 | [assets](assets) 📦
-[web comics](web_comics)📝 | [FAQ](faq) | [text adventure](text_adventure) | [404](404)
-[calender](calender.md) | [making this](make_md_site.md)
+To|[articles(learn)](articles.md) 🧻 | [assets](assets) 📦 | [web comics](web_comics)📝 | [text adventure](text_adventure) |  [calender](calender.md) | [making this](make_md_site.md)
 
 
 ## News 📰 📅 🆕
@@ -17,7 +13,8 @@ To | [portfolio](portfolio.md) ⭐| [articles(learn)](articles.md) 🧻 | [asset
 
 ## About 🥦 ![favicon](favicon.ico) 🔖 🔗
 Landing page of my personal site on the web for all my projects, news and collection of links to other sites.
+[portfolio](portfolio.md) ⭐
+[FAQ](faq)
 
-keywords: blog, portfolio
 
 

@@ -1,1 +1,0 @@
-When streaming videos, you may want to consider changing the quality in the options menu. If the video does not need much detail or you listening more than watching, switch it to a lower video quality. This will save bandwith and energy.
