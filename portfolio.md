@@ -1,14 +1,14 @@
-## Portfolio
-To | [Projects](#projects) | [Open Source Software](#OSS) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
+# Portfolio
+To |[Open Source Software](#OSS) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
 
 I write software, music, drawings, papers...
 
 My software is hosted on [Github](https://github.com/boukew99), which includes some MIT Projects. My software has a focus on User Experience, which I can also use when making videogames. These videogames are hosted on [Itch.io](https://howyoudoing.itch.io/) and [Newgrounds](https://howyourdoing.newgrounds.com/), which includes Game Jam games, demos and experiments. Generally I use the [Godot Engine](https://godotengine.org) for development and also have made some repos available on the [Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). In the [log](log) you can stay up to date with what I am up to. In [project](#projects) I have a collection of most of my project on one page. I also keep a log of useful or interesting sites on [bookmarks](bookmarks). Or if your adventurous play this [text game](web_apps/text_adventure) on this site. I have [Twitter](https://twitter.com/HowYouD09409170), which I never use. Also a [Spotify playlist](https://open.spotify.com/playlist/5KGMXvW7Tg3emnWz5S2grT?si=328485d8732046a6)🎵
 
-### Projects
+## Projects
 
-#### 💻 <a name="OSS"></a> Open Source Software 
-All hosted on [Github](https://github.com/boukew99).
+### <a name="OSS"></a> Open Source Software 
+💻 All hosted on [Github](https://github.com/boukew99).
 
 Icon | Name | Description 
 --- | --- | ---
@@ -23,8 +23,8 @@ Icon | Name | Description
 ![shader window](https://raw.githubusercontent.com/boukew99/shader_window/main/addons/shader_window/shader_window.png)| [Shader Window](https://github.com/boukew99/shader_window) | A dragable window for testing screen shaders easily
 ![website](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/favicon.ico) | [Website](https://github.com/boukew99/boukew99.github.io) | source for this website
 
-#### 🎮 Video Games 
-For an full overview with cover images visit [itch.io](https://howyoudoing.itch.io/).
+### Video Games 
+🎮 For an full overview with cover images visit [itch.io](https://howyoudoing.itch.io/).
 
 Name | Description
 --- | ---
@@ -39,7 +39,7 @@ Slightly Unconventional Platformer | Almost a normal platformer
 
 
 
-### Skill Table
+## Skill Table
 These are mainly hard skills with a rating from 1 to 5 roughly indicating how much I still feel like I could learn and have learned.
 
 
@@ -55,7 +55,7 @@ Skill ⭐ | Native | Language | Web | Misc | Design | Academic 🎓 | Music
 
 📫
 
-### Skill progress
+## Skill progress
  <label for="presenting">Presenting:</label>
 <progress id="presenting" value="32" max="100"> 32% </progress> 
 
