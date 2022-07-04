@@ -17,8 +17,7 @@
 - [Aesthetic QR codes](aesthetic_qr). Experiment.
 
 ## Webcomics
-![initiation](comics/initiation.svg)
-
+initiation[^1]
 [more...](web_comics)
 
 ## Let's Play
@@ -40,4 +39,5 @@ Landing page of my personal site on the web for all my projects, news and collec
 - [FAQ](faq.md)
 
 
+[^1]: ![initiation](comics/initiation.svg)
 
