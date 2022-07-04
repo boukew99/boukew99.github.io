@@ -1,5 +1,5 @@
 # Portfolio
-To |[Open Source Software](#OSS) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
+To | [Open Source Software 💻](#open-source-software) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
 
 I write software, music, drawings, papers...
 
@@ -7,35 +7,36 @@ My software is hosted on [Github](https://github.com/boukew99), which includes s
 
 ## Projects
 
-### <a name="OSS"></a> Open Source Software 
+### Open Source Software 
 💻 All hosted on [Github](https://github.com/boukew99).
 
-Icon | Name | Description 
---- | --- | ---
-![mondriaan maker](https://raw.githubusercontent.com/boukew99/mondriaan_maker/main/icon.png) | [Mondriaan maker](https://github.com/boukew99/mondriaan_maker) | Make infinite Mondriaans [try🎨](https://itch.io/embed-upload/6017377?color=fac901)
-![text chess](https://raw.githubusercontent.com/boukew99/text_chess/main/icon.png) | [Text Chess](https://github.com/boukew99/text_chess) | Chess represented by text 
-![screen capture](https://raw.githubusercontent.com/boukew99/screen_capture/main/addons/screen_capture/screen_capture.png) | [Screen Capture](https://github.com/boukew99/screen_capture) |take and save screenshots easily 
-![mic recorder](https://raw.githubusercontent.com/boukew99/mic_recorder/main/addons/mic_recorder/mic_recorder.png) | [Mic Recorder](https://github.com/boukew99/mic_recorder) | easy setup for recording with microphone.
-![gui calculator](https://raw.githubusercontent.com/boukew99/gui_calculator/main/addons/calculator/icon.png) | [GUI calculator](https://github.com/boukew99/gui_calculator) | ready to use calculator easliy integratable.
-![scratch canvas](https://raw.githubusercontent.com/boukew99/scratch_canvas/main/canvas/scratch_canvas.png) | [Scratch Canvas](https://github.com/boukew99/scratch_canvas) | integratable canvas with examples of more advanced use.
-![scratch animator](https://raw.githubusercontent.com/boukew99/scratch_animator/main/scratch_animator.png) | [Scratch Animator](https://github.com/boukew99/scratch_animator) | Demo of an nice and easy animation programm [try🎥](https://itch.io/embed-upload/5744256?color=535353)
-![joypad lab](https://raw.githubusercontent.com/boukew99/joypad_lab/main/icon.png) | [Joypad Lab](https://github.com/boukew99/joypad_lab) | Test vibration and joypad axes deadzones and curves.
-![shader window](https://raw.githubusercontent.com/boukew99/shader_window/main/addons/shader_window/shader_window.png)| [Shader Window](https://github.com/boukew99/shader_window) | A dragable window for testing screen shaders easily
-![website](https://raw.githubusercontent.com/boukew99/boukew99.github.io/main/favicon.ico) | [Website](https://github.com/boukew99/boukew99.github.io) | source for this website
+Name | Description 
+--- | --- 
+[Mondriaan maker](https://itch.io/embed-upload/6017377?color=fac901)  [src](https://github.com/boukew99/mondriaan_maker)| 🎨 Make infinite Mondriaans 
+[Text Chess](https://github.com/boukew99/text_chess) | ♟️ Chess represented by text 
+[Screen Capture](https://github.com/boukew99/screen_capture) | 📷 take and save screenshots easily  
+ [Mic Recorder](https://github.com/boukew99/mic_recorder) | 🎙️  easy setup for recording with microphone.
+[GUI calculator](https://github.com/boukew99/gui_calculator) | 🧮 ready to use calculator easliy integratable.
+ [Scratch Canvas](https://github.com/boukew99/scratch_canvas) | 📝 integratable canvas with examples of more advanced use.
+ [Scratch Animator](https://itch.io/embed-upload/5744256?color=535353)  [src](https://github.com/boukew99/scratch_animator) | 🎥 Demo of an nice and easy animation programm
+ [Joypad Lab](https://github.com/boukew99/joypad_lab) | 🕹️ Test vibration and joypad axes deadzones and curves.
+[Shader Window](https://github.com/boukew99/shader_window) | 🪟 A dragable window for testing screen shaders easily
+[Website](https://github.com/boukew99/boukew99.github.io) | 🕸️ source for this website
+
 
 ### Video Games 
 🎮 For an full overview with cover images visit [itch.io](https://howyoudoing.itch.io/).
 
 Name | Description
 --- | ---
-Space Evader | Evade the Red Invaders[try](https://itch.io/embed-upload/2869595?color=ebdf64)
-Space Cake | space, lasers, destroyed ships and ... cake?
-Switched | Become a sawblade to blade the all the runners for some reason
-Looper | Find the dissapeared object
-Mcdonald's Farm | Work on a chicken farm
-Drag Expand | Puzzle box
-Seperate but not | Find your other half
-Slightly Unconventional Platformer | Almost a normal platformer
+[Space Evader](https://itch.io/embed-upload/2869595?color=ebdf64) | 👾 Evade the Red Invaders
+Space Cake | 🥮 space, lasers, destroyed ships and ... cake?
+Switched | 🪚 Become a sawblade to blade all the runners for some reason
+Looper | ➰ Find the dissapeared object
+Mcdonald's Farm | 🐔 Work on a chicken farm
+Drag Expand | 👉 Puzzle box
+Seperate but not | ☀️ Find your other half
+Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
 
 
 
@@ -43,19 +44,19 @@ Slightly Unconventional Platformer | Almost a normal platformer
 These are mainly hard skills with a rating from 1 to 5 roughly indicating how much I still feel like I could learn and have learned.
 
 
-Skill ⭐ | Native | Language | Web | Misc | Design | Academic 🎓 | Music 
----   | ---    | ---      | --- | ---  | ---    | ---         | --- 
-⭐⭐⭐⭐⭐  | Godot Engine, | Dutch, English | HTML | 
-⭐⭐⭐⭐   | GDScript | | CSS, W3.CSS | Markdown, OOP, Abstraction[^1], Fundamentals | UI, GUI, Leaness | Reading, Writing | Piano, Keyboard
-⭐⭐⭐    | Python, Gamemaker Studio 2 |  German| Javascript | Git, Stata, JSON | Icons, UX, Piksel | Statistics | Guitar, Audacity
-⭐⭐     | C, C++, Raylib, Java, Unity Engine | | | SQL, Matlab, R | | | GarageBand, Harmonica, 
-⭐      | | French | | | 
+Skill Level | 2⭐| 3⭐ | 5⭐
+---   | ---    | ---      | --- 
+Native 🖥️ | C, C++, Raylib, Java, Unity Engine, Git, SQL, Matlab, R | Python, Gamemaker Studio 2, Stata  | Godot Engine, GDScript, Fundamentals
+Language 💬 | French | German |Dutch, English 
+Web 📱  | Javascript, CSS | W3.CSS | HTML, Markdown, JSON 
+Design 🌻 | | Icons, Piksel, OOP, Abstraction[^1] | UX, UI, GUI, Leaness
+Academic 🎓 | |Statistics, Writing | Reading
+Music 🎹 | GarageBand, Harmonica | Guitar, Audacity | Piano, Keyboard
 
 [^1]:(https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming))
 
-📫
+## Contact
+📫 [mail someone](mailto:someone@world.com)
 
-## Skill progress
- <label for="presenting">Presenting:</label>
-<progress id="presenting" value="32" max="100"> 32% </progress> 
+
 
