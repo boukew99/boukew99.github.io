@@ -1,7 +1,11 @@
+ <style>
+@font-face { font-family: Bookxel; src: url('Bookxel.ttf'); } 
+</style>
+
 ## Assets 📦
 
 - [sfx's pack](sound.zip) for some general sounds signaling a action. [(preview)](sounds.ogg)
-- [Bookxel](bookxel.ttf), a very readable pixel font. [godot setup](bookxel_godot.zip)
+- [Bookxel](bookxel.ttf), a very readable pixel font. [godot setup](bookxel_godot.zip) <p style="font-family:JuneBug;">Bookxel Font!<p>
 - [icons](icon.zip) (16x16 1-bit) representing common functions. [(preview)](icons.png)
 - alpha [circle](alpha_circle.png) [pyramid](alpha_pyramid.png)
 - ![striped pattern](striped_pattern.png)
@@ -25,6 +29,9 @@ ff0000 | 00ff00 | 0000ff
 - [FreePats project](https://freepats.zenvoid.org/index.html) sound bank of unique instruments.
 - [Philharmonia sound samples](https://philharmonia.co.uk/resources/sound-samples/) It includes all standard orchestral instruments, as well as guitar, mandolin, banjo, and a vast array of different percussion instruments.
 
+<https://commons.wikimedia.org/wiki/Main_Page>
+<https://upload.wikimedia.org/wikipedia/commons/8/8f/Cycling_%28track%29_pictogram.svg>
+Olympic pictograms!
 
 ### Gradients
 

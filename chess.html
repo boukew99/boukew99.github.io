@@ -1,0 +1,142 @@
+
+<script>
+function drag(ev) {
+  ev.dataTransfer.setData("text", ♜);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.innerHTML = ♜;
+}
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+</script>
+
+<style>
+.chessboard td {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+}
+
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+  background: grey;
+}
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+  background: white;
+}
+
+</style>
+<table class="chessboard" border=5 cellspacing=0>
+  <tr>
+    <td class="even" draggable="true" ondragstart="drag(event)">♜</td>
+    <td class="uneven">♞</td>
+    <td class="even">♝</td>
+    <td class="uneven">♛</td>
+    <td class="even">♚</td>
+    <td class="uneven">♝</td>
+    <td class="even">♞</td>
+    <td class="uneven" >♜</td>
+    <td class="uneven">8</td>
+  </tr>
+  <tr>
+    <td class="even">♟️</td>
+    <td class="uneven">♟️</td>
+    <td class="even">♟️</td>
+    <td class="uneven">♟️</td>
+    <td class="even">♟️</td>
+    <td class="uneven">♟️</td>
+    <td class="even">♟️</td>
+    <td class="uneven">♟️</td>
+    <td class="uneven">7</td>
+  </tr>
+  <tr>
+    <td class="even" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="uneven">6</td>
+  </tr>
+  <tr>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="uneven">5</td>
+  </tr>
+  <tr>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="uneven">4</td>
+  </tr>
+  <tr>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="even"></td>
+    <td class="uneven"></td>
+    <td class="uneven">3</td>
+  </td>
+  <tr>
+    <td class="even">♙</td>
+    <td class="uneven">♙</td>
+    <td class="even">♙</td>
+    <td class="uneven">♙</td>
+    <td class="even">♙</td>
+    <td class="uneven">♙</td>
+    <td class="even">♙</td>
+    <td class="uneven">♙</td>
+    <td class="uneven">2</td>
+  </tr>
+  <tr>
+    <td class="even">♖</td>
+    <td class="uneven">♘</td>
+    <td class="even">♗</td>
+    <td class="uneven">♕</td>
+    <td class="even">♔</td>
+    <td class="uneven">♗</td>
+    <td class="even">♘</td>
+    <td class="uneven">♖</td>
+    <td class="uneven">1</td>
+  </tr>  
+  <tr>
+    <td class="even">a</td>
+    <td class="uneven">b</td>
+    <td class="even">c</td>
+    <td class="uneven">d</td>
+    <td class="even">e</td>
+    <td class="uneven">f</td>
+    <td class="even">g</td>
+    <td class="uneven">h</td>
+  </tr>
+</table>
+
+<a href=https://en.wikipedia.org/wiki/Chess#Rules>Rules</a>
+
+<!--
+https://www.w3schools.com/html/html5_draganddrop.asp
+https://en.wikipedia.org/wiki/Chess
+https://www.101computing.net/html-chess-challenge/ They thought of the same!
+https://stackoverflow.com/questions/35802488/chessboard-style-for-a-table-with-css-how-->
+

@@ -1,9 +1,9 @@
-## Bookmark
+# Fun Bookmarks
 
-### Tools
-[Godot Engine News](https://godotengine.org/news), [Godot Engine Docs](https://docs.godotengine.org/en/stable/)
+- <https://neal.fun/absurd-trolley-problems/>
+- <https://areyoutheasshole.com/>
+- [The 2022 r/place Atlas](https://place-atlas.stefanocoding.me/) with explanations of each drawing of the final image in r/place 2022.
 
-[Piksel](https://www.piskelapp.com/p/create/sprite) polished browser pixel editor
 
 [git book](https://git-scm.com/book/en/v2)
 
@@ -11,7 +11,6 @@
 
 [Red Blob Games](https://www.redblobgames.com/) is great a learning site till you realize that the visuals are not images, but interactive, which makes it even better!
 
-[The 2022 r/place Atlas](https://place-atlas.stefanocoding.me/) explanations of each drawing of the final image in r/place 2022.
 
 [blue marble NASA images](https://visibleearth.nasa.gov/collection/1484/blue-marble) A catalog of NASA images and animations of our home planet.
 
@@ -19,14 +18,13 @@
 [Inigo Quilez](https://iquilezles.org/), much about computer graphics.
 
 [Colors Tutorial](https://www.w3schools.com/colors/default.asp)
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5KGMXvW7Tg3emnWz5S2grT?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
 
 [raylib.h code](https://github.com/raysan5/raylib/blob/master/src/raylib.h)
 [raylib shapes code](https://github.com/raysan5/raylib/blob/master/src/rshapes.c)
 [raylib textures code](https://github.com/raysan5/raylib/blob/master/src/rtextures.c)
 kinda intersting to see how it communicates so simply to get functionality.
 
-https://areyoutheasshole.com/
 https://anvaka.github.io/peak-map/#7.68/47.722/-122.237
 https://weatherspark.com/
 https://marctenbosch.com/quaternions/
@@ -43,6 +41,11 @@ https://www.playerresearch.com/learn/
 
 Covers coming from [LOREM.SPACE](https://lorem.space/)
 
-<https://commons.wikimedia.org/wiki/Main_Page>
 
 <https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>
+
+
+
+
+
+<https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
