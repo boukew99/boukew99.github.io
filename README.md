@@ -1,6 +1,5 @@
 
 - [assets](assets) 📦
-- 
 - [text adventure](text_adventure) 
 - [calender](calender.md)
 - [bookmarks](bookmarks.md)
@@ -17,25 +16,20 @@
 - [Aesthetic QR codes](aesthetic_qr). Experiment.
 
 ## Webcomics
-initiation[^1]
-[more...](web_comics)
+Capturing things only [comics](comics) can.
 
 ## Let's Play
 - [Teardown Screenshots](teardown). Playthrough screenshots.
 - [No Mans Sky](no_mans_sky). Playthrough screenshots.
 
 ## Dev Log  
-- Mondriaan Maker [version 2](https://itch.io/embed-upload/6017377?color=fac901) with infinite rectangles 
-<video width="320" height="240" controls>
-  <source src="mondriaan_maker.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+- Mondriaan Maker version 2 with infinite rectangles. [Demo](https://itch.io/embed-upload/6017377?color=fac901) [video](https://youtube.com/shorts/NXs121C7QTE)
 
 [more...](log.md)
 
 ## About 
 Landing page of my personal site on the web for all my projects, news and collection of links to other sites.
-- [portfolio](portfolio.md)
+- [portfolio](portfolio.md), [video games](portfolio.md#video-games)
 - [FAQ](faq.md)
 
 

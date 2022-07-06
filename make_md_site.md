@@ -171,4 +171,14 @@ link to header with #abcd
 
 [404](404.md)
 
+## Recursive list
+Combining accesibility of list with the structure of a tree. Without navigating the tree.
+
+## Tag words & structural words
+News is a tag
+Log is a structure
+
+## Emoticons
+📰 📅 🥦 🔖 🔗 🆕
+
 

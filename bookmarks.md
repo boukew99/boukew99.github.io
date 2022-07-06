@@ -42,3 +42,7 @@ https://www.playerresearch.com/learn/
 
 
 Covers coming from [LOREM.SPACE](https://lorem.space/)
+
+<https://commons.wikimedia.org/wiki/Main_Page>
+
+<https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>

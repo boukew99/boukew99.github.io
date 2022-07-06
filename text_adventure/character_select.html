@@ -7,6 +7,7 @@
 -->
 <link rel="stylesheet" href="boukew99.css">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -17,29 +18,28 @@
 
 <body>
 
+<a href=https://code.tutsplus.com/tutorials/28-html5-features-tips-and-techniques-you-must-know--net-13520></a>
+
+<img class="banner" src=../banner.svg alt=banner>
+
+<h1>CHARACTER SELECTION!</h1>
 <audio controls loop>
   <source src="ambience.ogg" type="audio/ogg">
 </audio>
 
-<h1>CHARACTER SELECTION!</h1>
-
-<div style="background-color:lightblue;">
-<p>Human 2 &#127947;</p> 
-<hr>
+<main style="column-count:3; column-width: 400px;">
+<h2>Human 2 &#127947;</h2> 
 <label for="health2">Health</label>
 <progress id="health2" value=100 max=100 optimum=50>100%</progress>
 
 <label for="excitement2">Excitement</label>
 <meter id="excitement2" value=50 min=0 low=20 high=80 max=100 optimum=50>100%</meter>
 
-<p>Heyy I just ate some cake. MMMMMMM. let's battle!</p>
-</div>
+<p contenteditable>Heyy I just ate some cake. MMMMMMM. "Tragic backstory..."  let's battle! </p>
 
-<hr><hr>
-
-<div style="background-color:green;">
-<p>You &#127948;</p> 
 <hr>
+
+<h2>You &#127948;</h2> 
 <label for="health2">Health</label>
 <progress id="health2" value=100 max=100 optimum=50>100%</progress>
 
@@ -48,21 +48,30 @@
 
 <p>I golf and solve!</p>
 
+
 <hr>
 
 <p>Which Human do you choose?</p>
 
 
-<input id="option2" type="radio" onclick="option_selected(1)" name="choice">
+<form action="" method="get">
+    <p> 
+        10 + 5 = <output name="result"></output> 
+    </p>
+<input id="slider" type="range" name="range" min="0" max="10" step="1" value="">
+<label for="slider">0-10</label>
+ 
+<label for="name" type="text" >Character Name</label>
+<input id="name" required autocomplete>
+
+<input id="option2" type="radio" onclick="option_selected(1)" name="choice" required>
 <label for="option2">Human2</label>
 
-<input id="option3" type="radio" onclick="option_selected(2)" name="choice">
+<input id="option3" type="radio" onclick="option_selected(2)" name="choice" required>
 <label for="option3">You &#128007;</label>
 
 <p id="output">-1</p>
 <hr>
-
-</div>
 
 <table>
   <tr>
@@ -152,12 +161,31 @@
   </tr>
 </table> 
 
-
 <input type=submit>
+
+</form>
+</main>
+
 <script>
 function option_selected(index) {
   document.getElementById("output").innerHTML = index
 }
+
+function form_action(){
+  alert("heey")
+}
+
+(function() {
+    var f = document.forms[0];
+     
+    if ( typeof f['result'] !== 'undefined' ) {
+        f.addEventListener('submit', function(e) {
+            f['result'].value = 15;
+            e.preventDefault();
+        }, false);
+    }
+    else { alert('Your browser is not ready yet.'); }
+})();
 </script>
 
 </body>

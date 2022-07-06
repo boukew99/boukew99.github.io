@@ -1,6 +1,6 @@
-## Godot Editor tutorial
+# Godot Editor tutorial
 
-### Personal Node use cases
+## Personal Node use cases
 
 Node | use
 --- | ---
@@ -38,3 +38,7 @@ GridContainer | HBox wrap
 #
 #    velocity.y += gravity * delta
 ```
+
+## Ordinal input
+- Option button +
+
