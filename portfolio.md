@@ -12,14 +12,14 @@ My software is hosted on [Github](https://github.com/boukew99), which includes s
 
 Name | Description 
 --- | --- 
-[Mondriaan maker](https://itch.io/embed-upload/6017377?color=fac901)  [src](https://github.com/boukew99/mondriaan_maker)| 🎨 Make infinite Mondriaans 
+[Mondriaan maker](https://github.com/boukew99/mondriaan_maker),  [play](https://itch.io/embed-upload/6017377?color=fac901)| 🎨 Make infinite Mondriaans 
 [Text Chess](https://github.com/boukew99/text_chess) | ♟️ Chess represented by text 
 [Screen Capture](https://github.com/boukew99/screen_capture) | 📷 take and save screenshots easily  
- [Mic Recorder](https://github.com/boukew99/mic_recorder) | 🎙️  easy setup for recording with microphone.
+[Mic Recorder](https://github.com/boukew99/mic_recorder) | 🎙️  easy setup for recording with microphone.
 [GUI calculator](https://github.com/boukew99/gui_calculator) | 🧮 ready to use calculator easliy integratable.
- [Scratch Canvas](https://github.com/boukew99/scratch_canvas) | 📝 integratable canvas with examples of more advanced use.
- [Scratch Animator](https://itch.io/embed-upload/5744256?color=535353)  [src](https://github.com/boukew99/scratch_animator) | 🎥 Demo of an nice and easy animation programm
- [Joypad Lab](https://github.com/boukew99/joypad_lab) | 🕹️ Test vibration and joypad axes deadzones and curves.
+[Scratch Canvas](https://github.com/boukew99/scratch_canvas) | 📝 integratable canvas with examples of more advanced use.
+[Scratch Animator](https://github.com/boukew99/scratch_animator),  [play](https://itch.io/embed-upload/5744256?color=535353) | 🎥 Demo of an nice and easy animation programm
+[Joypad Lab](https://github.com/boukew99/joypad_lab) | 🕹️ Test vibration and joypad axes deadzones and curves.
 [Shader Window](https://github.com/boukew99/shader_window) | 🪟 A dragable window for testing screen shaders easily
 [Website](https://github.com/boukew99/boukew99.github.io) | 🕸️ source for this website
 
