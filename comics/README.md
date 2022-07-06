@@ -1,24 +1,16 @@
 # Webcomics
 
 ![initiation](initiation.svg)
-
 ---
-
-![a4](a4.svg)
-![a42](a42.svg)
-
+![physiological computing use case](physiological_computing_use_case.png)
 ---
-
-![0](webtoon1.svg)
-![1](webtoon2.svg)
-
+![kite](kite.png)
 ---
-
-![f1](flex1.svg)
-![f2](flex2.svg)
-![f3](flex3.svg)
-![f4](flex4.svg)
-
+![manga rects](manga_rects.png)
+![manga rects](manga_rects2.png)
+![manga rects](manga_rects3.png)
+---
+![strip story](strip_story.png)
 ---
 
 other web comics
