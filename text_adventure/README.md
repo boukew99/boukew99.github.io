@@ -1,6 +1,8 @@
 # Markdown Text Adventure
 This is a static text adventure playale in your browser using only markdown features. 
 
+<a href=ambience.ogg target=_blank>background music</a>
+
 ## Start
 The wind blows. Money sways in the trees. A rich atmosphere unfolds and you stand right there. 
 - [Take it all up.](#take-it-up)
