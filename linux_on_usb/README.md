@@ -13,10 +13,11 @@ Kind regards
 PS:
 - I Discovered you can take screenshots or record your screen with `fn + s`.
 - Mouse speed with trackpad was too low for me, so I adjusted it up in the settings, but now I realised that there is some acceleration curve, though maybe a bit steep.
-- I enabled `Auto-hide the Dock`. This works well with my workflow where I maximize windows for extra focus, which then hides the Dock. But when multi-tasking with multiple windows open it is there, to open new windows. This option works better if `panel mode` is turned off and the `position on screen` is `Bottom`. Then it acts kinda like a toaster
 
 ## Installing Ubuntu
 17-05-2022
 
 https://www.winhelponline.com/blog/you-cannot-shrink-volume-beyond-point-disk-mgmt/
 https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73
+
+![picture](IMG_20220505_193314.jpg)
