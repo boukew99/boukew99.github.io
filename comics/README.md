@@ -1,8 +1,10 @@
 # Webcomics
 
-![initiation](initiation.svg)
+![game words](game_words.svg)
 ---
 ![physiological computing use case](physiological_computing_use_case.png)
+---
+![initiation](initiation.svg)
 ---
 ![kite](kite.png)
 ---

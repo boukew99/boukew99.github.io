@@ -32,6 +32,8 @@ kinda intersting to see how it communicates so simply to get functionality.
 
 Covers coming from [LOREM.SPACE](https://lorem.space/)
 
+<https://daringfireball.net/projects/markdown/syntax#philosophy>
+<https://daringfireball.net/projects/markdown/dingus>
 
 <https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>
 

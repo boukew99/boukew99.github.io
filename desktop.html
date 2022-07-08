@@ -1,0 +1,61 @@
+<style>
+body {
+	column-count:3; 
+	column-width: 730px;
+}
+</style>
+
+<title>Desktop</title>
+
+<body>
+
+
+<h2>Tools</h2>
+
+<table>
+	<tr>
+		<th>Category</th>
+		<th>Tools </th>
+	</tr>
+	<tr>
+		<td>Pixel art</td>
+		<td><a href="https://www.piskelapp.com/p/create/sprite">Piksel</a></td>
+	</tr>
+	<tr>
+		<td>Web</td>
+		<td><a href="https://www.w3schools.com/">W3 Schools</a>, <a href="https://emojipedia.org">emojipedia</a>, <a href="https://www.image-map.net/">Image maps</a></td>
+	</tr>
+	<tr>
+		<td>Game</td>
+		<td><a href="https://docs.godotengine.org/en/stable/">Godot Engine Docs</a></td>
+	</tr>
+</table>
+
+<h2>News</h2>
+
+<p><a href="https://godotengine.org/news">Godot Engine News</a></p>
+
+<h1>Web Desktop</h1>
+
+<h2>Clipboard</h2>
+<textarea onchange="text_changed()" id="clipboard" rows="15" cols="100"></textarea>
+
+<h2>Playlist</h2>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/53RKMRb1OjTECMvwobKwzi?utm_source=generator" width="630" height="380" frameBorder="2" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p><a href="https://open.spotify.com/playlist/53RKMRb1OjTECMvwobKwzi?si=4ad82b6d35414def">Desktop Focus</a></p>
+
+
+
+</body>
+
+<!--Clipboard-->
+<script>
+window.onload = function get_clipboard() {
+	document.getElementById("clipboard").value = localStorage.getItem("clipboard");
+}
+
+function text_changed() {
+	localStorage.setItem("clipboard", document.getElementById("clipboard").value);
+}
+</script>
