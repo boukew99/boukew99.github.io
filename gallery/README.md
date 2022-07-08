@@ -1,6 +1,6 @@
 # Gallery
 
-![doge](doge_hp.png)
-![get_rect](get_rect().png)
-![volcano](picture.png)
-![volcano](picture2.png)
+1. [doge](doge_hp.png)
+2. [get_rect](get_rect().png)
+3. [volcano](picture.png)
+4. [volcano](picture2.png)
