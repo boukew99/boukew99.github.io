@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<title>Chess</title>
+<link rel="stylesheet" href="chess.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="chess.js"></script>
+
+<table class="chessboard" border=5 cellspacing=0 onload="setupDragAndDrop()">
+  <caption>HTML Chess</caption>
+  <tr>
+    <td draggable=true>♜</td>
+    <td>♞</td>
+    <td>♝</td>
+    <td>♛</td>
+    <td>♚</td>
+    <td>♝</td>
+    <td>♞</td>
+    <td>♜</td>
+    <th>8</th>
+  </tr>
+  <tr>
+    <td>♟️</td>
+    <td>♟️</td>
+    <td>♟️</td>
+    <td>♟️</td>
+    <td>♟️</td>
+    <td>♟️</td>
+    <td>♟️</td>
+    <td>♟️</td>
+    <th>7</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <th>6</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <th class="uneven">5</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <th>4</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <th>3</th>
+  </td>
+  <tr>
+    <td>♙</td>
+    <td>♙</td>
+    <td>♙</td>
+    <td>♙</td>
+    <td>♙</td>
+    <td>♙</td>
+    <td>♙</td>
+    <td>♙</td>
+    <th>2</th>
+  </tr>
+  <tr>
+    <td>♖</td>
+    <td>♘</td>
+    <td>♗</td>
+    <td>♕</td>
+    <td>♔</td>
+    <td>♗</td>
+    <td>♘</td>
+    <td>♖</td>
+    <th>1</th>
+  </tr>  
+  <tr>
+    <th>a</th>
+    <th>b</th>
+    <th>c</th>
+    <th>d</th>
+    <th>e</th>
+    <th>f</th>
+    <th>g</th>
+    <th>h</th>
+  </tr>
+</table>
+
+<a href=https://en.wikipedia.org/wiki/Chess#Rules>Rules</a>
+<button>Set Next Turn</button>
+
+<!--
+https://www.w3schools.com/html/html5_draganddrop.asp
+https://en.wikipedia.org/wiki/Chess
+https://www.101computing.net/html-chess-challenge/ They thought of the same!
+https://stackoverflow.com/questions/35802488/chessboard-style-for-a-table-with-css-how-->
+

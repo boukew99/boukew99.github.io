@@ -1,0 +1,85 @@
+<!--
+https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea
+-->
+
+<title>Gallery</title>
+
+<style>
+#gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+   perspective: 1000px;
+   position: relative
+}
+#gallery img {
+   transition: transform 0.2s,  filter 0.7s;
+   filter: grayscale(100%);
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+   transform-style: preserve-3d;
+	 transform: rotateX(3deg);
+	 transform: rotatey(3deg);
+}
+@media (max-width: 800px) {
+   #gallery {
+    -moz-column-count:    2;
+    -webkit-column-count: 2;
+    column-count:         2;
+   }
+}
+
+#gallery img:hover {
+   filter:none;
+   transform: rotateX(0deg);
+	 transform: rotatey(0deg);
+}
+</style>
+
+<div id="gallery">
+   <img src="IMG_20200730_210351.jpg">
+   <img src="IMG_20210213_145156.jpg">
+   <img src="IMG_20210213_153025.jpg">
+   <img src="IMG_20210406_131206.jpg">
+   <img src="IMG_20211104_091120.jpg">
+   
+   <img src="IMG_20220214_163920.jpg">
+   <img src="IMG_20220302_172852.jpg">
+   <img src="IMG_20220308_144700.jpg">
+   <img src="IMG_20220317_190125.jpg">
+   <img src="IMG_20220324_182449.jpg">
+   
+   <img src="IMG_20220704_214905.jpg">
+   <img src="IMG_20210502_202239.jpg">
+   <img src="IMG_20210213_160526.jpg">
+   <img src="IMG_20210213_175035.jpg">
+   <img src="IMG_20201210_135513.jpg">
+   
+   <img src="IMG_20200730_210351.jpg">
+   <img src="IMG_20191016_144534.jpg">
+   <img src="IMG_20190908_201126.jpg">
+   <img src="IMG_20190220_201313.jpg">
+   <img src="IMG_20200311_174723.jpg">
+   
+   
+   <img src="image (24).jpg">
+   <img src="IMG_20190220_201313.jpg">
+   <img src="IMG_20190323_133307.jpg">
+   <img src="IMG_20200205_165416.jpg">
+   
+   <img src="IMG_20200311_174630.jpg">
+   <img src="IMG_20200505_160651.jpg">
+   <img src="IMG_20201205_113858.jpg">
+   <img src="IMG_20210227_094522.jpg">
+   <img src="IMG_20210502_202415.jpg">
+  
+   <img src="IMG_20210723_225126.jpg">
+   <img src="IMG_20210810_201501.jpg">
+   <img src="IMG_20220324_182504.jpg">
+   <img src="IMG_20210502_202239.jpg">
+</div>

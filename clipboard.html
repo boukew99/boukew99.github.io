@@ -1,0 +1,18 @@
+<script>
+function get_clipboard() {
+	document.getElementById("clipboard").innerHTML = localStorage.getItem("clipboard");
+	alert(localStorage.getItem("clipboard"));
+}
+
+
+function text_changed() {
+	alert(this.innerHTML);
+	//if ., space, enter.
+	//	localStorage.setItem("clipboard", this.innerHTML);
+	localStorage.setItem("clipboard", document.getElementById("clipboard").innerHTML);
+}
+</script>
+
+<textarea onload="get_cliboard" onchange="text_changed()" id="clipboard" autofocus rows="50" cols="100">
+
+</textarea>
