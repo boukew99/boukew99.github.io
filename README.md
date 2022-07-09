@@ -1,9 +1,3 @@
-
-- [assets](assets) 📦
-- [text adventure](text_adventure) 
-- [calender](calender.md)
-- [bookmarks](bookmarks.md)
-
 ## Articles
 
 - [Linux on USB](linux_on_usb). Trying out the linux operating system besides Windows and how to do it.
@@ -14,6 +8,19 @@
 - [quotes](quotes.md). Database of resonant quotes.
 - [tips](tips.md). "General" purpose.
 - [Aesthetic QR codes](aesthetic_qr). Experiment.
+- [Godot Editor Tutorial](godot_editor)
+
+## Pages
+- [text adventure](text_adventure) 
+- [calender](calender.md)
+- [bookmarks](bookmarks.md)
+- [tips](tips)
+- [shadertoy](shadertoy)
+- [dialogues](dialogues)
+- [energy usage](energy_usage)
+- [math](math)
+= [playlist](playlist)
+- [recipes](recipes)
 
 ## Webcomics
 Capturing things only [comics](comics) can.
@@ -29,7 +36,7 @@ Capturing things only [comics](comics) can.
 
 ## About 
 Landing page of my personal site on the web for all my projects, news and collection of links to other sites.
-- [portfolio](portfolio.md), [video games](portfolio.md#video-games)
+- [portfolio](portfolio), [video games](portfolio/portfolio.md#video-games)
 - [FAQ](faq.md)
 
 

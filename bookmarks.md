@@ -27,7 +27,32 @@ kinda intersting to see how it communicates so simply to get functionality.
 - [ThePandaTooth](http://www.pandatooth.com/sheet-music/), [Princess Mononoke](http://www.pandatooth.com/portfolio-items/princess-mononoke/) 
 - [NinSheetMusic](https://www.ninsheetmusic.org/)
 
+## Assets 📦
+- [WikiMedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
+	- [Fibonacci spiral](https://upload.wikimedia.org/wikipedia/commons/7/79/Fibonacci_spiral.svg)
+	- [Morse Code](https://upload.wikimedia.org/wikipedia/commons/b/b5/International_Morse_Code.svg)
+- [FreePats project](https://freepats.zenvoid.org/index.html) sound bank of unique instruments.
+- [Philharmonia sound samples](https://philharmonia.co.uk/resources/sound-samples/) It includes all standard orchestral instruments, as well as guitar, mandolin, banjo, and a vast array of different percussion instruments.
 
+<https://commons.wikimedia.org/wiki/Main_Page>
+<https://upload.wikimedia.org/wikipedia/commons/8/8f/Cycling_%28track%29_pictogram.svg>
+Olympic pictograms!
+[blue marble NASA images](https://visibleearth.nasa.gov/collection/1484/blue-marble) A catalog of NASA images and animations of our home planet.
+
+<a title="Rhey T. Snodgrass &amp; Victor F. Camp, 1922, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:International_Morse_Code.svg"><img width="256" alt="International Morse Code" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/International_Morse_Code.svg/256px-International_Morse_Code.svg.png"></a>
+
+## Palletes
+- <https://lospec.com/palette-list/pico-8>
+- <https://ewenme.github.io/ghibli/>
+- <http://designmadeinjapan.com/magazine/graphic-design/the-rich-colors-of-studio-ghibli/>
+
+Name | Hex 
+---  |---
+red | ff0000 |
+green | 00ff00 |
+blue | 0000ff |
+
+<https://www.w3schools.com/colors/colors_picker.asp>
 ## Uncatgorized
 
 Covers coming from [LOREM.SPACE](https://lorem.space/)
@@ -44,7 +69,7 @@ Covers coming from [LOREM.SPACE](https://lorem.space/)
 
 [Colors Tutorial](https://www.w3schools.com/colors/default.asp)
 
-
+https://leafletjs.com/
 
 https://anvaka.github.io/peak-map/#7.68/47.722/-122.237
 https://weatherspark.com/
