@@ -21,6 +21,8 @@
 - [math](math)
 = [playlist](playlist)
 - [recipes](recipes)
+- [road bike](road_bike)
+- [gallery](gallery)
 
 ## Webcomics
 Capturing things only [comics](comics) can.

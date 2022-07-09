@@ -56,13 +56,13 @@ blue | 0000ff |
 ## Uncatgorized
 
 Covers coming from [LOREM.SPACE](https://lorem.space/)
-
+https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
 <https://daringfireball.net/projects/markdown/syntax#philosophy>
 <https://daringfireball.net/projects/markdown/dingus>
 
 <https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>
 
-
+https://www.internet-radio.com/
 
 [online gltf viewer](https://gltf-viewer.donmccurdy.com/)
 
