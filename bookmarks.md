@@ -20,6 +20,7 @@ kinda intersting to see how it communicates so simply to get functionality.
 [git book](https://git-scm.com/book/en/v2)
 <https://www.playerresearch.com/learn/>
 <https://marctenbosch.com/quaternions/>
+<https://grugbrain.dev/>
 
 ## Sheet Music (Piano)
 - [herbacell](http://herbalcell.com/free-sheet-music), with a lot of Koji Kondo's compositions.
@@ -61,7 +62,7 @@ https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
 <https://daringfireball.net/projects/markdown/dingus>
 
 <https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>
-
+https://mathew-kurian.github.io/CharacterMap/
 https://www.internet-radio.com/
 
 [online gltf viewer](https://gltf-viewer.donmccurdy.com/)

@@ -181,4 +181,34 @@ Log is a structure
 ## Emoticons
 📰 📅 🥦 🔖 🔗 🆕
 
+## Patterns
+Open in [Github](https://github.com/boukew99/boukew99.github.io/blob/main/make_md_site.md) to get a copy button.
+
+### HTMl Table three columns
+Minimal Table size for reocurring properties.
+
+<!-- https://github.com/github/linguist/blob/master/lib/linguist/languages.yml -->
+```html
+<table>
+	<caption>...</caption>
+	 <tr>
+  	<th>Instances</th>
+    <th>property B</th>
+    <th>property C</th>
+  </tr>
+  <tr>
+    <td>Instance 1</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>Instance 2</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+</table>
+```
+
+<div width=200 style="background: rgb(2,0,36); background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(238,68,220,1) 32%, rgba(226,48,48,1) 46%, rgba(255,183,47,1) 63%, rgba(230,227,22,1) 77%, rgba(18,164,10,1) 87%, rgba(2,0,36,1) 100%);" 
+</div>
 

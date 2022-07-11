@@ -1,8 +1,3 @@
- <style>
-@font-face { font-family: Bookxel; src:'Bookxel.ttf'; } 
-</style>
-
-
 # Portfolio
 To | [Open Source Software 💻](#open-source-software) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
 
@@ -44,10 +39,8 @@ Seperate but not | ☀️ Find your other half
 Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
 
 ### Style
-<div style="background: rgb(2,0,36); background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(238,68,220,1) 32%, rgba(226,48,48,1) 46%, rgba(255,183,47,1) 63%, rgba(230,227,22,1) 77%, rgba(18,164,10,1) 87%, rgba(2,0,36,1) 100%);" 
-</div>
 
-- <p style="font-family:Bookxel;">Bookxel, a very readable pixel font.</p>
+- [Bookxel](bookxel.ttf), a very readable pixel font.
 
 - Some general sounds signals. [(preview)](sounds.ogg)
 
@@ -57,7 +50,7 @@ Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
 These are mainly hard skills with a rating from 1 to 3 roughly indicating how much I still feel like I could learn and have learned.
 
 
-Skill Level | ⭐☆☆| ⭐⭐☆ | ⭐⭐⭐ 
+Skill Level | ⭐☆☆ | ⭐⭐☆ | ⭐⭐⭐
 ---   | ---    | ---      | --- 
 Native 🖥️ | C, C++, Raylib, Java, Unity Engine, Git, SQL, Matlab, R | Python, Gamemaker Studio 2, Stata  | Godot Engine, GDScript, Fundamentals
 Language 💬 | French | German |Dutch, English 

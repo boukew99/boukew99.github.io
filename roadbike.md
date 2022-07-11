@@ -15,10 +15,13 @@
     <area target="" alt="frame" title="frame" href="#frame" coords="86,53,308,141" shape="rect">
 </map>
 
-## Achterwiel
+## Wielen
+De contact punten met de weg en dus het meest significant voor de wegligging.
+
+### Achterwiel
 Dit wiel duwt je voort.
 
-## Voorwiel
+### Voorwiel
 Complementeert het achterwiel.
 
 ## Zadel
@@ -36,3 +39,6 @@ Bindt trappers en achterwiel samen.
 ## Frame
 Die bindt alles samen!
 
+## Extra
+### Fietstas
+Als je op reis gaat heb je meer spullen nodig dan een enkel fietstochtje mocht je het vol willen houden. Je wilt het graag zo minimaal mogelijk houden aangezien je het elke trap mee neemt.

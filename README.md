@@ -19,9 +19,9 @@
 - [dialogues](dialogues)
 - [energy usage](energy_usage)
 - [math](math)
-= [playlist](playlist)
+- [playlist](playlist)
 - [recipes](recipes)
-- [road bike](road_bike)
+- [road bike](roadbike)
 - [gallery](gallery)
 
 ## Webcomics
@@ -38,7 +38,9 @@ Capturing things only [comics](comics) can.
 
 ## About 
 Landing page of my personal site on the web for all my projects, news and collection of links to other sites.
-- [portfolio](portfolio), [video games](portfolio/portfolio.md#video-games)
+- [portfolio](portfolio)
+	- [Video Vames](portfolio/portfolio.md#video-games)
+	- [Godot Assets](portfolio/portfolio.md#Godot-Asset)
 - [FAQ](faq.md)
 
 
