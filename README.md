@@ -39,8 +39,8 @@ Capturing things only [comics](comics) can.
 ## About 
 Landing page of my personal site on the web for all my projects, news and collection of links to other sites.
 - [portfolio](portfolio)
-	- [Video Vames](portfolio/portfolio.md#video-games)
-	- [Godot Assets](portfolio/portfolio.md#Godot-Asset)
+	- [Video Vames](portfolio/README.md#video-games)
+	- [Godot Assets](portfolio/REAMDE.md#Godot-Asset)
 - [FAQ](faq.md)
 
 
