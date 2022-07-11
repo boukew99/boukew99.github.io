@@ -55,7 +55,7 @@ blue | 0000ff |
 
 <https://www.w3schools.com/colors/colors_picker.asp>
 ## Uncatgorized
-
+[CPU be like](https://www.youtube.com/watch?v=aYAJopwEYv8)
 Covers coming from [LOREM.SPACE](https://lorem.space/)
 https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
 <https://daringfireball.net/projects/markdown/syntax#philosophy>
@@ -65,6 +65,7 @@ https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
 https://mathew-kurian.github.io/CharacterMap/
 https://www.internet-radio.com/
 
+chart.js
 [online gltf viewer](https://gltf-viewer.donmccurdy.com/)
 
 

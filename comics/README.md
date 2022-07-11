@@ -16,6 +16,6 @@
 ---
 
 other web comics
-<https://xkcd.com/2310/>
+<https://xkcd.com/1871/> <https://xkcd.com/993/> <https://xkcd.com/302/>
 tips
 <https://www.clipstudio.net/how-to-draw/archives/157055>

@@ -3,23 +3,23 @@
 GUI
 : graphical representation of your code, to aid memorization. Then direct acces through representation.
 
+slow GUI
+: Electrons are incredibly fast. This is reflected in how video can create the illusion of movement through showing a sequence of images rapidly. Though for certain task you need to slow down and so you don't want your GUI to be ^jumpy^, so you know you won't get distracted and can hone in.
+
 experience
 : functionality * presentation
 
-<dl>
-  <dt>GUI</dt>
-  <dd>graphical representation of your code, to aid memorization. Then direct acces through representation.</dd>
-  <dt>presentation</dt>
-  <dd>the function is independent of a medium. Thus the presentation can be through any of the senses.</dd>
-  <dt>Scientific method</dt>
-  <dd>Iterative guessing</dd>
-  <dd>Assumative freedom</dd>
-</dl>
+Scientfic method
+: Iterative guessing
+: Assumative freedom
 
-3. presentation = the function is independent of a medium. Thus the presentation can be through any of the senses.
-4. function = defining a pattern (Creation, Maintenance, Destruction / Input, Calculations, result) 
+presentation
+: the function is independent of a medium. Thus the presentation can be through any of the senses.
 
-Scientific method
-Iterative guessing;
-Assumative freedom;
+function
+: defining a pattern (Creation, Maintenance, Destruction / Input, Calculations, result) 
+
+code
+: a system of patterns needing to be translated to get their meaning. Thus coding is done for practical reasons, because the code can have different practicalities. For example, programming languages are there for human interpretation, but their meaning comes when it becomes binary.
+
 
