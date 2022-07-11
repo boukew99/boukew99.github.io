@@ -1,5 +1,5 @@
  <style>
-@font-face { font-family: Bookxel; src: url('Bookxel.ttf'); } 
+@font-face { font-family: Bookxel; src:'Bookxel.ttf'; } 
 </style>
 
 
@@ -54,10 +54,10 @@ Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
 - 16x16 1-bit icons representing common functions. [(preview)](icons.png)
 
 ## Skill Table
-These are mainly hard skills with a rating from 1 to 5 roughly indicating how much I still feel like I could learn and have learned.
+These are mainly hard skills with a rating from 1 to 3 roughly indicating how much I still feel like I could learn and have learned.
 
 
-Skill Level | 2⭐| 3⭐ | 5⭐
+Skill Level | ⭐☆☆| ⭐⭐☆ | ⭐⭐⭐ 
 ---   | ---    | ---      | --- 
 Native 🖥️ | C, C++, Raylib, Java, Unity Engine, Git, SQL, Matlab, R | Python, Gamemaker Studio 2, Stata  | Godot Engine, GDScript, Fundamentals
 Language 💬 | French | German |Dutch, English 
