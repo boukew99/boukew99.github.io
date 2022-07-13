@@ -1,14 +1,13 @@
 # Portfolio
-To | [Open Source Software 💻](#open-source-software) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
+To | [Open Source Software 💻](#godot-assets) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
 
-I write software, music, drawings, papers...
+I write software, music, drawings, papers... with a focus on usability and inclusivity.  
 
-My software is hosted on [Github](https://github.com/boukew99), which includes some MIT Projects. My software has a focus on User Experience, which I can also use when making videogames. These videogames are hosted on [Itch.io](https://howyoudoing.itch.io/) and [Newgrounds](https://howyourdoing.newgrounds.com/), which includes Game Jam games, demos and experiments. Generally I use the [Godot Engine](https://godotengine.org) for development and also have made some repos available on the [Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99). In the [log](log) you can stay up to date with what I am up to. In [project](#projects) 
-
-## Projects
+## Software projects
+Most software is hosted on my [Github](https://github.com/boukew99).
 
 ### Godot Assets
-💻 All hosted on [Github](https://github.com/boukew99).
+💻 Generally I use the [Godot Engine](https://godotengine.org) for native development or its small binary size and ease of use. I have made some repos available on the [Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99), which are all hosted on [Github](https://github.com/boukew99).These videogames are hosted on [Itch.io](https://howyoudoing.itch.io/) and , which includes Game Jam games, demos and experiments. 
 
 Name | Description 
 --- | --- 
@@ -23,11 +22,12 @@ Name | Description
 [Shader Window](https://github.com/boukew99/shader_window) | 🪟 A dragable window for testing screen shaders easily
 
 ### Web
+I just use HTML, CSS & JS. I like the simplicity and *bare metalness* of it.
 [Website](https://github.com/boukew99/boukew99.github.io) | 🕸️ source for this website
 
 
 ### Video Games 
-🎮 For an full overview with cover images visit [itch.io](https://howyoudoing.itch.io/).
+🎮 For an full overview with cover images visit [itch.io](https://howyoudoing.itch.io/). All made with Godot Engine. I might try [Newgrounds](https://howyourdoing.newgrounds.com/).
 
 Name | Description
 --- | ---

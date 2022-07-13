@@ -15,16 +15,14 @@ Then once we need a form for user input, then just use the provided `<input>` HT
 ```mermaid
 graph TD;
     Index-->Portfolio-->Itch/Github; 
-    Index-->404
-    Index-->Bookmarks-->Extern...
-    Index-->FAQ
-  
-    Index-->Poems/Quotes/Bookmarks/Assets;    
-    Index-->Blog;
-        Blog-->Software;
-        Blog-->Design-->UX;
-        Blog-->Twitter;
-    Index-->About; About-->Twitter;
+    Index-->404;
+    Index-->Bookmarks-->Extern...;
+    Index-->FAQ;
+    Index-->this;
+    Index-->Shadertoy;
+    Index-->Log;
+    Index-->Twitter;
+    Index-->Patterns-->Chess
 
 ```
 ## Markdown Components

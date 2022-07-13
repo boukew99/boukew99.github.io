@@ -1,0 +1,32 @@
+<title>comics</title>
+
+<h1>Web Comics</h1>
+<img id=comic src=game_words.svg>
+
+<ol id="list">
+	<li><a href="game_words.svg">game_words</a></li>
+  <li><a href="physiological_computing_use_case.png">physiological_computing_use_case</a></li>
+  <li><a href="kite.png">kite</a></li>
+</ol>
+
+<script>
+list.onclick = function(e) {
+  e.preventDefault();
+
+  var href = e.target.getAttribute('href');
+
+  var source = document.getElementById('comic');
+  source.src = href;
+  document.title = href; 
+};
+</script>
+
+
+
+
+<h2>other web comics</h2>
+<p>
+<https://xkcd.com/1871/> <https://xkcd.com/993/> <https://xkcd.com/302/>
+tips
+<https://www.clipstudio.net/how-to-draw/archives/157055>
+</p>
