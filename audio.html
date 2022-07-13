@@ -8,3 +8,33 @@ https://webaudioplayground.appspot.com/
 https://dev.opera.com/articles/drum-sounds-webaudio/
 https://pudding.cool/2018/02/waveforms/
 -->
+
+<h2>Sound Effects</h2>
+
+<ul style="list-style: none">
+  <li>Audio Files
+    <ul id="list2">
+      <li><button data-value="boukie.ogg">Death_Becomes_Fur.oga</button></li>
+      <li><button data-value="house_flute.ogg">Death_Becomes_Fur.mp4</button></li>
+      <li><a href="top.ogg">rrs006.oga" data-value="</a></li>
+      <li><a href="#top.ogg">rrs006.oga" data-value="http://media.w3.org/2010/05/sound/sound_90.mp3">sound_90.mp3</a></li>
+    </ul>
+  </li>
+</ul>
+
+<script>
+list.onclick = function(e) {
+  e.preventDefault();
+
+  var elm = e.target;
+  var audio = document.getElementById('audio');
+
+  var source = document.getElementById('audioSource');
+  source.src = elm.getAttribute('href');
+	
+  audio.load(); //call this to just preload the audio without playing
+  audio.play(); //call this to play the song right away
+
+  document.title = "playing " + source.src; 
+};
+</script>

@@ -14,8 +14,10 @@ Then once we need a form for user input, then just use the provided `<input>` HT
 ## Navigation Flowchart
 ```mermaid
 graph TD;
-    Index-->Projects-->Itch/Github/Newgrounds; 
-        Projects-->TextAdventure
+    Index-->Portfolio-->Itch/Github; 
+    Index-->404
+    Index-->Bookmarks-->Extern...
+    Index-->FAQ
   
     Index-->Poems/Quotes/Bookmarks/Assets;    
     Index-->Blog;
@@ -228,4 +230,20 @@ $color(t) a + b * \cos{2n(c*t+d)}$.
 | rainbow | 0.5, 0.5, 0.5 |	0.5, 0.5, 0.5	| 1.0, 1.0, 1.0	| 0.00, 0.33, 0.67 |
 | cliff waters | 0.5, 0.5, 0.5	|	0.5, 0.5, 0.5	| 1.0, 1.0, 1.0 |	0.00, 0.10, 0.20 |
 
+<https://www.tablesgenerator.com/markdown_tables>
 
+#### Table of Contents
+
+- [Underline](#underline)
+- [Indent](#indent)
+- [Center](#center)
+- [Color](#color)
+
++ < back
+
+
+![img](src)
+*caption*
+
+    About Me (Us) – This page should include a biographical summary of the author(s) as well as a mission statement. Think about the answers to these questions: How did your passion for the subject matter develop? What do you want to convey to the world? What is your ultimate goal?
+    Contact Me (Us) – A contact page provides the visitor a place to reach the author which, in turn, provides the visitor with the reassurance that you are a real and reachable author. You can add your physical address, phone number, and custom email address. Or you can utilize a simple contact form to keep your personal identifying information private. You should put links to all of your social media profiles here as well.

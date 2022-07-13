@@ -1,48 +1,24 @@
-## Articles
+## About 
+![favicon](favicon.ico) Landing page of my personal site on the web for all my projects, news and collection of links to other sites. My [portfolio](portfolio) contains some projects I developed. I like to make web <comics> capturing things in a condense matter. I am also trying to make an <https:text_adventure> in Markdown only. I have a collection of most of my project on one page. I also keep a log of fun or useful or interesting sites on <https:bookmarks>. Sometimes I make pictures too, which I try to frame nicely. They can be seen in [gallery](gallery). Having a [road bike](roadbike) takes maintenance. I plan on making some demosene on [shadertoy](shadertoy).
 
-- [Linux on USB](linux_on_usb). Trying out the linux operating system besides Windows and how to do it.
-- [definitions](definitions.md). Database of alternative definitions.
-- [Make a Markdown site like this](make_md_site.md). Noting down the process of making my website. ![favicon](favicon.ico)
-- [physics](physics.md). ...
-- [poems](poems.md). Database of written poems.
-- [quotes](quotes.md). Database of resonant quotes.
-- [tips](tips.md). "General" purpose.
+- [Video Games](https://howyoudoing.itch.io/)
+- [Godot Assets](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99)
+- [Twitter](https://twitter.com/HowYouD09409170), which I never use. 
+- [FAQ](faq.md) Empty
+
+## Updates  
+- Mondriaan Maker version 2 with infinite rectangles. [Demo](https://itch.io/embed-upload/6017377?color=fac901) [video](https://youtube.com/shorts/NXs121C7QTE)
+
+[older...](log.md)
+
+## Articles
+Stuff I find intersting.
+- [Linux on USB](linux_on_usb) 20-05-22. Trying out the linux operating system besides Windows and how to do it.
+- [this](this.md). Noting down the process of making my website. 
 - [Aesthetic QR codes](aesthetic_qr). Experiment.
 - [Godot Editor Tutorial](godot_editor)
-
-## Pages
-- [text adventure](text_adventure) 
-- [calender](calender.md)
-- [bookmarks](bookmarks.md)
-- [tips](tips)
-- [shadertoy](shadertoy)
-- [dialogues](dialogues)
-- [energy usage](energy_usage)
-- [math](math)
-- [playlist](playlist)
-- [recipes](recipes)
-- [road bike](roadbike)
-- [gallery](gallery)
-
-## Webcomics
-Capturing things only [comics](comics) can.
 
 ## Let's Play
 - [Teardown Screenshots](teardown). Playthrough screenshots.
 - [No Mans Sky](no_mans_sky). Playthrough screenshots.
-
-## Dev Log  
-- Mondriaan Maker version 2 with infinite rectangles. [Demo](https://itch.io/embed-upload/6017377?color=fac901) [video](https://youtube.com/shorts/NXs121C7QTE)
-
-[more...](log.md)
-
-## About 
-Landing page of my personal site on the web for all my projects, news and collection of links to other sites.
-- [portfolio](portfolio)
-	- [Video Vames](portfolio/README.md#video-games)
-	- [Godot Assets](portfolio/REAMDE.md#Godot-Asset)
-- [FAQ](faq.md)
-
-
-[^1]: ![initiation](comics/initiation.svg)
 

@@ -1,0 +1,54 @@
+<!-- https://stackoverflow.com/questions/10792163/change-audio-src-with-javascript -->
+
+<style>
+
+ol {
+	column-width: 250px
+}
+</style>
+
+<title>Playlist Name</title>
+
+
+<center>
+<img src=frog.svg>
+<h1>Playlist NAME</h1>
+<p>DESssssssssssssssssssssssssssscrrrrrrrrrrrrrrrrrriiiiiiiiptttttttttttttiiiiiiiiiionnnn</p>
+<audio id="audio" controls>
+  <source id="audioSource" src=""></source>
+  Your browser does not support the audio format.
+</audio>
+
+</center>
+
+<ol id="list">
+	<li><a href="beach.ogg">beach</a></li>
+  <li><a href="beach_wind.ogg">beach_wind</a></li>
+  <li><a href="birds.ogg">birds</a></li>
+	<li><a href="fire.ogg">fire</a></li>
+  <li><a href="forest_background.ogg">forest background</li>
+  
+  <li><a href="wind.ogg">wind</li>
+  <li><a href="nature.ogg">nature</a></li>
+	<li><a href="night_fire.ogg">night fire</a></li>
+  <li><a href="wind.ogg">wind</li>
+</ol>
+
+<script>
+list.onclick = function(e) {
+  e.preventDefault();
+
+  var href = e.target.getAttribute('href');
+  var audio = document.getElementById('audio');
+
+  var source = document.getElementById('audioSource');
+  source.src = href;
+  document.title = href; 
+	
+  audio.load(); //call this to just preload the audio without playing
+  audio.play(); //call this to play the song right away
+
+};
+</script>
+
+

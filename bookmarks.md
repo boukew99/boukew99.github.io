@@ -64,7 +64,7 @@ https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
 <https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>
 https://mathew-kurian.github.io/CharacterMap/
 https://www.internet-radio.com/
-
+<https://bottosson.github.io/posts/colorpicker/>
 chart.js
 [online gltf viewer](https://gltf-viewer.donmccurdy.com/)
 
@@ -76,7 +76,11 @@ https://leafletjs.com/
 https://anvaka.github.io/peak-map/#7.68/47.722/-122.237
 https://weatherspark.com/
 
-
-
-
+<https://apod.nasa.gov/apod/archivepix.html>
+[webb](https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg)
+<https://www.redblobgames.com/x/2203-reaction-diffusion/>
+[Fractal drawing](https://www.youtube.com/watch?v=sFEYQMrWNHU>)
+<https://en.wikipedia.org/wiki/Fractal_compression>
+The Colours of Infinity documentary
+<https://www.der-mond.de/homepagetool/moon-current-for-your-website/design-luna-calendar>mix instruction and form
 <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
