@@ -49,14 +49,16 @@ Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
 - 16x16 1-bit icons representing common functions. [(preview)](icons.png)
 
 ## Skill Table
-These are mainly hard skills with a rating from 1 to 3 roughly indicating how much I still feel like I could learn and have learned.
+Besides basic engineering and psychological skills I list here mainly hard skills with a rating from 1 to 3 roughly indicating how much I still feel like I could learn and have learned. Some of these I learned to use in university courses others in my own time.
 
 
 Skill Level | ⭐☆☆ | ⭐⭐☆ | ⭐⭐⭐
 ---   | ---    | ---      | --- 
-Native 🖥️ | C, C++, Raylib, Java, Unity Engine, Git, SQL, Matlab, R | Python, Gamemaker Studio 2, Stata  | Godot Engine, GDScript, Fundamentals
+Electrical | Circuits, PID Systems| Computer building blocks, Instruction Sets | 
+Native 🖥️ | C, C++, Raylib, Java, Unity Engine, Git, SQL, Matlab, Unity, GLSL, Weka | Python, Gamemaker Studio 2, AI, Logic & Set  | Godot Engine, GDScript, Fundamentals
 Language 💬 | French | German |Dutch, English 
-Web 📱  | Javascript, CSS | W3.CSS | HTML, Markdown, JSON 
+Psychology | RStudio | Stata, data analysis, qualitiative | perception, social, society, human factors
+Web 📱  | Javascript, CSS | W3.CSS, TCP, UDP, Networks, Security | HTML, Markdown, JSON 
 Design 🌻 | | Icons, Piksel, OOP, Abstraction[^1] | UX, UI, GUI, Leaness
 Academic 🎓 | |Statistics, Writing | Reading
 Music 🎹 | GarageBand, Harmonica | Guitar, Audacity | Piano, Keyboard
