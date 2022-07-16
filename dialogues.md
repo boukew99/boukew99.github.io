@@ -18,10 +18,13 @@ Fictional dialogues between fictional characters.
 ## Passerbys
 1
 : Oops, sorry I was not paying attention there.
+
 2
 : Wow you had quite some force with that collision.
+
 1
 : Yeah I have to be somewhere soon, here let me help you up.
+
 2
 : Thank you, but next time please just watch out and keep your phone in the pocket maybe?
 
