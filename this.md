@@ -5,7 +5,7 @@
 
 https://www.markdownguide.org/cheat-sheet/ -> https://emojipedia.org/
 
-Take a peek [behind the curtains](https://github.com/boukew99/boukew99.github.io/blob/main/make_md_site.md?plain=1)
+Take a peek [behind the curtains](https://github.com/boukew99/boukew99.github.io/blob/main/make_md_site.md?plain=1). Then there is also the option to `inspect(f12)` the page.
 ## Interaction
 First of is navigation. This will simply be solved by scrolling. Though not all content needs to be always loaded thus scrolling is combined with links, which indicate what you want load, which will take you to that page. These rules set up the constraints for page design. First every loaded element is visibile otherwise it cannot be accesed by scrolling. Though you don't want to do too much scrolling so organize the page with care. Second, divide you website into functional pages, so the user has to do minimal loading and can acces the page independently (from anywhere). Try to provide a header (with #header) link too for an external links too provide extra context.
 
