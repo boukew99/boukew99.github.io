@@ -15,8 +15,6 @@ kinda intersting to see how it communicates so simply to get functionality.
 [https://github.com/dolphin-emu/dolphin/tree/master/Data/Sys/Shaders] shaders used in dolpin
 [Red Blob Games](https://www.redblobgames.com/) is great a learning site till you realize that the visuals are not images, but interactive, which makes it even better!
 
-[Inigo Quilez](https://iquilezles.org/), much about computer graphics.
-
 [git book](https://git-scm.com/book/en/v2)
 <https://www.playerresearch.com/learn/>
 <https://marctenbosch.com/quaternions/>
