@@ -16,13 +16,26 @@
 </map>
 
 ## Wielen
-De contact punten met de weg en dus het meest significant voor de wegligging.
+De contact punten met de weg en dus het meest significant voor de wegligging. Dus de meest effeciente plek voor onderhoud!
 
 ### Achterwiel
-Dit wiel duwt je voort.
+Dit wiel duwt je voort. 
 
 ### Voorwiel
 Complementeert het achterwiel.
+
+### Binnenband
+Als je je binnenbanden gaat repareren dan kun je je fiets natuurlijk niet daar op laten staan! Dus flip je fiets om en zet hem stabiel op het zadel en stuur. Daarna kun je de band rustig inspecteren voor sherpe deeltjes, die wil je eruit halen. Ook handig om die plek te markeren, want grote kans dat daar een gaatje zit. Dan om de buitenband eraf te halen zijn verschillende methodes.
+
+| Omstandigheid | Methode |
+|--- |--- |
+| Buitenband zit losjes | Gebruik de palmen van je hand om de band los te maken. |
+| Buitenband zit strak | Gebruik wippertjes. |
+| Buitenband is niet los te maken | Gebruik mijn gepatenteerde techniek :). Zet een wippertje onder de band, dit is het entree punt. Nu zet er een wippertje onder het uitsteeksel dat je zojuist heb gemaakt. Dit kan een beetje peulen zijn. Pak het derde wippertje en doe weer hetzelfde met het nieuwe ingezette wippertje. Laat het het eerste wippertje staan. Werk dan beetje bij beetje met de twee wippertjes om en om door totdat de band loskomt. |
+
+Nu kun de buitenband eruit te halen is kun je voor gaatjes checken. Pomp de binnenband op en luister of je ergens lucht uitstroom hoort. Dit is alleen hoorbaar met grotere gaatjes. Daarna ga je met je hand als een koker om de hele band heen. Als er een gaatje is kun je de lucht uitstroom voelen blazen. Markeer alle gaatjes die je vindt. 
+
+Volg daarna de specifieke instructies van het plaksetje wat je hebt gekocht. Hiermee is het gaatje afgesloten en kun je testen of de band lucht weer vasthoud, zodat je erop kunt fietsen met enige demping.
 
 ## Zadel
 Je kan niet gemakkelijk staand fietsen dus dan maar zittend op een zadel.

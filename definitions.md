@@ -22,4 +22,11 @@ function
 code
 : a system of patterns needing to be translated to get their meaning. Thus coding is done for practical reasons, because the code can have different practicalities. For example, programming languages are there for human interpretation, but their meaning comes when it becomes binary.
 
+video game
+: exploration of functions with video and sound
 
+loop
+: undefined ending
+
+sequence tree
+: A action tree that exist over time through linear sequential calculations
