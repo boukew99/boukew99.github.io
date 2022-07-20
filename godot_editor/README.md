@@ -1,4 +1,5 @@
 # Godot Editor tutorial
+"Something like that would be handy here" -> it likely exist, since someone else came across it and contributed.
 
 ## Personal Node use cases
 

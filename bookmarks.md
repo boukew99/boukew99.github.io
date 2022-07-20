@@ -4,7 +4,7 @@
 - <https://neal.fun/absurd-trolley-problems/>
 - <https://areyoutheasshole.com/>
 - [The 2022 r/place Atlas](https://place-atlas.stefanocoding.me/) with explanations of each drawing of the final image in r/place 2022.
-
+- https://letmegooglethat.com/
 
 ## Learning
 [raylib.h code](https://github.com/raysan5/raylib/blob/master/src/raylib.h)
@@ -26,12 +26,18 @@ kinda intersting to see how it communicates so simply to get functionality.
 - [ThePandaTooth](http://www.pandatooth.com/sheet-music/), [Princess Mononoke](http://www.pandatooth.com/portfolio-items/princess-mononoke/) 
 - [NinSheetMusic](https://www.ninsheetmusic.org/)
 
-## Assets 📦
+## Resources 📦
 - [WikiMedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
 	- [Fibonacci spiral](https://upload.wikimedia.org/wikipedia/commons/7/79/Fibonacci_spiral.svg)
 	- [Morse Code](https://upload.wikimedia.org/wikipedia/commons/b/b5/International_Morse_Code.svg)
 - [FreePats project](https://freepats.zenvoid.org/index.html) sound bank of unique instruments.
 - [Philharmonia sound samples](https://philharmonia.co.uk/resources/sound-samples/) It includes all standard orchestral instruments, as well as guitar, mandolin, banjo, and a vast array of different percussion instruments.
+
+- https://polyhaven.com/
+- https://www.si.edu/openaccess
+- https://ambientcg.com/
+- https://flatuicolors.com/
+- https://lospec.com/
 
 <https://commons.wikimedia.org/wiki/Main_Page>
 <https://upload.wikimedia.org/wikipedia/commons/8/8f/Cycling_%28track%29_pictogram.svg>

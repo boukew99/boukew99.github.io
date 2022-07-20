@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- https://www.w3schools.com/tags/ref_canvas.asp, https://stackoverflow.com/questions/55677/how-do-i-get-the-coordinates-of-a-mouse-click-on-a-canvas-element/18053642#18053642 -->
 
 <style>
     canvas{
@@ -8,37 +9,28 @@
 </style>
 <title>TileDraw</title>
 <h1>TileDraw</h1>
-<table>
-    <tr>
-        <th>1</th>
-        <th>2</th>
-        <th>3</th>
-        <th>4</th>
-        <th>5</th>
-    </tr>
-    <tr>
-        <td id="scream" colspan=5 rowspan=2><img src="1.png"></td>
-    </tr>
-    <tr></tr>
-    <tr>
-        <td><img  src="2.png"></td>
-        <td><img src="3.png"></td>
-        <td><img src="6.png"></td>
-        <td colspan="2"><img src="7.png"></td>
-    </tr>
-    <tr>
-        <td><img src="4.png"></td>
-        <td><img src="5.png"></td>
-    </tr>
-</table>
-
-<canvas id="myCanvas" width="200" height="200"></canvas>
-<button onclick="myCanvas">draw</button>
+<img id=tilemap src=tilemap.png>
+<canvas id="canvas" width="400" height="400"></canvas>
+<button id=save>Save</button><button id=restore>restore</button>
 <script>
-    function myCanvas() {
-      var c = document.getElementById("myCanvas");
-      var ctx = c.getContext("2d");
-      var img = document.getElementById("scream");
-      ctx.drawImage(img,10,10);
-    }
-    </script>
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+var img = document.getElementById("tilemap");
+
+canvas.onclick = function(e) {
+
+  const rect = canvas.getBoundingClientRect()
+  const x = event.clientX - rect.left
+  const y = event.clientY - rect.top
+  console.log("x: " + x + " y: " + y)
+  ctx.drawImage(img, 16, 16, 32, 32, x, y, 32, 32)
+}
+    
+save.onclick = function(e) {
+	ctx.save()
+}
+    
+restore.onclick = function(e) {
+	ctx.restore()
+}
+</script>

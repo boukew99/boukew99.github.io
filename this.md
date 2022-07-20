@@ -6,6 +6,7 @@
 https://www.markdownguide.org/cheat-sheet/ -> https://emojipedia.org/
 
 Take a peek [behind the curtains](https://github.com/boukew99/boukew99.github.io/blob/main/make_md_site.md?plain=1). Then there is also the option to `inspect(f12)` the page.
+
 ## Interaction
 First of is navigation. This will simply be solved by scrolling. Though not all content needs to be always loaded thus scrolling is combined with links, which indicate what you want load, which will take you to that page. These rules set up the constraints for page design. First every loaded element is visibile otherwise it cannot be accesed by scrolling. Though you don't want to do too much scrolling so organize the page with care. Second, divide you website into functional pages, so the user has to do minimal loading and can acces the page independently (from anywhere). Try to provide a header (with #header) link too for an external links too provide extra context.
 
@@ -228,3 +229,12 @@ $color(t) a + b * \cos{2n(c*t+d)}$.
 
     About Me (Us) – This page should include a biographical summary of the author(s) as well as a mission statement. Think about the answers to these questions: How did your passion for the subject matter develop? What do you want to convey to the world? What is your ultimate goal?
     Contact Me (Us) – A contact page provides the visitor a place to reach the author which, in turn, provides the visitor with the reassurance that you are a real and reachable author. You can add your physical address, phone number, and custom email address. Or you can utilize a simple contact form to keep your personal identifying information private. You should put links to all of your social media profiles here as well.
+    
+#### Search link
+Knowing the name of a object. Know you can call and talk about it and thus search it. It is an acces point.
+
+https://www.google.com/search?q=Google+tutorial+create+link
+https://duckduckgo.com/?t=ffab&q=DuckDuckGo+tutorial+create+link&ia=web
+
+
+

@@ -1,12 +1,15 @@
-<!-- https://stackoverflow.com/questions/10792163/change-audio-src-with-javascript -->
+<!-- https://stackoverflow.com/questions/10792163/change-audio-src-with-javascript, 
+https://www.noisli.com/  mask distracting noises-->
 
 <style>
 
 ol {
-	column-width: 250px
+	column-width: 150px
 }
-</style>
 
+audio { width: 75%; }
+
+</style>
 <title>Playlist Name</title>
 
 
@@ -14,11 +17,11 @@ ol {
 <img src=frog.svg>
 <h1>Playlist NAME</h1>
 <p>DESssssssssssssssssssssssssssscrrrrrrrrrrrrrrrrrriiiiiiiiptttttttttttttiiiiiiiiiionnnn</p>
-<audio id="audio" controls>
+
+<audio  id="audio" controls>
   <source id="audioSource" src=""></source>
   Your browser does not support the audio format.
 </audio>
-
 </center>
 
 <ol id="list">
@@ -32,7 +35,22 @@ ol {
   <li><a href="nature.ogg">nature</a></li>
 	<li><a href="night_fire.ogg">night fire</a></li>
   <li><a href="wind.ogg">wind</li>
+  
+  <li><a href="https://upload.wikimedia.org/wikipedia/commons/2/2b/385098_morganpurkis_volcano.ogg">volcano</li>
+	<li><a href="https://upload.wikimedia.org/wikipedia/commons/0/04/Beach_sounds_South_Carolina.ogg">South Carolina beach</a></li>
+  <li><a href="https://upload.wikimedia.org/wikipedia/commons/5/52/Pench_Night_Safari_Sounds.wav">Night Safari</li>
+    
+  <li><a href="https://upload.wikimedia.org/wikipedia/commons/5/58/17650_thoschi_issyk-kul.ogg">water waves</li>
+  <li><a href="
+https://upload.wikimedia.org/wikipedia/commons/0/00/Waterfall_and_birds_sounds.wav">waterfall</a></li>
+	<li><a href="https://upload.wikimedia.org/wikipedia/commons/7/7f/Bee_sounds_near_Cologne%2C_Germany_-_reinsamba.wav">BEE!</a></li>
 </ol>
+
+
+
+
+
+
 
 <script>
 list.onclick = function(e) {
