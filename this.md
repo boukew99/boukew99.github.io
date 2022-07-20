@@ -11,22 +11,9 @@ First of is navigation. This will simply be solved by scrolling. Though not all 
 
 Then once we need a form for user input, then just use the provided `<input>` HTML, which needs differnt interaction depending on input type.
 
-## Navigation Flowchart
-```mermaid
-graph TD;
-    Index-->Portfolio-->Itch/Github; 
-    Index-->404;
-    Index-->Bookmarks-->Extern...;
-    Index-->FAQ;
-    Index-->this;
-    Index-->Shadertoy;
-    Index-->Log;
-    Index-->Twitter;
-    Index-->Patterns-->Chess
 
-```
-## Markdown Components
-Templates usable throughout the website. Just copy, paste and edit them.
+## Markdown Patterns
+Combinations of characters with variable content that serve a some function.
 
 ### Navigation bar
 ```
@@ -109,14 +96,11 @@ or with *tags*
 result | code
 ---|---
 *italic* | `*italic*` / `_italic_`
-**bold** | `**bold** / `__bold__`
-[link]() | `[link]()`
-![image](image) | `![image](image)`
+**bold** | `**bold**` / `__bold__`
+[link]() | `[link](src)`
+![image](image) | `![image](src)`
 `inlince code` | \`inline code\`
-
->Blockquote
-
-`>Blockquote`
+>Blockquote with `>Blockquote`
 
 --- 
 `---` Horizontal rule
@@ -155,11 +139,11 @@ code block
 
 ### Table
 
-Name/Order Naming | A | B | C | ... | Categories
----               |---|---|---|---  |
-1 | | | | | | 
-2 | | | | | |
-3 | | | | | |
+|Name/Order Naming | A | B | C | ... | Categories |
+|---               |---|---|---|---  |---         |
+|1 | | | | | | |
+|2 | | | | | | |
+|3 | | | | | | |
 
 
 ### File properties
@@ -169,7 +153,6 @@ Size: 4,2 kB
 
 link to header with #abcd
 
-[404](404.md)
 
 ## Recursive list
 Combining accesibility of list with the structure of a tree. Without navigating the tree.
