@@ -23,6 +23,7 @@ Name | Description
 
 ### Web
 I just use HTML, CSS & JS. I like the simplicity and *bare metalness* of it.
+
 [Website](https://github.com/boukew99/boukew99.github.io) | 🕸️ source for this website
 
 
@@ -32,20 +33,24 @@ I just use HTML, CSS & JS. I like the simplicity and *bare metalness* of it.
 Name | Description
 --- | ---
 [Space Evader](https://itch.io/embed-upload/2869595?color=ebdf64) | 👾 Evade the Red Invaders
-Space Cake | 🥮 space, lasers, destroyed ships and ... cake?
-Switched | 🪚 Become a sawblade to blade all the runners for some reason
-Looper | ➰ Find the dissapeared object
-Mcdonald's Farm | 🐔 Work on a chicken farm
-Drag Expand | 👉 Puzzle box
-Seperate but not | ☀️ Find your other half
-Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
+
+#### Game Jams
+Made during Game jams.
+
+Jam | Name | Description
+--- | ---  |---
+| Space Cake | 🥮 space, lasers, destroyed ships and ... cake?
+| Switched | 🪚 Become a sawblade to blade all the runners for some reason
+| Looper | ➰ Find the dissapeared object
+| Mcdonald's Farm | 🐔 Work on a chicken farm
+| Drag Expand | 👉 Puzzle box
+| Seperate but not | ☀️ Find your other half
+| Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
 
 ### Style
 
 - [Bookxel](bookxel.ttf), a very readable pixel font.
-
 - Some general sounds signals. [(preview)](sounds.ogg)
-
 - 16x16 1-bit icons representing common functions. [(preview)](icons.png)
 
 ## Skill Table
@@ -59,11 +64,9 @@ Native 🖥️ | C, C++, Raylib, Java, Unity Engine, Git, SQL, Matlab, Unity, GL
 Language 💬 | French | German |Dutch, English 
 Psychology | RStudio | Stata, data analysis, qualitiative | perception, social, society, human factors
 Web 📱  | Javascript, CSS | W3.CSS, TCP, UDP, Networks, Security | HTML, Markdown, JSON 
-Design 🌻 | | Icons, Piksel, OOP, Abstraction[^1] | UX, UI, GUI, Leaness
+Design 🌻 | | Icons, Piksel, OOP, Abstraction | UX, UI, GUI, Leaness
 Academic 🎓 | |Statistics, Writing | Reading
-Music 🎹 | GarageBand, Harmonica | Guitar, Audacity | Piano, Keyboard
-
-[^1]:(https://en.wikipedia.org/wiki/Abstraction_principle_(computer_programming))
+Music 🎹 | GarageBand, Harmonica, Sonic Pi | Guitar, Audacity | Piano, Keyboard
 
 ## Contact
 📫 [mail someone](mailto:someone@world.com)

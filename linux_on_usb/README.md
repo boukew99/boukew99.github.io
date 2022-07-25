@@ -1,3 +1,5 @@
+![picture](IMG_20220505_193314.jpg)
+
 # Trying Linux on 8GB USB
 ![linux_on_usb](linux_on_usb.svg)
 
@@ -20,4 +22,3 @@ PS:
 https://www.winhelponline.com/blog/you-cannot-shrink-volume-beyond-point-disk-mgmt/
 https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73
 
-![picture](IMG_20220505_193314.jpg)

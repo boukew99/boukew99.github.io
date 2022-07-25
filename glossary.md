@@ -1,4 +1,5 @@
-# Definitions
+# Glossary
+Holding some alternative definitions.
 
 GUI
 : graphical representation of your code, to aid memorization. Then direct acces through representation.
