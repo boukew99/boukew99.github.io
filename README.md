@@ -1,3 +1,4 @@
+![roadbike](roadbike.svg)
 ## About 
 Welcome! This is the Landing page of my personal site on the web for all my projects, updates and collection of links to other sites. My [portfolio](portfolio) contains some projects I developed. I like to make web [comics](comics) capturing things in a condense matter. I am also trying to make an [text adventure](text_adventure) in Markdown only. I also keep a log of fun or useful or interesting sites on [bookmarks](bookmarks). Sometimes I make pictures too, which I try to frame nicely, whcih can be seen in [gallery](gallery). Having a [road bike](roadbike) takes maintenance. I plan on making some demosene on [shadertoy](shadertoy). Some of my Video Games on [itch.io](https://howyoudoing.itch.io/). These are made in Godot Engine for which I also made some [Godot Assets](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99).
 
@@ -8,6 +9,7 @@ Welcome! This is the Landing page of my personal site on the web for all my proj
 
 [older...](log.md)
 
+![recursive_pathfinding](recursive_pathfinding.svg)
 ## Articles
 Stuff I find intersting.
 - [Linux on USB](linux_on_usb) 20-05-22. Trying out the linux operating system besides Windows and how to do it.
