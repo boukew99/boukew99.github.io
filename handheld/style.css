@@ -1,0 +1,10 @@
+#input button {
+  padding: 5px;
+  font-size: 50px;
+}
+
+#canvas {
+	border-style: solid;
+	border-width:thin;
+	background-color: #f1f1f1
+}
