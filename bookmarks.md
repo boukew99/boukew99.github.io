@@ -57,6 +57,13 @@ red | ff0000 |
 green | 00ff00 |
 blue | 0000ff |
 
+![pallete](pallete.png)
+		  
+Name | red |green | blue | 
+---  |---  |---   |--- |
+Hex | ff0000 | 00ff00 | 0000ff |
+
+
 <https://www.w3schools.com/colors/colors_picker.asp>
 ## Uncatgorized
 [CPU be like](https://www.youtube.com/watch?v=aYAJopwEYv8)
