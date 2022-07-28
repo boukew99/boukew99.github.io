@@ -1,7 +1,7 @@
 # Website
 [Website](https://boukew99.github.io/) using [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github) and [Github Pages](https://docs.github.com/en/pages) by [boukew99](https://github.com/boukew99). 
 
-![loc](https://img.shields.io/tokei/lines/github/boukew99/boukew99.github.io) ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) 
+![loc](https://img.shields.io/tokei/lines/github/boukew99/boukew99.github.io) ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) / 1GB
 
 https://www.markdownguide.org/cheat-sheet/ -> https://emojipedia.org/
 
@@ -92,16 +92,17 @@ or with *tags*
 
 
 ### Mandatory Markdown [Reference](https://commonmark.org/help/))/CheatSheet
-`### Mandatory Markdown Reference/CheatSheet`
 
 result | code
 ---|---
+header | `#(#####) header`
 *italic* | `*italic*` / `_italic_`
 **bold** | `**bold**` / `__bold__`
+~~strikethrough~~ | `~~strikethrough~~.`
 [link]() | `[link](src)`
 ![image](image) | `![image](src)`
 `inlince code` | \`inline code\`
->Blockquote with `>Blockquote`
+>`>`Blockquote
 
 --- 
 `---` Horizontal rule
@@ -163,7 +164,7 @@ News is a tag
 Log is a structure
 
 ## Emoticons
-📰 📅 🥦 🔖 🔗 🆕
+📰 📅 🥦 🔖 🔗 🆕 🗣️🖱️🎲🎮ℹ️🔊🔉🔈🔇🎵
 
 ## Patterns
 Open in [Github](https://github.com/boukew99/boukew99.github.io/blob/main/make_md_site.md) to get a copy button.
@@ -236,5 +237,28 @@ Knowing the name of a object. Know you can call and talk about it and thus searc
 https://www.google.com/search?q=Google+tutorial+create+link
 https://duckduckgo.com/?t=ffab&q=DuckDuckGo+tutorial+create+link&ia=web
 
+#### Index
+https://en.wikipedia.org/wiki/Index_(publishing)
 
+#### Dictionary
+[dictionary](https://en.wiktionary.org/wiki/dictionary)
+<https://en.wikipedia.org/wiki/Wiktionary>
 
+### Referencing
+[^1] [^1]:ref
+
+### Zipping or Tarring site
+- https://github.com/boukew99/boukew99.github.io/zipball/master (.zip)
+- https://github.com/boukew99/boukew99.github.io/tarball/master (.tar.gz)
+- https://github.com/boukew99/boukew99.github.io (github)
+
+<https://github.com/ramnathv/slidify/issues/410>
+<https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip>
+
+# Frequently Asked Questions (FAQ)
+
+**What is FAQ?**
+Frequently Asked Question, though often they are just made up.
+
+What is FAQ?
+: Frequently Asked Question, though often they are just made up.

@@ -15,6 +15,8 @@ kinda intersting to see how it communicates so simply to get functionality.
 [https://github.com/dolphin-emu/dolphin/tree/master/Data/Sys/Shaders] shaders used in dolpin
 [Red Blob Games](https://www.redblobgames.com/) is great a learning site till you realize that the visuals are not images, but interactive, which makes it even better!
 
+<http://www.learnyouahaskell.com/g>
+
 [git book](https://git-scm.com/book/en/v2)
 <https://www.playerresearch.com/learn/>
 <https://marctenbosch.com/quaternions/>
@@ -65,6 +67,7 @@ Hex | ff0000 | 00ff00 | 0000ff |
 
 
 <https://www.w3schools.com/colors/colors_picker.asp>
+
 ## Uncatgorized
 [CPU be like](https://www.youtube.com/watch?v=aYAJopwEYv8)
 Covers coming from [LOREM.SPACE](https://lorem.space/)
@@ -95,3 +98,14 @@ https://weatherspark.com/
 The Colours of Infinity documentary
 <https://www.der-mond.de/homepagetool/moon-current-for-your-website/design-luna-calendar>mix instruction and form
 <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
+
+<https://www.interrail.eu/en/soundtracks>
+
+
+
+https://dutchgameindustry.directory/?page=gameshttps://dutchgamesassociation.nl/
+https://dutchgamesassociation.nl/
+
+https://hyves-smileys.immerblei.com/
+https://alexwlchan.net/2022/07/screenshots/
+https://en.wikipedia.org/wiki/Inner-platform_effect

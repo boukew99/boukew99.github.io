@@ -15,3 +15,6 @@ When desining software or games, you might know the pain of implementing such an
 ## Using keywords & Ctrl-f
 * Figure/Table
 * context dependent
+
+## Learning languages through rich media
+Nowadays most games and films have subtitles for different languages. Let's see if it really works.
