@@ -17,3 +17,5 @@ Electricty Consumer | Amount (kW)
 Laptop | X
 Phone | 
 Wifi
+
+https://chronotrains-eu.vercel.app/
