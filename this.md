@@ -1,7 +1,7 @@
 # Website
 [Website](https://boukew99.github.io/) using [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github) and [Github Pages](https://docs.github.com/en/pages) by [boukew99](https://github.com/boukew99). 
 
-![loc](https://img.shields.io/tokei/lines/github/boukew99/boukew99.github.io) ![size](https://img.shields.io/github/repo-size/boukew99/boukew99.github.io) / 1GB
+4128 lines of code |  size 367 MB / 1GB | compressed size 558,1 MB
 
 https://www.markdownguide.org/cheat-sheet/ -> https://emojipedia.org/
 
@@ -165,6 +165,7 @@ Log is a structure
 
 ## Emoticons
 📰 📅 🥦 🔖 🔗 🆕 🗣️🖱️🎲🎮ℹ️🔊🔉🔈🔇🎵
+`Ctrl+;`
 
 ## Patterns
 Open in [Github](https://github.com/boukew99/boukew99.github.io/blob/main/make_md_site.md) to get a copy button.
@@ -255,6 +256,11 @@ https://en.wikipedia.org/wiki/Index_(publishing)
 <https://github.com/ramnathv/slidify/issues/410>
 <https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip>
 
+Zip a folder manually for local usage or use `Save Page as` yourself.
+
+loc
+<https://linuxconfig.org/counting-lines-of-code-with-cloc>
+
 # Frequently Asked Questions (FAQ)
 
 **What is FAQ?**
@@ -262,3 +268,9 @@ Frequently Asked Question, though often they are just made up.
 
 What is FAQ?
 : Frequently Asked Question, though often they are just made up.
+
+
+## Contact
+📫 [mail someone](mailto:someone@world.com)
+
+

@@ -67,9 +67,7 @@ Web 📱  | Javascript, CSS | W3.CSS, TCP, UDP, Networks, Security | HTML, Markd
 Design 🌻 | | Icons, Piksel, OOP, Abstraction | UX, UI, GUI, Leaness
 Academic 🎓 | |Statistics, Writing | Reading
 Music 🎹 | GarageBand, Harmonica, Sonic Pi | Guitar, Audacity | Piano, Keyboard
-
-## Contact
-📫 [mail someone](mailto:someone@world.com)
+OS(user) | | Ubuntu, Android | IOS, Windows
 
 
 

@@ -28,7 +28,7 @@ kinda intersting to see how it communicates so simply to get functionality.
 - [ThePandaTooth](http://www.pandatooth.com/sheet-music/), [Princess Mononoke](http://www.pandatooth.com/portfolio-items/princess-mononoke/) 
 - [NinSheetMusic](https://www.ninsheetmusic.org/)
 
-## Resources 📦
+## Resources📦
 - [WikiMedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
 	- [Fibonacci spiral](https://upload.wikimedia.org/wikipedia/commons/7/79/Fibonacci_spiral.svg)
 	- [Morse Code](https://upload.wikimedia.org/wikipedia/commons/b/b5/International_Morse_Code.svg)
