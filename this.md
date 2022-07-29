@@ -273,4 +273,7 @@ What is FAQ?
 ## Contact
 📫 [mail someone](mailto:someone@world.com)
 
+## Steps
+Like handcrafted steps recorder. Divide in steps with accompanying full context screenshot with enrectangled area of interaction.
+
 
