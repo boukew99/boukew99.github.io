@@ -73,3 +73,5 @@ _subtraction table_
 
 _division table_
 
+try it in [output](output).
+
