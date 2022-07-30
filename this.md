@@ -12,6 +12,16 @@ First of is navigation. This will simply be solved by scrolling. Though not all 
 
 Then once we need a form for user input, then just use the provided `<input>` HTML, which needs differnt interaction depending on input type.
 
+## Navigation Graph
+```mermaid
+graph LR;
+    boukew99.github.io-->articles & audio & boomarks & chess & demos & playlist & gallery & output & puzzles;
+    chess-->puzzles;
+    puzzles-->chess;
+    articles-->roadbike & pathfinding & review & software & this & quotes & poems & math & text_adventure;
+    math-->output;
+    
+```
 
 ## Markdown Patterns
 Combinations of characters with variable content that serve a some function.
@@ -275,5 +285,8 @@ What is FAQ?
 
 ## Steps
 Like handcrafted steps recorder. Divide in steps with accompanying full context screenshot with enrectangled area of interaction.
+
+## Internal links
+Strengthens network and by keeping them non-reptitive, you can increase perceived depth.
 
 
