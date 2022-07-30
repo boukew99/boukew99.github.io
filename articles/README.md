@@ -1,4 +1,5 @@
 # Articles
+-  [road bike](roadbike)
 - [Linux on USB](linux_on_usb) 20-05-22. Trying out the linux operating system besides Windows and how to do it.
-- [this](this.md). Noting down the process of making my website. 
+- [website](website.md). Noting down the process of making my website. 
 - [Aesthetic QR codes](aesthetic_qr). Experiment. **new**

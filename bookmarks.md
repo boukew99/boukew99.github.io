@@ -18,6 +18,10 @@ https://gorillasun.de/blog/a-simple-solution-for-shape-packing-in-2d
 [https://github.com/dolphin-emu/dolphin/tree/master/Data/Sys/Shaders] shaders used in dolpin
 [Red Blob Games](https://www.redblobgames.com/) is great a learning site till you realize that the visuals are not images, but interactive, which makes it even better!
 
+<https://www.netmotionsoftware.com/blog/connectivity/how-does-data-compression-work>
+<https://www.youtube.com/watch?v=Lto-ajuqW3w>
+and DRY?
+
 <http://www.learnyouahaskell.com/g>
 
 [git book](https://git-scm.com/book/en/v2)

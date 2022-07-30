@@ -1,7 +1,7 @@
 # Website
 [Website](https://boukew99.github.io/) using [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github) and [Github Pages](https://docs.github.com/en/pages) by [boukew99](https://github.com/boukew99). 
 
-4128 lines of code |  size 367 MB / 1GB | compressed size 558,1 MB
+4128 lines of code |  size 178,6 MB / 1GB | compressed size 175,8 MB
 
 https://www.markdownguide.org/cheat-sheet/ -> https://emojipedia.org/
 
@@ -108,10 +108,11 @@ result | code
 header | `#(#####) header`
 *italic* | `*italic*` / `_italic_`
 **bold** | `**bold**` / `__bold__`
-~~strikethrough~~ | `~~strikethrough~~.`
+~~strikethrough~~ | `~~strikethrough~~`
 [link]() | `[link](src)`
 ![image](image) | `![image](src)`
 `inlince code` | \`inline code\`
+
 >`>`Blockquote
 
 --- 
@@ -187,7 +188,7 @@ Minimal Table size for reocurring properties.
 ```html
 <table>
 	<caption>...</caption>
-	 <tr>
+	<tr>
   	<th>Instances</th>
     <th>property B</th>
     <th>property C</th>
