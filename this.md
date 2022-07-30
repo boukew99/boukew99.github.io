@@ -256,7 +256,8 @@ https://en.wikipedia.org/wiki/Index_(publishing)
 <https://en.wikipedia.org/wiki/Wiktionary>
 
 ### Referencing
-[^1] [^1]:ref
+[^1] 
+[^1]:ref
 
 ### Zipping or Tarring site
 - https://github.com/boukew99/boukew99.github.io/zipball/master (.zip)
@@ -270,7 +271,9 @@ Zip a folder manually for local usage or use `Save Page as` yourself.
 
 loc
 <https://linuxconfig.org/counting-lines-of-code-with-cloc>
-
+or
+https://www.geeksforgeeks.org/wc-command-linux-examples/
+or https://stackoverflow.com/questions/1358540/how-can-i-count-all-the-lines-of-code-in-a-directory-recursively
 # Frequently Asked Questions (FAQ)
 
 **What is FAQ?**

@@ -5,13 +5,16 @@
 - <https://areyoutheasshole.com/>
 - [The 2022 r/place Atlas](https://place-atlas.stefanocoding.me/) with explanations of each drawing of the final image in r/place 2022.
 - https://letmegooglethat.com/
+- https://github.com/acaudwell/Gource/wiki/Controls (sudo apt install gource)
 
 ## Learning
 [raylib.h code](https://github.com/raysan5/raylib/blob/master/src/raylib.h)
 [raylib shapes code](https://github.com/raysan5/raylib/blob/master/src/rshapes.c)
 [raylib textures code](https://github.com/raysan5/raylib/blob/master/src/rtextures.c)
 kinda intersting to see how it communicates so simply to get functionality.
-
+https://gmtk.itch.io/platformer-toolkit/devlog/395523/behind-the-code
+https://www.delftstack.com/tutorial/
+https://gorillasun.de/blog/a-simple-solution-for-shape-packing-in-2d
 [https://github.com/dolphin-emu/dolphin/tree/master/Data/Sys/Shaders] shaders used in dolpin
 [Red Blob Games](https://www.redblobgames.com/) is great a learning site till you realize that the visuals are not images, but interactive, which makes it even better!
 
@@ -40,7 +43,8 @@ kinda intersting to see how it communicates so simply to get functionality.
 - https://ambientcg.com/
 - https://flatuicolors.com/
 - https://lospec.com/
-
+- https://towardsdatascience.com/40-open-source-audio-datasets-for-ml-59dc39d48f06
+- https://freesound.org/people/klankbeeld/sounds/243473/
 <https://commons.wikimedia.org/wiki/Main_Page>
 <https://upload.wikimedia.org/wikipedia/commons/8/8f/Cycling_%28track%29_pictogram.svg>
 Olympic pictograms!
@@ -102,9 +106,20 @@ The Colours of Infinity documentary
 <https://www.interrail.eu/en/soundtracks>
 https://help.obsidian.md/Obsidian/Obsidian
 
+# Plants
+https://drgreen.nl/
+---
 
 https://issuu.com/tudelft-mediasolutions/docs/home-of-innovation-projecten-2022
 
+https://archeologie.culture.gouv.fr/chauvet/fr/visiter-grotte
+
+https://api-docs.igdb.com/#examples
+
+https://www.hallab.co.jp/eng/company/symbol, https://www.hallab.co.jp/eng/creative/process/,
+https://www.hallab.co.jp/eng/creative/story/prj001/
+
+http://webglsamples.org/aquarium/aquarium.html
 
 https://dutchgameindustry.directory/?page=gameshttps://dutchgamesassociation.nl/
 https://dutchgamesassociation.nl/

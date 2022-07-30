@@ -37,15 +37,15 @@ Name | Description
 #### Game Jams
 Made during Game jams.
 
-Jam | Name | Description
---- | ---  |---
-| Space Cake | 🥮 space, lasers, destroyed ships and ... cake?
-| Switched | 🪚 Become a sawblade to blade all the runners for some reason
-| Looper | ➰ Find the dissapeared object
-| Mcdonald's Farm | 🐔 Work on a chicken farm
-| Drag Expand | 👉 Puzzle box
-| Seperate but not | ☀️ Find your other half
-| Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
+Name | Description
+---  |---
+Space Cake | 🥮 space, lasers, destroyed ships and ... cake?
+Switched | 🪚 Become a sawblade to blade all the runners for some reason
+Looper | ➰ Find the dissapeared object
+Mcdonald's Farm | 🐔 Work on a chicken farm
+Drag Expand | 👉 Puzzle box
+Seperate but not | ☀️ Find your other half
+Slightly Unconventional Platformer | 🤸‍♀️ Almost a normal platformer
 
 ### Style
 

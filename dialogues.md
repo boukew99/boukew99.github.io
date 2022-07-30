@@ -1,5 +1,5 @@
 # Dialogues
-Fictional dialogues between fictional characters.
+Fictional dialogues between fictional characters. [text adventure](text_adventure)
 
 ## Passerbys
 1
@@ -46,3 +46,9 @@ Note
 player
 : What was that about? *slightly confused*
 : I dunno. Lalala. *keeps on walking*
+
+## Choice
+What do I choose now?
+: [Apples]
+: [Potatoes]
+: [Strawberry]

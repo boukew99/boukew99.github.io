@@ -1,0 +1,82 @@
+<!-- https://www.w3schools.com/jsref/event_oninput.asp -->
+
+<!DOCTYPE html>
+<html lang="en">
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"> 
+<script src="script.js"></script>
+
+<h1>Page Title</h1>
+
+<form oninput="x.value=a.value+parseInt(b.value)">
+	<input type="range" id="a" value="50">
+	+<input type="number" id="b" value="25">
+	=<output name="x" for="a b"></output>
+	<input type=reset>
+	<input type="number">
+</form>
+
+<input type="range" oninput="myFunction(this.value)">    
+<p id="demo"></p>
+
+</form>
+<form oninput="x.value=oneStep(parseInt(a.value),operator.value,parseInt(b.value))">
+  <label for="a">Choose first input</label>
+  <select name="a" id="a">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option> 
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>    
+  </select>
+  
+  <select name="operator" id="operator">
+    <option value="+">+</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="-">-</option>
+    <option value="^">^</option>
+  </select>
+  
+  <select name="b" id="b">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option> 
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>    
+  </select>
+  
+  = <output name="x" for="a b"></output>
+</form>
+<script>
+function oneStep(a, operator, b) {
+	switch (operator) {
+		case '+':
+		 	return a + b; break;
+		case '*': 
+			return a * b; break;
+		case '/':
+			return a / b; break;
+		case '-':
+			return a - b; break;
+		case "^":
+			return Math.pow(a, b); break;
+	}
+}
+
+function myFunction(val) {
+  document.getElementById("demo").innerHTML = val; 
+}
+</script>

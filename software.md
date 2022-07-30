@@ -14,3 +14,14 @@ Some considerations
 
 ## Respecting the default
 <https://grugbrain.dev/#grug-on-chestertons-fence>
+
+## software evolution process
+?
+
+## Files
+Everything is just stored as a file. extension don't matter for filesystem, they just describe different dimensions (of a folder).
+
+
+
+
+repeat <-while,for
