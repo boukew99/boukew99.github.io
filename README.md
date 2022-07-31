@@ -5,7 +5,6 @@
 - [Godot Engine Assets](https://godotengine.org/asset-library/asset?- category=&godot_version=&sort=updated&filter=boukew99).
 - On twitter I post updates. Or DM me.
 
-![smiley banana](smiley_banana.gif)
 
 ## FAQ / About me
 
@@ -21,4 +20,6 @@ What I can offer?
 What do you care for?
 : Inclusive design of technology.
 
+
+![smiley banana](smiley_banana.gif)
 
