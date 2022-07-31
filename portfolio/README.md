@@ -1,7 +1,7 @@
-# Portfolio
 To | [Open Source Software 💻](#godot-assets) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
 
-I write software, music, drawings, papers... with a focus on usability and inclusivity.  
+# Portfolio
+I develop software, music, drawings, papers with a focus on usability and inclusivity.  
 
 ## Software projects
 Most software is hosted on my [Github](https://github.com/boukew99).
