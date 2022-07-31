@@ -21,5 +21,3 @@ What do you care for?
 : Inclusive design of technology.
 
 
-![smiley banana](smiley_banana.gif)
-
