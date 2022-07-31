@@ -1,9 +1,12 @@
-
+# Index
 [articles](articles), [bookmarks](bookmarks), [chess](chess) **new**, [comics](comics), [demos](demos), [gallery](gallery), [handheld](handheld), [portfolio](portfolio) with a selection of projects, [game review](review), [text adventure](text_adventure), [tiledraw](tiledraw)
 
 - Games published on [itch.io](https://howyoudoing.itch.io/).
 - [Godot Engine Assets](https://godotengine.org/asset-library/asset?- category=&godot_version=&sort=updated&filter=boukew99).
 - On twitter I post updates. Or DM me.
+
+
+## FAQ / About me
 
 What do you like to do?
 : UX design / Engineer
