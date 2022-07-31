@@ -1,9 +1,11 @@
-# Index
-[articles](articles), [bookmarks](bookmarks), [chess](chess) **new**, [comics](comics), [demos](demos) [gallery](gallery), [handheld](handheld), [portfolio](portfolio) with a selection of projects, [game review](review), [text adventure](text_adventure), [tiledraw](tiledraw)
+
+[articles](articles), [bookmarks](bookmarks), [chess](chess) **new**, [comics](comics), [demos](demos), [gallery](gallery), [handheld](handheld), [portfolio](portfolio) with a selection of projects, [game review](review), [text adventure](text_adventure), [tiledraw](tiledraw)
 
 - Games published on [itch.io](https://howyoudoing.itch.io/).
 - [Godot Engine Assets](https://godotengine.org/asset-library/asset?- category=&godot_version=&sort=updated&filter=boukew99).
 - On twitter I post updates. Or DM me.
+
+![smiley banana](smiley_banana.gif)
 
 ## FAQ / About me
 
@@ -19,6 +21,4 @@ What I can offer?
 What do you care for?
 : Inclusive design of technology.
 
----
-Thanks for checking out my site 😊️. You can view the [source](https://github.com/boukew99/boukew99.github.io) here.
 
