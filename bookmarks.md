@@ -128,6 +128,9 @@ http://webglsamples.org/aquarium/aquarium.html
 https://dutchgameindustry.directory/?page=gameshttps://dutchgamesassociation.nl/
 https://dutchgamesassociation.nl/
 
+https://digitalagencyrankings.com/iconogen/
+https://realfavicongenerator.net/
+
 https://hyves-smileys.immerblei.com/
 https://alexwlchan.net/2022/07/screenshots/
 https://en.wikipedia.org/wiki/Inner-platform_effect

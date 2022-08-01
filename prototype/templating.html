@@ -1,0 +1,32 @@
+<!--Comment-->
+<!DOCTYPE html>
+<html lang="en">
+<title>Templating</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"> 
+<script defer src="script.js"></script>
+
+
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <img src="smiley_banana.gif">
+</template>
+
+<script>
+var x = 35
+var y = 35
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  x *= 1.613
+  y *= 1.613
+  document.body.appendChild(clon);
+  clon.width = x 
+  clon.height = y +"px"
+}
+</script>
+
+</body>
+</html>

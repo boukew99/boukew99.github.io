@@ -1,4 +1,4 @@
-To | [Open Source Software 💻](#godot-assets) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
+To | [Godot Assets 💻](#godot-assets) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
 
 # Portfolio
 I develop software, music, drawings, papers with a focus on usability and inclusivity.  

@@ -12,6 +12,17 @@ First of is navigation. This will simply be solved by scrolling. Though not all 
 
 Then once we need a form for user input, then just use the provided `<input>` HTML, which needs differnt interaction depending on input type.
 
+## Site Index
+- bookmarks
+- comics
+- gallery
+- portfolio
+- roadbike
+- shadertoy
+- tiledraw
+	- tool
+	- tilemap.png
+		
 ## Navigation Graph
 ```mermaid
 graph LR;
