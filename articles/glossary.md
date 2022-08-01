@@ -32,6 +32,12 @@ loop
 sequence tree
 : A action tree that exist over time through linear sequential calculations
 
+guile
+: sly orcunning intelligence
+
+brawn
+: physical strength in contrast to intelligence
+
 ## More
 
 https://www.studiobinder.com/blog/movie-film-terms/#e

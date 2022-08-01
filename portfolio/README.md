@@ -71,11 +71,14 @@ OS(user) | | Ubuntu, Android | IOS, Windows
 
 ## FAQ
 What do you like to do?
-    UX design / Engineer
+: UX design / Engineer
+
 What technologies do you use?
-    HTML, CSS, JS for small projects and Godot Engine for bigger projects.
+: HTML, CSS, JS for small projects and Godot Engine for bigger projects.
+
 What I can offer?
-    User test your product and log a report about it. Make an MVP of a design. Or just simply some consultation.
+: User test your product and log a report about it. Make an MVP of a design. Or just simply some consultation.
+
 What do you care for?
-    Inclusive design of technology. 
+: Inclusive design of technology. 
 

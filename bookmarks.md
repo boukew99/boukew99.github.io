@@ -131,6 +131,10 @@ https://dutchgamesassociation.nl/
 https://digitalagencyrankings.com/iconogen/
 https://realfavicongenerator.net/
 
+https://developers.google.com/speed/webp/docs/using
+
+https://medium.com/geekculture/how-to-make-your-own-game-engine-and-why-ddf0acbc5f3
+
 https://hyves-smileys.immerblei.com/
 https://alexwlchan.net/2022/07/screenshots/
 https://en.wikipedia.org/wiki/Inner-platform_effect
