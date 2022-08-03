@@ -133,6 +133,8 @@ https://realfavicongenerator.net/
 
 https://developers.google.com/speed/webp/docs/using
 
+https://www.w3schools.com/jsref/prop_node_previoussibling.asp
+
 https://medium.com/geekculture/how-to-make-your-own-game-engine-and-why-ddf0acbc5f3
 
 https://hyves-smileys.immerblei.com/

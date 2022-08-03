@@ -43,5 +43,6 @@ brawn
 https://www.studiobinder.com/blog/movie-film-terms/#e
 https://en.wikipedia.org/wiki/Film_editing
 https://en.wikipedia.org/wiki/Glossary_of_comics_terminology#Splash
+https://en.wikipedia.org/wiki/Glossary_of_video_game_terms#attract_mode
 
 冒険 - adventure - Bōken - https://www.bing.com/translator/?ref=TThis&text=%E5%86%92%E9%99%BA&from=ja&to=en
