@@ -247,6 +247,7 @@ $color(t) a + b * \cos{2n(c*t+d)}$.
 
 + < back
 
+To | [Godot Assets 💻](#godot-assets) | [Video Games 🎮](#video-games) | [Skill Table ⭐](#skill-table) 
 
 ![img](src)
 *caption*

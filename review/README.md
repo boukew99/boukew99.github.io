@@ -17,5 +17,9 @@ Mother | emotional copywriting
 ![boat bridge collision](Screenshot 2022-01-14 144030.png)
 *What happens when a boat collides with a opening drawbridge.*
 
+## Dark Souls
+![rare creature](IMG_20200313_141218.jpg)
+*This is a rare creature right?*
+
 ## More
 - [No Mans Sky](no_mans_sky).
