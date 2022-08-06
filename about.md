@@ -1,7 +1,8 @@
-![red spaceship](snap2022-01-03-12-46-03.png)
+![red voxel spaceship](snap2022-01-03-12-46-03.png)
+*red voxel spaceship I made in Magicka Voxel*
 
-# Portfolio
-Developing with a focus on accesibility.
+# About
+UX Design & Developing with a interest in universal/inclusive design.
 
 ## Skill Table⭐
 Besides basic university engineering skills I list here mainly hard skills with a rating from 1 to 3 roughly indicating my experience level. 
@@ -20,7 +21,7 @@ Music 🎹 | GarageBand, Harmonica, Sonic Pi | Guitar, Audacity | Piano, Keyboar
 OS(user) | | Ubuntu, Android | IOS, Windows
 
 ## Native projects💻
-Software sources are hosted on [Github](https://github.com/boukew99) and playable demos on [itch.io](https://howyoudoing.itch.io/). Generally I use the [Godot Engine](https://godotengine.org) for native development for its small binary size and ease of use. I have made some repositories available on the [Godot Asset Library](https://godotengine.org/asset-library/asset?category=&godot_version=&sort=updated&filter=boukew99).
+Generally I use the [Godot Engine](https://godotengine.org) for native development for its small binary size and ease of use. Software sources are hosted on [Github](https://github.com/boukew99) and playable demos on [itch.io](https://howyoudoing.itch.io/). Some of these are [Godot Engine Assets](https://godotengine.org/asset-library/asset?- category=&godot_version=&sort=updated&filter=boukew99).
 
 
 ## Video Games🎮  
@@ -29,7 +30,7 @@ During Game jams I made space games, topdown sawblade simulator, perception game
 
 
 ## Web projects🕸️
-I just use HTML, CSS & JS. I like the wide use case it serves. All project are on this website. [source](https://boukew99.github.io)
+I just use HTML, CSS & JS. I like the wide use case it serves. All project are on this website. [source](https://boukew99.github.io). [chess](chess), [handheld](handheld), [pitstop](pitstop), [text_adventure](text_adventure), [tiledraw](tiledraw), [templates](templates).
 
 
 ## FAQ
