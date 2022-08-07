@@ -1,0 +1,36 @@
+<!--Comment-->
+<!DOCTYPE html>
+<html lang="en">
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"> 
+<script defer src="script.js"></script>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+<h1>Page Title</h1>
+<p>QA dice is basically just a random number generator, though with a fixed range depending on how many faces it has.</p>
+
+<label>faces:</label>
+<input name=faces type=range>
+<!--<svg>2D faces-->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="557" height="557">
+	<rect x="3.5" y="3.5" width="550" height="550" rx="70" fill="none" stroke="#000" stroke-width="7"/>
+	<text id=number x="50%" y="50%" font-size="5em" dominant-baseline="middle" text-anchor="middle">0</text>
+</svg>
+<button onclick=roll()>Roll</button>
+<img src="Dice-0.svg">
+
+<img src="Dice-1.svg">
+<img src=Dice-2.svg alt="3">
+<img src=Dice-3.svg>
+<img src=Dice-4.svg>
+<img src=Dice-5.svg>
+<img src=Dice-6.svg>
+
+<script>
+function roll(){
+	document.getElementById("number").innerHTML= Math.round( 1+ Math.random() * 6 );
+}
+</script>

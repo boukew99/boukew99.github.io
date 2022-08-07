@@ -186,7 +186,7 @@ News is a tag
 Log is a structure
 
 ## Emoticons
-📰 📅 🥦 🔖 🔗 🆕 🗣️🖱️🎲🎮ℹ️🔊🔉🔈🔇🎵
+📰 📅 🥦 🔖 🔗 🆕 🗣️🖱️🎲🎮ℹ️🔊🔉🔈🔇🎵(^-^*) 
 `Ctrl+;`
 
 ## Patterns
@@ -298,6 +298,9 @@ What is FAQ?
 
 ## Contact
 📫 [mail someone](mailto:someone@world.com)
+
+## LITE pages
+minimal, so fast load times
 
 ## Steps
 Like handcrafted steps recorder. Divide in steps with accompanying full context screenshot with enrectangled area of interaction.

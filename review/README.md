@@ -21,5 +21,10 @@ Mother | emotional copywriting
 ![rare creature](IMG_20200313_141218.jpg)
 *This is a rare creature right?*
 
+## Steep
+<video autoplay loop width=509 height=392 onclick="if (this.paused) this.play(); else this.pause();" >
+<source src="Screencast from 20-07-22 15:22:13.webm" type=video/webm>
+</video>
+
 ## More
 - [No Mans Sky](no_mans_sky).

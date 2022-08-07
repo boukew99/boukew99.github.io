@@ -1,7 +1,9 @@
 # Markdown Text Adventure
 This is a static text adventure playale in your browser using only markdown features. 
 
-[mobile](mobile), [map](map), [character select](character_select)
+[mobile](mobile), [map](map), 
+
+[![character select](characte_select_preview.png)](character_select)
 
 ## Index (Continue)
 - [Start](#start)

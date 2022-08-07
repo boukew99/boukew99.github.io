@@ -10,7 +10,7 @@ I Advisise to read the papers and this summary side by side, as then you can see
 - Weiser, M. (1991). The computer for the 21st century
 - Ishii, H. (2008, February). Tangible bits: beyond pixels
 - Jacob, R.J.K. et al. (2008). Reality-Based Interaction: A Framework for Post-WIMP Interfaces
-- Norman, D. A. (2010). Natural user interfaces are not natural.
+- Norman, D. A. (2010). Natural user interfaces are not natural. <https://interactions.acm.org/archive/view/may-june-2010/natural-user-interfaces-are-not-natural1>
 - Value sensitive design and information systems by Friedman, B., Kahn, P. H., Borning, A., & Huldtgren, A. (2013).
 - Next steps for value sensitive design (Links to an external site.) by Borning, A., & Muller, M. (2012, May). 
 

@@ -1,0 +1,66 @@
+<style>
+body {
+	column-count:3; 
+	column-width: 730px;
+}
+</style>
+
+<title>Desktop</title>
+
+<body>
+
+<h1>Web Desktop</h1>
+	<p>For development. <a download href=development.html>Save</a> the page to use it locally</p> <!--https://stackoverflow.com/questions/8174282/link-to-reload-current-page-->
+<h2>Tools</h2>
+
+<table>
+	<tr>
+		<th>Category</th>
+		<th>Tools </th>
+	</tr>
+	<tr>
+		<td>Pixel art</td>
+		<td><a href="https://www.piskelapp.com/p/create/sprite">Piksel</a></td>
+	</tr>
+	<tr>
+		<td>Web</td>
+		<td><a href="https://www.w3schools.com/">W3 Schools</a>, <a href="https://emojipedia.org">emojipedia</a>, <a href="https://www.image-map.net/">Image maps</a></td>
+	</tr>
+	<tr>
+		<td>Game</td>
+		<td><a href="https://docs.godotengine.org/en/stable/">Godot Engine Docs</a></td>
+	</tr>
+	<tr>
+		<td>Marketplaces</td>
+		<td><a href=https://itch.io/>itch.io</a>, <a href=https://twitter.com/>twitter</a></td>
+	</tr>
+	<tr>
+		<td>Misc</td>
+		<td><a href=https://grugbrain.dev>grugbrain.dev</a></td>
+</table>
+
+<h2>News</h2>
+
+<p><a href="https://godotengine.org/news">Godot Engine News</a></p>
+
+
+<h2>Clipboard</h2>
+<textarea onchange="text_changed()" id="clipboard" rows="15" cols="100"></textarea>
+
+<h2>Playlist</h2>
+
+<p><a href="https://open.spotify.com/search">Desktop Focus🎵</a>, <a href=https://www.youtube.com/results?search_query=Coding+Session+-+Lofi>lofi</a></p>
+
+<input type=range>Doneness</input>
+</body>
+
+<!--Clipboard-->
+<script>
+window.onload = function get_clipboard() {
+	document.getElementById("clipboard").value = localStorage.getItem("clipboard");
+}
+
+function text_changed() {
+	localStorage.setItem("clipboard", document.getElementById("clipboard").value);
+}
+</script>

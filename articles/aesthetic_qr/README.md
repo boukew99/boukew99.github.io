@@ -1,3 +1,4 @@
+<!--https://www.qr-code-generator.com/ Wifi-connecting -->
 ![compare](compare.png)
 
 *respectively website_qr, made transparent, the under image, alpha 0.7, alpha 0.4, burn*

@@ -48,3 +48,7 @@ Q: Why Projection and not Matrix4?
 A: Godot does not use Matrix2, Matrix3, Matrix4x3, etc. naming convention because, within the engine, these types always have a purpose. As such, Godot names them: Transform2D, Transform3D or Basis. In this case, this 4x4 matrix is always used as a Projection, hence the naming.
 
 That is also what distinguishes an asset from a Resource.
+
+## Debugging GUI
+Display what you actually clicked, when you cannot click something else.
+![Debug Misc](Screenshot from 2022-07-22 18-25-14.png)
