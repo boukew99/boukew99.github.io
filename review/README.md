@@ -22,8 +22,8 @@ Mother | emotional copywriting
 *This is a rare creature right?*
 
 ## Steep
-<video autoplay loop width=509 height=392 onclick="if (this.paused) this.play(); else this.pause();" >
-<source src="Screencast from 20-07-22 15:22:13.webm" type=video/webm>
+<video autoplay loop muted playsinline width=1920/2 height=1080/2 onclick="if (this.paused) this.play(); else this.pause();" >
+<source src="Steep 2021-06-16 22-34-11_Trim.mp4" type=video/mp4>
 </video>
 
 ## More
