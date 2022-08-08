@@ -4,6 +4,6 @@
 
 --- 
 
-[about](about) with a selection of projects, [articles](articles), [bookmarks](bookmarks), [comics](comics), [demos](demos), [gallery](gallery), Games on [itch.io](https://howyoudoing.itch.io/), [game review](review), [text adventure](text_adventure), [tiledraw](tiledraw), twitter for updates
+[about](about), [articles](articles), [bookmarks](bookmarks), [comics](comics), [demos](demos), [gallery](gallery) [game review](review), [text adventure](text_adventure), [tiledraw](tiledraw)
 
 

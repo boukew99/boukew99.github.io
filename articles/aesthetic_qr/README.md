@@ -1,12 +1,12 @@
 <!--https://www.qr-code-generator.com/ Wifi-connecting -->
 ![compare](compare.png)
 
-*respectively website_qr, made transparent, the under image, alpha 0.7, alpha 0.4, burn*
+*respectively website_qr, made transparent, the under image, overlay, alpha 0.7, alpha 0.4, burn*
 
 # Aestethic QR
 
 
-How do you decorate the QR code without significantly reducing its functionality? The white background is only to increase contrast for the black pixels, which contain the information. Thus I made the background transparent. Then I made the decoration image that will go under the Qr image. Simply layering these images already works.
+**How do you decorate the QR code without significantly reducing its functionality?** The white background is only to increase contrast for the black pixels, which contain the information. Thus I made the background transparent. Then I made the decoration image that will go under the Qr image. Simply layering these images already works.
 
 
 Though contrast still is high enough for some more wiggling room for the under image to be visible. Thus I experimented with different layer merging methods, inluded here are layering with alpha 0.4, aplha 0.7 and burn.

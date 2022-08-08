@@ -25,7 +25,7 @@ Generally I use the [Godot Engine](https://godotengine.org) for native developme
 
 
 ## Video Games🎮  
-Most games are pretty experimental. sample: [Space Evader👾](https://itch.io/embed-upload/2869595?color=ebdf64).
+Games are on [itch.io](https://howyoudoing.itch.io/), most of them are pretty experimental, since they are a learning experience. sample: [Space Evader👾](https://itch.io/embed-upload/2869595?color=ebdf64).
 During Game jams I made space games, topdown sawblade simulator, perception game, chicken🐔 farm sim, puzzle box, light☀️ puzzle, platformers🤸‍♀️.
 
 
@@ -45,4 +45,7 @@ What I can offer?
 
 What do you care for?
 : Universal design of technology. 
+
+Social Media?
+: Twitter for updates (Planned)
 
