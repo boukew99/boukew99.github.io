@@ -1,5 +1,5 @@
 # Dialogues
-Fictional dialogues between fictional characters. [text adventure](text_adventure)
+Fictional dialogues between fictional characters. Planned to use in [text adventure](text_adventure).
 
 ## Passerbys
 1

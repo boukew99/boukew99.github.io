@@ -1,8 +1,22 @@
 ![red voxel spaceship](snap2022-01-03-12-46-03.png)
+
 *red voxel spaceship I made in Magicka Voxel*
 
 # About
 UX Design & Developing with a interest in universal/inclusive design.
+
+## Native projects💻
+Generally I use the [Godot Engine](https://godotengine.org) for native development for its small binary size and ease of use. Software sources are hosted on [Github](https://github.com/boukew99) and playable demos on [itch.io](https://howyoudoing.itch.io/). Some of these are [Godot Engine Assets](https://godotengine.org/asset-library/asset?- category=&godot_version=&sort=updated&filter=boukew99).
+
+
+## Video Games🎮  
+Games are on [itch.io](https://howyoudoing.itch.io/), most of them are pretty experimental, since they are a learning experience. sample: [Space Evader👾](https://itch.io/embed-upload/2869595?color=ebdf64).
+During Game jams I made space games, topdown sawblade simulator, perception game, chicken🐔 farm sim, puzzle box, light☀️ puzzle, platformers🤸‍♀️.
+
+
+## Web projects🕸️
+I just use HTML, CSS & JS. I like the wide use case it serves. All project are on this website. [source](https://boukew99.github.io). [chess](/chess), [handheld](/handheld), [pitstop](/pitstop), [text_adventure](/text_adventure), [tiledraw](/tiledraw), .
+
 
 ## Skill Table⭐
 Besides basic university engineering skills I list here mainly hard skills with a rating from 1 to 3 roughly indicating my experience level. 
@@ -19,19 +33,6 @@ Design 🌻 | | Icons, Piksel, OOP, Abstraction | UX, UI, GUI, Leaness
 Academic 🎓 | |Statistics, Writing | Reading
 Music 🎹 | GarageBand, Harmonica, Sonic Pi | Guitar, Audacity | Piano, Keyboard
 OS(user) | | Ubuntu, Android | IOS, Windows
-
-## Native projects💻
-Generally I use the [Godot Engine](https://godotengine.org) for native development for its small binary size and ease of use. Software sources are hosted on [Github](https://github.com/boukew99) and playable demos on [itch.io](https://howyoudoing.itch.io/). Some of these are [Godot Engine Assets](https://godotengine.org/asset-library/asset?- category=&godot_version=&sort=updated&filter=boukew99).
-
-
-## Video Games🎮  
-Games are on [itch.io](https://howyoudoing.itch.io/), most of them are pretty experimental, since they are a learning experience. sample: [Space Evader👾](https://itch.io/embed-upload/2869595?color=ebdf64).
-During Game jams I made space games, topdown sawblade simulator, perception game, chicken🐔 farm sim, puzzle box, light☀️ puzzle, platformers🤸‍♀️.
-
-
-## Web projects🕸️
-I just use HTML, CSS & JS. I like the wide use case it serves. All project are on this website. [source](https://boukew99.github.io). [chess](chess), [handheld](handheld), [pitstop](pitstop), [text_adventure](text_adventure), [tiledraw](tiledraw), [templates](templates).
-
 
 ## FAQ
 What do you like to do?

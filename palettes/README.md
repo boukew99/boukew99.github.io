@@ -5,7 +5,7 @@
 
 ![blueprint palette](blueprint.png)
 ![mondriaan palette](mondriaan_palette.png)
-![r/place 2022 palette](rplace2022_palette.png)
+![r/place 2022 palette](rplace2022_palette28x.png)
 <!--https://en.wikipedia.org/wiki/R/place-->
 <!--https://townsean.github.io/canvas-pixel-color-counter/-->
 
