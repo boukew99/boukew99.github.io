@@ -1,29 +1,17 @@
-# Website
-[Website](https://boukew99.github.io/) using [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github) and [Github Pages](https://docs.github.com/en/pages) by [boukew99](https://github.com/boukew99). 
+# Website Design
 
-4128 lines of code |  size 178,6 MB / 1GB | compressed size 175,8 MB
 
-https://www.markdownguide.org/cheat-sheet/ -> https://emojipedia.org/
 
-Take a peek [behind the curtains](https://github.com/boukew99/boukew99.github.io/blob/main/make_md_site.md?plain=1). Then there is also the option to `inspect(f12)` the page.
 
 ## Interaction
 First of is navigation. This will simply be solved by scrolling. Though not all content needs to be always loaded thus scrolling is combined with links, which indicate what you want load, which will take you to that page. These rules set up the constraints for page design. First every loaded element is visibile otherwise it cannot be accesed by scrolling. Though you don't want to do too much scrolling so organize the page with care. Second, divide you website into functional pages, so the user has to do minimal loading and can acces the page independently (from anywhere). Try to provide a header (with #header) link too for an external links too provide extra context.
 
 Then once we need a form for user input, then just use the provided `<input>` HTML, which needs differnt interaction depending on input type.
 
-## Site Index
-- bookmarks
-- comics
-- gallery
-- portfolio
-- roadbike
-- shadertoy
-- tiledraw
-	- tool
-	- tilemap.png
-		
-## Navigation Graph
+
+
+
+## Anchor Map
 ```mermaid
 graph LR;
     boukew99.github.io-->articles & audio & boomarks & chess & demos & playlist & gallery & output & puzzles;
@@ -34,6 +22,17 @@ graph LR;
     
 ```
 
+### Site Index / Folder structure
+- bookmarks
+- comics
+- gallery
+- portfolio
+- roadbike
+- shadertoy
+- tiledraw
+	- tool
+	- tilemap.png
+	
 ## Markdown Patterns
 Combinations of characters with variable content that serve a some function.
 
@@ -114,6 +113,9 @@ or with *tags*
 
 ### Mandatory Markdown [Reference](https://commonmark.org/help/))/CheatSheet
 
+Take a peek [behind the curtains](https://github.com/boukew99/boukew99.github.io/blob/main/articles/website.md?plain=1) of this document. Then there is also the option to `inspect(f12)` the HTML of the page.
+https://www.markdownguide.org/cheat-sheet/
+
 result | code
 ---|---
 header | `#(#####) header`
@@ -187,7 +189,7 @@ Log is a structure
 
 ## Emoticons
 📰 📅 🥦 🔖 🔗 🆕 🗣️🖱️🎲🎮ℹ️🔊🔉🔈🔇🎵(^-^*) 
-`Ctrl+;`
+`Ctrl+;` or https://emojipedia.org/
 
 ## Patterns
 Open in [Github](https://github.com/boukew99/boukew99.github.io/blob/main/make_md_site.md) to get a copy button.
@@ -238,7 +240,7 @@ $color(t) a + b * \cos{2n(c*t+d)}$.
 
 <https://www.tablesgenerator.com/markdown_tables>
 
-#### Table of Contents
+#### Table of Contents / Contents
 
 - [Underline](#underline)
 - [Indent](#indent)
@@ -295,6 +297,8 @@ Frequently Asked Question, though often they are just made up.
 What is FAQ?
 : Frequently Asked Question, though often they are just made up.
 
+## Process Flow 
+Also known as workflow.
 
 ## Contact
 📫 [mail someone](mailto:someone@world.com)
@@ -302,10 +306,16 @@ What is FAQ?
 ## LITE pages
 minimal, so fast load times
 
+## Optimize
+https://web.dev/fast/#optimize-your-images
+
 ## Steps
 Like handcrafted steps recorder. Divide in steps with accompanying full context screenshot with enrectangled area of interaction.
 
 ## Internal links
 Strengthens network and by keeping them non-reptitive, you can increase perceived depth.
+
+
+If you want you can leave an [issue](https://github.com/boukew99/boukew99.github.io/issues), though I will probably fix it regardless. 
 
 
