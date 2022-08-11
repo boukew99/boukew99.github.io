@@ -1,4 +1,4 @@
-![red voxel spaceship](snap2022-01-03-12-46-03.png)
+![red voxel spaceship](preview.webp)
 
 *red voxel spaceship I made in Magicka Voxel*
 
