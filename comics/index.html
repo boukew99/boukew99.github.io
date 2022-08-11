@@ -7,7 +7,7 @@
 img {max-width:100%;}
 </style>
 <h1>Web Comics</h1>
-<img id=comic>
+<img id=comic alt=🤷️>
 
 <ol id="list">
 	<li><a href="game_words.svg">game_words</a></li>
@@ -24,7 +24,7 @@ list.onclick = function(e) {
 	  e.preventDefault();
 
   var href = e.target.getAttribute('href');
-
+	//if target <a>
   var source = document.getElementById('comic');
   source.src = href;
   document.title = href; 
@@ -33,10 +33,11 @@ list.onclick = function(e) {
 
 
 
-
+<!--
 <h2>other web comics</h2>
-<p>💬🗨️🗯️💭
+<p>💬🗨️🗯️💭 <br>
 https://xkcd.com/1871/ https://xkcd.com/993/ https://xkcd.com/302/
 tips
 https://www.clipstudio.net/how-to-draw/archives/157055
 </p>
+-->

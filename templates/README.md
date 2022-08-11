@@ -1,5 +1,7 @@
 # Templates 
 - [quiz](quiz)
+- [credits](credits)
+- [table](table)
 
 ## Usage
 1. Choose a template

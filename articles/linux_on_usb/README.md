@@ -1,4 +1,4 @@
-![picture](IMG_20220505_193314.jpg)
+![picture](preview.webp)
 
 # Trying Linux on 8GB USB
 ![linux_on_usb](linux_on_usb.svg)
