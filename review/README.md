@@ -1,5 +1,7 @@
 # Reviews
 
+![preview](preview.jpg)
+
 Game | Review | Photos
 ---  |---     |---
 OOT | attack of hospitality 
