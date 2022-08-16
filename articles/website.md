@@ -1,6 +1,6 @@
 # Website Design
 
-
+Max. 1GB
 
 
 ## Interaction
@@ -188,7 +188,7 @@ News is a tag
 Log is a structure
 
 ## Emoticons
-📰 📅 🥦 🔖 🔗 🆕 🗣️🖱️🎲🎮ℹ️🔊🔉🔈🔇🎵(^-^*) 
+📰 📅 🥦 🔖 🔗 🆕 🗣️🖱️🎲🎮ℹ️🔊🔉🔈🔇🎵(^-^*) ^^
 `Ctrl+;` or https://emojipedia.org/
 
 ## Patterns
