@@ -1,7 +1,3 @@
-![red voxel spaceship](preview.webp)
-
-*red voxel spaceship I made in Magicka Voxel*
-
 # About
 UX Design & Developing with a interest in universal/inclusive design.
 
@@ -17,7 +13,7 @@ During Game jams I made space games, topdown sawblade simulator, perception game
 
 
 ## Web projects🕸️
-I just use HTML, CSS & JS. I like the wide use case it serves. All project are on this website. [source](https://boukew99.github.io). [chess](/chess), [handheld](/handheld), [pitstop](/pitstop), [text_adventure](/text_adventure), [tiledraw](/tiledraw), .
+I just use HTML, CSS & JS. I like the wide use case it serves. All project are on this website. [source](https://github.com/boukew99/boukew99.github.io). [chess](/chess), [handheld](/handheld), [pitstop](/pitstop), [text_adventure](/text_adventure), [tiledraw](/tiledraw), .
 
 
 ## Skill Table⭐
@@ -51,4 +47,9 @@ What do you care for?
 
 Social Media?
 : Twitter for updates (Planned)
+
+![red voxel plane](preview.webp)
+
+*red voxel plane*
+
 
