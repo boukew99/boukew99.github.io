@@ -1,0 +1,41 @@
+<!--Comment-->
+<!DOCTYPE html>
+<html lang="en">
+<title>Balance Sheet</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/style.css"> 
+<script defer src="script.js"></script>
+
+<h1>Balance</h1>
+<table>
+<caption contenteditable>Balance Sheet</caption>
+<tr>
+<th>Name</th>
+<th>In ($)</th>
+<th>Out ($)</th>
+</tr>
+<tr>
+<td><input type=text></td>
+<td><input type=number min=0 onchange="calcIn(this.value)" value=1></td>
+<td><input type=number max=0 onchange="calcOut(this.value)" value=-1></td>
+</tr>
+
+<tr>
+<th>Summation</th>
+<td id=inSum >1</td>
+<td id=outSum>-1</td>
+</tr>
+</table>
+
+<script>
+function calcIn(value) {
+	inSum = value + inSum
+	document.getElementById("inSum").innerHTML = insum
+}
+function calcOut(value) {
+	document.getElementById("outSum").innerHTML = value
+}
+</script>
+<!--
+End comments

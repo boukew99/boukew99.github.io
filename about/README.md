@@ -48,8 +48,4 @@ What do you care for?
 Social Media?
 : Twitter for updates (Planned)
 
-![red voxel plane](preview.webp)
-
-*red voxel plane*
-
 

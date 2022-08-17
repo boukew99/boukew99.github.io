@@ -1,0 +1,25 @@
+<!--Comment-->
+<!DOCTYPE html>
+<html lang="en">
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"> 
+<script defer>
+window.onload = function(event) {
+	const urlParams = new URLSearchParams(window.location.search);
+	const setup = urlParams.get('monkey');
+	
+	if (monkey) {
+		alert(monkey)
+		document.getElementById("portrait").src = monkey + ".png"
+	}
+	
+}
+</script>
+
+<h1>Monkey</h1>
+
+
+
+<img id=portait>
