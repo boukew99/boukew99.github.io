@@ -1,12 +1,12 @@
-h1 {
-	
-}
-
 #banner {
   width: 100%;
   height: 60px;
   object-fit: cover;
 }
+
+#map {
+	max-width: 100%;
+} 
 
 table, th, td {
   border: 1px solid black;
