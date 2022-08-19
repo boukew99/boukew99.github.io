@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--<link rel="stylesheet" href="/style.css"> -->
+<style>
+</style>
+
+
+<html lang="en">
+<title>Random Event</title>
+<h1>Random Event</h1>
+<button onclick="random_event()">Draw Event</button>
+<img id=view>
+<!--<script src="script.js"></script>-->
+<script>
+function random_event(){
+	view.src = Math.random() > 0.5 ? 'sponsor.svg' : "fire.svg" 
+}
+</script>
+
+<!--
+End comments

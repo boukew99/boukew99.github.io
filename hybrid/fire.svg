@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="62mm"
+   height="88mm"
+   viewBox="0 0 62 88.000001"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (ef4d3fba62, 2022-07-19, custom)"
+   sodipodi:docname="fire.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5144501"
+     inkscape:cx="102.34738"
+     inkscape:cy="167.38749"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1030">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop1026" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop1028" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient990">
+      <stop
+         style="stop-color:#ffb700;stop-opacity:1;"
+         offset="0"
+         id="stop986" />
+      <stop
+         style="stop-color:#ff0007;stop-opacity:1;"
+         offset="1"
+         id="stop988" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient990"
+       id="linearGradient992"
+       x1="3.0290094"
+       y1="33.486164"
+       x2="57.155425"
+       y2="33.486164"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1030"
+       id="linearGradient1032"
+       x1="4.6316753"
+       y1="36.897519"
+       x2="62.969544"
+       y2="36.897519"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="2.694452"
+       y="13.65643"
+       id="text288"><tspan
+         sodipodi:role="line"
+         id="tspan286"
+         style="stroke-width:0.264583"
+         x="2.694452"
+         y="13.65643">Forest Fire</tspan></text>
+    <rect
+       style="fill:url(#linearGradient992);stroke:#000000;stroke-width:0.3;fill-opacity:1"
+       id="rect290"
+       width="53.826416"
+       height="35.716408"
+       x="3.1790094"
+       y="15.62796" />
+    <path
+       style="fill:url(#linearGradient1032);fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 3.8913324,50.680327 17.831271,21.359404 c 0,0 8.522062,11.014499 2.006857,14.970856 -6.515205,3.956357 12.918008,-11.704339 12.918008,-11.704339 0,0 14.759096,-5.445617 3.863001,2.506983 -10.896095,7.9526 -0.182329,12.27746 5.228924,5.893805 5.411255,-6.383652 4.766122,-19.283891 8.642908,-10.100572 3.876788,9.18332 6.937502,9.277358 1.603245,16.22343 -5.334257,6.946075 -2.960137,5.043951 3.722386,9.74253 6.68252,4.698579 0.829147,2.125602 0.829147,2.125602"
+       id="path1024"
+       sodipodi:nodetypes="ccscsssssc" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.7625px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="3.7912691"
+       y="56.319382"
+       id="text1762"><tspan
+         sodipodi:role="line"
+         id="tspan1760"
+         style="stroke-width:0.264583"
+         x="3.7912691"
+         y="56.319382">All forest tiles with dry</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="3.7912691"
+         y="62.272507"
+         id="tspan1764">status will take fire and</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="3.7912691"
+         y="68.225632"
+         id="tspan1766">burn down in 2 turns, if</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="3.7912691"
+         y="74.178757"
+         id="tspan1768">not sprayed with water.</tspan></text>
+  </g>
+</svg>
