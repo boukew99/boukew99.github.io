@@ -37,6 +37,6 @@ I write to explain technology and some psychology mixed in.
 	3. [table](templates/table)
 	
 # External
-	1. [source](https://github.com/boukew99/boukew99.github.io)
-	3. 🎮 [Game demos on itch.io](https://howyoudoing.itch.io/), includes space games, topdown sawblade simulator, perception game, chicken🐔 farm sim, puzzle box, light☀️ puzzle and platformers.
-	4. [Godot Engine Assets](https://godotengine.org/asset-library/asset?- category=&godot_version=&sort=updated&filter=boukew99)
+1. [source](https://github.com/boukew99/boukew99.github.io)
+2. 🎮 [Game demos on itch.io](https://howyoudoing.itch.io/), includes space games, topdown sawblade simulator, perception game, chicken🐔 farm sim, puzzle box, light☀️ puzzle and platformers.
+3. [Godot Engine Assets](https://godotengine.org/asset-library/asset?- category=&godot_version=&sort=updated&filter=boukew99)
