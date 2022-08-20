@@ -1,28 +1,12 @@
-# About
+# Tools
 
-## Q&A
+## Native 
+[Godot Engine](https://godotengine.org) for native development. It is is mall and focused on usability.
 
-What tech stack do you use?
-: [Godot Engine](https://godotengine.org) for native development. It is ismall and focused on usability.
+## Web
+Just HTML, CSS, JS, JSON and Markdown for web development. It makes for lightweight websites easily transmitted to most places and devices.
 
-: Just HTML, CSS, JS, JSON and Markdown for web development. It makes for lightweight websites easily transmitted to most places and devices.
-
-What do you like to do?
-: UX design / Engineer with a interest in universal/inclusive design.
-
-What technologies do you use?
-: HTML, CSS, JS for small projects and Godot Engine for bigger projects.
-
-What I can offer?
-: User test your product and log a report about it. Make an MVP of a design. Or just simply some consultation.
-
-What do you care for?
-: Universal design of technology. 
-
-Social Media?
-: Twitter for updates (Planned)
-
-## Tech familiarity
+## Technology familiarity
 
 Familiarity | ⭐☆☆ | ⭐⭐☆ | ⭐⭐⭐
 ---   | ---    | ---      | --- 
