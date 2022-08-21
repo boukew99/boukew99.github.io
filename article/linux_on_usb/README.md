@@ -1,4 +1,5 @@
 # Trying Linux on 8GB USB
+`20-05-22`
 Apparently it is very easy to try Linux, all you need is an USB with 8 GB of storage. I tried Ubuntu and thus used this [installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
 
 Then ![you plug in the USB with linux on it](preview.webp), stop the booting and redirect it to the USB and your using Linux. I expected it would be more difficult... 

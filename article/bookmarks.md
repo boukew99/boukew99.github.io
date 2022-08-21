@@ -44,8 +44,6 @@ https://thebookofshaders.com/05/
 
 ## Resources📦
 - [WikiMedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
-	- [Fibonacci spiral](https://upload.wikimedia.org/wikipedia/commons/7/79/Fibonacci_spiral.svg)
-	- [Morse Code](https://upload.wikimedia.org/wikipedia/commons/b/b5/International_Morse_Code.svg)
 - [FreePats project](https://freepats.zenvoid.org/index.html) sound bank of unique instruments.
 - [Philharmonia sound samples](https://philharmonia.co.uk/resources/sound-samples/) It includes all standard orchestral instruments, as well as guitar, mandolin, banjo, and a vast array of different percussion instruments.
 
@@ -140,6 +138,9 @@ https://developers.google.com/speed/webp/docs/using
 https://www.w3schools.com/jsref/prop_node_previoussibling.asp
 
 https://medium.com/geekculture/how-to-make-your-own-game-engine-and-why-ddf0acbc5f3
+
+
+https://itch.io/docs/creators/design
 
 https://hyves-smileys.immerblei.com/
 https://alexwlchan.net/2022/07/screenshots/

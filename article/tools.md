@@ -8,7 +8,7 @@ Just HTML, CSS, JS, JSON and Markdown for web development. It makes for lightwei
 
 ## Technology familiarity
 
-Familiarity | ⭐☆☆ | ⭐⭐☆ | ⭐⭐⭐
+Familiarity | Head start | Manipulatable | Comfortable
 ---   | ---    | ---      | --- 
 Electrical | Circuits, PID Systems| Computer building blocks, Instruction Sets | 
 Native 🖥️ | C, C++, Raylib, Java, Unity Engine, Git, SQL, Matlab, Unity, GLSL, Weka | Python, Gamemaker Studio 2, AI, Logic & Set  | Godot Engine, GDScript, Fundamentals

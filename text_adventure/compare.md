@@ -11,3 +11,7 @@
 | [Akalaka](akalaka15x.png)|5       | 5     | 4       | 1            | 2        | 0       | 2      | 1            | 1       | Pretty impressive massive creature.  |
 | Kanandee             |         |       |         |              |          |         |        |              |         |                                      |
 | [Difiwigipi](pocketanimal.svg)    |  
+| Monkys
+| Doirtos
+| Krazey
+| Junzo
