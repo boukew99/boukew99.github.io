@@ -4,12 +4,14 @@
   object-fit: cover;
 }
 
+
 body {
-	column-width:500px
+	column-width:500px;
+	background: lightgrey;
 }
 
 img {
-	max-width: 100%
+	max-width: 100%;
 }
 
 
@@ -18,7 +20,7 @@ table,th, td {
 }
 
 tr:nth-child(odd) {
-  background: f2f2f2;
+  background: #f2f2f2;
 }
 
 

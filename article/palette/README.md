@@ -24,4 +24,13 @@ _r/place 2022 - ffffff 3690ea 000000 ff4500 811e9f b44ac0 ffd635 be0039 2450a4 6
 - <http://designmadeinjapan.com/magazine/graphic-design/the-rich-colors-of-studio-ghibli/>
 
 
+## Input Table
+For dynamic color palletes at [Shadertoy](https://www.shadertoy.com/view/ll2GD3), using
+$color(t) a + b * \cos{2n(c*t+d)}$.
 
+| pallete | a | b | c | d |
+|---      |---|---|---|---|
+| rainbow | 0.5, 0.5, 0.5 |	0.5, 0.5, 0.5	| 1.0, 1.0, 1.0	| 0.00, 0.33, 0.67 |
+| cliff waters | 0.5, 0.5, 0.5	|	0.5, 0.5, 0.5	| 1.0, 1.0, 1.0 |	0.00, 0.10, 0.20 |
+
+sky-blue: #4187d8
