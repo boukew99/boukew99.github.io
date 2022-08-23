@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CHARACTER SELECT</title>
+<title>Map</title>
 <!--
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 -->
@@ -13,51 +13,84 @@
   <meta name="keywords" content="">
   <meta name="author" content="boukew99">
 <style>
-
-body {
-  background-image: url("repeat_iso_tile.png");
-  background-repeat: repeat;
-}
+html, body,canvas {padding:0px)
 </style>
 </head>
 
 <body>
 <dialog open id=dialog>
+<img id=field src="field.png">
+<img id=berries src="berries.png">
+<img id=building src="building.png">
+<img id=trees src="trees.png">
+<img id=road src="road.png">
+<img id=crossroad src="crossroad.png">
+<img id=highway src="highway.png">
+<img id=crosshighway src="crosshighway.png">
+<img id=river src="river.png">
+<img id=barn src="barn.png">
+
 <p>
 uhh here you can select some economics, entry conditions, building options, policy.
 </p>
 </dialog>
 
-<svg width="2000" height="2000" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="Gradient1">
-      <stop offset="5%" stop-color="white"/>
-      <stop offset="95%" stop-color="blue"/>
-    </linearGradient>
-    <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="5%" stop-color="red"/>
-      <stop offset="95%" stop-color="orange"/>
-    </linearGradient>
-
-    <pattern id="Pattern" x="0" y="0" width=".25" height=".25">
-      <rect x="0" y="0" width="50" height="50" fill="skyblue"/>
-      <rect x="0" y="0" width="25" height="25" fill="url(#Gradient2)"/>
-      <circle cx="25" cy="25" r="20" fill="url(#Gradient1)" fill-opacity="0.5"/>
-    </pattern>
-  </defs>
-
-  <rect fill="url(#Pattern)" stroke="black" width="200" height="200"/>
-</svg>
-
-<img src="berries.png" style="margin-bottom:25px; margin-left:120px;>
-<img src="building.png" style="left: 512px;top: 96px;position: absolute;">
-
-<img src="building.png" style="left: 256px;top: 64px;position: absolute;">
-
-
+<canvas id="canvas" width="64" height="2000"">
+Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
+var field = document.getElementById("field")
+var berries = document.getElementById("berries")
+var building = document.getElementById("building")
+var trees = document.getElementById("trees")
+var road = document.getElementById("road")
+var trees = document.getElementById("trees")
+var crossroad = document.getElementById("crossroad")
+var highway = document.getElementById("highway")
+var crosshighway = document.getElementById("crosshighway")
+var river = document.getElementById("river")
+var barn = document.getElementById("barn")
 
+window.onload = (event) => {
+  draw();
+};
+
+function draw(n = 40) {
+	var c = document.getElementById("canvas");
+	c.width = 64*n
+	c.height = 64*n
+	
+	var ctx = c.getContext("2d");
+  ctx.clearRect(0, 0, c.width, c.height); 
+  ctx.rect(0, 0, c.width, c.height);
+  ctx.fillStyle = ctx.createPattern(field, 'repeat');
+  ctx.fill();
+
+	ctx.beginPath() //Why?
+	ctx.rect(64*8, 32*12, 64*8, 32*12);
+  ctx.fillStyle =  ctx.createPattern(trees, 'repeat');
+  ctx.fill();
+  
+	ctx.drawImage(berries, 64, 32)
+	ctx.drawImage(berries, 64*4, 32*2)
+	ctx.drawImage(berries, 64*3, 32*5)
+	
+	ctx.drawImage(building, 64*3, 32*2)
+	ctx.drawImage(building, 64*8, 32*7)
+	ctx.drawImage(building, 64*16, 32*5)
+	
+	ctx.drawImage(trees, 64*7, 32*5)
+	ctx.drawImage(trees, 64*5, 32*3)
+	ctx.drawImage(trees, 64*6, 32*3)
+	ctx.drawImage(trees, 64*7, 32*3)
+	ctx.drawImage(trees, 64*5, 32*4)
+	ctx.drawImage(trees, 64*6, 32*4)
+	ctx.drawImage(trees, 64*7, 32*4)
+	ctx.drawImage(trees, 64*34, 32*2)
+	
+	
+}
 </script>
+
 </body>
 </html> 
