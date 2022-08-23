@@ -3,18 +3,28 @@
 
 window.onload = function(event) {
 	const urlParams = new URLSearchParams(window.location.search);
-	const setup = urlParams.get('setup');
+	const setup =  urlParams.get('setup').split("");
 	
 	if (setup) {
+		document.getElementById("reserves").innerHTML = "";
 		const cells = document.getElementsByTagName("td") 
 		
-		for (let i = 0, cell;cell = cells[i]; i++) {  
-			cell.innerHTML = (setup[i]) ? setup[i] : "";
-			cell.setAttribute("draggable", cell.innerHTML != "")
+		for (let i = 0; i < 64;i=i) {
+			var cell = cells[i];
+			var character = setup.shift();
+			if (!isNaN(character)) {
+				i += parseInt(character);
+			}	else if (character == "/"){
+				if (i%8==0) {i=i}
+				else { i += (8 - i % 8) }
+			} else {				
+				character = char2piece(character)
+				cell.innerHTML = (character) ? character : "";
+				cell.setAttribute("draggable", cell.innerHTML != "")
+				i++;
+			}
 		}
-		
 	}
-	
 }
 
 document.ondragstart = function(event) {
@@ -37,6 +47,45 @@ document.ondrop = function(event){
 
 document.ondragover = function(event){
 	event.preventDefault()
+}
+
+function reverseSetup(){
+	var setup = []
+	const cells = document.getElementsByTagName("td") 
+	for (let i = 0; i < 64;i++) {
+		var cell_value = cells[i].innerHTML;
+		if (cell_value == "") {
+			if (isNaN(setup.at(-1)) || setup.at(-1) == 8) {
+				setup.push(1)
+			} else {
+				setup[setup.length -1] += 1
+			}
+		}
+		else {
+			setup.push(cell_value)
+		}
+	}
+	document.getElementById("link").value = "https://boukew99.github.io/chess?setup=" + setup.reverse().join("");
+	document.getElementById("link").display = "block";
+	document.getElementById("link").select();
+}
+
+function char2piece(character) {
+	switch (character) {
+		case "k":	return "♚";
+		case "K": return "♔";
+		case "q": return "♛"
+		case "Q": return "♕"
+		case "b": return "♝"
+		case "B": return "♗"
+		case "n": return "♞"
+		case "N": return "♘"
+		case "r": return "♜"
+		case "R": return "♖"
+		case "p": return "♟"
+		case "P": return "♙"
+		default: return character
+	}
 }
 
 
