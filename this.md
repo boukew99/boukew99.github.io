@@ -15,7 +15,8 @@ Since I use just HTML & CSS & JS, you can inspect(F12) the page to see the sourc
 ## Tools
 - <https://www.favicon.cc/>
 - <http://www.image-map.net/>
-
+- <https://beautifytools.com/javascript-validator.php>
+- <https://www.w3schools.com/colors/colors_names.asp>
 
 ### Code Transparency
 Every webpage has to send its code to be rendered, so everything you see is code that is send. This you can `Inspect` by pressing f12 in the browser (or in the context menu).
