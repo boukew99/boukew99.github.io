@@ -3,9 +3,13 @@
 <title>comics</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../style.css"> 
 <style>
-img {max-width:100%;}
-ol {column-width: 300px}
+ol {
+    page-break-inside: avoid;           /* Theoretically FF 20+ */
+    break-inside: avoid-column;         /* Chrome, Safari, IE 11 */
+    display:table;                      /* Actually FF 20+ */
+   }
 </style>
 <h1>Web Comics</h1>
 
