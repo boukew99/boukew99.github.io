@@ -4,7 +4,9 @@
 window.onload = function(event) {
 	const urlParams = new URLSearchParams(window.location.search);
 	const setup =  urlParams.get('setup').split("");
-	
+	const drag = urlParams.get('drag');
+	const select = document.getElementById('from');
+
 	if (setup) {
 		document.getElementById("reserves").innerHTML = "";
 		const cells = document.getElementsByTagName("td") 
@@ -20,12 +22,19 @@ window.onload = function(event) {
 			} else {				
 				character = char2piece(character)
 				cell.innerHTML = (character) ? character : "";
-				cell.setAttribute("draggable", cell.innerHTML != "")
+				cell.setAttribute("draggable", drag && cell.innerHTML != "" )
+				
+				var opt = document.createElement('option');
+				opt.value = i;
+				opt.innerHTML = i + character;
+				select.appendChild(opt);
+				
 				i++;
 			}
 		}
 	}
 }
+
 
 document.ondragstart = function(event) {
 	event.dataTransfer.setData("cell", event.target.id)
