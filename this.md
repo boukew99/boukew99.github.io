@@ -9,8 +9,12 @@ Then once we need a form for user input, then just use the provided `<input>` HT
 
 Downward/sideway flow only. going up means you did not find what you want.
 
+## Source
+Since I use just HTML & CSS & JS, you can inspect(F12) the page to see the source, since it is the source.
+
 ## Tools
 - <https://www.favicon.cc/>
+- <http://www.image-map.net/>
 
 
 ### Code Transparency
