@@ -99,4 +99,4 @@ Strengthens network and by keeping them non-reptitive, you can increase perceive
 If you want you can leave an [issue](https://github.com/boukew99/boukew99.github.io/issues), though I will probably fix it regardless. 
 
 ## Save
-<a href=/ download>Save Page</p>
+<a href=/ download>Save Page</a>
