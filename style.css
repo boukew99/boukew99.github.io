@@ -6,7 +6,6 @@
 
 
 body {
-	column-width:500px;
 	background: bisque;
 }
 
@@ -23,5 +22,10 @@ tr:nth-child(odd) {
   background: #f2f2f2;
 }
 
+article {
+	column-width:500px;
+}
 
-
+ol ol { list-style: upper-alpha }
+ol ol ol { list-style:  lower-roman }
+ol ol ol ol { list-style: lower-alpha }
