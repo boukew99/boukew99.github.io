@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- https://www.w3schools.com/tags/ref_canvas.asp, https://stackoverflow.com/questions/55677/how-do-i-get-the-coordinates-of-a-mouse-click-on-a-canvas-element/18053642#18053642 -->
+
+<style>
+    canvas{
+        border: 2px solid #d3d3d3;;
+        border-color: black;
+    }
+    /*
+    #canvas {
+    	width:100vh;
+    	height:100vh;
+    } */
+</style>
+<title>TileDraw</title>
+<html lang="en">
+<img id=tilemap src=tiledraw-files/tilemap4x.png alt="tilemap">
+<input onchange="set_start(value)" type="number" min=0 max=16>
+<input onchange="set_aspect(value)" type="number">
+<canvas id=preview width=64 height=64></canvas>
+<canvas id="canvas" width="1024" height="1024"></canvas>
+
+<button id=save>Save</button><button id=restore>restore</button>
+<script>
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+var img = document.getElementById("tilemap");
+var preview = document.getElementById("preview");
+
+var dx = 0
+var dy= 0
+var dWidth = 16
+var dHeight = 16
+
+var start = 1
+var aspect = 1;
+
+canvas.onclick = function(e) {
+
+  const rect = canvas.getBoundingClientRect()
+  const x = Math.trunc((event.clientX - rect.left) / 64) * 64
+  const y = Math.floor((event.clientY - rect.top) / 64) * 64
+  console.log("x: " + x + " y: " + y)
+  ctx.drawImage(img, dx, dy, dWidth, dHeight, x, y, dWidth, dHeight)
+}
+    
+save.onclick = function(e) {
+	ctx.save()
+}
+    
+restore.onclick = function(e) {
+	ctx.restore()
+}
+
+function set_start(value) { start= value; select_clip()}
+function set_aspect(value) {
+aspect = value; 
+preview.width= 32* value
+select_clip()}
+/*
+let clip = document.getElementById("clip")
+
+clip.addEventListener("onchange", (event) => {
+	console.log(event.target.value);
+} )
+*/
+function select_clip() {
+	var ctx = preview.getContext("2d");
+	dx = start % 4 * 64
+	dy= Math.trunc(start / 4) * 64
+	dWidth = aspect * 64
+	dHeight = 64
+	ctx.clearRect(0,0,32,32)
+	
+	console.log(dx ,dy);
+  ctx.drawImage(img, dx, dy, dWidth, dHeight, 0, 0, 64 *aspect, 64)
+}
+</script>

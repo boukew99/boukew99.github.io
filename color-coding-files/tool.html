@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/x-icon" href="index-files/favicon.ico">
+<!--<link rel="stylesheet" href="/style.css"> -->\
+
+<title>highlight</title>
+<h1>Highlight Syntax</h1>
+<textarea placeholder="code..." required rows=30 cols=75 onchange="highlight(this.value)">
+</textarea>
+
+<textarea oninput=value=highlight(value) rows=30 cols=75 id=copy></textarea>
+<code id=result></code>
+
+<script src="highlight_files/script.js"></script>
+
+<!--
+End comments
+https://highlight.hohli.com/index.php
+https://stackoverflow.com/questions/3294576/javascript-highlight-substring-keeping-original-case-but-searching-in-case-inse
+- https://bitsofco.de/a-one-line-solution-to-highlighting-search-matches/
+	- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp
+	https://www.code4example.com/javascript/javascript-regex-example-highlight-text-in-div/
+-->

@@ -7,14 +7,21 @@
 <link rel="stylesheet" href="style.css"> 
 <script defer src="script.js"></script>
 
+<style>
+body {
+	background-image:url("metal_shutter.png");
+/*	background-image:url("smiley_banana.gif");*/
+  background-repeat: repeat;
+}
+</style>
 
 <button onclick="showContent()">Show hidden content</button>
 
 <template>
   <img src="smiley_banana.gif">
 </template>
-
 <script>
+var count = 0
 var x = 35
 var y = 35
 function showContent() {

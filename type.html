@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--<link rel="stylesheet" href="/style.css"> -->
+<style>
+</style>
+
+
+<title>Text Return</title>
+<h1>Text Return</h1>
+
+<p id=return></p>
+<p id=generate>You enter a room with a <span style="color:green">bathub</span>, mirror and washtable.</p>
+<form>
+<input name=target type=text>
+<select onchange="check_arguments(value)" name=action>
+<option id=use>talk</option>
+<option>look</option>
+<option>walk</option>
+<option>grab</option>
+<option>give</option>
+</select>
+<select id=actor name=actor>
+<option>Me</option>
+<option>Dog</option>
+<option>Barry</option>
+<option>Joella</option>
+<option>Shovel</option>
+<option>Gold Pouch</option>
+<option>Screwdriver</option>
+</select>
+<label for=comment>#</label>
+<input name=comment type=text>
+<input type=submit>
+</form>
+
+<script src="type_files/script.js"></script>
+<!--
+http://www-cs-students.stanford.edu/~amitp/Articles/NPC-Conversation.html

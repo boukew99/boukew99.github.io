@@ -1,160 +1,44 @@
 <!DOCTYPE html>
-<title>Chess</title>
-<link rel="stylesheet" href="chess.css"> 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="chess.js"></script>
-
-<link rel="stylesheet" href="../style.css"> 
-
 <html lang="en">
 
-<table id="chessboard" border=5 cellspacing=0>
-  <caption>HTML <a href=https://en.wikipedia.org/wiki/Chess#Rules>Chess</a></caption>  
-  <tr>
-  	<th></th>
-    <th>8</th>
-    <th>7</th>
-    <th>6</th>
-    <th>5</th>
-    <th>4</th>
-    <th>3</th>
-    <th>2</th>
-    <th>1</th>
-  </tr>
-  <tr>
-    <th>h</th>
-    <td id=h8></td>
-    <td id=h7></td>
-    <td id=h6></td>
-    <td id=h5></td>
-    <td id=h4></td>
-    <td id=h3></td>
-    <td id=h2></td>
-    <td id=h1></td>
-    <th>h</th>
-  </tr>
-  <tr>
-    <th>g</th>
-  	<td id=g8></td>
-    <td id=g7></td>
-    <td id=g6></td>
-    <td id=g5></td>
-    <td id=g4></td>
-    <td id=g3></td>
-    <td id=g2></td>
-    <td id=g1></td>
-    <th>g</th>
-  </tr>
-  <tr>
-    <th>f</th>
-    <td id=f8></td>
-    <td id=f7></td>
-    <td id=f6></td>
-    <td id=f5></td>
-    <td id=f4></td>
-    <td id=f3></td>
-    <td id=f2></td>
-    <td id=f1></td>
-    <th>f</th>
-  </tr>
-  <tr>
-    <th>e</th>
-    <td id=e8></td>
-    <td id=e7></td>
-    <td id=e6></td>
-    <td id=e5></td>
-    <td id=e4></td>
-    <td id=e3></td>
-    <td id=e2></td>
-    <td id=e1></td>
-    <th>e</th>
-  </tr>
-  <tr>
-    <th>d</th>
-    <td id=d8></td>
-    <td id=d7></td>
-    <td id=d6></td>
-    <td id=d5></td>
-    <td id=d4></td>
-    <td id=d3></td>
-    <td id=d2></td>
-    <td id=d1></td>
-    <th>d</th>
-  </tr>
-  <tr>
-    <th>c</th>
-    <td id=c8></td>
-    <td id=c7></td>
-    <td id=c6></td>
-    <td id=c5></td>
-    <td id=c4></td>
-    <td id=c3></td>
-    <td id=c2></td>
-    <td id=c1></td>
-    <th>c</th>
-  </td>
-  <tr>
-	  <th>b</th>
-    <td id=b8></td>
-    <td id=b7></td>
-    <td id=b6></td>
-    <td id=b5></td>
-    <td id=b4></td>
-    <td id=b3></td>
-    <td id=b2></td>
-    <td id=b1=></td>
-    <th>b</th>
-  </tr>
-  <tr>
-  	<th>a</th>
-    <td id=a8></td>
-    <td id=a7></td>
-    <td id=a6></td>
-    <td id=a5></td>
-    <td id=a4></td>
-    <td id=a3></td>
-    <td id=a2></td>
-    <td id=a1></td>
-    <th>a</th>
-  </tr>  
-  <tr>
-  	<th></th>
-    <th>8</th>
-    <th>7</th>
-    <th>6</th>
-    <th>5</th>
-    <th>4</th>
-    <th>3</th>
-    <th>2</th>
-    <th>1</th>
-  </tr>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="../../index-files/style.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+<title>♟️ Setup</title>
+<h1>Chess Setup</h1>
+<p><a href=game.html?setup=♜♞♝♚♛♝♞♜♟♟♟♟♟♟♟♟8888♙♙♙♙♙♙♙♙♖♘♗♔♕♗♘♖>Setup up your chess board the standard way</a> or choose/make a custom setup.
+<h2 id=setup>Custom Setup</h2>
+
+
+<table>
+<caption>puzzels</caption>
+<tr>
+<th>Name</th>
+<th>Difficulty</th>
+<th>Setup</th>
+</tr>
+<tr>
+<td>Rowing</td>
+<td>⭐️⭐️⭐️⭐️</td>
+<td><a href="game.html?setup=5r2/8/1R6/ppk3p1/2N3P1/P4b2/1K6/5B2">5r2/8/1R6/ppk3p1/2N3P1/P4b2/1K6/5B2</a></td>
+</tr>
+<tr>
+<td>Switch</td>
+<td>⭐️⭐️⭐️⭐️</td>
+<td><a href="game.html?setup=5♖2/8/1♜6/♙♙♕3♙1/2♞3♟1/♟4♗2/1♚6/5♝2">5♖2/8/1♜6/♙♙♕3♙1/2♞3♟1/♟4♗2/1♚6/5♝2</a></td>
+</tr>
 </table>
-<p id=reserves>♖♘♗♔♕♗♘♖♙♙♙♙♙♙♙♙////♟♟♟♟♟♟♟♟♜♞♝♚♛♝♞♜</p>
 
-<!--
-<button onclick=reverseSetup()>Flip Turn</button>
-
+<form action=game.html>
 <!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search-->
-<!--<input size=64 type=text id="link" name="link">
--->
-<form>
-<select name="from" id="from"></select>
-<select name="to" id="to"></select>
-<input type=submit>
-</form>
-<a href=setups.html>setup</a>
-
-<!--
-<form>
-	<label for="setup">put in custom code:</label>
+	<label for="setup">or put in a custom FEN+ code:</label>
 	<input size=64 type=search id="setup" name="setup" maxlength=64>
 </form>
--->
-</html>
+
 <!--
-https://www.w3schools.com/html/html5_draganddrop.asp
-https://en.wikipedia.org/wiki/Chess
-https://www.101computing.net/html-chess-challenge/ They thought of the same!
-https://stackoverflow.com/questions/35802488/chessboard-style-for-a-table-with-css-how
-https://www.w3schools.com/jsref/event_ondrag.asp
+<iframe name=search_iframe width=100% height=700 src=game.html> </iframe>
 -->

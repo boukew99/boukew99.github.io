@@ -1,47 +1,27 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- https://www.w3schools.com/tags/ref_canvas.asp, https://stackoverflow.com/questions/55677/how-do-i-get-the-coordinates-of-a-mouse-click-on-a-canvas-element/18053642#18053642 -->
 
-<style>
-    canvas{
-        border: 2px solid #d3d3d3;;
-        border-color: black;
-    }
-</style>
-<title>TileDraw</title>
-<html lang="en">
-<h1>TileDraw</h1>
-<img id=tilemap src=tilemap.png alt="tilemap" usemap="#tilemap">
-<canvas id=preview>
-<input type="number" step=16>
-<map name="tilemap">
-  <area shape="rect" coords="0,0,16,16" alt="x" href="#x">
-  <area shape="rect" coords="16,0,32,16" alt="y" href="#y">
-  <area shape="rect" coords="32,0,48,16" alt="z" href="#z">
-</map> 
-<canvas id="canvas" width="400" height="400"></canvas>
-<button id=save>Save</button><button id=restore>restore</button>
-<a href=Instructions>Instructions</a>
-<script>
-var c = document.getElementById("canvas");
-var ctx = c.getContext("2d");
-var img = document.getElementById("tilemap");
+<link rel="stylesheet" href="/style.css">
 
-canvas.onclick = function(e) {
 
-  const rect = canvas.getBoundingClientRect()
-  const x = event.clientX - rect.left
-  const y = event.clientY - rect.top
-  console.log("x: " + x + " y: " + y)
-  ctx.drawImage(img, 16, 16, 32, 32, x, y, 32, 32)
-}
-    
-save.onclick = function(e) {
-	ctx.save()
-}
-    
-restore.onclick = function(e) {
-	ctx.restore()
-}
-</script>
+<title>index</title>
+<h1>Tiledraw</h1>
+<p>How to arrange tiles?</p>
+<h2>Instructions</h2>
+<p>Arrange each tile so it will fit with its neighbour. To prevent difficult neighbouring cases, start from the center and work your way outside in a spiral way. You could also work your way from the top-left to the to the bottom-right, but this likely leads to less intersting patterns. <a href=tool.html>Try out the online tool</a></p>
+
+<h2>Interface Manual</h2>
+<ol>
+	<li>Select a tile with a the index number.</li>
+	<li>select a cell on the canvas.</li>
+	<li>repeat.</li>
+	<li>`Save Image as` on the canvas.</li>
+</ol>
+
+<h2>Technicalities</h2>
+<p>A tile on a computer works by first loading <a href=tool-files/tilemap4x.png>an image with all the tiles on it</a>. Then one tile is clipped from that image and rendered on the canvas in a non overlapping way. Thus you can draw in tiles(nxn) instead of pixels(1x1), which means less draw calls the bigger the tiles. Then by combining many tiles, you can get interesting patterns eventhough you work with a bigger size than the individual pixels and thus have less detail.</p>
+
+
