@@ -59,7 +59,7 @@ img, table {
 	max-width: 100%;
 }
 
-	
+
 table,th, td {
 	border: 1px solid;
 	max-width: 100%;
@@ -76,6 +76,8 @@ article {
 ol ol { list-style: upper-alpha }
 ol ol ol { list-style:  lower-roman }
 ol ol ol ol { list-style: lower-alpha }
+
+
 
 @media (prefers-color-scheme: dark) {
 	body {
