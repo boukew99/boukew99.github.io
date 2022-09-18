@@ -18,6 +18,10 @@ Have 3 parralel story tracks with switches between them.
 ### Hyperstory
 A internet story linked with hypertext.
 
+## The Introduction Screen
+This sets you up for the experience. Here you introduce the title, configurations, audio and visuals in just one screen! The player can decide when they are ready to play. In the next screen you can show some context/story/instruction text.
+
+
 ## Applied Games
 Games are some of the most fun people have and have big attraction. Some smart people got the bright idea to use this enjoyment to teach people something more applied. This can be basic math or grammar. If more focus is put on the simulative nature, then it can be used for trainings, such as in the military. Though you always **apply** game technology instead of enjoyment. 
 It also has different names, such as Serious Games or Game+, which is how this course is called, but I think this name is more descriptive and obvious. 
@@ -30,4 +34,5 @@ Then how do does the learning process work? It is a simple feedback loop where y
 ### Theory
 All theory discussed will likely arise from the motor-sensor loop.
 
-#### ...
+## Dialog recursion
+Popups opening dialog popups all over the screen until solved, then go back to previous unsolved.
