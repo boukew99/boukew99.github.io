@@ -1,0 +1,16 @@
+#chessboard td {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  user-select: none;
+}
+
+#chessboard tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+  background: grey;
+}
+#chessboard tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+  background: white;
+}
+

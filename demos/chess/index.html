@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="../../index-files/style.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+<title>♟️ Setup</title>
+<h1>Chess Setup</h1>
+<p><a href=game.html?setup=♜♞♝♚♛♝♞♜♟♟♟♟♟♟♟♟8888♙♙♙♙♙♙♙♙♖♘♗♔♕♗♘♖>Setup up your chess board the standard way</a> or choose/make a custom setup.
+<h2 id=setup>Custom Setup</h2>
+
+
+<table>
+<caption>puzzels</caption>
+<tr>
+<th>Name</th>
+<th>Difficulty</th>
+<th>Setup</th>
+</tr>
+<tr>
+<td>Rowing</td>
+<td>⭐️⭐️⭐️⭐️</td>
+<td><a href="game.html?setup=5r2/8/1R6/ppk3p1/2N3P1/P4b2/1K6/5B2">5r2/8/1R6/ppk3p1/2N3P1/P4b2/1K6/5B2</a></td>
+</tr>
+<tr>
+<td>Switch</td>
+<td>⭐️⭐️⭐️⭐️</td>
+<td><a href="game.html?setup=5♖2/8/1♜6/♙♙♕3♙1/2♞3♟1/♟4♗2/1♚6/5♝2">5♖2/8/1♜6/♙♙♕3♙1/2♞3♟1/♟4♗2/1♚6/5♝2</a></td>
+</tr>
+</table>
+
+<form action=game.html>
+<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search-->
+	<label for="setup">or put in a custom FEN+ code:</label>
+	<input size=64 type=search id="setup" name="setup" maxlength=64>
+</form>
+
+<!--
+<iframe name=search_iframe width=100% height=700 src=game.html> </iframe>
+-->
