@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script defer="defer" src="game-files/script.js"></script>
 <link rel="stylesheet" href="game-files/style.css"> 
+<link rel="stylesheet" href="../style.css"> 
 <link rel="icon" type="image/x-icon" href="favicon.ico">
 <!--<ol> 
 h
@@ -140,9 +141,13 @@ h
 </dialog>
 
 <form>
-<select name="from" id="from"></select>
-<select name="to" id="to"></select>
-<input type="submit">
+<label>Select moving piece
+	<select name="from" id="from"></select>
+</label>
+<label>Choose where to move</label>
+	<select name="to" id="to"></select>
+</label>
+<input type="submit" value="End turn">
 </form>
 
 </body></html>
