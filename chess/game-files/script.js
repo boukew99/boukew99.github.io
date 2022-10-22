@@ -1,85 +1,45 @@
 //https://www.w3docs.com/snippets/javascript/how-to-get-url-parameters.html
 //https://stackoverflow.com/questions/3065342/how-do-i-iterate-through-table-rows-and-cells-in-javascript
 
-window.onload = function(event) {
+window.addEventListener('load', (event) => {
 	const urlParams = new URLSearchParams(window.location.search);
+	white = 'w' in urlParams
+	black = 'b' in urlParams
 	
-	const drag = urlParams.get('drag');
-	const select = document.getElementById('from');
-
-	if (urlParams.has("setup")) {
-		const setup =  urlParams.get('setup').split("");
-		const cells = document.getElementsByTagName("td") 
-		
-		for (let i = 0; i < 64;i=i) {
-			var cell = cells[i];
-			var character = setup.shift();
-			if (!isNaN(character)) {
-				i += parseInt(character);
-			}	else if (character == "/"){
-				if (i%8==0) {i=i}
-				else { i += (8 - i % 8) }
-			} else {				
-				character = char2piece(character)
-				cell.innerHTML = (character) ? character : "";
-				cell.setAttribute("draggable", drag && cell.innerHTML != "" )
-				
-				var opt = document.createElement('option');
-				opt.value = i;
-				opt.innerHTML = i + character;
-				select.appendChild(opt);
-				
-				i++;
-			}
-		}
-	} else {
-		document.getElementById("setup").showModal()
-		}
-}
-
-
-document.ondragstart = function(event) {
-	event.dataTransfer.setData("cell", event.target.id)
-}
-
-document.ondrop = function(event){
-	event.preventDefault()
-	from = event.dataTransfer.getData("cell")
-	var cell = document.getElementById( from )
-	
-	if	( validate_move(cell.innerHTML, from, event.target.id) ) return
-	
-	event.target.innerHTML = cell.innerHTML
-	event.target.draggable = true
-	cell.innerHTML = ""
-	cell.draggable = false
-	
-}
-
-document.ondragover = function(event){
-	event.preventDefault()
-}
-
-function reverseSetup(){
-	var setup = []
-	const cells = document.getElementsByTagName("td") 
-	for (let i = 0; i < 64;i++) {
-		var cell_value = cells[i].innerHTML;
-		if (cell_value == "") {
-			if (isNaN(setup.at(-1)) || setup.at(-1) == 8) {
-				setup.push(1)
-			} else {
-				setup[setup.length -1] += 1
-			}
-		}
-		else {
-			setup.push(cell_value)
-		}
+	gameKey = urlParams.get("vs")
+	setup = localStorage.getItem("vs")
+	if (!setup) {
+		locaStorage.setItem("vs")
 	}
-	document.getElementById("link").value = "https://boukew99.github.io/chess?setup=" + setup.reverse().join("");
-	document.getElementById("link").display = "block";
-	document.getElementById("link").select();
-}
+	//let opponent = getChessColor(move)
+	
+	if (urlParams.has('w')){
+		document.getElementById("white").value = urlParams.get('w');
+	}	
+	else { 
+		document.getElementById("white").disabled = false;
+		}
+	if (urlParams.has('b')){
+		document.getElementById("black").value = urlParams.get('b');
+		}
+	else {
+		document.getElementById("black").disabled = false;
+	}
+		
+	let setup = localStorage.getItem("opponent")
+	if (setup) {
+		//localStorage.setItem(opponent, setup)
+	}
+	else {
+		setup = "rnbkqbnrpppppppp8888PPPPPPPPRNBKQBNR"
+		//localStorage.setItem(w+b, setup)
+	}
+	
+	setupBoard(setup)
+	
+	const move = urlParams.get('move')
+});
+
 
 function char2piece(character) {
 	switch (character) {
@@ -113,6 +73,44 @@ function validate_move(piece, from, to) {
 }
 
 
-function flip_fen(fen){
-  return fen
+function setupBoard(fen2, side=false) {
+		const setup =  fen2.split("");
+		const cells = document.getElementsByTagName("td") 
+		const bench = "♖♘♗♔♕♗♘♖♙♙♙♙♙♙♙♙♟♟♟♟♟♟♟♟♜♞♝♚♛♝♞♜".split("")
+		
+		for (let i = 0; i < 64;i=i) {
+			var cell = cells[i];
+			var character = setup.shift();
+			if (!isNaN(character)) {
+				i += parseInt(character);
+			}	else if (character == "/"){
+				if (i%8==0) {i=i}
+				else { i += (8 - i % 8) }
+			} else {				
+			
+				icon = char2piece(character)
+				cell.innerHTML = (icon) ? icon : "";
+				if (icon) {bench.splice(bench.indexOf(icon), 1)}
+				
+				if (character == character.toLowerCase() == side) {
+					
+					var opt = document.createElement('option');
+					opt.value = i;
+					opt.innerHTML = String.fromCharCode(97 + 8 - Math.trunc((i/8+1))).toUpperCase() + (i%8 +1) + icon;
+					//select.appendChild(opt);
+				}
+				
+				i++;
+				}
+			}
+		document.getElementById("bench").innerHTML = bench.join("")
+		const to = document.getElementById("to")
+		for (let i = 1; i < 9;i+=1) {
+			for (let j = 0; j < 8; j+=1) {
+				const opt = document.createElement('option');
+				opt.value = i;
+				opt.innerHTML = String.fromCharCode(97 + j).toUpperCase() + i
+				//to.appendChild(opt)	
+			}
+		}
 }

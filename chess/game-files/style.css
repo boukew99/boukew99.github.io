@@ -6,7 +6,7 @@
   font-size: 30px;
   user-select: none;
 }
-
+/*https://stackoverflow.com/questions/35802488/chessboard-style-for-a-table-with-css-how*/
 #chessboard tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
   background: grey;
 }
@@ -14,3 +14,7 @@
   background: white;
 }
 
+fieldset {
+	/*columns:8;*/
+	column-width:5em;
+}
