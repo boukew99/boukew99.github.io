@@ -21,30 +21,31 @@ Limiting its freedom
 
 ```
  🐣 🐥 🐤 🐔 🥚 🐣 - 🐮 🥛 - 🌻 + 🌞 = ?
- ```
- 
- ```
- oh friction
- why are you in my way
- am I unoiled
- for joy is the way
- ```
- 
- ```
- from pure idea
- to messy implementation
- test for true feedback
- and evolve again
- ```
- 
- > the pure idea, the messy implementation, the true feedback
- 
- ```
- pen & paper
- pan & fire
- game & rules
- boat & water
- chair & butt
- human & earth
- ```
- 
+```
+
+```
+oh friction
+why are you in my way
+am I unoiled
+for joy is the way
+```
+
+```
+from pure idea
+to messy implementation
+test for true feedback
+and evolve again
+```
+
+> the pure idea, the messy implementation, the true feedback
+
+```
+pen & paper
+pan & fire
+game & rules
+boat & water
+chair & butt
+human & earth
+```
+
+[Algoryhme by Radia Perlman — EtherealMind](https://etherealmind.com/algorhyme-radia-perlman/)

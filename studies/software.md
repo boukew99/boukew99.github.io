@@ -125,8 +125,6 @@ For games it can be like:
 
 3. Step towards 2 and so on. 
 
-
-
 ## Shaders
 
 ### Demoscene
@@ -164,4 +162,8 @@ Traditionally this was a job in itself. Now with the internet it is possible to 
 
 7. (optionally add a content-less demo)
 
-8. 
+
+
+## Foldering
+
+When foldering the ergonomics are determined by the minimal changes of file-path length between navigation. One way to do is with a structure of configure/organize/structure/content.
