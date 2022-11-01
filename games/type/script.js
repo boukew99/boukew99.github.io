@@ -5,7 +5,8 @@ window.onload = function(e) {
 	let actor =	urlParams.get("actor")
 	let action = urlParams.get("action")
 	let target = urlParams.get("target")
-	let comment = urlParams.get("comment")
+	let comment = urlParams.get("c")
+	
 	
 	/*
 	let file = "data.json"
