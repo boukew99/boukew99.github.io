@@ -27,15 +27,25 @@ ol {
 <img id=comic alt=🤷️🗨>
 
 <script>
-list.onclick = function(e) {
-	  e.preventDefault();
-
-  var href = e.target.getAttribute('href');
-	//if target <a>
-  var source = document.getElementById('comic');
-  source.src = href;
-  document.title = href; 
-};
+window.addEventListener('load', (event) => {
+	let comics = ['game-words.svg', 'global-heater-6x.png', 'PI.png', 'physiological_computing_use_case.png', 'payback.png', 'how_is_soil.svg', 'milk_factory.png', 'the-chinese-study-room.png']
+	const urlParams = new URLSearchParams(window.location.search);
+	if (urlParams.has('n')) {
+		const name = urlParams.get("n")
+	}
+	
+	let seen = window.localStorage.getItem("seen")
+	if (seen) {
+		comics.filter(x => !seen.includes(item))
+		seen.append(random)
+	}
+	else {
+		seen = []
+	}
+	const random = comics[Math.floor((Math.random()*this.length))]	
+	document.getElementById('comic').src = 'comics/' + random
+	window.locaStorage.setItem("seen", seen)
+});
 </script>
 
 
