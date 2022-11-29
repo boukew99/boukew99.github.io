@@ -1,0 +1,22 @@
+Stacky, drawing app
+-Top
+--Tab
+--Screenshot
+--Save
+--FX
+--Frame
+--
+--Tabs
+--View
+--Stacky
+-Middle
+--TabContainer
+--ColorPicker
+---Palette
+-Bottom
+--FillColor
+--Size
+--YSort
+--Undo
+
+flow: (v, h, ...)

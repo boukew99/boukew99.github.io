@@ -1,0 +1,79 @@
+define :intro do |s|
+  sample s, pan: -1, rate: 0.5, attack:0.75
+  sleep 0.877
+  sample s, pan: 1
+  sleep 0.877 * 2
+  sample s, pan: 1, rate: 0.5
+  sample s, pan: -1
+  sleep 0.877
+  sample s, pan: -1, release:1.75
+  sleep 1.75
+  sample :drum_cymbal_open, attack: 0.01, sustain: 0, release: 0.1
+  sleep 0.3
+  sample :drum_cymbal_open, attack: 0.01, sustain: 0, release: 0.2
+  sleep 0.3
+  sample :drum_cymbal_open, attack: 0.01, sustain: 0.1, release: 0.3
+  sleep 0.3
+  sample :drum_cymbal_open, attack: 0.01, sustain: 0.2, release: 0.5
+end
+
+define :foo do
+  
+  use_synth :square
+  play :C4, attack: 0.5, sustain: 1, release: 0.1, amp: 0.6
+  play :Ds4, attack: 0.5, sustain: 1, release: 0.1, amp: 0.6
+  play :F4, attack: 0.5, sustain: 1, release: 0.1, amp: 0.6, pan: 0.5
+  sleep 2
+  play :Ds4, attack: 0.5, sustain: 1, release: 0.5, amp: 0.6
+  play :F4, attack: 0.5, sustain: 1, release: 0.5, amp: 0.6, pan: -0.5
+  play :Gs4, attack: 0.5, sustain: 1, release: 0.5, amp: 0.6
+  sleep 2
+  play :F4, attack: 0.5, sustain: 1, release: 0.1, amp: 0.6, pan: -0.5
+  play :Gs4, attack: 0.5, sustain: 1, release: 0.1, amp: 0.6
+  play :C5, attack: 0.5, sustain: 1, release: 0.1, amp: 0.6
+  sleep 2
+  play :Ds4, attack: 0.3, sustain: 1, release: 0.3, amp: 0.6, pan: 0.5
+  play :F4, attack: 0.3, sustain: 0.8, release: 0.3, amp: 0.6
+  play :Gs4, attack: 0.3, sustain: 0.6, release: 0.3, amp: 0.6, pan: -0.5
+end
+
+define :melody  do |n|
+  sample :drum_heavy_kick
+  3.times do
+    sample :drum_cymbal_closed
+    sleep 0.4
+  end
+  sample :ambi_sauna , attack: 0.6, release: 0.7, finish: 0.2
+  3.times do
+    use_synth :dpulse
+    play :C4 + n
+    sleep 0.2
+    play :C4 + n
+    sleep 0.2
+    play :Gs4 + n
+    sleep 0.2
+    play :F4 + n
+    sleep 0.1
+    play :Gs4 + n
+    sleep 0.1
+    play :F4 + n
+    sleep 0.2
+  end
+  melody n +3  if n < 7
+end
+
+define :sequence do
+  intro :loop_amen
+  sample :ambi_lunar_land, amp: 0.5
+  sleep 1
+  intro :ambi_piano
+  foo
+  intro :loop_drone_g_97
+  melody 0
+  sample :ambi_lunar_land, amp: 0.5
+  sleep 1
+end
+
+loop do
+  sequence
+end

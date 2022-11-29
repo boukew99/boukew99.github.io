@@ -44,7 +44,7 @@ ol, ul {
 body {
 	font-family: Tahoma, sans-serif;
 	background-color:#eeeeee;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom:0px;
   margin-left: auto;
   margin-right: auto;
@@ -95,8 +95,6 @@ p {
 img, table, video {
 	max-width: 100%;
 }
-
-
 table,th, td {
 	border: 1px solid;
 	max-width: 100%;

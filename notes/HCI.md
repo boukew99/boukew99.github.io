@@ -10,6 +10,16 @@ We all now them. You reading are also probably one! Though have you ever looked 
 
 The realm of 0's and 1's. Nature's law do not apply only logic is here. Though slowly through defining stable patterns do we grow closer to a familiar nature. This simple act of 2 inputs becoming 1 output branches out in patterns describing more complex patterns.
 
+### Input
+
+
+
+### Computing
+
+### Output
+
+This closes the loop as feedback on your input. 
+
 ## Interaction
 
 Many things taken for granted are suddenly not present anymore in interaction with computers, compared to humans. These machine, so dumb, but untransparent at the same time. Often giving the frustation of unprogress.

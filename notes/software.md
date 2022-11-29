@@ -162,8 +162,50 @@ Traditionally this was a job in itself. Now with the internet it is possible to 
 
 7. (optionally add a content-less demo)
 
-
-
 ## Foldering
 
 When foldering the ergonomics are determined by the minimal changes of file-path length between navigation. One way to do is with a structure of configure/organize/structure/content.
+
+## Relationships
+
+### Data structure
+
+```json
+Network = {
+    A : [B , C , D , E]
+    B : [C , E]
+    C : [D]
+    D : [A, B]
+    E : [A, C]
+}
+
+Tree-of-A = {
+    A : [B , C , D , E]
+}
+
+Tree-of-B = {
+    B : [C , E]
+    C : [D]
+    E : [A]
+}
+
+List-of-A = [B , C , D , E]
+
+List-of-B = [C,E]
+```
+
+### Visualization
+
+types of visualization:
+
+- network
+  
+  - tree (header + text-lines)
+    
+    - list (text-lines)
+      
+      - point   
+        
+        - properties
+          
+          - values
