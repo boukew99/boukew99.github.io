@@ -48,8 +48,6 @@ All theory discussed will likely arise from the motor-sensor loop.
 
 Popups opening dialog popups all over the screen until solved, then go back to previous unsolved.
 
-
-
 ## Game+
 
 Game-based learning, making learning serious topics fun.
@@ -61,3 +59,39 @@ Story is the connection to the real world, it can be as short as a title.
 Killers->Achievers-->Socializers-->Explorerers->Inclusivity of play with all actors
 
 exergaming = sports
+
+
+
+## Case studies
+
+OOT
+
+: Attack of the hospitalilty
+
+Earthbound:
+
+: Emotional copywriting
+
+Teardown
+
+: Realistically unsatisfying destruction
+
+Exo One
+
+: gravity balling
+
+Super Mario Sunshine
+
+: Delfino Plaza
+
+No Mans Sky
+
+: procedural samyness
+
+Steep
+
+: feels like snowboarding, but what am I doing?
+
+Dark Souls
+
+: Thick Gof Challenge
