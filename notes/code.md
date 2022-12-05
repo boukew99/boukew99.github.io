@@ -8,6 +8,27 @@ Arguably one of the first digital code used by people, where dash(-) and long da
 
 Morse code is compressed by assigning the most used letters the shortest sequences as can be seen for the letter E ![in the figure](https://upload.wikimedia.org/wikipedia/commons/b/b5/International_Morse_Code.svg).
 
+## Decimal to Binary
+
+adding +1 in decimal as binary
+
+Decimal | Binary
+0 | 0
+1 | 1
+2 | 10
+3 | 11
+4 | 100
+5 | 101
+6 | 110
+7 | 111
+8 | 1000
+9 | 1001
+10 | 1010
+
+[Binary Fingers!](https://www.mathsisfun.com/numbers/binary-count-fingers.html)
+
+
+
 ## Programming language
 
 Essentialy the computer only knows 0 and 1. Still we programm computers using names to point to higher level concepts. The first step for this was in Assembly with command such as ADD, which represented for example 0110. Nowadays we work with named variables and functions or even objects. At this level it becomes much like a (logical) language and thus we call it **a language that you can programm in**, a programming language. This gives the benefit of using familair language concepts to instruct the machine, which only knows machine language. So somewhere it must be translated back to 0 and 1's. For example, a easy to understand line of code could be `object.moveTo( table.position )`. 

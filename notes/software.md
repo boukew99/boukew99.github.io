@@ -209,3 +209,18 @@ types of visualization:
         - properties
           
           - values
+
+## Sequential tree
+
+list in tree, draw list, parallizable, draw till list stops (at 2), functional/recursive list
+
+- 1
+  - 2
+    - 3
+      - 4
+        - 5
+          - 6
+            - 7
+              - 8    
+                - 9
+  - 2.2
