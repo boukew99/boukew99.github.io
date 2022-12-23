@@ -4,11 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="../index/style.css">
+<link rel="stylesheet" href="tiles/style.css">
 <style>
     canvas{
         border: 2px solid #d3d3d3;;
         border-color: black;
+		background-color: black;
     }
     /*
     #canvas {
@@ -40,10 +41,10 @@ Thus you start with just pixels, then you select a rectangle of pixels, which be
 </ol>
 
 <h2>Technicalities</h2>
-<p>A tile on a computer works by first loading <a href=tiledraw/tilemap4x.png>an image with all the tiles on it</a>. Then one tile is clipped from that image and rendered on the canvas in a non overlapping way. Thus you can draw in tiles(nxn) instead of pixels(1x1), which means less draw calls the bigger the tiles. Then by combining many tiles, you can get interesting patterns eventhough you work with a bigger size than the individual pixels and thus have less detail.</p>
+<p>A tile on a computer works by first loading <a href=tiles/tilemap4x.png>an image with all the tiles on it</a>. Then one tile is clipped from that image and rendered on the canvas in a non overlapping way. Thus you can draw in tiles(nxn) instead of pixels(1x1), which means less draw calls the bigger the tiles. Then by combining many tiles, you can get interesting patterns eventhough you work with a bigger size than the individual pixels and thus have less detail.</p>
 
 </main>
-<img id=tilemap src=tiledraw/tilemap4x.png alt="tilemap">
+<img id=tilemap src=tiles/minimal-autotile-snow-4x.png alt="tilemap">
 <input onchange="set_start(value)" type="number" min=0 max=16>
 <input onchange="set_aspect(value)" type="number">
 <canvas id=preview width=64 height=64></canvas>
