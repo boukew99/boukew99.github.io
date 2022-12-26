@@ -113,3 +113,31 @@ function setupBoard(fen2, side=false) {
 			}
 		}
 }
+
+function get_knight_moves(position) {
+	// L shape moves in all directions and mirrors
+	var moves = Array(8)
+	moves[0] = position +2 -8
+	moves[1] = position +2 +8
+	moves[2] = position -2 -8
+	moves[3] = position -2 +8
+	moves[4] = position -8 +1 
+	moves[5] = position -8 -1
+	moves[6] = position +8 +1
+	moves[7] = position +8 -1
+	moves.filter(n => n > 0 && n < 64) // in bounds
+}
+
+function get_pawn_moves(position, side){
+	var moves = Array(3)
+	moves[0] = position + 8 * side
+	if ( (position in [8,9,10,11,12,13,14,15] && side == 1) || (position in [48,49,50,51,52,53,54,55] && side == -1) ) {
+		moves [1] = position + 16 * side
+	}
+	//if (pieceOnDiagnol or pawnPassed) moves[2] = position + 9/7 * side
+}
+function in_bounds(array) {
+	return moves.filter(n => n > 0 && n < 64)
+}
+
+//https://www.chessprogramming.org/Simplified_Evaluation_Function

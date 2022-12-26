@@ -6,31 +6,19 @@ by Disk usage Analyzer
 
 ## Common elements
 
-familair home favicon
+-favicon
+-style
 
 ## Page structure
 
-1 dimensional text with column-width. Next links at end.
+Next links at end.
 
 ## Content
-
-- files
-  
-  - programms
-    - demos
-    - tools
-  - studies
-    - infographics
-  - process (later)
-
-- external
-  
-  - connect
-  - combo-ing others
+Functional filing. Need a page -> create HTML or MD. Add structure inside page with headers and bold text. Add & integrate media in folder with same name. Extend pages with HTML inside folder with same name. Repeat.
 
 ## Linking
 
-Hierarchical advancing (`Go back` for undo)
+Hierarchical zooming (`Go back` for undo)
 
 ## Overview & Zooming
 
@@ -38,7 +26,7 @@ When a user enters your site they should get an overview of the page. Minimize s
 
 ## Interaction
 
-Divide you website into functional pages, so the user has to do minimal loading and can acces the page independently (from anywhere). Try to provide a header (with #header) link too for an external links too provide extra context. Then once we need a form for user input, then just use the provided `<input>` HTML, which needs differnt interaction depending on input type. Downward/sideway file flow only. 
+Divide you website into complete distinct pages, so the user has to only load one page and can acces it independently (from any website). Then once we need a form for user input, then just use the provided `<input>` HTML, which needs differnt interaction depending on input type. 
 
 ## Source Transparency
 
@@ -48,55 +36,25 @@ The source is fully transparent, since only HTML & CSS & JS is used. This you ca
 
 - <https://developer.mozilla.org/en-US/docs/Web/API>, relevant context of source.
 - <https://developer.mozilla.org/en-US/docs/Learn>
-- <https://www.w3schools.com/colors/colors_names.asp>
 
 ## Tools
 
-- <https://www.favicon.cc/>
+- <https://www.favicon.cc/>, <https://realfavicongenerator.net/>
 - <http://www.image-map.net/>
-- <https://beautifytools.com/javascript-validator.php>
 - <https://validator.w3.org/#validate_by_uri+with_options>
 - https://cssgradient.io/gradient-backgrounds/?
+- <https://www.w3schools.com/colors/colors_picker.asp>
+- <https://daringfireball.net/projects/markdown/dingus>
+- <https://tinypng.com/>
 
-<https://en.wikipedia.org/wiki/Breadcrumb_navigation>
-[x]() / [y]() / [z]()
+## Breadcrumb
 History navigation feedback, with preview of data to be sent
-https://addons.mozilla.org/en-US/firefox/addon/breadcrumbus/
+[x]() / [y]() / [z]()
+Breadcrumbs come from the fairy tale of Hansel and Gretel, where Hans left a trail of breadcrumbs to find hisway back. This page also uses the same concept, but here it is for <a href=<https://en.wikipedia.org/wiki/Breadcrumb_navigation>navigating</a> the internet for a particular intention. Functionally it works like a query of several different sources, packed nicely in a list. -> as details tree in Records
 
 ### wiki
 
 wiki means fast in hawai.
-
-#### Name
-
-<table class="table table-striped table-bordered">
-<thead>
-<tr>
-<th><img src="icon.svg" alt="square image"></th>
-<th>Name</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Video_game_developer">Developer</a></td>
-<td>XXX</td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Video_game_programmer">Programmer</a></td>
-<td>XXX</td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Computing_platform">Platform</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Microsoft_Windows">Windows</a></td>
-</tr>
-<tr>
-<td><a href="https://en.wikipedia.org/wiki/Video_game_genre">Genre</a></td>
-<td><a href="https://en.wikipedia.org/wiki/Platform_game">Platform</a></td>
-</tr>
-</tbody>
-</table>
-
-<https://uxmag.com/articles/native-or-web-based-selecting-the-right-approach-for-your-mobile-app>
 
 #### Search link
 
@@ -104,6 +62,8 @@ Knowing the name of a object. Know you can call and talk about it and thus searc
 
 https://www.google.com/search?q=Google+tutorial+create+link
 https://duckduckgo.com/?t=ffab&q=DuckDuckGo+tutorial+create+link&ia=web
+
+- https://letmegooglethat.com/
 
 #### Dictionary
 
@@ -143,7 +103,7 @@ volcano map: z= (1 + sin(x)+cos(y))^2
 
 ## OpenMap
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.288181304931642%2C63.408854223176796%2C10.431518554687502%2C63.44394825645913&layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=14/63.4264/10.3598&layers=DG">View Larger Map</a></small>
+<iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.288181304931642%2C63.408854223176796%2C10.431518554687502%2C63.44394825645913&layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=14/63.4264/10.3598&layers=DG">View Larger Map</a></small>
 
 ## Anchor map/graph
 
@@ -154,18 +114,18 @@ for all pages
 ## Optimize
 
 - https://www.voorhoede.nl/en/blog/why-our-website-is-faster-than-yours/
+- images are cached
+- Audio bundling/mixing, bundle all audio files into one (ex. undertale 315,1 MB=> 98,9 MB)
 
-#K
-whitelisting
+## web instrument
+
+[Keys, chords and scales](https://sonic-pi.mehackit.org/exercises/en/09-keys-chords-and-scales/01-piano.html)
+
+## Mics
+whitelisting = assumption checking
 
 https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php
 https://www.coreldraw.com/en/tips/postcard/
-
-# Agile Breadcrumb
-
-https://thenewstack.io/modern-effective-software-development-15/ /
-https://thenewstack.io/genius-techie-doesnt-really-understand-cloud/ /
-http://agilemanifesto.org/
 
 ## firefox design
 
@@ -176,14 +136,11 @@ https://design.firefox.com/photon/visuals/typography.html
 
 - Window bottom light up when clicked something.
 
-## Return income
+## Return income videogame
 
 https://en.wikipedia.org/wiki/Game_demo
 https://www.gamesindustry.biz/everything-you-need-to-know-about-making-and-releasing-a-demo
 
-## Specialized Editor
-
-https://xem.github.io/js13k-level-editor/editor.html#@R%3E1!%20!#%22!$#!$$!%25$!%25%25!&&!&'!%28+!%29,!*-!%29-!%28-!',!'+!'*!%28%29!%28%28!*%28!+%28!+%29!+*!%29*!%28*!'%29!'%28!''!%28'!%29'!%29%28!*%29!**!*+!%29+!4%22!0$01$03%2505%2506%2506&07&08&08'07'06%2805%2802%2801'00&01&02'03'04'05'06'05&03&0
 
 https://bossfightbooks.com/
 https://aikoncwd.itch.io/sprite-generator
@@ -209,8 +166,6 @@ them
 
 How to cleanup memory after usage? Maybe you want to get back to it and determing when you are done with it is difficult. Only when you are done with a task do you know you can `close all` for that task. But inbetween you might run out of space too, especially if it is a long task 😮️. Therefore, I propose a limited memory space, which you are comfortable using. This will force you to recycle memory spaces if you go over your limit. You can then choose wether you are finished with the task in that memory space or if the new task is more important than the old one. An example could be to set a maximum on browser tabs. You can try it out already by enforcing it yourself.
 
-### Firefox Addon
-
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
 
 ## Email Events
@@ -220,10 +175,6 @@ Collect a mailing list for a topic or site, message them to say why to visit the
 ## italics
 
 for compact text
-
-## Bottom-up development
-
-When desining software or games, you might know the pain of implementing such an idea. Software is still very limited in its freedom compared to human language. A sensible approach is to start from the software and find interpretations of those systems. This makes it an explorative approach. Though software is quite suited for this, since software is self-building, evolutinairy and iterative. 
 
 ## Using keywords to standardize Ctrl-f
 
@@ -244,24 +195,14 @@ and playback on a frame by frame basis.
 
 ### Linkplace
 
-A marketplace of dynamic links, which presents vendors with a scope from its limited audience. This can be Search, Amazon and Craigs' list.
+A marketplace of dynamic links, which presents vendors with a scope from its limited audience. This can be Search, Amazon(without buy pages) and Craigs' list.
 
-## WIP
-
-Share both completed work and, if possible, works-in-progress (WIP). Showcasing completed work is good, but showing process is even better. People are fascinated by construction; it also allows potential employers and clients to see how you work.
-
-## Infographic
-
-Intergrate in data reports with textual interpretation.
+## Image portals
+Preview a page with an image link.
 
 # Bookmarks
 
 ## Fun😂️
-
-- <https://neal.fun/absurd-trolley-problems/>
-- <https://areyoutheasshole.com/>
-- [The 2022 r/place Atlas](https://place-atlas.stefanocoding.me/) with explanations of each drawing of the final image in r/place 2022.
-- https://letmegooglethat.com/
 - https://github.com/acaudwell/Gource/wiki/Controls (sudo apt install gource)
 - https://www.jasondavies.com/wordtree/
 - https://www.ivoyager.dev/app/planetarium.html
@@ -271,11 +212,6 @@ Intergrate in data reports with textual interpretation.
 - https://steamdb.info/tech/
 
 ## Learning🧐️
-
-[raylib.h code](https://github.com/raysan5/raylib/blob/master/src/raylib.h)
-[raylib shapes code](https://github.com/raysan5/raylib/blob/master/src/rshapes.c)
-[raylib textures code](https://github.com/raysan5/raylib/blob/master/src/rtextures.c)
-kinda intersting to see how it communicates so simply to get functionality.
 
 [filter | CSS-Tricks - CSS-Tricks](https://css-tricks.com/almanac/properties/f/filter/)
 
@@ -299,12 +235,7 @@ https://gorillasun.de/blog/a-simple-solution-for-shape-packing-in-2d
   http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html
   https://thebookofshaders.com/05/
 
-## Sheet Music (Piano)🎹️
 
-- [herbacell](http://herbalcell.com/free-sheet-music), with a lot of Koji Kondo's compositions.
-- [One Summer's Day (Spirited Away)](https://musescore.com/torbybrand/scores/1463381)
-- [ThePandaTooth](http://www.pandatooth.com/sheet-music/), [Princess Mononoke](http://www.pandatooth.com/portfolio-items/princess-mononoke/) 
-- [NinSheetMusic](https://www.ninsheetmusic.org/)
 
 ## Resources📦
 
@@ -332,11 +263,6 @@ https://gorillasun.de/blog/a-simple-solution-for-shape-packing-in-2d
   Olympic pictograms!
   [blue marble NASA images](https://visibleearth.nasa.gov/collection/1484/blue-marble) A catalog of NASA images and animations of our home planet.
 
-## Image portals
-
-images are cached, thus you can have a preview of the image and go there (page or image view) without penalty.
-
-<p>Till Master in <a href=https://www.tue.nl/en/education/graduate-school/master-human-technology-interaction/>Human-Technology Interaction</a> at Technical University Eindhoven</p>
 
 ## Tools🛠️
 
@@ -346,7 +272,6 @@ https://www.text2speech.org/
 https://www.scribbr.com/apa-citation-generator/
 http://www.boundingboxsoftware.com/materialize/index.php
 
-<https://www.w3schools.com/colors/colors_picker.asp>
 
 ## Plants🪴️
 
@@ -354,11 +279,8 @@ https://drgreen.nl/
 
 ## Uncatgorized / maybe read someday
 
-[CPU be like](https://www.youtube.com/watch?v=aYAJopwEYv8)
-Covers coming from [LOREM.SPACE](https://lorem.space/)
 https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
 <https://daringfireball.net/projects/markdown/syntax#philosophy>
-<https://daringfireball.net/projects/markdown/dingus>
 
 <https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>
 https://mathew-kurian.github.io/CharacterMap/
@@ -368,8 +290,6 @@ chart.js
 [online gltf viewer](https://gltf-viewer.donmccurdy.com/)
 
 https://www.sokobanonline.com/
-
-[Colors Tutorial](https://www.w3schools.com/colors/default.asp)
 
 https://leafletjs.com/
 
@@ -385,10 +305,8 @@ The Colours of Infinity documentary
 <https://www.der-mond.de/homepagetool/moon-current-for-your-website/design-luna-calendar>mix instruction and form
 <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
 
-<https://www.interrail.eu/en/soundtracks>
-https://help.obsidian.md/Obsidian/Obsidian
+<https://www.interrail.eu/en/soundtracks> Travel mix
 
-I might try [Newgrounds](https://howyourdoing.newgrounds.com/).
 
 https://basecamp.com/features/hill-charts
 https://issuu.com/tudelft-mediasolutions/docs/home-of-innovation-projecten-2022
@@ -412,7 +330,6 @@ https://dutchgamesassociation.nl/
 https://www.littlechicken.nl/oberons-court-textureless-3d-work/
 
 https://digitalagencyrankings.com/iconogen/
-https://realfavicongenerator.net/
 
 https://developers.google.com/speed/webp/docs/using
 

@@ -224,3 +224,7 @@ list in tree, draw list, parallizable, draw till list stops (at 2), functional/r
               - 8    
                 - 9
   - 2.2
+
+## Bottom-up development
+
+When desining software or games, you might know the pain of implementing such an idea. Software is still very limited in its freedom compared to human language. A sensible approach is to start from the software and find interpretations of those systems. This makes it an explorative approach. Though software is quite suited for this, since software is self-building, evolutinairy and iterative. 
