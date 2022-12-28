@@ -36,6 +36,7 @@ The source is fully transparent, since only HTML & CSS & JS is used. This you ca
 
 - <https://developer.mozilla.org/en-US/docs/Web/API>, relevant context of source.
 - <https://developer.mozilla.org/en-US/docs/Learn>
+- <https://developers.google.com/speed/webp/docs/using>
 
 ## Tools
 
@@ -115,7 +116,7 @@ for all pages
 
 - https://www.voorhoede.nl/en/blog/why-our-website-is-faster-than-yours/
 - images are cached
-- Audio bundling/mixing, bundle all audio files into one (ex. undertale 315,1 MB=> 98,9 MB)
+- Audio bundling/mixing, bundle all audio files into one (ex. undertale 315,1 MB=> 98,9 MB). For ex. travel or relaxing purposes.
 
 ## web instrument
 
@@ -142,25 +143,14 @@ https://en.wikipedia.org/wiki/Game_demo
 https://www.gamesindustry.biz/everything-you-need-to-know-about-making-and-releasing-a-demo
 
 
-https://bossfightbooks.com/
-https://aikoncwd.itch.io/sprite-generator
-https://www.timeanddate.com/astronomy/night/netherlands/eindhoven
-https://www.theoryoffun.com/
-CIE 1931 x-y chromaticity diagram
-
 ## Type of hackers
 
-• Black hat hackers: Hacking with malicious intent
-• White hat hackers: Perform penetration testing to
-promote the security
-• Script kiddies: amateurs (Usually young kids) using publicly
-available software tools to attack
-• Protest hackers (Protest against something e.g. anonymous)
-• Grey hat hackers: Usually white hat, but can be black hat
-• Red hat hackers: Stopping black hat hackers by attacking
-them
-• Blue hat hackers: Hacking in order to take revenge
-• Green hat hackers: Beginners to hacking
+- White: Perform penetration testing to promote the security
+- Grey: illegaly white
+- Black: illegaly malicious
+- Blue: Vengeance
+- Red: Vigilanties
+- Green: Learing
 
 ## Recylce Memory
 
@@ -231,7 +221,7 @@ https://gorillasun.de/blog/a-simple-solution-for-shape-packing-in-2d
   [git book](https://git-scm.com/book/en/v2)
   <https://www.playerresearch.com/learn/>
   <https://marctenbosch.com/quaternions/>
-  <https://grugbrain.dev/>
+
   http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html
   https://thebookofshaders.com/05/
 
@@ -254,7 +244,7 @@ https://gorillasun.de/blog/a-simple-solution-for-shape-packing-in-2d
 - https://flatuicolors.com/
 
 - https://lospec.com/
-
+- https://hyves-smileys.immerblei.com/
 - https://towardsdatascience.com/40-open-source-audio-datasets-for-ml-59dc39d48f06
 
 - https://freesound.org/people/klankbeeld/sounds/243473/
@@ -279,17 +269,20 @@ https://drgreen.nl/
 
 ## Uncatgorized / maybe read someday
 
+https://bossfightbooks.com/
+https://aikoncwd.itch.io/sprite-generator
+https://www.timeanddate.com/astronomy/night/netherlands/eindhoven
+https://www.theoryoffun.com/
+CIE 1931 x-y chromaticity diagram
+
 https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
 <https://daringfireball.net/projects/markdown/syntax#philosophy>
 
-<https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>
+<https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>: 5 & 11
 https://mathew-kurian.github.io/CharacterMap/
 https://www.internet-radio.com/
 <https://bottosson.github.io/posts/colorpicker/>
 chart.js
-[online gltf viewer](https://gltf-viewer.donmccurdy.com/)
-
-https://www.sokobanonline.com/
 
 https://leafletjs.com/
 
@@ -305,7 +298,7 @@ The Colours of Infinity documentary
 <https://www.der-mond.de/homepagetool/moon-current-for-your-website/design-luna-calendar>mix instruction and form
 <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
 
-<https://www.interrail.eu/en/soundtracks> Travel mix
+<https://www.interrail.eu/en/soundtracks> cool idea, but still boring
 
 
 https://basecamp.com/features/hill-charts
@@ -313,9 +306,7 @@ https://issuu.com/tudelft-mediasolutions/docs/home-of-innovation-projecten-2022
 
 https://archeologie.culture.gouv.fr/chauvet/fr/visiter-grotte
 
-https://api-docs.igdb.com/#examples
-
-https://www.hallab.co.jp/eng/company/symbol, https://www.hallab.co.jp/eng/creative/process/,
+, https://www.hallab.co.jp/eng/creative/process/,
 https://www.hallab.co.jp/eng/creative/story/prj001/
 
 http://webglsamples.org/aquarium/aquarium.html
@@ -324,21 +315,13 @@ https://www.spaceoffice.nl/nl/satellietdataportaal/
 https://www.naturalearthdata.com/
 https://visibleearth.nasa.gov/collection/1484/blue-marble?page=2
 
-https://dutchgameindustry.directory/?page=gameshttps://dutchgamesassociation.nl/
-https://dutchgamesassociation.nl/
-
 https://www.littlechicken.nl/oberons-court-textureless-3d-work/
 
 https://digitalagencyrankings.com/iconogen/
-
-https://developers.google.com/speed/webp/docs/using
-
-https://www.w3schools.com/jsref/prop_node_previoussibling.asp
 
 https://medium.com/geekculture/how-to-make-your-own-game-engine-and-why-ddf0acbc5f3
 
 https://itch.io/docs/creators/design
 
-https://hyves-smileys.immerblei.com/
 https://alexwlchan.net/2022/07/screenshots/
 https://en.wikipedia.org/wiki/Inner-platform_effect

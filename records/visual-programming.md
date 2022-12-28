@@ -15,9 +15,6 @@ With the introduction of context a tree can be made out of the sequence.
 With the introduction of state a network can be made out of the sequence. This introduces the complexity of asynchronousy.
 
 
-
-
-
 ## Boo-Libary
 
 A practical implementation.

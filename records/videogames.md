@@ -60,7 +60,8 @@ Killers->Achievers-->Socializers-->Explorerers->Inclusivity of play with all act
 
 exergaming = sports
 
-
+## Notes
+Visuals --Explain-->Mechanics--Tell-->Story
 
 ## Case studies
 
