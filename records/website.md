@@ -190,6 +190,12 @@ A marketplace of dynamic links, which presents vendors with a scope from its lim
 ## Image portals
 Preview a page with an image link.
 
+## Frame Slider
+`<input type=range onchange=slide.currentTime=value min=0 max=4 step=0.1>`
+
+## Video-Image controls
+`<video autoplay loop muted playsinline width=509 height=392 onclick="if (this.paused) this.play(); else this.pause();" >`
+
 # Bookmarks
 
 ## Fun😂️

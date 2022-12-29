@@ -89,8 +89,11 @@ main {
 	grid-template-columns: repeat(auto-fill, 21em);*/
 }
 
-p {
+p, textarea {
 	max-width:33em;
+}
+p::first-letter {
+  font-size: large;
 }
 img, table, video {
 	max-width: 100%;
