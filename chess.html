@@ -5,10 +5,30 @@
 <link rel="stylesheet" href="chess_files/chess.css"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script defer="defer" src="chess/script.js"></script>
-<link rel="stylesheet" href="chess/style.css"> 
 <link rel="stylesheet" href="style.css"> 
 <link rel="icon" type="image/x-icon" href="chess/favicon.ico">
+<style>
+	#chessboard td {
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+	text-align: center;
+	font-size: 30px;
+	user-select: none;
+	}
+	/*https://stackoverflow.com/questions/35802488/chessboard-style-for-a-table-with-css-how*/
+	#chessboard tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+	background: grey;
+	}
+	#chessboard tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+	background: white;
+	}
 
+	fieldset {
+		/*columns:8;*/
+		column-width:5em;
+	}
+</style>
 </head><body>
 <h1>Chess</h1>
 <p>Chess <a href="https://en.wikipedia.org/wiki/Chess#Rules">rules</a></p>
