@@ -1,0 +1,75 @@
+<!-- https://stackoverflow.com/questions/10792163/change-audio-src-with-javascript, 
+https://www.noisli.com/  mask distracting noises
+https://www.geeksforgeeks.org/create-a-music-player-using-javascript/-->
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="index-files/style.css">
+<link rel="icon" type="image/x-icon" href="index-files/studies.ico">
+
+<style>
+
+ol {
+	columns: 1;
+}
+
+audio { width: 500px; }
+
+</style>
+
+<title>Playlist Name</title>
+</head>
+
+<center>
+<img src=frog.svg>
+<h1>Playlist NAME</h1>
+<p>DESssssssssssssssssssssssssssscrrrrrrrrrrrrrrrrrriiiiiiiiptttttttttttttiiiiiiiiiionnnn</p>
+
+<audio  id="audio" controls loop>
+  <source id="audioSource" src="playlist-files/beach.ogg"></source>
+  Your browser does not support the audio format.
+</audio>
+</center>
+
+<ol id="list">
+	<li><a href="playlist-files/beach.ogg">beach</a></li>
+  <li><a href="playlist-files/beach_wind.ogg">beach_wind</a></li>
+  <li><a href="playlist-files/birds.ogg">birds</a></li>
+	<li><a href="playlist-files/fire.ogg">fire</a></li>
+  <li><a href="playlist-files/forest_background.ogg">forest background</li>
+  
+  <li><a href="playlist-files/wind.ogg">wind</li>
+  <li><a href="playlist-files/nature.ogg">nature</a></li>
+	<li><a href="playlist-files/night_fire.ogg">night fire</a></li>
+  <li><a href="playlist-files/wind.ogg">wind</li>
+  
+  <li><a href="https://upload.wikimedia.org/wikipedia/commons/2/2b/385098_morganpurkis_volcano.ogg">volcano</li>
+	<li><a href="https://upload.wikimedia.org/wikipedia/commons/0/04/Beach_sounds_South_Carolina.ogg">South Carolina beach</a></li>
+  <li><a href="https://upload.wikimedia.org/wikipedia/commons/5/52/Pench_Night_Safari_Sounds.wav">Night Safari</li>
+    
+  <li><a href="https://upload.wikimedia.org/wikipedia/commons/5/58/17650_thoschi_issyk-kul.ogg">water waves</li>
+  <li><a href="
+https://upload.wikimedia.org/wikipedia/commons/0/00/Waterfall_and_birds_sounds.wav">waterfall</a></li>
+	<li><a href="https://upload.wikimedia.org/wikipedia/commons/7/7f/Bee_sounds_near_Cologne%2C_Germany_-_reinsamba.wav">BEE!</a></li>
+</ol>
+
+<script>
+list.onclick = function(e) {
+  e.preventDefault();
+
+  var href = e.target.getAttribute('href');
+  var audio = document.getElementById('audio');
+
+  var source = document.getElementById('audioSource');
+  source.src = "playlist_files/" + href;
+  document.title = href; 
+	
+  audio.load(); //call this to just preload the audio without playing
+  audio.play(); //call this to play the song right away
+
+};
+</script>
+
+
