@@ -2,31 +2,6 @@
 
 Dealing with memory.
 
-## Inclusive or Universal Software
-
-Some considerations
-
-- Language is culture depedent and requires the effort of localization to transcend that.
-- Effective programs with small size and computing requirements make it device independent. Mainly audio and visuals increase size. GPU calculation increase computing requirements.
-
-### Games specific
-
-- Only lock is your skill. Arcade games have this, but with upfront cost.
-- Allow for own creative expansion/expression
-- hospitality 
-- kid friendly
-
-## Respecting the default
-
-<https://grugbrain.dev/#grug-on-chestertons-fence>
-
-## software evolution process
-
-?
-
-## Files
-
-Everything is just stored as a file. extension don't matter for filesystem, they just describe different dimensions (of a folder).
 
 ## get, set, met function
 
@@ -37,17 +12,6 @@ function name(..., ..., ..., ...): advanced subroutine
 
 repeat <-while,for
 
-## Extra-Ordinary Programming
-
-Code extremely obvious actions.
-
-## Self-organizing foldering
-
-- Define files localy 
-
-### Recursive list
-
-Combining accesibility of list with the structure of a tree.
 
 ## Physics
 
@@ -125,24 +89,7 @@ For games it can be like:
 
 3. Step towards 2 and so on. 
 
-## Shaders
 
-### Demoscene
-
-https://en.wikipedia.org/wiki/Demoscene#groups
-Groups always have names, and similarly the individual members pick a handle by which they will be addressed in the large community. ... in the demoscene it mostly serves as a manner of self-expression
-
-<https://iquilezles.org/> tutorials
-
-### Shader Toy 🎨
-
-https://godotshaders.com/author/db0/
-https://www.shadertoy.com/view/wslcDf / https://godotshaders.com/shader/rorschach-ink-test/
-https://www.shadertoy.com/view/XlBBWG / https://godotshaders.com/shader/pentagonal-tesselations/
-https://www.shadertoy.com/view/WdScRW
-https://www.shadertoy.com/view/3l23Rh
-
-https://www.shadertoy.com/embed/4dlGDN
 
 ## Publishing
 
@@ -162,9 +109,6 @@ Traditionally this was a job in itself. Now with the internet it is possible to 
 
 7. (optionally add a content-less demo)
 
-## Foldering
-
-When foldering the ergonomics are determined by the minimal changes of file-path length between navigation. One way to do is with a structure of configure/organize/structure/content.
 
 ## Relationships
 
@@ -225,6 +169,7 @@ list in tree, draw list, parallizable, draw till list stops (at 2), functional/r
                 - 9
   - 2.2
 
-## Bottom-up development
 
-When desining software or games, you might know the pain of implementing such an idea. Software is still very limited in its freedom compared to human language. A sensible approach is to start from the software and find interpretations of those systems. This makes it an explorative approach. Though software is quite suited for this, since software is self-building, evolutinairy and iterative. 
+### Recursive list
+
+Combining accesibility of list with the structure of a tree.

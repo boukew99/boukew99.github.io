@@ -24,4 +24,18 @@ This closes the loop as feedback on your input.
 
 Many things taken for granted are suddenly not present anymore in interaction with computers, compared to humans. These machine, so dumb, but untransparent at the same time. Often giving the frustation of unprogress.
 
-# 
+
+
+## Inclusive or Universal Software
+
+Some considerations
+
+- Language is culture depedent and requires the effort of localization to transcend that.
+- Effective programs with small size and computing requirements make it device independent. Mainly audio and visuals increase size. GPU calculation increase computing requirements.
+
+### Games specific
+
+- Only lock is your skill. Arcade games have this, but with upfront cost.
+- Allow for own creative expansion/expression
+- hospitality 
+- kid friendly
