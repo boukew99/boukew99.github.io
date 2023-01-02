@@ -311,8 +311,6 @@ The Colours of Infinity documentary
 <https://www.der-mond.de/homepagetool/moon-current-for-your-website/design-luna-calendar>mix instruction and form
 <https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
 
-<https://www.interrail.eu/en/soundtracks> cool idea, but still boring
-
 
 https://basecamp.com/features/hill-charts
 https://issuu.com/tudelft-mediasolutions/docs/home-of-innovation-projecten-2022
@@ -321,8 +319,6 @@ https://archeologie.culture.gouv.fr/chauvet/fr/visiter-grotte
 
 , https://www.hallab.co.jp/eng/creative/process/,
 https://www.hallab.co.jp/eng/creative/story/prj001/
-
-http://webglsamples.org/aquarium/aquarium.html
 
 https://www.spaceoffice.nl/nl/satellietdataportaal/
 https://www.naturalearthdata.com/
