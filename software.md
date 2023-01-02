@@ -22,9 +22,18 @@ repeat <-while,for
 * OOB (Oriented Bounding Box)
 * Triangle (most expensive)
 
-## LITE
+## Type of hackers
 
-Software without the bells and whistles.
+- White: Perform penetration testing to promote the security
+- Grey: illegaly white
+- Black: illegaly malicious
+- Blue: Vengeance
+- Red: Vigilanties
+- Green: Learing
+
+## Procedural map
+
+volcano map: z= (1 + sin(x)+cos(y))^2
 
 ## Self-Defining
 
@@ -173,3 +182,160 @@ list in tree, draw list, parallizable, draw till list stops (at 2), functional/r
 ### Recursive list
 
 Combining accesibility of list with the structure of a tree.
+
+## Recylce Memory
+
+How to cleanup memory after usage? Maybe you want to get back to it and determing when you are done with it is difficult. Only when you are done with a task do you know you can `close all` for that task. But inbetween you might run out of space too, especially if it is a long task 😮️. Therefore, I propose a limited memory space, which you are comfortable using. This will force you to recycle memory spaces if you go over your limit. You can then choose wether you are finished with the task in that memory space or if the new task is more important than the old one. An example could be to set a maximum on browser tabs. You can try it out already by enforcing it yourself.
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
+
+## Lateral Feedack
+
+- Window bottom light up when clicked something.
+
+#### Dictionary
+
+[dictionary](https://en.wiktionary.org/wiki/dictionary)
+<https://en.wikipedia.org/wiki/Wiktionary>
+
+loc
+<https://linuxconfig.org/counting-lines-of-code-with-cloc>
+or
+https://www.geeksforgeeks.org/wc-command-linux-examples/
+or https://stackoverflow.com/questions/1358540/how-can-i-count-all-the-lines-of-code-in-a-directory-recursively
+
+# Bookmarks
+
+## Fun😂️
+- https://github.com/acaudwell/Gource/wiki/Controls (sudo apt install gource)
+- https://www.jasondavies.com/wordtree/
+- https://www.ivoyager.dev/app/planetarium.html
+
+## Insight👁️‍🗨️️
+
+- https://steamdb.info/tech/
+
+## Learning🧐️
+
+[filter | CSS-Tricks - CSS-Tricks](https://css-tricks.com/almanac/properties/f/filter/)
+
+https://gmtk.itch.io/platformer-toolkit/devlog/395523/behind-the-code
+https://www.delftstack.com/tutorial/
+https://gorillasun.de/blog/a-simple-solution-for-shape-packing-in-2d
+[https://github.com/dolphin-emu/dolphin/tree/master/Data/Sys/Shaders] shaders used in dolpin
+
+- https://isaackarth.com/papers/wfc_is_constraint_solving_in_the_wild/
+  <https://www.netmotionsoftware.com/blog/connectivity/how-does-data-compression-work>
+  <https://www.youtube.com/watch?v=Lto-ajuqW3w>
+  and DRY?
+- http://www.learnsanskrit.org/
+- <http://www.learnyouahaskell.com/g>
+- https://soranews24.com/2013/09/17/ninja-language-skills-boost-your-japanese-with-the-power-of-onomatopoeia/ 
+  [git book](https://git-scm.com/book/en/v2)
+  <https://www.playerresearch.com/learn/>
+  <https://marctenbosch.com/quaternions/>
+
+  http://howtomakeanrpg.com/a/how-to-make-an-rpg-stats.html
+  https://thebookofshaders.com/05/
+
+
+
+## Resources📦
+
+- [WikiMedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
+
+- [FreePats project](https://freepats.zenvoid.org/index.html) sound bank of unique instruments.
+
+- [Philharmonia sound samples](https://philharmonia.co.uk/resources/sound-samples/) It includes all standard orchestral instruments, as well as guitar, mandolin, banjo, and a vast array of different percussion instruments.
+
+- https://polyhaven.com/
+
+- https://www.si.edu/openaccess
+
+- https://ambientcg.com/
+
+- https://flatuicolors.com/
+
+- https://lospec.com/
+- https://hyves-smileys.immerblei.com/
+- https://towardsdatascience.com/40-open-source-audio-datasets-for-ml-59dc39d48f06
+
+- https://freesound.org/people/klankbeeld/sounds/243473/
+  <https://commons.wikimedia.org/wiki/Main_Page>
+  <https://upload.wikimedia.org/wikipedia/commons/8/8f/Cycling_%28track%29_pictogram.svg>
+  Olympic pictograms!
+  [blue marble NASA images](https://visibleearth.nasa.gov/collection/1484/blue-marble) A catalog of NASA images and animations of our home planet.
+
+
+## Tools🛠️
+
+https://ebsynth.com/
+https://morsecode.world/international/translator.html
+https://www.text2speech.org/
+https://www.scribbr.com/apa-citation-generator/
+http://www.boundingboxsoftware.com/materialize/index.php
+
+
+## Plants🪴️
+
+https://drgreen.nl/
+
+## Uncatgorized / maybe read someday
+
+https://bossfightbooks.com/
+https://aikoncwd.itch.io/sprite-generator
+https://www.timeanddate.com/astronomy/night/netherlands/eindhoven
+https://www.theoryoffun.com/
+CIE 1931 x-y chromaticity diagram
+
+https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
+<https://daringfireball.net/projects/markdown/syntax#philosophy>
+
+<https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>: 5 & 11
+https://mathew-kurian.github.io/CharacterMap/
+https://www.internet-radio.com/
+<https://bottosson.github.io/posts/colorpicker/>
+chart.js
+
+https://leafletjs.com/
+
+https://anvaka.github.io/peak-map/#7.68/47.722/-122.237
+https://weatherspark.com/
+
+<https://apod.nasa.gov/apod/archivepix.html>
+[webb](https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg)
+<https://www.redblobgames.com/x/2203-reaction-diffusion/>
+[Fractal drawing](https://www.youtube.com/watch?v=sFEYQMrWNHU>)
+<https://en.wikipedia.org/wiki/Fractal_compression>
+The Colours of Infinity documentary
+<https://www.der-mond.de/homepagetool/moon-current-for-your-website/design-luna-calendar>mix instruction and form
+<https://fasterthanli.me/articles/a-half-hour-to-learn-rust>
+
+<https://www.interrail.eu/en/soundtracks> cool idea, but still boring
+
+
+https://basecamp.com/features/hill-charts
+https://issuu.com/tudelft-mediasolutions/docs/home-of-innovation-projecten-2022
+
+https://archeologie.culture.gouv.fr/chauvet/fr/visiter-grotte
+
+, https://www.hallab.co.jp/eng/creative/process/,
+https://www.hallab.co.jp/eng/creative/story/prj001/
+
+http://webglsamples.org/aquarium/aquarium.html
+
+https://www.spaceoffice.nl/nl/satellietdataportaal/
+https://www.naturalearthdata.com/
+https://visibleearth.nasa.gov/collection/1484/blue-marble?page=2
+
+https://www.littlechicken.nl/oberons-court-textureless-3d-work/
+
+https://digitalagencyrankings.com/iconogen/
+
+https://medium.com/geekculture/how-to-make-your-own-game-engine-and-why-ddf0acbc5f3
+
+https://itch.io/docs/creators/design
+
+https://alexwlchan.net/2022/07/screenshots/
+https://en.wikipedia.org/wiki/Inner-platform_effect
+
