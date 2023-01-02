@@ -1,6 +1,6 @@
 # Trying Linux on 8GB USB
 `20-05-22`
-Apparently it is very easy to try Linux, all you need is an USB with 8 GB of storage. I tried Ubuntu and thus used this [installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
+Apparently it is very easy to try Linux, all you need is an [USB](linux/linux_on_usb.svg) with 8 GB of storage. I tried Ubuntu and thus used this [installation tutorial](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
 
 Then ![you plug in the USB with linux on it](linux/preview.webp), stop the booting and redirect it to the USB and your using Linux. I expected it would be more difficult... 
 
@@ -19,4 +19,4 @@ https://www.winhelponline.com/blog/you-cannot-shrink-volume-beyond-point-disk-mg
 https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73
 
 ## Repairing Unbootable Linux
-So one day you just wake up, open your computer, and start up linux, only to see that it does not start up for some reason you cannot make out(not sure what the command text means). The last line was something along the line of `reached target Bluetooth support`. Anyway, what to do? Let's see what `Ubuntu Advanced Options` means. It has a recovery mode? That might be what I need, (let's see what recovery mode is)(https://linuxhint.com/boot-ubuntu-into-recovery-mode/). There are some option to fix what is going and then I remembered Ubuntu giving notifications about memory space getting full. Could that be it? It cleans some libraries, automatically selected. And yes! It boots normally again. So just keep calm and fix it! And next time maybe backup progress of a 2 weeks!
+So one day you just wake up, open your computer, and start up linux, only to see that it does not start up for some reason you cannot make out(not sure what the command text means). The last line was something along the line of `reached target Bluetooth support`. Anyway, what to do? Let's see what `Ubuntu Advanced Options` means. It has a recovery mode? That might be what I need, [let's see what recovery mode is](https://linuxhint.com/boot-ubuntu-into-recovery-mode/). There are some option to fix what is going and then I remembered Ubuntu giving notifications about memory space getting full. Could that be it? It cleans some libraries, automatically selected. And yes! It boots normally again. So just keep calm and fix it! And next time maybe backup progress of 2 weeks!

@@ -18,7 +18,7 @@ bold text (also headers).
 ## Tools
 - <https://www.favicon.cc/> / <https://realfavicongenerator.net/>
 - <http://www.image-map.net/>
-- <https://daringfireball.net/projects/markdown/dingus>
+- <https://daringfireball.net/projects/markdown/dingus> / <https://daringfireball.net/projects/markdown/syntax#philosophy>
 - <https://tinypng.com/>
 
 <!--

@@ -213,7 +213,7 @@ or https://stackoverflow.com/questions/1358540/how-can-i-count-all-the-lines-of-
 
 ## Insight👁️‍🗨️️
 
-- https://steamdb.info/tech/
+- https://steamdb.info/tech/ / https://steamdb.info/tech/Engine/Godot/
 
 ## Learning🧐️
 
@@ -289,15 +289,10 @@ https://www.theoryoffun.com/
 CIE 1931 x-y chromaticity diagram
 
 https://www.w3schools.com/tags/ref_keyboardshortcuts.asp
-<https://daringfireball.net/projects/markdown/syntax#philosophy>
 
 <https://kemenaran.winosx.com/posts/category-disassembling-links-awakening>: 5 & 11
-https://mathew-kurian.github.io/CharacterMap/
 https://www.internet-radio.com/
 <https://bottosson.github.io/posts/colorpicker/>
-chart.js
-
-https://leafletjs.com/
 
 https://anvaka.github.io/peak-map/#7.68/47.722/-122.237
 https://weatherspark.com/
@@ -326,12 +321,50 @@ https://visibleearth.nasa.gov/collection/1484/blue-marble?page=2
 
 https://www.littlechicken.nl/oberons-court-textureless-3d-work/
 
-https://digitalagencyrankings.com/iconogen/
+https://chronotrains-eu.vercel.app/
 
-https://medium.com/geekculture/how-to-make-your-own-game-engine-and-why-ddf0acbc5f3
-
+https://www.interrail.eu/en/plan-your-trip/sustainable-tourism-europe/why-train-is-best-option
 https://itch.io/docs/creators/design
 
 https://alexwlchan.net/2022/07/screenshots/
 https://en.wikipedia.org/wiki/Inner-platform_effect
+
+
+## Hardware
+Allowing static components to build software on. Preferably it remeans solid and minimal as changing is expensive.
+Added to the processor are input and output, which come in different forms. 
+
+### Imaginary Ideal computer
+Tablet with keyboard mat overlay, based on pressure input.
+- Micro-usb output to desktop display
+- Mouse/stylus/pointer/IR/joypad input
+- Smooth browsing
+- WebOS
+- Slow, but steady and efficient performance
+- Passive cooling 
+- silent
+- over 4 hours battery life
+- Phone (small) charger
+- 720p or golden-ratio
+- repairable 
+- physical IO
+- minimum storage + shared cloud storage
+
+<https://www.gadgetoid.com/2020/12/23/star-labs-lite-mkiii-reviewed/> / <https://www.gadgetoid.com/2022/07/05/starlabs-star-lite-mk-iv-review/>
+
+### Specialized computing
+- discrete GPU
+- Desktop screen
+- TV screen.
+- Realtime Games
+- Server storage
+better to share it.
+
+### Components
+- laptop: keyboard & mouse editing, creation, connector
+- mobile: transactions, consuming
+- byte: computing power
+- tv screen: shared visuals
+- desktop screen: second screen
+- bootable USB drive: portable memory
 

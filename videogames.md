@@ -63,7 +63,7 @@ exergaming = sports
 ## Notes
 Visuals --Explain-->Mechanics--Tell-->Story
 
-## Case studies
+## CPostcard names
 
 OOT
 
