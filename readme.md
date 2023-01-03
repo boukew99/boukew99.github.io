@@ -20,6 +20,7 @@ bold text (also headers).
 - <http://www.image-map.net/>
 - <https://daringfireball.net/projects/markdown/dingus> / <https://daringfireball.net/projects/markdown/syntax#philosophy>
 - <https://tinypng.com/>
+- <https://lospec.com/> / <https://lospec.com/png-crusher/>
 
 <!--
 ## Check?
