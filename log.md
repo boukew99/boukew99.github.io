@@ -619,6 +619,104 @@ Templates for visuals, provided through images. More complex templates can combi
 
 Visuals and Physics overlap in that they both define an area rectangle, where the visuals indicate the physics interactable area and an identity of the function. The layout can automatically be constructed by defining some hints and populating the draw stack. Interactable areas will have no overlap :) .
 
+## Bou-lang specifications
+
+Translating programming text to Graphical User Interfaces, to increase recognition and learnabilty. The difference between text and graphics is that graphics have clear boundaries where text can be more loose. So to cross this gap we use definitions.
+
+### Definition list
+
+...
+
+### Sequencing
+
+Two become one or union, this is true to the lowest level of which logic gates operate.
+
+The only state is a trail left by incompleted computations.
+
+Solvers:odd
+
+Definitions: even
+
+### Programm Image
+
+To create an image from text we need to map the definitions to graphical representations. First we can get a definition tree containing all the names set for the definitions and their scope.
+
+| Definition | Type      | Graphic      |
+| ---------- | --------- | ------------ |
+| X < Y < Z  | Range     | Slider       |
+|            | Undefined | Button       |
+|            | Boolean   | Checkbox     |
+|            | Option    | Radio button |
+
+#### Image Interaction
+
+Now we can have interactions with the definition through its area in the image. 
+
+#### Graphical Image Creation
+
+We use the language that can creates an image of itself, by creating an Graphical User Interface that creates the text for that language through a visually supported interaction. This can be integrated into the generated image, by adding an`Add a Definition` Button, which inlcudes the `Branch` Definition. You would then have to choose one of the implemented defintions and configure them.
+
+### Test
+
+```bou
+include foo, +, -, *, /, 
+
+Pi = 355 / 113
+Golden-ratio = (1 + sqr(5)) / 2
+Foo = x  ( 
+        Y + Z ) #implicit *
+Foo2 = x + Y * Z
+Foo3 = x * Y + Z
+Fib = X * 1.631
+Range = 0 < 100
+Print(Range) # gets a random instance of the valid solutions, but can use a fixed seed for reproducibility.
+
+
+Tree = A (B ( C (D , E) F ) G , H)
+- A
+    -B
+        -C
+            -D    
+            -E
+        -F
+    -G
+    -H
+
+`=` for input and output
+Parameter1 = log(controller.joystick) # input binded automatically to controller.joystick
+Output.Pixel1 = Red # or just automated
+
+Instance = Input.Load(path)
+
+Output.new(path) # for user
+Output.overwrite(path)
+```
+
+```mermaid
+flowchart TD
+subgraph index [index]
+    subgraph one [studies]
+    tips & software & roadbike & review & recipes & quotes & qr & pshycology & math & linux & games & comics & code
+    end
+    subgraph two [design]
+    slash_maze & palette & linkplace & kanban
+    end
+    subgraph three [demos]
+    type & sudoku & recognize & M[map] & handheld
+        subgraph chess [chess]
+        game
+        end
+    end
+    subgraph four [products]
+    Mondriaan & Animator
+    end
+end
+```
+
+### Optimization
+
+Memory can be tradeoff for performance by precomputing all possible values of an undefined ranged definition. This only has a cost at setup.
+
 # Software
 
 Dealing with memory.
@@ -1033,4 +1131,584 @@ Layering done in GIMP: <https://docs.gimp.org/en/gimp-concepts-layer-modes.html>
 Inspiration: Zhang, Y., Deng, S., Liu, Z., Wang, Y. (2015). Aesthetic QR Codes Based on Two-Stage Image Blending. In: He, X., Luo, S., Tao, D., Xu, C., Yang, J., Hasan, M.A. (eds) MultiMedia Modeling. MMM 2015. Lecture Notes in Computer Science, vol 8936. Springer, Cham. https://doi.org/10.1007/978-3-319-14442-9_16
 
 <!--https://www.qr-code-generator.com/ Wifi-connecting
-![gif](https://piskel-imgstore-b.appspot.com/img/f1758563-1118-11ed-9b19-dbfcb947f1e7.gif)
+![gif](https://piskel-imgstore-b.appspot.com/img/f1758563-1118-11ed-9b19-dbfcb947f1e7.gif)-->
+
+# Code
+
+## Morse code
+
+Arguably one of the first digital code used by people, where dash(-) and long dask(---) are like the 0 & 1. Then by sequencing and spacing, it can represent more states , like 0101. With 26 states all the letters in the alphabet are covered and so we can transmit words, which can sequenced and spaced to create sentences and further if it was not such a pain to decipher it.
+
+### Compression
+
+Morse code is compressed by assigning the most used letters the shortest sequences as can be seen for the letter E ![in the figure](https://upload.wikimedia.org/wikipedia/commons/b/b5/International_Morse_Code.svg).
+
+## Decimal to Binary
+
+adding +1 in decimal as binary
+
+Decimal | Binary
+0 | 0
+1 | 1
+2 | 10
+3 | 11
+4 | 100
+5 | 101
+6 | 110
+7 | 111
+8 | 1000
+9 | 1001
+10 | 1010
+
+[Binary Fingers!](https://www.mathsisfun.com/numbers/binary-count-fingers.html)
+
+
+
+## Programming language
+
+Essentialy the computer only knows 0 and 1. Still we programm computers using names to point to higher level concepts. The first step for this was in Assembly with command such as ADD, which represented for example 0110. Nowadays we work with named variables and functions or even objects. At this level it becomes much like a (logical) language and thus we call it **a language that you can programm in**, a programming language. This gives the benefit of using familair language concepts to instruct the machine, which only knows machine language. So somewhere it must be translated back to 0 and 1's. For example, a easy to understand line of code could be `object.moveTo( table.position )`. 
+
+### Flavours / Dialects
+
+There are many languages with different specs each, though also many similarities. Each one speaks more to a certain use case and it is not clear if there is an universal best language. It is still a trade-off for what you need most, though many people also pick based on what fits their thinking style the most.
+
+### Functional
+
+The highest level using noble mathematical concept such as pure functions, which would be great, if getting it functional would more obvious. They are also lazy, which also sounds great, until you get a massive lag spike. This could likely be overcome with proper use, but it is another layer of complexity that you have to keep in mind when writing code, compared to the lower-level languages.
+
+### Imperative
+
+### Declarative
+
+## Misc
+
+- https://inventwithpython.com/blog/2018/08/17/the-zen-of-python-explained/
+
+## Programming languages
+
+But still coding :). no-context-languages.
+
+### Defining languages
+
+1. terminals <>
+2. non-terminals
+3. rules
+4. root
+
+### Sequence Symbols
+
+`-` connector
+`.` end
+`,` continue
+`\n` `\t` `\s` space
+`V_` variable, named
+
+add, append, join `+`
+subtract, negate, remove, filter `-`
+
+### Boo Lang
+
+#### Scoped variables
+
+Set scope with ##### or as #9 (= #########)
+
+### Mobile
+
+There is little width space on mobile screen, which makes indenting and long lines of code unreadable. Next to that it has significant perfomance limitation. Thus no coding on mobile phones has happend yet. 
+
+#### Interprative wrapped code
+
+To enable mobile programming a new syntax is required in the form of wrapped sequence combos. Normally one action happens per line, such as `var x = 5`. In a next line you will then use this variable. This can be combined into one sentence with `foo X = 5.`.
+Notice the lack of `()`, because that requires less typing and reads easier. Also notice the `.` at the end, by writing wrapped sequence, we get closer to human language and can utilize that syntax too. That also why `X` is a capital letter, since we use that too denote names, which function much the same as variables here.
+
+## Emoji
+
+^u^
+
+## Markdown
+
+Marking with text in representative ways. It works in text only mode, but can be relatively easy translated to other formats, because of its generally well defined specs. Though that makes it also so, you don't get the full functionality of for example HTML.
+
+### Mandatory Markdown CheatSheet
+
+| result            | code                    |
+| ----------------- | ----------------------- |
+| header            | `#(#####) header`       |
+| *italic*          | `*italic*` / `_italic_` |
+| **bold**          | `**bold**` / `__bold__` |
+| ~~strikethrough~~ | `~~strikethrough~~`     |
+| [link]()          | `[link](src)`           |
+| ![image](image)   | `![image](src)`         |
+| `inlince code`    | \`inline code\`         |
+| reference[^1]     | `[^1]`                  |
+
+[^1]:ref
+
+> `>`Blockquote
+
+--- 
+
+`---` Horizontal rule
+
+```
+code block
+```
+
+\`\`\`
+code block
+\`\`\`
+
+1. index
+2. index2
+3. index3
+
+```
+1. index
+2. index2
+3. index3
+```
+
+- list
+- list2
+- list3
+
+```
+- list
+- list2
+- list3
+```
+
+For tables use: <https://www.tablesgenerator.com/markdown_tables>
+
+### Combos
+
+Combinations of characters with variable content that serve a some function.
+
+![img](src)
+*caption*
+
+Contents
+
+- [Underline](#underline)
+- [Indent](#indent)
+- [Center](#center)
+- [Color](#color)
+
+### Thumbnail
+
+[![video thumbnail]()](https://www.youtube.com/watch?v=iik25wqIuFo)]
+[![reference thumbnail]()]()
+
+### Q&A
+
+What is FAQ?
+: Frequently Asked Question, though often they are just made up.
+
+### Breadcrumb
+
+[x]() / [y]() / [z]()
+
+### Calender
+
+## Januari
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 | 31
+
+## Februari
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+(29) | 
+
+## Maart
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 | 31
+
+## April
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30
+
+## Mei
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 | 31
+
+## Juni
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 
+
+## Juli
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 | 31
+
+## Augustus
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 | 31
+
+## September
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 
+
+## Oktober
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 | 31
+
+## November
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 
+
+## December
+
+1 | 2 | 3 | 4 | 5 | 6 | 7
+8 | 9 | 10 | 11 | 12 | 13 | 14
+15 | 16 | 17 | 18 | 19 | 20 | 21
+22 | 23 | 24 | 25 | 26 | 27 | 28
+29 | 30 | 31
+
+# A man approaches
+1. Greet him *He says hi back*
+2. Stare at him *He stares back*
+3. Close your eyes at him *He closes his eues back*
+Is this man a mirror?
+
+
+# End
+So the hero defeated the dragon after all and got into the castle back again with large applause from all the citizens living in the castle! They were overjoyed by their new gained freedom now that the rein of the dragon was gone. You get a message from a courier.
+> The King was expecting and requests a meeting with you!
+You cannot refuse such an offer and take the courier as your guide to the king. Finally you arrive after walking many stairs with the king sitting in its throne. He quickly dispells the discussion he was having after gazing your entry.
+> Ho Ho Welcome young lad/lass! It is great to see you back in one piece! Now then, the reward I promised for defeating the dragon. 
+
+# RPG lookup
+<https://www.google.com/search?q=skill+table&client=ubuntu&hs=Rng&channel=fs&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi0t8GEg9H4AhWQt6QKHcF2B0UQ_AUoAXoECAEQAw&biw=1920&bih=968&dpr=1#imgrc=ZHhiiqi48Jhf0M>
+<https://www.youtube.com/watch?v=Ogby2kXY6o8>
+<https://forums.rpgmakerweb.com/index.php?threads/stat-complexity.49446/>
+
+Item | Ranger | Paladin | Cleric | Druid | Custom
+---  |---    |---      |---     |---    |---
+Staff | 0 | 0 | 1 | 1 | <input type="number">
+Sword | 2 | 1 | 0 | 0 | <input type="number">
+Dagger| 1| 0 | 0 | 1 | <input type="number">
+Axe | 0 | 0 | 0 | 0 | <input type="number">
+
+## character stats
+
+Johannes the Third | ❤️Health: 75 | 🎚️🛗LVL: 2 | ![portrait](portait.png)
+- ATK⚔️: 86 
+- MAT🪄: 86 
+- AGI🔋: 86 
+- LUK🌟: 56
+- MDF🪄🛡️: 43
+- DEF🛡️: 23
+
+Party Members | ATK | MAT | AGI | DEF | MDF | LUK
+---|---|---|---|---|---|---
+Joannes | 4 | 7 | 4 | 2 | 3 | 4
+Jade | 2 | 6 | 7 | 8 | 3 | 2 
+Darka | 4 | 7 | 5 | 3 | 4 | 2
+Brakor | 5 | 7 | 2 | 4 | 3 | 1
+
+Origin
+56/80
+🛡️Defense 2
+⚔️Attack  5
+🌟Luck    6
+
+<!--https://tier-zoo.fandom.com/wiki/Stats-->
+
+# Polymon
+
+| Name                 | stamina | power | defense | intelligence | mobility | stealth | Health | Intimidation | Resolve | Note                                 |
+|----------------------|---------|-------|---------|--------------|----------|---------|--------|--------------|---------|--------------------------------------|
+| [Flameo](flameo15x.png) | 3       | 4     | 2       | 1            | 4        | 1       | 1      | 5            | 3       | Pretty hot to touch                  |
+| Jankey               | 3       | 5     | 2       | 1            | 2        | 1       | 2      | 3            | 2       | Swings about                         |
+| Pananaka             | 2       | 2     | 4       | 3            | 3        | 3       | 4      | 2            | 4       | Lying flat till the moment of action |
+| Jereo                | 3       | 2     | 2       | 3            | 3        | 2       | 4      | 2            | 4       | Waits upon the moment to stumble     |
+| [Akalaka](akalaka15x.png)|5       | 5     | 4       | 1            | 2        | 0       | 2      | 1            | 1       | Pretty impressive massive creature.  |
+| Kanandee             |         |       |         |              |          |         |        |              |         |                                      |
+| [Difiwigipi](pocketanimal.svg)    |  
+| Monkys
+| Doirtos
+| Krazey
+| Junzo
+
+# Hello World in different languages. `Hello World`
+
+## C
+
+```c
+#include <iostream>
+ 
+int main() {
+    std::cout << "Hello World";
+    return 0;
+}
+```
+
+## C++
+
+```cpp
+#include <iostream>
+ 
+int main() {
+    std::cout << "Hello World";
+    return 0;
+}
+```
+
+## Matlab
+
+```matlab
+disp('Hello World');
+```
+
+## C#
+
+```csharp
+namespace HelloWorld
+{
+    class Hello {        
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello World");
+        }
+    }
+}
+
+```
+
+## Haskell
+
+```haskell
+module Main where
+
+main :: IO ()
+main = putStrLn "Hello World"
+```
+
+## Pascal
+
+```pascal
+program Hello;
+begin
+  writeln ('Hello, world.');
+end.
+```
+
+## Java
+
+```java
+import java.io.*;
+ 
+class GFG {
+    public static void main (String[] args) {
+       System.out.println("Hello World");
+    }
+}
+```
+
+## JavaScript
+
+```javascript
+console.log("Hello World");
+```
+
+## GDScript
+
+```gdscript
+print("hello world")
+```
+
+# Sokopop
+
+Phone Gameboy Interface. 4:3 Zoomed in. Static screens + screens that move. paused ConfirmDialog Text popup with pause music. White BG titlscreen with title, characters and credits (from kirby game). ball balloon (inhale), boost(exhale) movement. You can go almost anywhere if you see it.
+
+# Dialogues
+
+Fictional dialogues between fictional characters. Planned to parse for dialogue.
+
+## Passerbys
+
+1
+: Oops, sorry I was not paying attention there.
+
+2
+: Wow you had quite some force with that collision.
+
+1
+: Yeah I have to be somewhere soon, here let me help you up.
+
+2
+: Thank you, but next time please just watch out and keep your phone in the pocket maybe?
+
+1
+: Ah that makes sense, though the pockets in these pants are only for decoration.
+
+2
+: Uhh what that does not make any sense, I mean what year are we living?!
+
+1
+: Yeah idk fashion I guess. 
+
+2
+: There are soo many pocket items! Pocket phones, pocket keys, pocket food, pocket...
+
+1
+: Yes I get it! Don't judge my poor sense for utility, I too was deveceived by the fake pockets.
+
+2
+: ...
+
+1
+: Okay have to go now! 
+
+## Developer Notes
+
+player
+: lalala, I am just walking throughout this game world.
+: Oh what is this? A note lying around in this random place? *picks it up*
+
+Note
+: Thanks for reading this!
+
+player
+: What was that about? *slightly confused*
+: I dunno. Lalala. *keeps on walking*
+
+## Choice
+
+What do I choose now?
+: [Apples]
+: [Potatoes]
+: [Strawberry]
+
+## Dict
+
+{player:"lalala, I am just walking throughout this game world.",
+
+player: "Oh what is this? A note lying around in this random place? *picks it up",
+
+Note: "Thanks for reading this! ",
+
+player: "What was that about? *slightly confused*'',
+
+player: "I dunno. Lalala. *keeps on walking"}
+
+# Roadbike
+
+About bike maintenance in minimal form.
+
+## Wielen
+
+De contact punten met de weg en dus het meest significant voor de wegligging. Dus de meest effeciente plek voor onderhoud!
+
+**achterwiel** : Dit wiel duwt je voort. 
+
+**voorwiel** : Complementeert het achterwiel.
+
+**binnenband** : Als je je binnenbanden gaat repareren dan kun je je fiets natuurlijk 
+niet daar op laten staan! Dus flip je fiets om en zet hem stabiel op het
+ zadel en stuur. Daarna kun je de band rustig inspecteren voor sherpe 
+deeltjes, die wil je eruit halen. Ook handig om die plek te markeren, 
+want grote kans dat daar een gaatje zit. Dan om de buitenband eraf te 
+halen zijn verschillende methodes.
+
+<table>
+<tbody><tr>
+<th>Omstandigheid</th>
+<th>Methode</th>
+</tr>
+<tr>
+<td>Buitenband zit losjes</td>
+<td>Gebruik de palmen van je hand om de band los te maken.</td>
+</tr>
+<tr>
+<td>Buitenband zit strak</td>
+<td>Gebruik wippertjes.</td>
+</tr>
+<tr>
+<td>Buitenband is niet los te maken</td>
+<td>Gebruik mijn gepatenteerde techniek :). Zet een wippertje onder de 
+band, dit is het entree punt. Nu zet er een wippertje onder het 
+uitsteeksel dat je zojuist heb gemaakt. Dit kan een beetje peulen zijn. 
+Pak het derde wippertje en doe weer hetzelfde met het nieuwe ingezette 
+wippertje. Laat het het eerste wippertje staan. Werk dan beetje bij 
+beetje met de twee wippertjes om en om door totdat de band loskomt.</td>
+</tr>
+</tbody></table>
+
+Nu kun de buitenband eruit te halen is kun je voor 
+gaatjes checken. Pomp de binnenband op en luister of je ergens lucht 
+uitstroom hoort. Dit is alleen hoorbaar met grotere gaatjes. Daarna ga 
+je met je hand als een koker om de hele band heen. Als er een gaatje is 
+kun je de lucht uitstroom voelen blazen. Markeer alle gaatjes die je 
+vindt. 
+
+Volg daarna de specifieke instructies van het plaksetje 
+wat je hebt gekocht. Hiermee is het gaatje afgesloten en kun je testen 
+of de band lucht weer vasthoud, zodat je erop kunt fietsen met enige 
+demping.
+
+## Human contact points
+
+**zadel** : Je kan niet gemakkelijk staand fietsen dus dan maar zittend op een zadel.
+
+**Stuur** : Je moet je handen ergens kwijt! En je kan er ook nog mee sturen!
+
+**Trappers** : Dit is het contact punt met het achterwiel.
+
+## Connectors
+
+**Ketting** : Bindt trappers en achterwiel samen.
+
+**Frame** : Die bindt alles samen!
+
+## Extra
+
+**fietstas** : Als je op reis gaat heb je meer spullen nodig dan een enkel fietstochtje 
+mocht je het vol willen houden. Je wilt het graag zo minimaal mogelijk 
+houden aangezien je het elke trap mee neemt
+
+## More about bikes
+
+[Dutch bike Wikipedia](https://nl.wikipedia.org/wiki/Fiets) , because they arguably utilize bikes the most on the world.
