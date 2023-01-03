@@ -16,11 +16,10 @@ bold text (also headers).
 - [Internet Basics](https://edu.gcfglobal.org/en/internetbasics/what-can-you-do-online/1/)
 
 ## Tools
-- <https://www.favicon.cc/> / <https://realfavicongenerator.net/>
-- <http://www.image-map.net/>
-- <https://daringfireball.net/projects/markdown/dingus> / <https://daringfireball.net/projects/markdown/syntax#philosophy>
-- <https://tinypng.com/>
-- <https://lospec.com/> / <https://lospec.com/png-crusher/>
+- [favicon drawer](https://www.favicon.cc/) / [Generator](https://realfavicongenerator.net/)
+- [Image map creation](<http://www.image-map.net/)
+- Markdown [to HTML](https://daringfireball.net/projects/markdown/dingus) / [Use](https://daringfireball.net/projects/markdown/syntax#philosophy)
+- Pixel Art / [Creation](https://www.piskelapp.com/p/create/sprite) / [Help](https://lospec.com/) / [optimization](https://tinypng.com/)
 - Page [Test](https://www.webpagetest.org/) / [Speed](https://pagespeed.web.dev/)
 
 <!--
