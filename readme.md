@@ -11,9 +11,9 @@ When a user enters your site they should get an overview of the page. Minimize s
 bold text (also headers).
 
 ## Help
-- <https://developer.mozilla.org/en-US/docs/Web/API> ./<https://developer.mozilla.org/en-US/docs/Learn>
-- <https://developers.google.com/speed/webp/docs/using>
-- <https://edu.gcfglobal.org/en/internetbasics/what-can-you-do-online/1/>
+- [Mozilla API](https://developer.mozilla.org/en-US/docs/Web/API) / [Mozilla docs](https://developer.mozilla.org/en-US/docs/Learn)
+- [webp](https://developers.google.com/speed/webp/docs/using)
+- [Internet Basics](https://edu.gcfglobal.org/en/internetbasics/what-can-you-do-online/1/)
 
 ## Tools
 - <https://www.favicon.cc/> / <https://realfavicongenerator.net/>
@@ -21,6 +21,7 @@ bold text (also headers).
 - <https://daringfireball.net/projects/markdown/dingus> / <https://daringfireball.net/projects/markdown/syntax#philosophy>
 - <https://tinypng.com/>
 - <https://lospec.com/> / <https://lospec.com/png-crusher/>
+- Page [Test](https://www.webpagetest.org/) / [Speed](https://pagespeed.web.dev/)
 
 <!--
 ## Check?

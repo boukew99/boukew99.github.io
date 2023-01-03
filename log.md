@@ -477,6 +477,9 @@ OOT
 
 From reading to seeing.
 
+## Robot test
+- Lego Mindstorm programming
+
 ## Visual Ouput
 
 Geometry is well represented with mathematics. Once text and images start to be added, becomes the output more conditional, because these outputs have limited states. A range can be translated to these limited states by seting ranges for distinct intervals, though this will still have no continious feedback.
@@ -1712,3 +1715,92 @@ houden aangezien je het elke trap mee neemt
 ## More about bikes
 
 [Dutch bike Wikipedia](https://nl.wikipedia.org/wiki/Fiets) , because they arguably utilize bikes the most on the world.
+
+
+<table>
+  <tr>
+    <th>Skills</th>
+    <th>Level 1</th>
+    <th>Level 2</th>
+    <th>Level 3</th>
+    <th>Level 4</th>
+    <th>Level 5</th>
+    <th>Level 6</th>
+  </tr>
+  <tr>
+    <td>Charisma</td>
+    <td><input type="radio" name="charisma"></td>
+    <td><input type="radio" name="charisma"></td>
+    <td><input type="radio" name="charisma"></td>
+    <td><input type="radio" name="charisma"></td>
+    <td><input type="radio" name="charisma"></td>
+    <td><input type="radio" name="charisma"></td>
+  </tr>
+  <tr>
+    <td>Endurance</td>
+    <td><input type="radio" name="endurance"></td>
+    <td><input type="radio" name="endurance"></td>
+    <td><input type="radio" name="endurance"></td>
+    <td><input type="radio" name="endurance"></td>
+    <td><input type="radio" name="endurance"></td>
+    <td><input type="radio" name="endurance"></td>
+  </tr>
+</table> 
+
+
+<table>
+  <tr>
+    <th>Intersection</th>
+    <th>+4 appeal</th>
+    <th>+7 bargaining</th>
+    <th>+2 luck</th>
+    <th>+9 emotional stability</th>
+    <th>+1 shoe size</th>
+    <th>+7 tinkering</th>
+  </tr>
+  <tr>
+    <td>-8 tinkering</td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>-3 coolness</td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+  </tr> 
+  <tr>
+    <td>-6 stress-resistance</td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>-3 mutation resistance</td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>-10 bargaining</td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+    <td><input type="checkbox"></td>
+  </tr>
+</table> 
