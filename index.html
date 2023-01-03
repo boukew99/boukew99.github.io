@@ -18,13 +18,18 @@
 	
 	<title>boukew99</title>
 	<style>
-		#comic {
+		main img {
 			border: 4px black solid;
 			background-color:#ddd
 		}
 		ol,ul {
 			column-count:1;
 			}
+		#medekijker {
+			position: fixed;
+  			bottom: 0;
+			right: 20px;
+		}
 		</style>
 </head>
 	
@@ -32,11 +37,34 @@
 <p>Student Humans-Technology Interaction with a specialization in software interfaces, Pianist, Game developer, Sustainability Volunteer. <a href=profile.html>Profile</a></p></header><main>
 
 	<h2>📄Pages</h2>
-	<p><a href=software.html>📝Software</a>, <a href=qr.html>QR aesthetics</a>, <a href=website.html>this</a></p>
+	<ul>
+		<li><a href="wizarding.html">wizarding</a></li>
+		<li><a href="slash_maze.html">slash maze</a></li>
+		<li><a href="banana.html">banana</a></li>
+		<li><a href="adventure.html">adventure</a></li>
+		<li><a href="article-writer.html">article writer</a></li>
 
+		<li><a href="auto-role.html">auto role</a></li>
+		<li><a href="chess.html">chess</a></li>
+		<li><a href="color-coding.html">color coding</a></li>
+		<li><a href="controls.html">controls</a></li>
+		<li><a href="credits.html">credits</a></li>
+
+		<li><a href=symbols.html>🔣Symbols</a></li>
+		<li><a href=palettes.html>🎨pallettes</a></li>
+		<li><a href="map.html">map</a></li>
+		<li><a href="mondriaan-maker.html">mondriaan maker</a></li>
+		<li><a href="music.html">music</a></li>
+
+		<li><a href=squash.html>squash</a></li>
+		<li><a href=roadbike.html>roadbike</a></li>
+		<li><a href="recognize.html">recognize</a></li>
+		<li><a href="quiz.html">quizr</a></li>
+		<li><a href="outer-space.html">outer space</a></li>
+	</ul>
 
 	<h3>Tools</h3>
-	<p><a href=tiles.html>🔨Tiledraw</a>, <a href=symbols.html>🔣Symbols</a>, <a href=palettes.html>🎨pallettes</a>.</p>
+	<p><a href=tiles.html>🔨Tiledraw</a></p>
 	<h4>🔧Clipboard</h4>
 
 	<textarea onchange="text_changed()" id="clipboard" rows="15" cols="33"></textarea>
@@ -51,8 +79,45 @@
 	}
 	</script>
 
+	<h4>Dice</h4>
+	<svg xmlns="http://www.w3.org/2000/svg" width="250" height="250">
+		<rect x="3.5" y="3.5" width="243" height="243" rx="70" fill="none" stroke="#000" stroke-width="7"/>
+		<circle id=1 cx="50" cy="50" r="25"/>
+		<circle id=2 cx="50" cy="125" r="25"/>
+		<circle id=3 cx="50" cy="200" r="25"/>
+		<circle id=4 cx="125" cy="50" r="25"/>
+		<circle id=5 cx="125" cy="125" r="25"/>
+		<circle id=6 cx="125" cy="200" r="25"/>
+		<circle id=7 cx="200" cy="50" r="25"/>
+		<circle id=8 cx="200" cy="125" r="25"/>
+		<circle id=9 cx="200" cy="200" r="25"/>
+	</svg>
+	<button>Roll Dice!</button>
+	<script>
+		function roll_dice(){
+			let rng = Math.round( 1+ Math.random() * 6 );
+			
+		}
+	</script>
+	
+	<h3>Card Deck</h3><!--https://codepen.io/piersyp/pen/YgvxpW, https://commons.wikimedia.org/wiki/Category:SVG_playing_cards, https://www.w3schools.com/js/js_random.asp, https://w3collective.com/random-playing-card-javascript/-->
+	<button onclick=draw()>Draw Card🂠</button>
+	<p>🂱🂲🂳</p>
+	<script>
+	const cards = [1,2,3,4,5,6,7,8,9,0,"J","Q","K","A"]
+	const cards2 = [10,11]
+	const types = ["C", "D", "H", "S"]
+	
+	function draw(){
+		var deck = document.getElementById("deck")
+		const random_card = cards2[Math.floor(Math.random() * cards2.length)]
+		const random_type	= types[Math.floor(Math.random() * types.length)]
+		deck.alt = random_card + random_type
+		deck.src = deck.alt +".svg"
+	}
+	</script>
 	<h3>Computer Games</h3>
-	<p><a href=chess.html>chess</a>, <a href=records/sudoku.html>sudoku</a>, <a href=map.html>isometric map</a>, <strong>others</strong>: <a href="https://www.sokobanonline.com/play/tutorials">sokoban</a></p>
+	<p><a href=chess.html><img src="chess/preview.png" alt="chess"></a>, <a href=records/sudoku.html>sudoku</a>, <a href=map.html>isometric map</a>, <strong>others</strong>: <a href="https://www.sokobanonline.com/play/tutorials">sokoban</a></p>
 	<p><a href="https://howyoudoing.itch.io/">More Computer Games🎲</a></p>
 
 	<h2>Contents</h2>
@@ -90,6 +155,7 @@
 	<li>05-2022 - <a href=postcards/May-13@22.41.23.png>No mans sky eclipse</a></li>
 	<li>06-2022 - <a href="postcards/Screenshot 2022-06-03 150835.png">Gravity ball in space</a></li>
 	<li>10-2022 - <a href=postcards/postcard.jpeg>Postcard: Greetings from Norway</a></li>
+	<li>01-2023 - <a href="Screencast from 03-01-23 10:49:11.webm">Attack of hospitality</a></li>
 </ul>
 
 <p><a href="postcards.html">More web postcards</a></p>
@@ -111,7 +177,7 @@
 	<li>2022 - <a href="https://www.youtube.com/watch?v=aYAJopwEYv8">CPU be like</a></li>
 	<li>2022 - <a href="https://areyoutheasshole.com/">Are You the Asshole by an AI.</a></li>
 	<li>2022 - <a href="https://place-atlas.stefanocoding.me/">The 2022 r/place Atlas</a></li>
-	<li>2022 - <a href="https://www.hallab.co.jp/eng/company/symbol">HAL Labs company symbol</a></li>
+	<li>2022 - <a href="https://www.hallab.co.jp/eng/company/symbol">HAL Labs company symbol</a> / <a href="https://www.hallab.co.jp/eng/creative/process/">process</a> / <a href="https://www.hallab.co.jp/eng/creative/story/prj001/">story</a></li>
 	<li>2022 - <a href="https://grugbrain.dev/">grugbraining</a></li>
 	<li>12-2022 - <a href="https://oimo.io/works/life/">life with relative zoom-timings</a></li>
 	<li>2022 - <a href="https://www.shadertoy.com/">Demoscene</a> / <a href="https://iquilezles.org/articles/">tutorials</a> / <a href="https://www.shadertoy.com/view/3l23Rh">example</a></li>
@@ -120,4 +186,5 @@
 
 </main><footer>
 	<nav>© 2022 <a href="index.html">boukew99 <img src=favicon.ico></a></nav>
+	<img id="medekijker" src="wizarding/sticky.png">
 </footer></body></html>
