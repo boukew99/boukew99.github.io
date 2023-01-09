@@ -1133,7 +1133,7 @@ So one day you just wake up, open your computer, and start up linux, only to see
 
 **How do you decorate the QR code without significantly reducing its functionality?** The white background is only to increase contrast for the black pixels, which contain the information. Thus I made the background transparent. Then I made the decoration image that will go under the Qr image. Simply layering these images already works.
 
-Though contrast still is high enough for some more wiggling room for the under image to be visible. Thus I experimented with different layer merging methods, inluded here are ![layering with alpha 0.4, aplha 0.7 and burn](qr/comparison.png).
+Though contrast still is high enough for some more wiggling room for the under image to be visible. Thus I experimented with different layer merging methods, inluded here are ![layering with alpha 0.4, aplha 0.7 and burn](log/comparison.png).
 
 QR code generated at: <https://www.nayuki.io/page/qr-code-generator-library>
 Layering done in GIMP: <https://docs.gimp.org/en/gimp-concepts-layer-modes.html>
@@ -1147,7 +1147,7 @@ Inspiration: Zhang, Y., Deng, S., Liu, Z., Wang, Y. (2015). Aesthetic QR Codes B
 
 ## Morse code
 
-Arguably one of the first digital code used by people, where dash(-) and long dask(---) are like the 0 & 1. Then by sequencing and spacing, it can represent more states , like 0101. With 26 states all the letters in the alphabet are covered and so we can transmit words, which can sequenced and spaced to create sentences and further if it was not such a pain to decipher it.
+Arguably one of the first digital code used by people, where dash(-) and long dask(---) are like the 0 & 1. Then by sequencing and spacing, it can represent more states , like 0101. With 26 states all the letters in the alphabet are covered and so we can transmit words, which can sequenced and spaced to create sentences and further if it was not such a pain to decipher it, but [the message might still be worth it in the end](log/morse.ogg).
 
 ### Compression
 
