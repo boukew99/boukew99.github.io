@@ -63,6 +63,10 @@ photograph
 
 : drawing with light
 
+wikipedia
+: wiki + pedia
+: fast + learning
+
 ## Quotes
 
 > Brevity is the soul of wit - Shakespeare
@@ -466,6 +470,9 @@ exergaming = sports
 
 ## Notes
 Visuals --Explain-->Mechanics--Tell-->Story
+
+## Web games
+https://developer.mozilla.org/en-US/docs/Games/Introduction
 
 ## CPostcard names
 
@@ -1804,3 +1811,12 @@ houden aangezien je het elke trap mee neemt
     <td><input type="checkbox"></td>
   </tr>
 </table> 
+
+# Screen Edge room
+
+<http://www.mmds.org/>
+
+<https://core-design.com/goodies_tr1_gamedesigndocuments.html>
+<https://famicom.party/>
+
+Mythical & mystical atmosphere
