@@ -112,11 +112,16 @@ tr:nth-child(odd) {
     // alert
     return has_recurrence(rows) && has_recurrence(columns) && has_recurrence(cells)
   }
+  function sequence_sum(numbers){
+    row.reduce((a, b) => a + b, 0) == 45 //sequence-factorial-addition
+  }
   function valid_set(move) {
     return is_sudoku()
   }
 window.onload = function(e) {
-
+  //get urlParameters  square_size and sequence-length that overwrite defaults
+  let sequence = 9
+  let square = 9
     const row = document.getElementsByTagName("template")[0];
     const table = document.getElementsByTagName("tbody")[0];
     console.log(table)
