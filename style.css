@@ -137,6 +137,9 @@ new {
 	display:block;
 }
 
+fieldset label{
+	display: block;
+}
 @media (prefers-color-scheme: dark) {
 	body {
 		background: darkgrey; 
