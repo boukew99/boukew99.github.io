@@ -45,6 +45,10 @@ bold text (also headers).
 - [Image Bundler](https://www.befunky.com/create/collage/)
 - [Website Usage Statistics](https://bloggingwizard.com/website-statistics/)
 
+### HTML, CSS, JS minifier
+<https://github.com/xem/miniMinifier>
+<textarea oninput='value=value.replace(/(\/\*[^]+?\*\/|\s)+/g," ").replace(/^ |([ ;]*)([^\w:*.#% -])([ ;]*)|\*?(:) */g,"$2$4")'>
+
 <!--
 ## Check?
 - https://www.coreldraw.com/en/tips/postcard/
