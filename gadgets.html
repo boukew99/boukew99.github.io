@@ -102,7 +102,7 @@
 		<label><input type="checkbox">Take out dog</label>
 		<label><input type="checkbox">Take out me</label>
 	</fieldset>
-	<input type="submit">
+	<input type="submit" value="clean">
 	<template id="todo">
 		<label><input type="checkbox">...</label>
 	</template>
@@ -112,7 +112,8 @@
 			let todo = document.getElementById('todo').content.cloneNode(true)
 			todo.value = event.target.value //fix
 			checklist.appendChild(todo)
-			//on sumbit- disable finish todoes
+			//on sumbit- disable finish todoes, Local storage
+
 		})
 	</script>
 </main><footer>
