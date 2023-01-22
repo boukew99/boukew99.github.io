@@ -116,6 +116,13 @@
 
 		})
 	</script>
+	<h2>Minifier</h2>
+	<p>Code by <a href="https://github.com/xem/miniMinifier">XEM</a></p>
+	<h3 id="css&js-minifier">CSS&JS</h3>
+	<textarea oninput='value=value.replace(/(\/\*[^]+?\*\/|\s)+/g," ").replace(/^ |([ ;]*)([^\w:*.#% -])([ ;]*)|\*?(:) */g,"$2$4")'>
+	
+	<h3 id="html-minifier">HTML</h3>
+	<textarea oninput='value=value.replace(/(<!--[^]+?->|\s)+/g," ").replace(/ (?=<|$)|<\/[tl].>|<.p> *(<[p/])| ?\/?(>)/gi,"$1$2")'>
 </main><footer>
 	<nav>© 2022 <a href="index.html">boukew99 <img src=favicon.ico></a></nav>
 	<img id="medekijker" src="wizarding/sticky.png">
