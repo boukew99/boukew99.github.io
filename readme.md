@@ -44,10 +44,15 @@ bold text (also headers).
 - [Moving Pictures](https://ezgif.com/webp-maker)
 - [Image Bundler](https://www.befunky.com/create/collage/)
 - [Website Usage Statistics](https://bloggingwizard.com/website-statistics/)
+- [Open Street Map](https://www.openstreetmap.org)
 
-### HTML, CSS, JS minifier
+### Minifier
 <https://github.com/xem/miniMinifier>
+#### CSS/JS
 <textarea oninput='value=value.replace(/(\/\*[^]+?\*\/|\s)+/g," ").replace(/^ |([ ;]*)([^\w:*.#% -])([ ;]*)|\*?(:) */g,"$2$4")'>
+
+#### HTML
+<textarea oninput='value=value.replace(/(<!--[^]+?->|\s)+/g," ").replace(/ (?=<|$)|<\/[tl].>|<.p> *(<[p/])| ?\/?(>)/gi,"$1$2")'>
 
 <!--
 ## Check?

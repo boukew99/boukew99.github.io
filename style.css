@@ -44,8 +44,8 @@ ol, ul {
 	nav {
 		position: fixed;
 		bottom: 0px;
-		left:0px;
-		background-color: #eeeeee;
+		right:10px;
+		background-color: #eeeeeecc;
 	}
 }
 
