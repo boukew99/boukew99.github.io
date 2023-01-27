@@ -7,7 +7,9 @@ Infographics: Intergrate in data reports with textual interpretation.
 # Tips & tricks
 ## Auto-off
 What is the cost of a standby TV or wifi routers? Do you use them all the time? A TV maybe one hour per day, wifi routers not when you sleep. Still they are left on. The same for lights. The trade-off is only a bit of response time. Auto-off set with set time periods can make this trade-off neglible.
-# Streaming
+## Travel
+https://www.interrail.eu/en/plan-your-trip/sustainable-tourism-europe/why-train-is-best-option
+## Streaming
 When streaming videos, you may want to consider changing the quality in the options menu. If the video does not need much detail or you listening more than watching, switch it to a lower video quality. This will save bandwith and energy.
 # Human Computer Interaction
 A human interacting with a human, disguished as a computer, independent of time. This field relies on the assumption that there is [hardware](hardware.md) to run on, which can take [input](input.md), process it with [software](software.md) and [output](output.md) an image or text. Note that this is not about computing, but about transmission of data, which could be a computation though. 
@@ -419,7 +421,8 @@ Now we can have interactions with the definition through its area in the image.
 #### Graphical Image Creation
 We use the language that can creates an image of itself, by creating an Graphical User Interface that creates the text for that language through a visually supported interaction. This can be integrated into the generated image, by adding an`Add a Definition` Button, which inlcudes the `Branch` Definition. You would then have to choose one of the implemented defintions and configure them.
 ### Test
-```bou
+```
+bou
 include foo, +, -, *, /, 
 
 Pi = 355 / 113
@@ -580,9 +583,6 @@ How to cleanup memory after usage? Maybe you want to get back to it and determin
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
 ## Lateral Feedack
 - Window bottom light up when clicked something.
-#### Dictionary
-<https://en.wikipedia.org/wiki/Wiktionary>
-loc
 # Bookmarks
 - https://github.com/acaudwell/Gource/wiki/Controls (sudo apt install gource)
 - https://www.jasondavies.com/wordtree/
@@ -658,7 +658,6 @@ https://www.littlechicken.nl/oberons-court-textureless-3d-work/
 
 https://chronotrains-eu.vercel.app/
 
-https://www.interrail.eu/en/plan-your-trip/sustainable-tourism-europe/why-train-is-best-option
 https://itch.io/docs/creators/design
 
 https://alexwlchan.net/2022/07/screenshots/
