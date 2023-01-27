@@ -91,3 +91,6 @@ code block
 ```
 - list
 ```
+
+## Versioning
+Denoting the evolution stage of the website. `fundament`.`addition`.`patch`.
