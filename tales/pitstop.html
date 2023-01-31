@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>⛰️ Pitstop</title>
+<style>
+</style>
+<header>
+<h1>Pitstop adventure</h1>
+<p>Please go fullscreen(optimal experience) with enter to start the game.</p>
+</header><main>
+<h2>Pitstop Town</h2>
+<p>Pitstop is a place lying in the outer provinces of Ganeper. It is a simple hill on a flat landscape with a small town on top of it. Though this town keeps to itself and has walled of its borders to keep unwanted visitors out. Only a select view may enter through the gates.</p>
+
+<p>You too where wondering about the mysterys at pitstop. People were gossiping of hidden treasures or that they were connecting with the underworld. Though you were always busy with your local management job. Though today was a special day, because the king was visiting the town. Everybody was preparing the town, cleaning the streets, watering the flowers, putting on their best clothes and all.<p>
+
+<p>Finally the king arrived late in the evening. The townsfolk had lit the candle lights, giving the streets an festive and ambigious atmoshpere. They announced him and he stepped out of his carriage right onto the podium. He spoke: Dear citizens of Ganeper, I come to you with a sense of urgency. Though I enjoyed your welcome and wish to enjoy the festival, this matter needs to be taken care of first. We are looking for a project manager for an particulary challenging job. Some experience is a plus, but the task at hand is very new to everyone, so you must willing to learn. I cannot disclose more details about the job as you will deal in secrecy, though know that I will personally sponsor your project and will reward you richly if you finish the project indepedent of succes. If you are intersted meet me as soon as you can at my sleeping place. My adminstrator here will inform you of its place. Thank you welcoming citzens, I thank your time and must now continue my quest to protect this kingdom!</p>
+
+<p>Now the decision falls upon you. Will you aid the king in this mysterious job?<p>
+<details>
+  <summary>Yes</summary>
+  <p>You tell the adminstrator you are interested. He nods politely and directs you to the <a href=king_quarters>king's quarters</a>.</p>
+</details> 
+
+<details>
+  <summary>No</summary>
+  <p>Your are not suited for this task and hope someone else will solve it.</p>
+</details> 
+
+
+<h2>locations</h2>
+<ul>
+	<li><a href=gate.html>gate</a></li>
+	<li><a href=tavern.html>tavern</a></li>
+	<li><a href=town.html>town</a></li>
+</ul>
+
+<h2>Tavern</h2>
+<p>You are welcomed by the bartender. "You can always have a chat here with anybody, please take a seat". Where will you sit?</p>
+
+<h3>Scruffy</h3>
+<details><summary>So what are you up to?</summary>
+Nothing much right now. Job offer is low so I am just biting away on my last saved bones. If you know somebody who needs a hired gun, let me know. I'll make it worth it.
+<details><summary>I heard of a job inside kunaga coporation. They try to keep it discrete, so now open applications, but I could refer you.</summary>MMM okay, they always difficult to work with, with their secrets and all, but I ain't got much else to do 😁️.
+</details>
+<details><summary>How much of a tip are we talking?</summary>
+I am thinking 500 in cash.
+</details>
+<details><summary>Nothing that I know off.</summary>Okay, no worries. *stomach grumbles*. hehe.</details></details>
+
+
+<dialog open>
+  Sauce from apples, I call it...
+</dialog>
+<h3>Duffy</h3>
+<details><summary>Hey how is it goig Duffy?</summary>
+Hey mojijo, long time no see, you doing rich? Me not, still low on duffies, haha 😆️, though making dough, no problem brother.
+</details>
+<h3>Josh & Bosh</h3>
+<details><summary>Ahh the famous brothers duo. Looking for jobs inside town?</summary>
+No, leave us.</details>
+<h2>🏰The Gate</h2>
+<p>You approach the gate of Pitstop. Two guards💂💂 are waiting in front, sharply investigating your approach. Halt! What business do you have? I explain that I am the new project manager and show the paper with the kings seal on it. The guards inspect the paper and briefly look a bit concerned at each other. Okay you may come in. The gate opens and you walk inside into a deserted town.<p>
+</details>
+<!--Notes/hide if not in local storage, unlock by finding link in details tag-->
+<dialog>
+  Trees are falling from the apples.
+</dialog>
+</main>
+<script>
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    toggleFullScreen();
+  }
+}, false);
+
+function toggleFullScreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else if (document.exitFullscreen) {
+    document.exitFullscreen();
+  }
+}
+</script>

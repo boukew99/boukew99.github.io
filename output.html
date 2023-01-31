@@ -104,7 +104,34 @@ function myFunction(val) {
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Finger_counting_Russia_12.png">
 <a href="(https://www.mathsisfun.com/numbers/binary-count-fingers.html">Binary fingers</a>
 <h2>Abacus</h2>
+<h2>Infix parser</h2>
+<p>Infix Brackets notation. 2 (4 5 6)2 = 2*(4+5+6)^2
+  </p>
+<script>
+  // anynomous function somewhere
+  let operators = ["+", "*", "^"]
+  
+  function infixParse(expression, level = 0) {
+    let currentOperator = operators[level]
+    let layer = expression.split(currentOperator) 
+    if (layer.length() == 2) {
+      return solve(layer, currentOperator)
+    } 
+    else {
+      layer.forEach(element => {
+        infixParse(element, level + 1)
+      });
+    }
+  }
+  function solve() {
+    return
+  }
+</script>
 <h2>Operators</h2>
+<p>They are defined by the balance of the `=` .
+  / = (*=).
+  - = (+=).
+  </p>
 <table>
   <caption>operators sides</caption>
   <tr>

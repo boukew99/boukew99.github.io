@@ -18,13 +18,13 @@
 	
 	<title>boukew99</title>
 	<style>
-		#comic {
-			border: 4px black solid;
-			background-color:#ddd
+		pre {
+			padding: 0.5em;
+			overflow-x: scroll;
+			box-shadow: 5px 5px 5px 5px green;
+			background-color: #efefef;
+			tab-size: 1em;
 		}
-		ol,ul {
-			column-count:2;
-			}
 		</style>
 </head>
 	
@@ -43,6 +43,30 @@
 		<li>Passing Arrays in functions: foo(array[]). Can be multi-dimentional and with fixed size to represent vectors or matrixes: foo(matrix[4][4]</li>
 		<li><a href=https://github.com/raysan5/raylib/blob/master/src/raylib.h>raylib.h code</a></li>
 	</ul>
+	<figure>
+		<figcaption>Pseudo code for C</figcaption>
+		<pre><code>
+#context
+#functions
+#main
+	#procedures
+		#used variables 
+#equals
+
+//vector2 = [aspect, zoom] = scale
+// aspect animation: maintain volume, for example squeeze
+function vector2(length, angle):
+	aspect = cos(angle) * length / (sin(angle) * length)?
+	zoom = ?
+	return [aspect, zoom]
+function respond():
+	If WindowResized:
+		Layout()
+
+function main():
+	respond() //prepare frame
+		</code></pre>
+	</figure>
 
 	<!--https://marctenbosch.com/quaternions/-->
 </main><footer>

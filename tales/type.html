@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--
+http://www-cs-students.stanford.edu/~amitp/Articles/NPC-Conversation.html
+# Type return
+prod the people of this unfamilair place full of puzzely connections. Give items to people, shelves, chest. Sleep the night over in one of the local inns. Talk to the many inhabitants of the town and discover bits of info about how people are connected to this place. Maybe you could even do a helpful deed here and there. 
+
+## People
+
+### Jane
+Adventure women also on a journey. She is hanging out at the plaza looking for other travelers to chat too. 
+
+### Barney
+Runs the inn with the cheapest prices for beer, though staying the night will cost you more. Generally a nice guy, but does not know when to stop talking and spills a town's secret out every other day.
+
+### Kathena
+Has a total of 9 cats, though one went missing and missing posters are put around the whole town. It is one of the youngest cats, so she is a bit worried about his lone survival capabilities.
+
+### Direk
+Runs the only carnaval shop with a variety of customes, smoke candles and some fun stuff.
+
+## Town
+The people that inhabitat it have the habitat of being individualistic. So the streets end up being pretty quiet when it is time for the kids to go home. Also, the network connections are few, though the whole town is one clique. Therefore they don't mind talking to strangers for a change in conversation. 
+-->
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--<link rel="stylesheet" href="/style.css"> -->
+<style>
+	body {
+		background-color: black;
+		color: greenyellow;
+	}
+	input, select {
+		background-color: darkblue;
+		outline-color: blue;
+		color: yellow;
+	}
+</style>
+
+
+<title>Text Return</title>
+<h1>Text Return</h1>
+
+<p id=return></p>
+<p id=generate>You enter a room with a <span style="color:green">bathub</span>, mirror and washtable.</p>
+<form>
+<label for=target>target</label>
+<input name=target type=text><br>
+<label for=action>action</label>
+<select onchange="check_arguments(value)" name=action>
+<option id=use>talk</option>
+<option>look</option>
+<option>walk</option>
+<option>grab</option>
+<option>give</option>
+</select><br>
+<label for=actor>actor</label>
+<select id=actor name=actor>
+<option>Me</option>
+<option>Dog</option>
+<option>Barry</option>
+<option>Joella</option>
+<option>Shovel</option>
+<option>Gold Pouch</option>
+<option>Screwdriver</option>
+</select><br>
+<label for=comment>comment</label>
+<input name=c type=text><br>
+<input type=submit value=Instruct>
+</form>
+
+<script defer>
+window.onload = function(e) {
+	//query split match change-memory return-text
+	const urlParams = new URLSearchParams(window.location.search);
+	//const setup =  urlParams.get('setup').split("");
+	let actor =	urlParams.get("actor")
+	let action = urlParams.get("action")
+	let target = urlParams.get("target")
+	let comment = urlParams.get("c")
+	
+	
+	/*
+	let file = "data.json"
+	
+	fetch (file)
+		.then(response => response.json())
+		.then(jsondata => document.getElementById("return").innerHTML += jsondata);
+	*/
+	
+	var key = `${actor} ${action} ${target}`
+	
+	if (comment) { 
+		document.getElementById("return").innerHTML = key + `, ${comment}` 
+		}
+	else {
+		document.getElementById("return").innerHTML = `${actor} ${action} ${target}`
+		}
+		
+	document.getElementById("return").innerHTML += "<br>" + dialogue[key]
+}
+
+var dialogue = {
+	"Me Talk Parama":"hello",
+	"key2":"how are you",
+	"key3":"good",
+}
+
+function check_arguments(value) {
+	switch(value) {
+		case "give": document.getElementById("actor").style.display = "inline";break;
+		case "talk":
+		case "walk":
+		case "grab":
+		case "give":
+		case "look":
+			document.getElementById("actor").style.display = "none";break;
+		}
+}
+
+/*
+var command = {
+	"a":
+		"b":
+			"b":
+				"r":
+					"e":
+						"v":
+							"i":
+								"a":
+									"t":
+										"e": "abbreviate"
+}
+
+or list command: https://www.w3schools.com/TAGS/att_input_list.asp
+
+mulit-command/input with ",": array, array2, array3
+
+Still split with " ", but "," for extend command.
+*/
+</script>

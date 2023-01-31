@@ -2,17 +2,17 @@
 boukew99 is a tiny website for testing web technologies for different receivers while striving for minimal code and good accesibility. All content serves mostly as placeholders for different use cases, while still being original. The structure should be obvious, altough maybe unorthodox. There are minimal repetitions, making each page mostly unique and keeping maintenance easier. Please enjoy <https://boukew99.github.io/>.
 
 ## Website Statistcs
-As of 1 Januari 2023 with [cloc](https://linuxconfig.org/counting-lines-of-code-with-cloc)
+As of 30 Januari 2023 with [cloc](https://linuxconfig.org/counting-lines-of-code-with-cloc)
 Size
-: 97.3 MB
+: 161.1 MB
 Lines of Code
-: 6490
+: 5678
 Comments
-: 191
+: 170
 Blank
-: 1042
+: 422
 Files
-: 61
+: 57
 
 ## Technologies
 - HTML, as meaningfull content binder
