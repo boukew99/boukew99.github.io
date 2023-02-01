@@ -99,14 +99,16 @@ main {
 	/*display: grid;
 	grid-template-columns: repeat(auto-fill, 21em);*/
 }
-
+dt {
+	font-style: italic;
+}
 p, textarea {
 	max-width:33em;
 }
 p::first-letter {
   font-size: large;
 }
-img, table, video {
+img, table, video, iframe {
 	max-width: 100%;
 }
 table,th, td {
