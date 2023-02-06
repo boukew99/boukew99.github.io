@@ -5,7 +5,7 @@
 <title>Page Title</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="boukew99.css"> 
+<link rel="stylesheet" href="index/boukew99.css"> 
 <style>
   td {
     width: 1.5em;
@@ -110,21 +110,22 @@ function myFunction(val) {
 <script>
   // anynomous function somewhere
   let operators = ["+", "*", "^"]
-  
+  infixParse("1 + 2 * 3 ^ 4 * 5 + 6")
   function infixParse(expression, level = 0) {
     let currentOperator = operators[level]
     let layer = expression.split(currentOperator) 
-    if (layer.length() == 2) {
+    if (layer.length == 2) {
       return solve(layer, currentOperator)
     } 
     else {
+      console.log(layer)
       layer.forEach(element => {
         infixParse(element, level + 1)
       });
     }
   }
   function solve() {
-    return
+    return 1
   }
 </script>
 <h2>Operators</h2>
