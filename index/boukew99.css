@@ -78,6 +78,11 @@ header {
 	background-color:#ffd732;
   padding-top:0.5em;
 }
+@media only screen and (max-width: 600px) {
+	header {
+		margin-bottom: 1em;
+	}
+}
 footer {
 	background-color: #eeeeee;
 }

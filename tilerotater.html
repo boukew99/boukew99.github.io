@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="tiles/index/boukew99.css">
+<style>
+    canvas{
+        border: 2px solid #d3d3d3;;
+        border-color: black;
+		background-color: black;
+    }
+    /*
+    #canvas {
+    	width:100vh;
+    	height:100vh;
+    } */
+</style>
+
+
+<title>TileDraw</title>
+<main>
+<h1>Tiledraw</h1>
+
+<h2>Understanding tiles</h2>
+<p>recurisve tiling<br>
+tiles are a bunch of pixels grouped in a rectangle, which replace the operating size of the pixels with the tile size, thus chunking calculations. Now recursive tiling means that you tile tiles, thus increasing chunking calculations even more, until you finanally have chunck that resembles a map.
+<br>
+Thus you start with just pixels, then you select a rectangle of pixels, which becomes a group or tile. Then you can draw with those tiles. Now when you make a group of those drawn tiles, you get another bigger tile. and slowly you make your tileset, with a deeply connected tiles.</p>
+<h2>Instructions</h2>
+<p>How to arrange tiles?</p>
+<p>Arrange each tile so it will fit with its neighbour. To prevent difficult neighbouring cases, start from the center and work your way outside in a spiral way. You could also work your way from the top-left to the to the bottom-right, but this likely leads to less intersting patterns.</p>
+
+<h2>Interface Manual</h2>
+<ol>
+	<li>Select a tile with a the index number.</li>
+	<li>select a cell on the canvas.</li>
+	<li>repeat.</li>
+	<li>`Save Image as` on the canvas.</li>
+</ol>
+
+<h2>Technicalities</h2>
+<p>A tile on a computer works by first loading <a href=tiles/tilemap4x.png>an image with all the tiles on it</a>. Then one tile is clipped from that image and rendered on the canvas in a non overlapping way. Thus you can draw in tiles(nxn) instead of pixels(1x1), which means less draw calls the bigger the tiles. Then by combining many tiles, you can get interesting patterns eventhough you work with a bigger size than the individual pixels and thus have less detail.</p>
+
+</main>
+<img id=tilemap src=tiles/minimal-autotile-snow-4x.png alt="tilemap">
+<input onchange="set_start(value)" type="number" min=0 max=16>
+<input onchange="set_aspect(value)" type="number">
+<canvas id=preview width=64 height=64></canvas>
+<canvas id="canvas" width="1024" height="1024"></canvas>
+
+<button id=save>Save</button><button id=restore>restore</button>
+
+<script>
+var c = document.getElementById("canvas");
+var ctx = c.getContext("2d");
+var img = document.getElementById("tilemap");
+var preview = document.getElementById("preview");
+
+var dx = 0
+var dy= 0
+var dWidth = 16
+var dHeight = 16
+
+var start = 1
+var aspect = 1;
+
+// prefill canvas with first tile
+//https://xem.github.io/js13k-level-editor/editor.html
+//https://developer.mozilla.org/en-US/docs/Games/Techniques/Tilemaps
+
+canvas.onclick = function(e) {
+
+  const rect = canvas.getBoundingClientRect()
+  const x = Math.trunc((event.clientX - rect.left) / 64) * 64
+  const y = Math.floor((event.clientY - rect.top) / 64) * 64
+  console.log("x: " + x + " y: " + y)
+  ctx.drawImage(img, dx, dy, dWidth, dHeight, x, y, dWidth, dHeight)
+}
+    
+save.onclick = function(e) {
+	ctx.save()
+}
+    
+restore.onclick = function(e) {
+	ctx.restore()
+}
+
+function set_start(value) { start= value; select_clip()}
+function set_aspect(value) {
+aspect = value; 
+preview.width= 32* value
+select_clip()}
+/*
+let clip = document.getElementById("clip")
+
+clip.addEventListener("onchange", (event) => {
+	console.log(event.target.value);
+} )
+*/
+function select_clip() {
+	var ctx = preview.getContext("2d");
+	dx = start % 4 * 64
+	dy= Math.trunc(start / 4) * 64
+	dWidth = aspect * 64
+	dHeight = 64
+	ctx.clearRect(0,0,32,32)
+	
+	console.log(dx ,dy);
+  ctx.drawImage(img, dx, dy, dWidth, dHeight, 0, 0, 64 *aspect, 64)
+}
+</script>
