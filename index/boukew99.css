@@ -18,12 +18,15 @@ h1,h2,h3,h4,h5,h6,strong {
 h1 {
 	font-size: 1.8em;
 	margin-top:0px;
+	color: royalblue;
 }
 h2 {
 	font-size: 1.5em;
+	color:darkgreen;
 }
 h3 {
 	font-size: 1.3em;
+	color: darkslateblue;
 }
 h4 {
 	font-size: 1.2em;
@@ -51,7 +54,7 @@ ol, ul {
 
 body {
 	font-family: Tahoma, sans-serif;
-	background-color:#eeeeee;
+	background-color:orange;
 	margin-top: 0px;
 	margin-bottom:50vh;
   margin-left: auto;
@@ -84,11 +87,11 @@ header {
 	}
 }
 footer {
-	background-color: #eeeeee;
+	background-color: burlywood;
 }
 main {
 
-	background-color:white;
+	background-color: beige;
 	/*
 	column-width:25em;
 	overflow-x: scroll;
