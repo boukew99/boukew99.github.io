@@ -115,6 +115,9 @@ p, textarea {
 p::first-letter {
   font-size: large;
 }
+img, iframe {
+	border: 1rem solid whitesmoke;
+}
 img, table, video, iframe {
 	max-width: 100%;
 }
