@@ -119,7 +119,8 @@ img, iframe {
 	border: 1rem solid whitesmoke;
 }
 img, table, video, iframe {
-	max-width: 100%;
+	box-sizing: border-box;
+	max-width: 100% ;/*- border*/
 }
 table,th, td {
 	border: 2px dashed;
