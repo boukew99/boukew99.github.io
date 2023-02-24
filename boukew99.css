@@ -1,95 +1,74 @@
 html{
-	scroll-behavior: smooth;
-}
-
+	scroll-behavior: smooth;}
 #banner {
   width: 100%;
   height: 60px;
-  object-fit: cover;
-}
-
+  object-fit: cover;}
 .me {
-  border-radius: 50%;
-}
-
+  border-radius: 50%;}
+progress[value] {
+	height: 1em;
+	width: 100%;}
 h1,h2,h3,h4,h5,h6,strong {
 	font-weight: bold;
-}
+	margin-bottom: 0.2em;}
 h1 {
 	font-size: 1.8em;
 	margin-top:0px;
-	color: royalblue;
-}
+	color: royalblue;}
 h2 {
 	font-size: 1.5em;
-	color:darkgreen;
-}
+	color:darkgreen;}
 h3 {
 	font-size: 1.3em;
-	color: darkslateblue;
-}
+	color: darkslateblue;}
 h4 {
-	font-size: 1.2em;
-}
+	font-size: 1.2em;}
 h5 {
 	font-size: 1.1em;
-	font-weight: bold;
-}
+	font-weight: bold;}
 h6 {
 	font-size: 1em;
-	font-style: italic;
-}
+	font-style: italic;}
 ol, ul {
-	padding-left: 1.631em;
-}
+	padding-left: 1.631em;}
+p {
+	margin-top: 0.2em;}
 @media screen and (orientation: landscape) {
-
 	nav {
 		position: fixed;
 		bottom: 0px;
 		right:10px;
-		background-color: #eeeeeecc;
-	}
+		background-color: #eeeeeecc;	}
 }
-
 body {
 	font-family: Tahoma, sans-serif;
 	background-color:orange;
 	margin-top: 0px;
 	margin-bottom:0;
   margin-left: auto;
-  margin-right: auto;
-
-}
-
+  margin-right: auto;}
 footer, header {
 	padding-left:1.1em;
 	padding-right:1.2em;
   padding-bottom:0.5em;
   padding-top:0.5em;
-	/*
-	
-	background-color: #4158D0;
+	/*background-color: #4158D0;
 	background-image: linear-gradient(119deg, #4158D0 0%, #C850C0 17%, #FFCC70 39%, #d8e155 60%, #55e1b1 80%, #2ceaff 100%);
 	max-height: 230px;
-	padding: 4px;*/
-
-}
-
+	padding: 4px;*/}
 header {
 	background-color:#ffd732;
-  padding-top:0.5em;
-}
+  padding-top:0.5em;}
 @media only screen and (max-width: 600px) {
 	header {
-		margin-bottom: 1em;
-	}
-}
+		margin-bottom: 1em;	}}
 footer {
-	background-color: burlywood;
-}
+	background-color: burlywood;}
+footer:before {
+	content: url(boukew99.ico);
+	padding-right: 0.5em;}
 main {
-
 	background-color: beige;
 	/*
 	column-width:25em;
@@ -101,96 +80,77 @@ main {
   padding-left: 1.1em;
   padding-right:1.2em;
   padding-top: 0.2em;
-  padding-bottom:0.5em;
-	/*font-style: italic;*/
-	/*display: grid;
-	grid-template-columns: repeat(auto-fill, 21em);*/
+  padding-bottom:0.5em;/*
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 34em);*/
 }
 dt {
-	font-style: italic;
-}
+	font-style: italic;}
 p, textarea {
-	max-width:34em;
-}
+	max-width:34em;}
 p::first-letter {
-  font-size: large;
-}
-img, iframe {
-	border: 1rem solid whitesmoke;
-}
+  font-size: large;}
+main img, iframe {
+	border: 1rem solid whitesmoke;}
 img, table, video, iframe {
 	box-sizing: border-box;
-	max-width: 100% ;/*- border*/
-}
+	max-width: 100% ;/*- border*/}
 table,th, td {
 	border: 2px dashed;
 	max-width: 100%;
-	border-collapse: collapse;
-}
-
+	border-collapse: collapse;}
 tr:nth-child(odd) {
-  background: #f2f2f2;
-}
-
+  background: #f2f2f2;}
 article {
-	column-width:500px;
-}
-
+	column-width:500px;}
 ol ol { list-style: upper-alpha }
 ol ol ol { list-style:  lower-roman }
 ol ol ol ol { list-style: lower-alpha }
-
 details *:not(summary){
-	margin-left:1em;
-	}
+	margin-left:1em;	}
 details[open] > summary:before {
-  transform: rotate(90deg);
-}
+  transform: rotate(90deg);}
 @keyframes details-show {
   from {
     opacity:0;
-    transform: var(--details-translate, translateY(-1em));
-  }
-}
-
+    transform: var(--details-translate, translateY(-1em));}}
 details[open] > *:not(summary) {
-  animation: details-show 150ms ease-in-out;
-}
-
+  animation: details-show 150ms ease-in-out;}
 new {
 	background-color:#00ff0055;
-	display:inline;
-}
+	display:inline;}
 old {
 	background-color: orange;
-	display:inline;
-}
-
+	display:inline;}
 fieldset label{
-	display: block;
-}
+	display: block;}
 @media (prefers-color-scheme: dark) {
 	body {
-		background: darkgrey; 
-	}
-
+		background: darkgrey; 	}
 	img, header{
-		filter: grayscale(47%);
-	}
+		filter: grayscale(47%);	}
 	/* https://developer.mozilla.org/en-US/docs/Web/CSS/filter
 	svg {
 		filter: url(resources.svg#c1)
-	}
-	*/
+	}*/
 	new {
-		background-color:#00990055;
-	}
-	
-}
+		background-color:#00990055;}}
 iframe {
-	background-color: white;
-}
+	background-color: white;}
 pre {
 	background-color: #c5ccdb;
 	padding: 1em;
+	tab-size: 2;
+}
+blockquote {
+	max-width: 34em;
+	background-color: #fff5;
+	border-left: 10px solid white;
+	padding: 0.5em;
+}
+blockquote:before {
+	content: open-quote;
+}
+blockquote:after {
+	content: close-quote;
 }
