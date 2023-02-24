@@ -154,3 +154,7 @@ blockquote:before {
 blockquote:after {
 	content: close-quote;
 }
+.new-entry::after {
+  content: " New!";
+  color: red;
+}

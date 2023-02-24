@@ -12,15 +12,32 @@
 		iframe{float: inline-end;}
 		nav {
 			position: sticky;
-			top: 0px;
+			bottom: 0px;
 		}
+		.postcard figure{
+			background-color: white;
+			border: solid 4em white;
+			border-bottom: 8em;
+		}
+		.postcard figcaption{
+			background-color: white;
+		}
+		.postcard figcaption::before {
+			content: "📮";
+		}
+		.postcard img{
+			background-color: white;
+					}
 		</style>
 </head>	
 <body><header><h1 class="fill-text">Trondheim Thesis</h1>
 <p>Doing my Engineering Master Thesis in Trondheim among other things. <a href="https://www.timeanddate.no/astronomi/sol-maane/norge/trondheim">Current Norwegian daylight</a></p>
 <label>Thesis Progress: <progress max="100" value="10"> 10% </progress></label>
 </header><main>
-	<nav><a href="#CabinTrip">Cabin trip</a>, <a href="#Snowboarding">Snowboarding</a>, <a href="#Thesis">Thesis Start</a>, <a href="#Hello">Hello World</a></nav>
+	<figure class="postcard">
+		<img src="trondheim/test.webp">
+		<figcaption>This a test postcard.</figcaption>
+	</figure>
 	<h2>Making this website</h2>
 	<p>I takes some time to engineer this website. I have to work with Hyper Text Markup Language, which you can see if you <a href="https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/open_the_inspector/index.html">inspect this website</a> by for example pressing <kbd>F12</kbd>. You are on the receiving end 😊.</p>
 	<h2>Thesis Introduction written</h2>
@@ -52,9 +69,8 @@
 	<p>In between all the commotion I will be working on my <a href="https://docs.google.com/document/d/11qrZzEIithMgcD36cF9WizruhltP88R8IdNZ9Ezm6yk/edit?usp=sharing">thesis on Visual Programming</a> 😁. Leave a comment if you want!</p>
 	
 	<h2 id="Hello">Hello World</h2>
-	<p>Trying out this thing called a <code>website</code> to effieciently update many people. It might motivate me to put more content on it than before on Polarsteps.</p>
+	<p>Trying out this thing called a <code>website</code> to effieciently update many people. It might motivate me to put more content on it than before on Polarsteps.</p><nav><a href="#CabinTrip">Cabin trip</a>, <a href="#Snowboarding">Snowboarding</a>, <a href="#Thesis">Thesis Start</a>, <a href="#Hello">Hello World</a></nav>
 </main><footer>
 	<p>© 2023 boukew99.</p>
 	<button onclick="window.open('whatsapp://send?text=Hey, follow my travels around trondheim at https://boukew99.github.io/travel/ 💌')">Share on Whatsapp</button>
-<button onclick=" navigator.share({title: 'boukew99 travel',	url: 'https://boukew99.github.io/travel/'})">Share on Mobile</button>
-</footer></body></html>
+<button onclick=" navigator.share({title: 'boukew99 travel',	url: 'https://boukew99.github.io/travel/'})">Share on Mobile</button></footer></body></html>
