@@ -210,7 +210,32 @@
 
 	<input type="submit" value="Set Move">	
 </form>
+<h2>Chess puzzles</h2>
+<table>
+<caption>puzzels</caption>
+<tr>
+<th>Name</th>
+<th>Difficulty</th>
+<th>Setup</th>
+</tr>
+<tr>
+<td>Rowing</td>
+<td>⭐️⭐️⭐️⭐️</td>
+<td><a href="game.html?setup=5r2/8/1R6/ppk3p1/2N3P1/P4b2/1K6/5B2">5r2/8/1R6/ppk3p1/2N3P1/P4b2/1K6/5B2</a></td>
+</tr>
+<tr>
+<td>Switch</td>
+<td>⭐️⭐️⭐️⭐️</td>
+<td><a href="game.html?setup=5♖2/8/1♜6/♙♙♕3♙1/2♞3♟1/♟4♗2/1♚6/5♝2">5♖2/8/1♜6/♙♙♕3♙1/2♞3♟1/♟4♗2/1♚6/5♝2</a></td>
+</tr>
+</table>
 
+<h2>Make your own</h2>
+<form action=../chess.html>
+<!--https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search-->
+	<label for="setup">or put in a custom setup with FEN+ code:</label>
+	<input size=64 type=search id="setup" name="setup" maxlength=64>
+</form>
 
 </main>
 <footer>

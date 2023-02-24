@@ -9,8 +9,20 @@
 		body{
 			background-image:url(squash/squash.png);
 		}
-		center { 
-			background: #ffd635;
+		header {
+		  background: #2EB07B;
+		  animation: fadeBackground 6s forwards;
+		}
+		@keyframes fadeBackground {
+		  from { background-color: #2EB07B; }
+		  to { background-color: #ffd732; }
+		}
+		main { 
+			animation: fadeIn 4s ease-out;
+		}
+		@keyframes fadeIn {
+		  0% { opacity: 0; }
+		  100% { opacity: 1; }
 		}
 		h1 {text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF}
 	
@@ -51,8 +63,42 @@
 	</ul>
 	<h2>Online Manual</h2>
 	<p>with instructions, catalog, spreadsheet numbers and secrets</p>
+	<h2>Credits</h2>
+	<dl>
+	  <dt>programmer</dt>
+	  <dd>boukew99</dd>
+	  <dt>artist</dt>
+	  <dd>boukew99</dd>
+	  <dt>sound</dt>
+	  <dd>boukew99</dd>
+	</dl>
+	<h2>Squash Poll</h2>	
+	<form>	
+	<fieldset>
+		<legend>How did you get to know squash?</legend>
+		<label><input type="checkbox" name="social-media">social media</label>
+		<label><input type="checkbox" name="friend">friend</label>
+	</fieldset>
+	<fieldset>
+		<legend>How do you like the controls?</legend>
+		<label>1<input type="range" min=1 max=5 name="controls">5</label>
+	</fieldset>
 
-	<h2><a href="credits.html">Credits</a></h2>
-</main><footer>
-	<p>© 2022 boukew99</p>
-  </footer></body></html>
+	<fieldset>
+		<legend>On what screen do you play</legend>
+		<label><input type="checkbox" name="TV">TV</label>
+		<label><input type="checkbox" name="Computer">Computer</label>
+	</fieldset>
+	<fieldset>
+		<legend>With whom did you play?</legend>
+		<label><input type="checkbox" name="myself">myself</label>
+		<label><input type="checkbox" name="family">family</label>
+		<label><input type="checkbox" name="friends">friends</label>
+	</fieldset>
+	<fieldset>
+		<legend>Who are your favourite characters?</legend>
+		<label><input type="checkbox" name="jumper">jumper</label>
+	</fieldset>
+	<input type="submit">
+</form>
+</main><footer>© 2022 boukew99</footer></body></html>
