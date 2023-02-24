@@ -92,7 +92,7 @@ p::first-letter {
   font-size: large;}
 main img, iframe {
 	border: 1rem solid whitesmoke;}
-img, table, video, iframe {
+img, table, video, iframe, figure {
 	box-sizing: border-box;
 	max-width: 100% ;/*- border*/}
 table,th, td {
