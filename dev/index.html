@@ -7,25 +7,23 @@
 	<link rel="stylesheet" href="../boukew99.css">
 	<link rel="icon" type="image/x-icon" href="../boukew99.ico">
 	<meta property="og:image" content="../computer-wizard-media.png"/>
-	<title>boukew99 log</title>
+	<title>boukew99/development</title>
 </head>	
 <body><header>
 	<h1>Help</h1>
 	<nav>Developer health. Feel free to inspect(F12) the site <!--💓-->. It is a <a href="https://www.bing.com/translator/?ref=TThis&text=%E5%86%92%E9%99%BA&from=ja&to=en">	冒険 / adventure / Bōken / bouken</a>. It has <a href="#statistcs">website statistics</a> a <a href="#sitemap">sitemap</a>, a docoumentation of the used technologies, designs, <a href="tools">tools</a> and documentation. <a href="#breadcrumbs">breadcrumbs</a>, <a href="#accounts">Accounts</a>.</nav>
 </header><main>	
 	<h2 id="statistcs">Website Statistcs</h2>
-	<p>As of 11 Febuari 2023 with <a href="https://linuxconfig.org/counting-lines-of-code-with-cloc">cloc</a>
+	<p>As of 24 Febuari 2023 with <a href="https://linuxconfig.org/counting-lines-of-code-with-cloc">cloc</a>
 		<dl>
 			<dt>Version</dt>
 			<dd>1.4.0</dd>
 			<dt>Size</dt>
 			<dd><label>5.8 MB / 1000 MB</dd>
 			<dt>Lines of HTML</dt>
-			<dd>3460</dd>
-			<dt>Comments</dt>
-			<dd>79</dd>
+			<dd>3589</dd>
 			<dt>Pages</dt>
-			<dd>38</dd>
+			<dd>30</dd>
 			<dt>Host</dt>
 			<dd><a href="https://github.com/boukew99/boukew99.github.io">Github</a></dd>
 		</dl>
@@ -33,20 +31,16 @@
 	<h2>🗃Sitemap</h2>
 	<p>The sitemap is synchronous with the file structure, though integrated content is omitted, and takes a hierarchical shape and treats folders a package, which are unpackaged if accesed, while losing acces by going deeper. Ideally each folder has and <code>index.html</code> file, which binds the content together.</p>
 	<pre>
-	<details><summary>boukew99</summary>
-	<details><summary>📁help</a></summary></details>
-	<details><summary>📁interaction</a></summary></details>
-	<details><summary>📁math</a></summary></details>
-	<details><summary>📁music</a></summary></details>
-	<details><summary>📁play</a></summary></details>
-	<details><summary>📁portfolio</a></summary></details>
-	<details><summary>📁projects</a></summary>
-	mondriaan_maker
-	squash</details>
-	<details><summary>📁travel</a></summary></details>
-	<details><summary>📁useless</a></summary></details>
-	<details><summary>📁visualization</a></summary></details>
-	<details><summary>📁weblog</a></summary></details>
+	<details><summary>boukew99.html</summary>
+	<details><summary>dev.html</a></summary>
+	<details><summary>📁interaction.html</a></summary></details>
+	<details><summary>📁funcional.html</a></summary></details>
+	<details><summary>📁visualization</a></summary></details></details>
+	<details><summary>📁play.html</a></summary>
+	<details><summary>📁music.html</a></summary></details></details>
+	<details><summary>📁projects.html</a></summary>
+	mondriaan_maker.html
+	squash.html</details>
 boukew99.css
 boukew99.ico
 404.html
@@ -95,6 +89,8 @@ boukew99.ico
 	<li><a href="https://meet.olpp.net/">online browser meetings</a></li>
 	<li><a href="https://mailtolinkgenerator.com/">mail-to prefill link</a></li>
 	<li><a href="https://www.when2meet.com/">Plan a meeting</a></li>
+	<li><a href="https://github.com/xem/miniMinifier">XEM CSS Minifier</a></li>
+	<li>Git means something not so nice / <a href="https://www.mercurial-scm.org/guide">Mercurial SCM VCS</a>
 	</ul>
 	<h2>Commons Media</h2>
 	<ul>
@@ -163,5 +159,58 @@ boukew99.ico
 	<h2 id="accounts">Accounts</h2>
 	<p>@<a href=https://github.com/boukew99>Github 🧑‍💻️</a> for open-sourcing my code, mainly consisting of Godot Engine Demos and Addons, @<a href=https://howyoudoing.itch.io/>itch.io 🎮️</a> if you want to check out my older videogames and tools, @<a href=https://www.youtube.com/channel/UC4Du0fUI_80IcwjjODJz6-w>Youtube 📽️</a> me 	learning about video, @<a href="https://howyourdoing.newgrounds.com/">Newgrounds</a>, @<a href="https://mastodon.gamedev.place/@boukew99">Mastodon</a>, @<a href=mailto:insertmail@mail.com?subject=Site%20Feedback&body=What-is-your-feedback?>Mailbox 📫</a></p>	
 		<iframe loading="lazy" src="https://mastodon.gamedev.place/@boukew99/109842614828613103/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" height="457" allowfullscreen="allowfullscreen"></iframe><script src="https://mastodon.gamedev.place/embed.js" async="async"></script>
+		<h2>🔧Clipboard</h2>
+	<textarea onchange='localStorage.setItem("clipboard", value)' id="clipboard" rows="15" cols="33"></textarea>
+	<script>
+	window.onload = function get_clipboard() {
+		document.getElementById("clipboard").value = localStorage.getItem("clipboard");
+	}/*
+	function text_changed() {
+		localStorage.setItem("clipboard", document.getElementById("clipboard").value);
+	}*/
+	</script>
+	<button onclick='innerHTML=`🎲 x ${Math.round( 1+ Math.random() * 6 )}`'id="dice">Roll Dice!</button>
+	<h2>Card Deck</h2><!--https://codepen.io/piersyp/pen/YgvxpW, https://commons.wikimedia.org/wiki/Category:SVG_playing_cards, https://www.w3schools.com/js/js_random.asp, https://w3collective.com/random-playing-card-javascript/-->
+	<button onclick=draw()>Draw Card🂠</button>
+	<p>🂱🂲🂳🃏,</p>
+	<button>🂠 draw</button>
+	<script>
+	const cards = [1,2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
+	const types = ["C", "D", "H", "S"]
+	let deck = [🂡,	🂢, 	🂣, 	🂤, 	🂥, 	🂦, 	🂧, 	🂨, 	🂩, 	🂪, 	🂫, 	🂭, 	🂮, 	🂱, 	🂲, 	🂳, 🂴,	🂵, 	🂶, 🂷, 🂸, 🂹, 🂺,🂻, 🂽, 🂾,🃁, 🃂,	🃃, 🃄,	🃅, 🃆,🃇,🃈,🃉,🃊,🃋,🃍,🃎,🃑,🃒,🃓,🃔,🃕,🃖,🃗,🃘,🃙,🃚,🃛,🃜,🃝,🃞]
+
+	deck.shuffle()
+	deck.pop()
+	function draw(){
+		var ddeck = document.getElementById("deck")
+		const random_card = cards2[Math.floor(Math.random() * cards2.length)]
+		const random_type	= types[Math.floor(Math.random() * types.length)]
+		ddeck.alt = random_card + random_type
+		ddeck.src = deck.alt +".svg"
+	}
+	</script>
+	<h2>Todo Check-List</h2>
+	<label>
+		Add a todo:
+		<input type="text" id="todo-adder"></label>
+		<input type="submit" value="clean">
+	<fieldset id="check-list">
+		<legend>Check list</legend>
+		<label><input type="checkbox">Take out garabge</label>
+		<label><input type="checkbox">Take out dog</label>
+		<label><input type="checkbox">Take out me</label>
+	</fieldset>
+	<template id="todo">
+		<label><input type="checkbox">...</label>
+	</template>
+	<script>
+		document.getElementById('todo-adder').addEventListener('change', (event) => {
+			let checklist = document.getElementById('check-list')
+			let todo = document.getElementById('todo').content.cloneNode(true)
+			todo.value = event.target.value //fix
+			checklist.appendChild(todo)
+			//on sumbit- disable finish todoes, Local storage
+		})
+	</script>
 </main><footer>© 2023 boukew99
 </footer></body></html>

@@ -4,10 +4,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<meta name="author" content="boukew99">
 	<meta name="description" content="tiny website for testing web interaction on different devices">
-	<link rel="stylesheet" href="../boukew99.css">
-	<link rel="icon" type="image/x-icon" href="../boukew99.ico">
+	<link rel="stylesheet" href="../../boukew99.css">
+	<link rel="icon" type="image/x-icon" href="boukew99.ico">
 	<title>Bookxel symbols</title>
 	<style>
+		#toolbtn {
+		  background: url('symbols/bit-sheet.png') -16px -16px;
+		  display: inline-block;
+		  height: 20px;
+		  width: 20px;
+		}
+
 		#medekijker {
 				position: fixed;
 					bottom: 0;
@@ -95,7 +102,19 @@ div {height:200px}
 <p><img loading="lazy" src=symbols/bit/<img loading="lazy" src=grid, <img loading="lazy" src=symbo<img loading="lazy" src=okmark.png>bookmark, <im<img loading="lazy" src=bols/bit/cal<img loading="lazy" src=ng>calculato<img loading="lazy" src=rc=symbols/bit/<img loading="lazy" src=line, <img s<img loading="lazy" src=s/bit/redo.png>redo, <img src=symbols/bit/undo.png>undo</p>
 <h3>All</h3>
 <img src="symbols/bit-sheet.png" loading="lazy">
-
+<button id="toolbtn"></button>
+<script type="text/javascript">
+	let bgx = 16
+	let bgy = 16
+	function change() {
+		bgx += 16
+		bgy += 16
+		document.getElementById("toolbtn").style.backgroundPosition = `${bgx}px ${bgy}px`
+	}
+window.onload = function () {
+    setInterval(change, 1000);
+};
+</script>
 </section>
 
 <h2>Verb matching</h2>
@@ -236,4 +255,4 @@ function parse_palette(image) {
 }</script>
 <h3>Vectorized Pixel Art Style</h3>
 <p>	http://johanneskopf.de/publications/pixelart/index.html </p>
-</main><footer>boukew99</footer></body></html>
+</main><footer>boukew99</footer><img id="medekijker" src="kilroy.png"></body></html>
