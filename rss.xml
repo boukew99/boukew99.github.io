@@ -24,5 +24,10 @@
     <link>https://boukew99.github.io/projects/squash/</link>
     <description>This game is gonna be cool.</description>
   </item>
+  <item>
+    <title>Visualization additions</title>
+    <link>https://boukew99.github.io/projects/dev/visualization/</link>
+    <description>I added a button...... which switches between icons! (Implemented effieciently with a spritesheet.)</description>
+  </item>
 </channel>
 </rss> 
