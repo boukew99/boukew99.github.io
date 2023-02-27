@@ -4,11 +4,6 @@
   <title>Boukew99</title>
   <link>https://boukew99.github.io/</link>
   <description>Delicate site for making people happy.</description>
-  <image>
-    <url>https://boukew99.github.io/media/computer-wizard-media.png</url>
-    <title>A computer wizard</title>
-    <link>https://boukew99.github.io/</link>
-  </image> 
   <item>
     <title>TRavel Update</title>
     <link>https://boukew99.github.io/life/</link>
@@ -21,8 +16,12 @@
   </item>
   <item>
     <title>Visualization additions</title>
-    <link>https://boukew99.github.io/projects/dev/visualization/</link>
-    <description>I added a button...... which switches between icons! (Implemented effieciently with a spritesheet.)
+    <link>https://boukew99.github.io/dev/visualization/</link>
+    <description>I added a button...... which switches between icons! (Implemented effieciently with a spritesheet.)  <image>
+    <url>https://boukew99.github.io/media/computer-wizard-media.png</url>
+    <title>A computer wizard</title>
+    <link>https://boukew99.github.io/</link>
+  </image> 
     </description>
   </item>
 </channel>
