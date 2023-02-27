@@ -6,6 +6,7 @@
   <description>Delicate site for making people happy.</description>
   <category>Inclusive development</category> 
   <copyright>2023 boukew99.</copyright> 
+  <lastBuildDate>Mon, 27 Feb 2023</lastBuildDate>
   <image>
     <url>https://boukew99.github.io/media/computer-wizard-media.png</url>
     <title>A computer wizard</title>
@@ -29,6 +30,9 @@
     </description>
     <enclosure url="https://boukew99.github.io/media/computer-wizard-media.png"
     length="845" type="image/png" /> 
+    <pubDate>Mon, 27 Feb 2023</pubDate>
+    <source url="https://github.com/boukew99/boukew99.github.io">Github</source>
+    <author>boukew99</author>
   </item>
 </channel>
 </rss> 
