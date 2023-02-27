@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Boukew99</title>
+  <link>https://boukew99.github.io/</link>
+  <description>Delicate site for making people happy.</description>
+  <image>
+    <url>https://boukew99.github.io/media/computer-wizard-media.png</url>
+    <title>A computer wizard</title>
+    <link>https://boukew99.github.io/</link>
+  </image> 
+  <item>
+    <title>TRavel Update</title>
+    <link>https://boukew99.github.io/life/</link>
+    <description>I did somethin new like learning norwegian.</description>
+      <image>
+    <url>https://boukew99.github.io/media/computer-wizard-media.png</url>
+    <title>A computer wizard</title>
+    <link>https://boukew99.github.io/</link>
+  </image> 
+  </item>
+  <item>
+    <title>Squash additions</title>
+    <link>https://boukew99.github.io/projects/squash/</link>
+    <description>This game is gonna be cool.</description>
+  </item>
+</channel>
+</rss> 
