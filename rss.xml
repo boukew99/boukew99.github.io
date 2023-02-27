@@ -13,11 +13,6 @@
     <title>TRavel Update</title>
     <link>https://boukew99.github.io/life/</link>
     <description>I did somethin new like learning norwegian.</description>
-      <image>
-    <url>https://boukew99.github.io/media/computer-wizard-media.png</url>
-    <title>A computer wizard</title>
-    <link>https://boukew99.github.io/</link>
-  </image> 
   </item>
   <item>
     <title>Squash additions</title>
@@ -27,7 +22,8 @@
   <item>
     <title>Visualization additions</title>
     <link>https://boukew99.github.io/projects/dev/visualization/</link>
-    <description>I added a button...... which switches between icons! (Implemented effieciently with a spritesheet.)</description>
+    <description>I added a button...... which switches between icons! (Implemented effieciently with a spritesheet.)
+    </description>
   </item>
 </channel>
 </rss> 
