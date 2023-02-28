@@ -125,7 +125,11 @@ textarea {
 p::first-letter {
   font-size: large;
 }
-
+.pixelzoom {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
 main img,
 iframe {
   border: 1rem solid whitesmoke;
