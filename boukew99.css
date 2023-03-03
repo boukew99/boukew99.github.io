@@ -17,7 +17,14 @@ progress[value] {
   height: 1em;
   width: 100%;
 }
-
+aside {
+  background-color: whitesmoke;
+  border: black 4px solid;
+  border-radius: 8% 34% 21% 13%;
+  box-shadow: 10px 5px 5px red;
+  align-items: center;
+  text-align: center;
+}
 h1,
 h2,
 h3,
