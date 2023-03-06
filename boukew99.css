@@ -1,263 +1,170 @@
 /*minify/format*/
 html {
   scroll-behavior: smooth;
-}
-
-#banner {
+} #banner {
   width: 100%;
   height: 60px;
   object-fit: cover;
-}
-
-.me {
+} .me {
   border-radius: 50%;
-}
-
-progress[value] {
+} progress[value] {
   height: 1em;
   width: 100%;
-}
-aside {
+} aside {
   background-color: whitesmoke;
   border: black 4px solid;
   border-radius: 8% 34% 21% 13%;
   box-shadow: 10px 5px 5px red;
   align-items: center;
   text-align: center;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong {
+} h1, h2, h3, h4, h5, h6, strong {
   font-weight: bold;
   margin-bottom: .2em;
-}
-
-h1 {
+} h1 {
   font-size: 1.8em;
   margin-top: 0;
   color: royalblue;
-}
-
-h2 {
+} h2 {
   font-size: 1.5em;
   color: darkgreen;
-}
-
-h3 {
+} h3 {
   font-size: 1.3em;
   color: darkslateblue;
-}
-
-h4 {
+} h4 {
   font-size: 1.2em;
-}
-
-h5 {
+} h5 {
   font-size: 1.1em;
   font-weight: bold;
-}
-
-h6 {
+} h6 {
   font-size: 1em;
   font-style: italic;
-}
-
-ol,
-ul {
+} ol, ul {
   padding-left: 1.631em;
-}
-
-p {
+} p {
   margin-top: .2em;
-}
-
-@media screen and(orientation:landscape) {
+} @media screen and(orientation:landscape) {
   nav {
     position: fixed;
     bottom: 0;
     right: 10px;
     background-color: #eeeeeecc
   }
-}
-
-body {
-  font-family: Tahoma, sans-serif;
-  background-color: #ffd732;
-  margin: 0 auto;
-}
-
-footer,
-header {
-  padding: .5em 1.2em .5em 1.1em;
-}
-
-header {
-  background-color: #ffd732;
-  padding-top: .5em;
-}
-
-@media only screen and(max-width:600px) {
+} @media only screen and(max-width:600px) {
   header {
     margin-bottom: 1em
   }
-}
-
-footer {
-  background-color: burlywood;
-}
-
-footer:before {
-  content: url('boukew99.ico');
-  padding-right: .5em;
-}
-
-main {
-  background-color: beige;
-  padding: .2em 1.2em .5em 1.1em;
-}
-
-dt {
-  font-style: italic;
-}
-
-p,
-textarea {
-  max-width: 34em;
-}
-
-p::first-letter {
-  font-size: large;
-}
-.pixelzoom {
+} body {
+  font-family: Tahoma, sans-serif;
+  background-color: #ffd732;
+  margin: 0 auto;
+} body::before{
+  content: url('docs/computer-wizard-media.png');
+} body::after {
+  content: url('kilroy.png');
+  position: fixed;
+  bottom: 16px;
+  right: 64px;
+  scale: 4;
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
-}
-main img,
-iframe {
+} footer, header {
+  padding: .5em 1.2em .5em 1.1em;
+} header {
+  background-color: #ffd732;
+  padding-top: .5em;
+} footer {
+  background-color: burlywood;
+} footer:before {
+  content: url('boukew99.ico');
+  padding-right: .5em;
+} main {
+  background-color: beige;
+  padding: .2em 1.2em .5em 1.1em;
+} dt {
+  font-style: italic;
+} p, textarea {
+  max-width: 34em;
+} p::first-letter {
+  font-size: large;
+} .pixelzoom {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+} main img, iframe {
   border: 1rem solid whitesmoke;
-}
-
-img,
-table,
-video,
-iframe,
-figure {
+} img, table, video, iframe, figure {
   box-sizing: border-box;
   max-width: 100%;
   max-height: 100vh;
-}
-
-table,
-th,
-td {
+} table, th, td {
   border: 2px dashed;
   max-width: 100%;
   border-collapse: collapse;
-}
-
-tr:nth-child(odd) {
+} tr:nth-child(odd) {
   background: #f2f2f2;
-}
-
-article {
+} article {
   column-width: 500px;
-}
-
-ol ol {
+} ol ol {
   list-style: upper-alpha
-}
-
-ol ol ol {
+} ol ol ol {
   list-style: lower-roman
-}
-
-ol ol ol ol {
+} ol ol ol ol {
   list-style: lower-alpha
-}
-
-details *:not(summary) {
+} details *:not(summary) {
   margin-left: 1em;
-}
-
-details[open]>summary:before {
+} details[open]>summary:before {
   transform: rotate(90deg);
-}
-
-@keyframes details-show {
+} @keyframes details-show {
   from {
     opacity: 0;
     transform: var(--details-translate, translateY(-1em))
   }
-}
-
-details[open]>*:not(summary) {
+} details[open]>*:not(summary) {
   animation: details-show 150ms ease-in-out;
-}
-
-new {
+} new {
   background-color: #00ff0055;
   display: inline;
-}
-
-old {
+} old {
   background-color: orange;
   display: inline;
-}
-
-fieldset label {
+} fieldset label {
   display: block;
-}
-
-@media(prefers-color-scheme:dark) {
+} @media(prefers-color-scheme:dark) {
   body {
     background: darkgrey
   }
-
-  img,
-  header {
+  img, header {
     filter: grayscale(47%)
   }
-
-  new {
-    background-color: #00990055
-  }
-}
-
-iframe {
+} iframe {
   background-color: white;
-}
-
-pre {
+} pre {
   background-color: #c5ccdb;
   padding: 1em;
   tab-size: 2;
-}
-section {
+} section {
   padding: 1em;
   background-color: #c5ccdb;
-}
-
-blockquote {
+} blockquote {
   max-width: 34em;
   background-color: #fff5;
   border-left: 10px solid white;
   padding: .5em;
-}
-
-blockquote:before {
+} blockquote:before {
   content: open-quote;
-}
-
-blockquote:after {
+} blockquote:after {
   content: close-quote;
-}
-
-.new-entry::after {
+} .new-entry::after {
   content: " New!";
   color: red;
-}
+} li a::before {
+  content: '🔗';
+} nav ::before{
+  content: "ℹ️";
+} details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+} @keyframes sweep {
+  0%    {opacity: 0;margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+} .gradient div {height:200px}
