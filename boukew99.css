@@ -93,6 +93,7 @@ html {
   image-rendering: crisp-edges;
 } main img, iframe {
   border: 1rem solid whitesmoke;
+  background-color: whitesmoke;
 } img, table, video, iframe, figure {
   box-sizing: border-box;
   max-width: 100%;
