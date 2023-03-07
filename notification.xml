@@ -34,5 +34,17 @@
     <source url="https://github.com/boukew99/boukew99.github.io">Github</source>
     <author>boukew99</author>
   </item>
+  <item>
+    <title>This is how podcast delivery would work!</title>
+    <link>podcast/test.ogg</link>
+    <description>Here is a non-existing podcast, delivered via RSS</description>
+  </item>
+  <item>A
+    <title>A deliverd comic to your door!</title>
+    <link>comic/physiological_computing_use_case.png</link>
+    <description>Here is a comic, delivered via RSS</description>
+    <enclosure url="https://boukew99.github.io/comic/physiological_computing_use_case.png"
+    length="6480" type="image/png" /> 
+  </item>
 </channel>
 </rss> 
