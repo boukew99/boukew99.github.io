@@ -51,6 +51,22 @@
 	<h3>Hello Web</h3>
 	<p>That is basically this website. Web tech is better at handling than Game Engines, which focus more on video. Its universal nature and mobility is also a big attraction, allowing it to be used on mobile and also easily share it. This website is basically the result of all the things I learned.</p>
 
+	<h3>Unique Number Generator</h3>
+	<p>How are random numbers generated? Does there exist something as a random pattern? I would not know where to start, but what you I need is a unique number generator. The fibonacci numbers have this property, so I came up with a way to use that property.</p>
+	<pre><code>
+	def getRandom(minimum, maximum, seed):
+		size = maximum - minimum
+		return seed + minimum + fibonacci() % size
+		
+	fibonacciCache = [0,1]
+	def fibonacci():
+		new = fibonacciCache[0] + fibonacciCache[1]
+		fibonacciCache[0] = fibonacciCache[1]
+		fibonacciCache[1] = new
+		return new
+	
+	for i in range(50):
+			print(getRandom(0, 10, 1))</code></pre>
 	<h2>Setup</h2>
 	<p>StarLite/Ubuntu/xfce/firefox,sublime text</p>
 	<h2>Machine</h2>
