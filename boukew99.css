@@ -1,4 +1,6 @@
-/*minify/format*/
+:root {
+  --background-color:#ffd732;
+}
 html {
   scroll-behavior: smooth;
 } #banner {
@@ -55,8 +57,9 @@ html {
   }
 } body {
   font-family: Tahoma, sans-serif;
-  background-color: #ffd732;
+  background-color: var(--background-color);
   margin: 0 auto;
+  max-width: 55em;
 } body::before{
   content: url('docs/computer-wizard-media.png');
 } body::after {
@@ -81,6 +84,7 @@ html {
 } main {
   background-color: beige;
   padding: .2em 1.2em .5em 1.1em;
+  line-height: 1.5;
 } dt {
   font-style: italic;
 } p, textarea {
