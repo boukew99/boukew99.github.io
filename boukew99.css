@@ -1,5 +1,6 @@
 :root {
   --background-color:#ffd732;
+  --logo-saturation:100%;
 }
 html {
   scroll-behavior: smooth;
@@ -62,15 +63,7 @@ html {
   max-width: 55em;
 } body::before{
   content: url('docs/computer-wizard-media.png');
-} body::after {
-  content: url('kilroy.png');
-  position: fixed;
-  bottom: 16px;
-  right: 64px;
-  scale: 4;
-  image-rendering: pixelated;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: crisp-edges;
+  filter: drop-shadow(0 0 2rem skyblue) saturate(var(--logo-saturation));
 } footer, header {
   padding: .5em 1.2em .5em 1.1em;
 } header {
@@ -173,3 +166,12 @@ html {
   0%    {opacity: 0;margin-left: -10px}
   100%  {opacity: 1; margin-left: 0px}
 } .gradient div {height:200px}
+a[download] :after {
+  content: " 📥";
+} main { 
+      animation: fadeIn 2s ease-out;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
