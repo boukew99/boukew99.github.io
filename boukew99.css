@@ -1,8 +1,7 @@
 :root {
   --background-color:#ffd732;
   --logo-saturation:100%;
-}
-html {
+} html {
   scroll-behavior: smooth;
 } #banner {
   width: 100%;
@@ -88,6 +87,11 @@ html {
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
+} img:hover {
+  scale: 2;
+  /*transition: scale .1s;
+  transform: scale(1.5); */
+}
 } main img, iframe {
   border: 1rem solid whitesmoke;
   background-color: whitesmoke;
@@ -166,7 +170,7 @@ html {
   0%    {opacity: 0;margin-left: -10px}
   100%  {opacity: 1; margin-left: 0px}
 } .gradient div {height:200px}
-a[download] :after {
+a[download]::after {
   content: " 📥";
 } main { 
       animation: fadeIn 2s ease-out;
