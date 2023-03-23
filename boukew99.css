@@ -60,6 +60,7 @@
   background-color: var(--background-color);
   margin: 0 auto;
   max-width: 55em;
+  margin-bottom: 100vh;
 } body::before{
   content: url('docs/computer-wizard-media.png');
   filter: drop-shadow(0 0 2rem skyblue) saturate(var(--logo-saturation));
@@ -162,8 +163,8 @@
   color: red;
 } li a::before {
   content: '🔗';
-} nav ::before{
-  content: "ℹ️";
+} nav a::before{
+  content: "🔗";
 } details[open] summary ~ * {
   animation: sweep .5s ease-in-out;
 } @keyframes sweep {
