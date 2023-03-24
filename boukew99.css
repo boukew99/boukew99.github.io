@@ -88,10 +88,10 @@
   image-rendering: pixelated;
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
-} img:hover {
-  scale: 2;
-  /*transition: scale .1s;
-  transform: scale(1.5); */
+} img {
+  transition: transform .5s;
+} img:active {
+  transform: scale(2);
 }
 } main img, iframe {
   border: 1rem solid whitesmoke;
@@ -179,4 +179,10 @@ a[download]::after {
     @keyframes fadeIn {
       0% { opacity: 0; }
       100% { opacity: 1; }
+    } body, header { 
+      animation: displayin 2s ease-out;
+    }
+    @keyframes displayin {
+      0% { background-color: black; }
+      100% { background-color: (var(--background-color); }
     }
