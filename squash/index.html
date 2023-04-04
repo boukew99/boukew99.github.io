@@ -9,36 +9,17 @@
 		body{
 			background-image:url(squash/squash.png);
 		}
-		header {
-		  background: #2EB07B;
-		  animation: fadeBackground 4s forwards;
-		}
-		@keyframes fadeBackground {
-		  from { background-color: #2EB07B; }
-		  to { background-color: #ffd732; }
-		}
-		main { 
-			animation: fadeIn 2s ease-out;
-		}
-		@keyframes fadeIn {
-		  0% { opacity: 0; }
-		  100% { opacity: 1; }
-		}
-		h1 {text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF}
-	
-		@media only screen and (max-width: 600px) {
-			header {
-				margin-bottom: 32px;
-			}
+		header {text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF}
 }
 	</style>
 </head>
 	
-<body><header><h1>Squash Game🎮</h1>
-	<p>Plays as a mysterious jumper, racing for his life to cross flags and other things to be on time.</p>
+<body><header>Squash Game🎮
+	<p>Plays as a mysterious jumper, racing for his life to cross flags and other things to be on time.</p></header><main>
+	
 	<label>Progress:<progress max="100" value="3"> 3%</progress></label>
 <button onclick="document.documentElement.requestFullscreen();">Go Fullscreen</button>
-<button onclick="document.exitFullscreen();">Exit Fullscreen</button></header><main>
+<button onclick="document.exitFullscreen();">Exit Fullscreen</button>
 	<h2>Features</h2>
 	<ul>
 		<li>Jumping.</li>

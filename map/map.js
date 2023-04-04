@@ -12,6 +12,7 @@ var crosshighway = document.getElementById("crosshighway")
 var river = document.getElementById("river")
 var barn = document.getElementById("barn")
 var lake = document.getElementById("lake")
+var water = document.getElementById("water")
 
 window.onload = (event) => {
   draw();
@@ -23,18 +24,23 @@ function draw(n = 40) {
 	c.height = 64*n
 	
 	var ctx = c.getContext("2d");
-	/*
-	ctx.clearRect(0, 0, c.width, c.height); 
+	
+  const ung = UniqueNumberGenerator(100,900,900,false)
+
+//	ctx.clearRect(0, 0, c.width, c.height); 
 	ctx.rect(0, 0, c.width, c.height);
-	ctx.fillStyle = ctx.createPattern(field, 'repeat');
+//	ctx.fillStyle = ctx.createPattern(field, 'repeat');
+	
+	ctx.fillStyle = "#b5e61d";
 	ctx.fill();
-	*/
+	
 	ctx.beginPath() //Why?
 	ctx.rect(64*8, 32*12, 64*8, 32*12);
 	ctx.fillStyle =  ctx.createPattern(trees, 'repeat');
 	ctx.fill();
 
-	spore(trees, 1000)
+	spore(field, ung.next().value)
+	spore(trees, 400)
 	spore(berries, 200)
 	spore(barn, 50)
 	spore(road, 100)
@@ -43,6 +49,7 @@ function draw(n = 40) {
 	spore(river, 100)
 	spore(road, 100)
 	spore(lake, 4)
+	//spore(water, 1000)
 	
 	function spore(image, count) {
 		for (let step = 0; step < count; step++) {

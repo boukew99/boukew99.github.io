@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>URL Chess</title>
+<link rel="stylesheet" href="chess_files/chess.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style/boukew99.css"> 
+
+<base href="chess">
+<style>
+	#chessboard td {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	text-align: center;
+	font-size: 30px;
+	user-select: none;
+	}
+	/*https://stackoverflow.com/questions/35802488/chessboard-style-for-a-table-with-css-how*/
+	#chessboard tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+	background: var(--background-color);
+	}
+	#chessboard tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+	background: white;
+	}
+	table {  
+		margin-left: auto;
+		margin-right: auto;
+	 }
+</style>
+</head><body><header>Boukew99</header>
+<main>
+<h1>URL Chess</h1>
+<form>
+	<table id="chessboard" cellspacing="0" border="5">
+		<caption>board state</caption>  
+		<tbody><tr>
+			<th></th>
+		  <th>8</th>
+		  <th>7</th>
+		  <th>6</th>
+		  <th>5</th>
+		  <th>4</th>
+		  <th>3</th>
+		  <th>2</th>
+		  <th>1</th>
+		</tr>
+		<tr>
+		  <th>H</th>
+		  <td id="h8"></td>
+		  <td id="h7"></td>
+		  <td id="h6"></td>
+		  <td id="h5"></td>
+		  <td id="h4"></td>
+		  <td id="h3"></td>
+		  <td id="h2"></td>
+		  <td id="h1"></td>
+		  <th>H</th>
+		</tr>
+		<tr>
+		  <th>G</th>
+			<td id="g8"></td>
+		  <td id="g7"></td>
+		  <td id="g6"></td>
+		  <td id="g5"></td>
+		  <td id="g4"></td>
+		  <td id="g3"></td>
+		  <td id="g2"></td>
+		  <td id="g1"></td>
+		  <th>G</th>
+		</tr>
+		<tr>
+		  <th>F</th>
+		  <td id="f8"></td>
+		  <td id="f7"></td>
+		  <td id="f6"></td>
+		  <td id="f5"></td>
+		  <td id="f4"></td>
+		  <td id="f3"></td>
+		  <td id="f2"></td>
+		  <td id="f1"></td>
+		  <th>F</th>
+		</tr>
+		<tr>
+		  <th>E</th>
+		  <td id="e8"></td>
+		  <td id="e7"></td>
+		  <td id="e6"></td>
+		  <td id="e5"></td>
+		  <td id="e4"></td>
+		  <td id="e3"></td>
+		  <td id="e2"></td>
+		  <td id="e1"></td>
+		  <th>E</th>
+		</tr>
+		<tr>
+		  <th>D</th>
+		  <td id="d8"></td>
+		  <td id="d7"></td>
+		  <td id="d6"></td>
+		  <td id="d5"></td>
+		  <td id="d4"></td>
+		  <td id="d3"></td>
+		  <td id="d2"></td>
+		  <td id="d1"></td>
+		  <th>D</th>
+		</tr>
+		<tr>
+		  <th>C</th>
+		  <td id="c8"></td>
+		  <td id="c7"></td>
+		  <td id="c6"></td>
+		  <td id="c5"></td>
+		  <td id="c4"></td>
+		  <td id="c3"></td>
+		  <td id="c2"></td>
+		  <td id="c1"></td>
+		  <th>C</th>
+		
+		</tr><tr>
+			<th>B</th>
+		  <td id="b8"></td>
+		  <td id="b7"></td>
+		  <td id="b6"></td>
+		  <td id="b5"></td>
+		  <td id="b4"></td>
+		  <td id="b3"></td>
+		  <td id="b2"></td>
+		  <td id="b1="></td>
+		  <th>B</th>
+		</tr>
+		<tr>
+			<th>A</th>
+		  <td id="a8"></td>
+		  <td id="a7"></td>
+		  <td id="a6"></td>
+		  <td id="a5"></td>
+		  <td id="a4"></td>
+		  <td id="a3"></td>
+		  <td id="a2"></td>
+		  <td id="a1"></td>
+		  <th>A</th>
+		</tr>  
+		<tr>
+			<th></th>
+		  <th>8</th>
+		  <th>7</th>
+		  <th>6</th>
+		  <th>5</th>
+		  <th>4</th>
+		  <th>3</th>
+		  <th>2</th>
+		  <th>1</th>
+		</tr>
+	</tbody></table>
+	<p id="bench"></p>
+	<select name="move">
+		<option>A5-A6</option>
+	</select>
+
+	<input type="submit">	
+</form>
+<footer>Share the URL with your opponent!</footer>
+</main>
+<script>
+//https://stackoverflow.com/questions/3065342/how-do-i-iterate-through-table-rows-and-cells-in-javascript
+window.addEventListener('load', (event) => {
+	const urlParams = new URLSearchParams(window.location.search);
+	let state = "state" in urlParams
+	let move = 'move' in urlParams
+	//let opponent = getChessColor(move)
+	
+	if (state) {
+	
+	if (state in localStorage.getItem("matches") {
+		//open dialog of false play
+	}}
+	else {
+	//rnbkqbnrpppppppp8888PPPPPPPPRNBKQBNR OG
+	//♖♙4♟♜♘♙4♟♞♗♙4♟♝♕♙4♟♛♔♙4♟♚♗♙4♟♝♘♙4♟♞♖♙4♟♜ viewers angle
+	//rp4PR/np4PN/bp4PB/qp4PQ/kp4PK/bp4PB/np4PN/rp4PR Inversed
+		setup = "rp4PR/np4PN/bp4PB/qp4PQ/kp4PK/bp4PB/np4PN/rp4PR"
+		//localStorage.setItem(w+b, setup)
+	}
+	
+	setupBoard(setup)
+	
+	const move = urlParams.get('move')
+});
+
+
+function char2piece(character) {
+	switch (character) {
+		case "k":	return "♚";
+		case "K": return "♔";
+		case "q": return "♛"
+		case "Q": return "♕"
+		case "b": return "♝"
+		case "B": return "♗"
+		case "n": return "♞"
+		case "N": return "♘"
+		case "r": return "♜"
+		case "R": return "♖"
+		case "p": return "♟"
+		case "P": return "♙"
+		default: return character
+	}
+}
+
+
+function validate_move(piece, from, to) {
+	switch (piece) {
+		case "♜", "♖", "n", "N":
+			break
+		case "♟", "P":
+		  alert("pawns can only move forward and capture diagonally.")
+		  return true
+		case "♙", "p":
+			break
+	}
+}
+
+//fen2=fen+
+function setupBoard(fen2, side=false) {
+		const setup =  fen2.split("");
+		const cells = document.getElementsByTagName("td") 
+		const bench = "♖♘♗♔♕♗♘♖♙♙♙♙♙♙♙♙♟♟♟♟♟♟♟♟♜♞♝♚♛♝♞♜".split("")
+		
+		for (let i = 0; i < 64;i=i) {
+			var cell = cells[i];
+			var character = setup.shift();
+			if (!isNaN(character)) {
+				i += parseInt(character);
+			}	else if (character == "/"){
+				if (i%8==0) {i=i}
+				else { i += (8 - i % 8) }
+			} else {				
+			
+				icon = char2piece(character)
+				cell.innerHTML = (icon) ? icon : "";
+				if (icon) {bench.splice(bench.indexOf(icon), 1)}
+				
+				if (character == character.toLowerCase() == side) {
+					
+					var opt = document.createElement('option');
+					opt.value = i;
+					opt.innerHTML = String.fromCharCode(97 + 8 - Math.trunc((i/8+1))).toUpperCase() + (i%8 +1) + icon;
+					//select.appendChild(opt);
+				}
+				
+				i++;
+				}
+			}
+		document.getElementById("bench").innerHTML = bench.join("")
+		const to = document.getElementById("to")
+		for (let i = 1; i < 9;i+=1) {
+			for (let j = 0; j < 8; j+=1) {
+				const opt = document.createElement('option');
+				opt.value = i;
+				opt.innerHTML = String.fromCharCode(97 + j).toUpperCase() + i
+				//to.appendChild(opt)	
+			}
+		}
+}
+
+function get_knight_moves(position) {
+	// L shape moves in all directions and mirrors
+	var moves = Array(8)
+	moves[0] = position +2 -8
+	moves[1] = position +2 +8
+	moves[2] = position -2 -8
+	moves[3] = position -2 +8
+	moves[4] = position -8 +1 
+	moves[5] = position -8 -1
+	moves[6] = position +8 +1
+	moves[7] = position +8 -1
+	moves.filter(n => n > 0 && n < 64) // in bounds
+}
+
+function get_pawn_moves(position, side){
+	var moves = Array(3)
+	moves[0] = position + 8 * side
+	if ( (position in [8,9,10,11,12,13,14,15] && side == 1) || (position in [48,49,50,51,52,53,54,55] && side == -1) ) {
+		moves [1] = position + 16 * side
+	}
+	//if (pieceOnDiagnol or pawnPassed) moves[2] = position + 9/7 * side
+}
+function in_bounds(array) {
+	return moves.filter(n => n > 0 && n < 64)
+}
+
+//https://www.chessprogramming.org/Simplified_Evaluation_Function
+</script>
+</body></html>
