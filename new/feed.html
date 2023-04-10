@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style/boukew99.css">
+	<style>
+	::slotted {
+		background-color:yellow;}
+	details:ntnh-child(1) {
+  content: " New!";
+  color: red;
+}
+	}
+	</style>
+	<title>boukew99 Index</title>	
+</head><body><header>Feed</header><main>
+<article>
+	<h1>Free Lemons!</h1>
+	<p>Seriously, we bought so many lemons thinking we would make huge profit, but it turns out when life gives you lemons, not too many want them, because they are sour!</p>
+	<a href=boukew99.github.io>Read the full article</a>
+	<img loading="lazy">
+	<audio preload="none" controls></audio>
+</article>
+<details><summary class="new-entry">electronic orgel jam session</summary><article><figure>
+	<img loading="lazy" src=audio/hill-town-coloring.png width="256" height="256" class="pixelzoom">
+	<figcaption>electronic orgel jam session</figcaption>
+	<audio width="520" controls	src="audio/20221025_153630_1.m4a"></audio></figure></article></details>
+
+<template id="post">
+<article>
+	<h1><slot name="title">NEED NAME</slot></h1>
+	<p><slot name="description">NEED DESCRIPTION</slot></p>
+	<a>link</a>
+	<slot name="attributes"><p>None</p></slot>
+	<img loading="lazy">
+	<audio preload="non" controls></audio>
+</article>
+
+</template>
+<script>
+
+</script>
+	</main></body></html>

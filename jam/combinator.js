@@ -1,9 +1,4 @@
-// by boukew99
-
-// physic shape
-function shape(diameter, rounding = 1, aspect = 1) {
-
-}
+// Combinator by boukew99
 
 // Unique Number Generator 
 function* UniqueNumberGenerator(start, offset, range, normalize){

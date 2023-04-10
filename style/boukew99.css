@@ -13,6 +13,18 @@
 html {
   scroll-behavior: smooth;
 } 
+.pages{
+	overflow-x:scroll;
+}
+section:nth-child(odd) {
+  background: (--background-color);
+}
+img {
+	background: url(../favicon.ico)
+}
+section:nth-child(even) {
+  background: transparent;
+}
 #banner {
   width: 100%;
   height: 60px;
@@ -165,6 +177,8 @@ p::first-letter {
   }
 } iframe {
   background-color: white;
+} article {
+	content-visibility: auto;
 } pre {
   background-color: #c5ccdb;
   padding: 1em;
@@ -181,9 +195,9 @@ p::first-letter {
   content: open-quote;
 } blockquote:after {
   content: close-quote;
-} .new-entry::after {
-  content: " New!";
-  color: red;
+} .recent::after {
+  content: " Recent!";
+  color: darkgreen;
 } li a::after {
   content: ' 🔗';
 } nav a::before{

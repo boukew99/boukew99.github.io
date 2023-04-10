@@ -1,0 +1,13 @@
+{
+  "short_name": "Map",
+  "name": "Isometric Map",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "../map.html",
+  "display": "standalone"
+}
