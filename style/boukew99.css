@@ -13,6 +13,9 @@
 html {
   scroll-behavior: smooth;
 } 
+p::first-line {
+  background-color: yellow;
+}
 .pages{
 	overflow-x:scroll;
 }
@@ -88,7 +91,7 @@ section:nth-child(even) {
 	content:"© 2023 boukew99";
 	color:#00000099;
 	text-align:center;
-}header::before{
+}header::after{
   content: url('computer-wizard-media.png');
   display:block;
   filter: drop-shadow(0 0 2rem skyblue) saturate(var(--logo-saturation));

@@ -33,3 +33,11 @@ let contactCheck = (point, radius, delta backpoint, backradius) => {
 	else false	
 }
 
+let circleTrack = (x, y) => {
+	{"x":cos(x), "y":sin(y)}
+}
+let pathMove = (curve) => {
+	let delta = yield curve(
+	return length * offset
+}
+                                                                         
