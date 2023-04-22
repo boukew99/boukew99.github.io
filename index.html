@@ -27,6 +27,12 @@
 		footer {
 			background-color: orange;
 			padding: 1em;
+		}		
+		progress {
+			width: 100%;
+		}
+		footer img{
+			border-radius: 50%;
 		}
 	</style>
 	<title>boukew99 Index</title>	
@@ -34,9 +40,15 @@
 </head><body><main>
 <header>
 <h1>Index</h1>
-<nav>Tiny website for testing and sharing with <a href="#local">local links</a>, consisting of records, games and tools and <a href="#external">External account links</a>.
+<nav>Tiny website for testing and sharing with <a href="#local">local links</a>, consisting of records, games and tools and <a href="#external">External account links</a>.</nav>
+<p>Piggy bank🐖💶: <output id="piggy-bank">N</output> visits.</p>
+<script>
+	const visits = 1 + parseInt(localStorage.getItem("visits"))
+	document.getElementById("piggy-bank").textContent = visits
+	localStorage.setItem("visits", visits)
+</script>
 </header>
-<h2>Local</h2>
+<h2 id="local">Local</h2>
 	<h3>Tools</h3>
 	<p><a href="ratio.html">Mondriaan Maker</a>,<br> configure colored rectangle ratios.</p>
 	<h3>Games</h3>
@@ -47,15 +59,28 @@
 <p><a  href="squash/">SquashPrototype</a>,<br> A 2D platformer inside overgrown caves.</p>
 <aside>
 	<h3>Records🍋</h3>
-	<p>It is a <a href="https://www.bing.com/translator/?ref=TThis&text=%E5%86%92%E9%99%BA&from=ja&to=en">	冒険 / adventure / Bōken / bouken</a></p>. 
+	<p>It is a <a href="https://www.bing.com/translator/?ref=TThis&text=%E5%86%92%E9%99%BA&from=ja&to=en">	冒険 / adventure / Bōken / bouken</a>.</p>
 </aside>
-	<h2>External</h2>
+	<h2 id="#external">External</h2>
 			<p><a href="https://rethinkrestore.no/about.html">Volunteer Organization ReStore</a></p>
 			<p><a href="https://github.com/boukew99">Open source projects at Github (mostly of Godot Engine)</a></p>
 			<p><a href="https://howyoudoing.itch.io/">Game projects at itch.io (mostly game jam games and tools).</a> </p>
 			<p><a href="https://www.youtube.com/channel/UC4Du0fUI_80IcwjjODJz6-w">Youtube channel for sharing random videos</a></p>
 </main>
-<footer><h3>Contact</h3>
-<adress><p>No email yet for now!</p></adress>
-<p>Written by boukew99, last updated in April</p>
+<footer>
+<h2>Skill & Interest</h2>
+	<label><progress value="100" max="100"></progress>Ease of use</label>
+		<label><progress value="90" max="100"></progress>Grahpical User Interface</label>
+			<label><progress value="80" max="100"></progress>Lean Game Design</label>
+				<label><progress value="70" max="100"></progress>Programming</label>
+					<label><progress value="60" max="100"></progress>Writing</label>
+	<h3>Contact</h3>
+	<adress><p>No email yet for now!</p></adress>
+	<!--	<form><label>Write something (opens every 10 minutes)
+			<textarea name="feedback"
+						rows="5" cols="55"></textarea>
+						<input type="submit" disabled> 
+			</form>-->
+<img src="squash-guy.webp" alt="little yellow pixel guy standing on grass" loading="lazy">
+	<p>Handwritten by boukew99(Engineer), last updated in April</p>
 </footer></body></html>

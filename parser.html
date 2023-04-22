@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	 h1{
+		  font-size: 1.8em;
+		  margin-top: 0;
+		  color: royalblue;
+		} h2 {
+		  font-size: 1.5em;
+		  color: darkgreen;
+		} h3 {
+			color:darkred;
+		} body {
+		  font-family: Tahoma, sans-serif;
+		  background-color: #ed9;
+		}header, main, footer {
+		  margin: 0 auto;
+		  max-width: 55em; 
+			border-bottom:4px solid;
+		}main {
+		  background-color: beige;
+		  padding: .2em 1.2em .5em 1.1em;
+		  line-height: 1.5;
+		  text-align:left;
+		  margin-bottom:1em;
+		}
+		footer {
+			background-color: orange;
+			padding: 1em;
+		}
+	</style>
+	<title>Parser - boukew99</title>	
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head><body><main>
+<header>
+<h1>Stepwise parser</h1>
+<p>Of Monoids(I think)! A monoid is associative, has a identity element with binary operations, which is the properities which the parser assumes.</p>
+<label>Monoid to parse:<input type="text"></label>
+<script>
+	// lazy recursive operator parser
+	
+	function* parse(expression) {
+		let head = expression.split(' ', 2) //head[0] = a, head[1] = operator, head[2] = tail
+		
+		if (solvable) {
+			yield condense(head) + tail
+		}
+		else {
+			return head + parse(tail)
+	}
+}
+	
+	function condense(operator, expression) {
+		let head = expression.split(' ', 2)
+		if (head[1] > operator) {
+			return condense(head[1], expression)
+		}
+		else {
+			//solve + head[3]
+	}
+}
+	
+	const priorities = {
+		"+":1,
+		"*":2,
+		"^":3,
+	}
+	const knowns = {
+		"a":5,
+		"b":9,
+	}
+	</script>
+</body></html>
