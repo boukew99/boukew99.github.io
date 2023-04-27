@@ -39,10 +39,13 @@
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 </head><body><main>
 <header>
-<h1>Index</h1>
+<h1>Index<!--💓--></h1>
 <nav>Tiny website for testing and sharing with <a href="#local">local links</a>, consisting of records, games and tools and <a href="#external">External account links</a>.</nav>
 <p>Piggy bank🐖💶: <output id="piggy-bank">N</output> visits.</p>
-<script>
+<script>	
+	if (localStorage.getItem("visits") == null) {
+		localStorage.setItem("visits", 0)
+	}
 	const visits = 1 + parseInt(localStorage.getItem("visits"))
 	document.getElementById("piggy-bank").textContent = visits
 	localStorage.setItem("visits", visits)
@@ -53,19 +56,20 @@
 	<p><a href="ratio.html">Mondriaan Maker</a>,<br> configure colored rectangle ratios.</p>
 	<h3>Games</h3>
 <p><a href="chess.html">Web Chess</a></p>
-<p><a class="recent" href="map/index.html">Generated Isometric Map</a></p>
-<p><a href="sudoku/">Web Sudoku</a></p>
-<p><a href="chargo/">Chargo</a>,<br> mountain forest covered in clouds</p>	
-<p><a  href="squash/">SquashPrototype</a>,<br> A 2D platformer inside overgrown caves.</p>
+<p><a class="recent" href="map/">Generated Isometric Map</a></p>
+<p><a href="sudoku.html">Web Sudoku</a></p>
+<p><a href="texts/chargo.html">Chargo</a>,<br> mountain forest covered in clouds</p>	
 <aside>
 	<h3>Records🍋</h3>
 	<p>It is a <a href="https://www.bing.com/translator/?ref=TThis&text=%E5%86%92%E9%99%BA&from=ja&to=en">	冒険 / adventure / Bōken / bouken</a>.</p>
+	
 </aside>
 	<h2 id="#external">External</h2>
 			<p><a href="https://rethinkrestore.no/about.html">Volunteer Organization ReStore</a></p>
 			<p><a href="https://github.com/boukew99">Open source projects at Github (mostly of Godot Engine)</a></p>
 			<p><a href="https://howyoudoing.itch.io/">Game projects at itch.io (mostly game jam games and tools).</a> </p>
 			<p><a href="https://www.youtube.com/channel/UC4Du0fUI_80IcwjjODJz6-w">Youtube channel for sharing random videos</a></p>
+			<p><a href=https://open.spotify.com/playlist/53RKMRb1OjTECMvwobKwzi?si=2ed8f233992f4647">Focus Playlist</a></p>
 </main>
 <footer>
 <h2>Skill & Interest</h2>
@@ -82,5 +86,11 @@
 						<input type="submit" disabled> 
 			</form>-->
 <img src="squash-guy.webp" alt="little yellow pixel guy standing on grass" loading="lazy">
-	<p>Handwritten by boukew99(Engineer), last updated in April</p>
+	<p>Handwritten by boukew99, last updated in April</p>
+
+	<button onclick=" navigator.share({title: 'boukew99',	url:'https://boukew99.github.io/'})">Share(Mobile)</button>	
+	<button onclick="print()">Print</button>
+	<button onclick="window.open('whatsapp://send?text=Hey, see updates at https://boukew99.github.io/')">Whatsapp Share</button>
+
+
 </footer></body></html>

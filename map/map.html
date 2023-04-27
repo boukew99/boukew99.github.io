@@ -1,45 +1,70 @@
 <!DOCTYPE html>
-<html lang="nl"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>Map</title>
-<link rel="icon" type="image/x-icon" href="/boukew99.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="boukew99">
-<meta name="description" content="isometric map">
-<link rel="manifest" href="map.webmanifest">
-<style>
-body {margin:0px;}
-img {
-	background-color: #b5e61d;
-}
-dialog {
-	position: fixed;
-}
-</style>
+<html lang="nl">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Map</title>
+	<link rel="icon" type="image/x-icon" href="/boukew99.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="boukew99">
+	<meta name="description" content="isometric map">
+	<link rel="manifest" href="map.webmanifest">
+	<style>
+		body {
+			margin: 0px;
+		}
+
+		img {
+			background-color: #b5e61d;
+		}
+
+		dialog {
+			position: fixed;
+		}
+		h1 {
+			text-shadow: #b5e61d 4px 0 4px ;
+		}
+	</style>
 </head>
+
 <body>
-<dialog open="" id="dialog">
-<img id="field" src="field.png">
-<img id="berries" src="berries.png">
-<img id="building" src="building.png">
-<img id="trees" src="trees.png">
-<img id="road" src="road.png">
-<img id="crossroad" src="crossroad.png">
-<img id="highway" src="highway.png">
-<img id="crosshighway" src="crosshighway.png">
-<img id="river" src="river.png">
-<img id="barn" src="barn.png">
-<img id="lake" src="lake.png">
-<img id="water" src="water.png">
-<p>
-uhh here you can select some economics, entry conditions, building options, policy.
-</p>
-<label><input type="number"> Seed</label>
-<button onclick="document.documentElement.requestFullscreen();">Go Fullscreen</button>
-<button onclick="document.exitFullscreen();">Exit Fullscreen</button>
-</dialog>
-<canvas id="canvas" width="2560" height="2560">
-Your browser does not support the HTML5 canvas tag.</canvas>
-<script src="../game/combinator.js"></script>
-<script src="map.js"></script>
-</body></html>
+	<dialog open="" id="dialog">
+		<h1>Map Maker</h1>
+		<p>In isometric style.</p>
+		<img id="field" src="field.png">
+		<img id="berries" src="berries.png">
+		<img id="building" src="building.png">
+		<img id="trees" src="trees.png">
+		<img id="road" src="road.png">
+		<img id="crossroad" src="crossroad.png">
+		<img id="highway" src="highway.png">
+		<img id="crosshighway" src="crosshighway.png">
+		<img id="river" src="river.png">
+		<img id="barn" src="barn.png">
+		<img id="lake" src="lake.png">
+		<img id="water" src="water.png">
+		<p>
+			uhh here you can select some economics, entry conditions, building options, policy.
+		</p>
+		<label>Seed: <input type="number"></label>
+		<button id="start">Start!</button>
+		<audio id="music" src="Double Violin Concerto 1st Movement - J.S. Bach.mp3" loop></audio>
+		<button id="exit">Exit!</button>		
+		<script>
+			document.getElementById("start").addEventListener("click", () => {
+				document.documentElement.requestFullscreen();
+				document.getElementById("music").play()
+			})
+			document.getElementById("exit").addEventListener("click", () => {
+				document.exitFullscreen();
+				document.getElementById("music").pause()
+			})
+		</script>
+	</dialog>
+	<canvas id="canvas" width="2560" height="2560">
+		Your browser does not support the HTML5 canvas tag.</canvas>
+	<script src="../game/combinator.js"></script>
+	<script src="map.js"></script>
+</body>
+
+</html>

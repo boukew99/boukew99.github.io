@@ -25,7 +25,7 @@ function draw(n = 40) {
 	
 	var ctx = c.getContext("2d");
 	
-  const ung = UniqueNumberGenerator(100,900,900,false)
+  //const ung = UniqueNumberGenerator(100,900,900,false)
 
 //	ctx.clearRect(0, 0, c.width, c.height); 
 	ctx.rect(0, 0, c.width, c.height);
@@ -39,7 +39,7 @@ function draw(n = 40) {
 	ctx.fillStyle =  ctx.createPattern(trees, 'repeat');
 	ctx.fill();
 
-	spore(field, ung.next().value)
+	spore(field, 300)
 	spore(trees, 400)
 	spore(berries, 200)
 	spore(barn, 50)
