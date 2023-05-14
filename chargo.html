@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="boukew99">
 	<meta name="description" content="tiny website for testing web interaction on different devices">
 	<link rel="stylesheet" href="../boukew99.css">
@@ -10,30 +12,85 @@
 	<style>
 		@media screen and (min-width: 640px) {
 			body {
-			background-image: url("chargo-canvas.webp");
-			/*https://pxhere.com/en/photo/839076*/
-			height: 1000vh;
+				background-image: url("chargo-canvas.webp");
+				/*https://pxhere.com/en/photo/839076*/
+				height: 1000vh;
 			}
+
 			footer {
 				background-color: #ddd;
 			}
 		}
-		</style>
+		p {
+			max-width: 37em;
+		}
+		h1, p, h2, details, h3, nav {
+			background-color: #ffffffaa;
+			padding: 0.3em;
+		}
+		main {
+			padding: 1em;
+		}
+	</style>
 </head>
-	
-<body><header><h1>Chargo's Text Adventure</h1>
-<p>Read this digital adventure novel where you can choose your own path through the story.</p></header><main>
 
-<h2 id="start">Chargo al Forest</h2>
-<p>Welcome in the mysterious forest of Chargo. The trees in this forest always peak out over the misty clouds drifting through the plants on the ground. Spread out are houses and sheds, some with smoke coming from the chimney, some crumbling and abandoned. Its is bordered with an abrupt end of the tree line, transitioning immediately into damp grassland. From far away you can see a bright red gate, inviting you to enter its path into this place. You stand before the gate and wonder if you shall enter by <a href="#walk-through">Walking through it</a> or by <a href="#walk-around">Walkin around it</a>.
-<hr>
-<p id="walk-through">You walk through the gate and feel the atmoshpere within you and the forest changing, like it is receiving you with open arms. It is said by the people living nearby in Yorkstead this forest leaves people changed after returning, not worse or better just deeper and more silent. <a href="#first path">Continue</a></p>
-<hr>
-<p id="walk-around">You walk around it. You got this feeling something went wrong, like you have not truly entered this place. Are you sure you don't want to <strong>walk through it</strong>? <a href="#walk-through">Yes</a>, <a href="#first path">No</a></p>
+<body>
+	<header>
+		<h1>Chargo's Text Adventure</h1>
+		<p>Read this digital adventure novel where you can choose your own path through the story.</p>
+		<nav>
+			<a id="continue">Continue from last save point</a>
+			<script>
+				let anchor = document.getElementById("continue")
+				if (localStorage.getItem("last-point")) {
+					anchor.href = localStorage.getItem("last-point")
+				}
+			</script>
+		</nav>
+	</header>
+	<main>
 
-<h2 id="first path">First Steps</h2>
-<p>The gravel path around the gate slowly turns into soft mud. It sticks to the your feet making a smacking sound with each step. Noticably there are other a footsteps before yours, many actually, of deer, racoons, foxes, birds and also people. Would all of them get in the forest the same way as you?</p>
-<details><summary>Inspect the footsteps closer!</summary>
-	<p>There steps with 3, 4, 5 and 6 toes. Also hoves and forky steps of birds. And now also of a boot and one barefoot!</p></details>
+		<h2 id="start">Chargo al Forest</h2>
+		<p>Welcome in the mysterious forest of Chargo. The trees in this forest always peak out over the misty clouds
+			drifting through the plants on the ground. Spread out are houses and sheds, some with smoke coming from the
+			chimney, some crumbling and abandoned. Its is bordered with an abrupt end of the tree line, transitioning
+			immediately into damp grassland. From far away you can see a bright red gate, inviting you to enter its path into
+			this place. You stand before the gate and wonder if you shall enter by <a href="#walk-through">Walking through
+				it</a> or by <a href="#walk-around">Walkin around it</a>.
+			<hr>
+		<p id="walk-through">You walk through the gate and feel the atmoshpere within you and the forest changing, like it
+			is receiving you with open arms. It is said by the people living nearby in Yorkstead this forest leaves people
+			changed after returning, not worse or better just deeper and more silent. <a href="#first path">Continue</a></p>
+		<hr>
+		<p id="walk-around">You walk around it. You got this feeling something went wrong, like you have not truly entered
+			this place. Are you sure you don't want to <strong>walk through it</strong>? <a href="#walk-through">Yes</a>, <a
+				href="#first path">No</a></p>
 
-</main><footer>© 2022 boukew99</footer></body></html>
+		<h2 id="first path">First Steps</h2>
+		<p>The gravel path around the gate slowly turns into soft mud. It sticks to the your feet making a smacking sound
+			with each step. Noticably there are other a footsteps before yours, many actually, of deer, racoons, foxes, birds
+			and also people. Would all of them get in the forest the same way as you?</p>
+		<details>
+			<summary>Inspect the footsteps closer!</summary>
+			<p>There steps with 3, 4, 5 and 6 toes. Also hoves and forky steps of birds. And now also of a boot and one
+				barefoot!</p>
+		</details>
+
+		<h2 id="barber">Met the barber shop</h2>
+		<p>There is a man standing outside waving at you to come inside the building he is in front! Once inside he offers you to cut your hair in the most amazing shapes. Looking at his hair you can confirm that this man is utterly skilled and tells the truth. You politely decline as why would you need a haircut in the middle of the forest?! The barber understandingly nods and walks to the counter where he sells some nice goods. This is his second occupation, but not his passion? Anyway here is what he sells: <a href="#chicken-egg">Chicken Egg</a>, <a href="#chicken">Live Chicken</a>, <a href="#smartphone">Smartphone with 6G connection</a>.</p>
+
+		<h3 id="chicken-egg">Chicken Egg</h3>
+		<p>With joy and gentleness you pick up the chicken egg! It is full with life! You decide to put in your chicken egg pouch so no harm will come to it. </p>
+
+		<h3 id="chicken">Chicken</h3>
+		<p>As you grab the chicken and give it a hug, it jumps out of your grip onto the floor in total ease. This chicken is clearly not as much into you as you are into it. It won't be able to be picked up!</p>
+
+		<h3 id="smartphone">Smarthpone with 6G</h3>
+		<p>As you try to grab the phone the owner taps your hands and demands a hefty sum of cash. You don't have this so you decide to just leave it be.</p>
+
+	</main>
+
+	<footer>© 2022 boukew99</footer>
+</body>
+
+</html>

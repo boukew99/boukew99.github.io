@@ -34,16 +34,17 @@
 		footer img{
 			border-radius: 50%;
 		}
+
 	</style>
 	<title>boukew99 Index</title>	
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 </head><body><main>
 <header>
-<h1>Index<!--💓--></h1>
+<h1>Index</h1>
 <nav>Tiny website for testing and sharing with <a href="#local">local links</a>, consisting of records, games and tools and <a href="#external">External account links</a>.</nav>
 <p>Piggy bank🐖💶: <output id="piggy-bank">N</output> visits.</p>
 <script>	
-	if (localStorage.getItem("visits") == null) {
+	if (localStorage.getItem("visits") == null || localStorage.getItem("visits") == NaN ) {
 		localStorage.setItem("visits", 0)
 	}
 	const visits = 1 + parseInt(localStorage.getItem("visits"))
@@ -64,7 +65,7 @@
 	<p>It is a <a href="https://www.bing.com/translator/?ref=TThis&text=%E5%86%92%E9%99%BA&from=ja&to=en">	冒険 / adventure / Bōken / bouken</a>.</p>
 	
 </aside>
-	<h2 id="#external">External</h2>
+	<h2 id="external">External</h2>
 			<p><a href="https://rethinkrestore.no/about.html">Volunteer Organization ReStore</a></p>
 			<p><a href="https://github.com/boukew99">Open source projects at Github (mostly of Godot Engine)</a></p>
 			<p><a href="https://howyoudoing.itch.io/">Game projects at itch.io (mostly game jam games and tools).</a> </p>
@@ -91,6 +92,5 @@
 	<button onclick=" navigator.share({title: 'boukew99',	url:'https://boukew99.github.io/'})">Share(Mobile)</button>	
 	<button onclick="print()">Print</button>
 	<button onclick="window.open('whatsapp://send?text=Hey, see updates at https://boukew99.github.io/')">Whatsapp Share</button>
-
-
 </footer></body></html>
+<!--💓-->
